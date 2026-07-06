@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ro" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="" data-content="business.tagline" />
+  <title data-content="__title">LimeSpark Template</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+  <!-- ===================== HEADER ===================== -->
+  <header class="header" data-header>
+    <div class="container header__inner">
+      <a href="#top" class="brand" aria-label="Acasă">
+        <img class="brand__logo" data-brand-logo alt="" hidden />
+        <span class="brand__mark" aria-hidden="true"></span>
+        <span class="brand__name" data-content="business.logoText"></span>
+      </a>
+
+      <nav class="nav" data-nav aria-label="Navigație principală">
+        <ul class="nav__list" data-nav-links></ul>
+      </nav>
+
+      <div class="header__actions">
+        <a href="#" class="btn btn--primary btn--sm" data-nav-cta></a>
+        <button class="nav__toggle" data-nav-toggle aria-label="Deschide meniul" aria-expanded="false">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="hero">
+      <div class="hero__bg" data-hero-bg aria-hidden="true">
+        <img src="" alt="" data-content-src="hero.image" loading="eager" />
+      </div>
+      <div class="container hero__inner">
+        <div class="hero__content" data-reveal>
+          <p class="hero__kicker">
+            <span class="hero__dot" aria-hidden="true"></span>
+            <span class="hero__brand" data-hero-brand></span>
+            <span class="hero__kicker-sep" data-content="hero.eyebrow"></span>
+          </p>
+          <h1 class="hero__title">
+            <span data-content="hero.title"></span>
+            <span class="hero__title-accent" data-content="hero.titleAccent"></span>
+          </h1>
+          <p class="hero__subtitle lead" data-content="hero.subtitle"></p>
+          <div class="hero__actions">
+            <a href="#" class="btn btn--accent btn--lg" data-cta="hero.primaryCta"></a>
+            <a href="#" class="btn btn--outline-light btn--lg" data-cta="hero.secondaryCta"></a>
+          </div>
+        </div>
+        <ul class="hero__stats" data-hero-stats data-reveal data-reveal-delay="2"></ul>
+      </div>
+    </section>
+
+    <!-- Trust bar / social proof -->
+    <section class="trust-band">
+      <div class="container">
+        <div class="trust" data-marquee hidden>
+          <span class="trust__label" data-content="marquee.label"></span>
+          <ul class="trust__list" data-marquee-track></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SERVICES ===================== -->
+    <section class="section" id="servicii">
+      <div class="container">
+        <header class="section__head" data-reveal>
+          <span class="eyebrow" data-content="services.eyebrow"></span>
+          <h2 class="section__title" data-content="services.title"></h2>
+          <p class="section__subtitle" data-content="services.subtitle"></p>
+        </header>
+        <div class="services__grid" data-services></div>
+      </div>
+    </section>
+
+    <!-- ===================== BEFORE / AFTER ===================== -->
+    <section class="section section--alt" id="rezultate">
+      <div class="container">
+        <header class="section__head" data-reveal>
+          <span class="eyebrow" data-content="beforeAfter.eyebrow"></span>
+          <h2 class="section__title" data-content="beforeAfter.title"></h2>
+          <p class="section__subtitle" data-content="beforeAfter.subtitle"></p>
+        </header>
+        <div class="ba__grid" data-before-after></div>
+      </div>
+    </section>
+
+    <!-- ===================== PROCESS ===================== -->
+    <section class="section" id="proces">
+      <div class="container">
+        <header class="section__head" data-reveal>
+          <span class="eyebrow" data-content="process.eyebrow"></span>
+          <h2 class="section__title" data-content="process.title"></h2>
+          <p class="section__subtitle" data-content="process.subtitle"></p>
+        </header>
+        <ol class="process__list" data-process></ol>
+      </div>
+    </section>
+
+    <!-- ===================== BENEFITS ===================== -->
+    <section class="section section--dark" id="beneficii">
+      <div class="container">
+        <header class="section__head" data-reveal>
+          <span class="eyebrow" data-content="benefits.eyebrow"></span>
+          <h2 class="section__title" data-content="benefits.title"></h2>
+          <p class="section__subtitle" data-content="benefits.subtitle"></p>
+        </header>
+        <div class="benefits__grid" data-benefits></div>
+      </div>
+    </section>
+
+    <!-- ===================== GALLERY ===================== -->
+    <section class="section" id="galerie">
+      <div class="container">
+        <header class="section__head" data-reveal>
+          <span class="eyebrow" data-content="gallery.eyebrow"></span>
+          <h2 class="section__title" data-content="gallery.title"></h2>
+          <p class="section__subtitle" data-content="gallery.subtitle"></p>
+        </header>
+        <div class="gallery__grid" data-gallery></div>
+      </div>
+    </section>
+
+    <!-- ===================== REVIEWS ===================== -->
+    <section class="section section--alt" id="recenzii">
+      <div class="container">
+        <header class="section__head" data-reveal>
+          <span class="eyebrow" data-content="reviews.eyebrow"></span>
+          <h2 class="section__title" data-content="reviews.title"></h2>
+          <p class="section__subtitle" data-content="reviews.subtitle"></p>
+        </header>
+        <div class="reviews__grid" data-reviews></div>
+      </div>
+    </section>
+
+    <!-- ===================== FAQ ===================== -->
+    <section class="section" id="faq">
+      <div class="container container--narrow">
+        <header class="section__head" data-reveal>
+          <span class="eyebrow" data-content="faq.eyebrow"></span>
+          <h2 class="section__title" data-content="faq.title"></h2>
+          <p class="section__subtitle" data-content="faq.subtitle"></p>
+        </header>
+        <div class="faq__list" data-faq></div>
+      </div>
+    </section>
+
+    <!-- ===================== CTA ===================== -->
+    <section class="section" id="cta">
+      <div class="container">
+        <div class="cta__card" data-reveal>
+          <span class="eyebrow eyebrow--on-dark" data-content="cta.eyebrow"></span>
+          <h2 class="cta__title" data-content="cta.title"></h2>
+          <p class="cta__subtitle" data-content="cta.subtitle"></p>
+          <div class="cta__actions">
+            <a href="#" class="btn btn--accent btn--lg" data-cta="cta.primaryCta"></a>
+            <a href="#" class="btn btn--outline-light btn--lg" data-cta="cta.secondaryCta"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="section section--alt" id="contact">
+      <div class="container contact__inner">
+        <div class="contact__copy" data-reveal>
+          <span class="eyebrow" data-content="contact.eyebrow"></span>
+          <h2 class="section__title" data-content="contact.title"></h2>
+          <p class="section__subtitle" data-content="contact.subtitle"></p>
+          <ul class="contact__details" data-contact-details></ul>
+          <div class="contact__actions">
+            <a href="#" class="btn btn--primary btn--lg" data-contact-whatsapp></a>
+          </div>
+        </div>
+        <div class="contact__card" data-reveal data-reveal-delay="1">
+          <ul class="contact__social" data-contact-social></ul>
+          <a href="#" class="contact__map" data-contact-map target="_blank" rel="noopener">
+            <span data-content="business.address"></span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#top" class="brand">
+          <img class="brand__logo" data-brand-logo alt="" hidden />
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span class="brand__name" data-content="business.logoText"></span>
+        </a>
+        <p class="footer__desc" data-content="footer.description"></p>
+      </div>
+      <div class="footer__cols" data-footer-cols></div>
+    </div>
+    <div class="container footer__bottom">
+      <span data-content="footer.legal"></span>
+      <span class="footer__credit" data-content="footer.credit"></span>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp button -->
+  <a href="#" class="whatsapp-fab" data-whatsapp-fab aria-label="Scrie-ne pe WhatsApp">
+    <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" fill="currentColor">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.71.306 1.263.489 1.694.625.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.002-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+    </svg>
+  </a>
+
+  <!-- Lightbox -->
+  <div class="lightbox" data-lightbox hidden aria-hidden="true">
+    <button class="lightbox__close" data-lightbox-close aria-label="Închide">&times;</button>
+    <img class="lightbox__img" src="" alt="" data-lightbox-img />
+    <p class="lightbox__caption" data-lightbox-caption></p>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
