@@ -1,0 +1,304 @@
+{
+  "$schema": "ASY Detailing Botoșani (Stăuceni) — demo LimeSpark. Editează doar acest fișier, tokens.json și imaginile din assets/.",
+
+  "business": {
+    "name": "ASY",
+    "nameSuffix": "Detailing",
+    "tagline": "Detailing & estetică auto în Botoșani",
+    "logoText": "ASY Detailing",
+    "logo": "assets/logo.png",
+    "logoBg": "#0A0A0B",
+    "phone": "+40 746 645 259",
+    "whatsapp": "40746645259",
+    "email": "",
+    "address": "Stăuceni, Botoșani",
+    "mapsUrl": "https://maps.google.com/?q=Stauceni+Botosani",
+    "hours": "Program flexibil · pe bază de programare",
+    "social": [
+      { "label": "Facebook", "url": "https://www.facebook.com/asy.detailing?locale=ro_RO" }
+    ]
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Servicii", "href": "#servicii" },
+      { "label": "Rezultate", "href": "#rezultate" },
+      { "label": "Proces", "href": "#proces" },
+      { "label": "Galerie", "href": "#galerie" },
+      { "label": "Recenzii", "href": "#recenzii" }
+    ],
+    "cta": { "label": "Programează-te", "action": "whatsapp" }
+  },
+
+  "hero": {
+    "eyebrow": "Detailing auto · Stăuceni, Botoșani",
+    "title": "Estetică auto, la alt nivel.",
+    "titleAccent": "Redăm strălucirea mașinii tale.",
+    "subtitle": "Detailing interior și exterior, polish profesional, coating ceramic și îndreptare fără revopsire (PDR) — servicii profesionale în noua locație din Stăuceni.",
+    "primaryCta": { "label": "Programează-te", "action": "whatsapp" },
+    "secondaryCta": { "label": "Vezi rezultatele", "href": "#rezultate" },
+    "image": "assets/hero.jpg",
+    "stats": [
+      { "value": "4.6K", "label": "urmăritori pe Facebook" },
+      { "value": "5★", "label": "clienți mulțumiți" },
+      { "value": "Stăuceni", "label": "Botoșani" }
+    ]
+  },
+
+  "marquee": {
+    "enabled": true,
+    "label": "Lucrăm pe orice marcă",
+    "items": ["BMW", "Mercedes-Benz", "Audi", "Volkswagen", "Tesla", "Porsche"]
+  },
+
+  "services": {
+    "eyebrow": "Servicii",
+    "title": "Servicii profesionale de întreținere și estetică auto.",
+    "subtitle": "De la detailing complet până la îndreptare fără revopsire și coating ceramic.",
+    "items": [
+      {
+        "icon": "sparkle",
+        "title": "Detailing interior & exterior",
+        "description": "Cosmetică completă interior și exterior, cu atenție la fiecare detaliu — mașina ta arată ca nouă.",
+        "features": ["Curățare interior", "Decontaminare exterior", "Atenție la detalii"]
+      },
+      {
+        "icon": "shine",
+        "title": "Polish profesional",
+        "description": "Polish cu finisaj premium care elimină micro-zgârieturile și readuce luciul original al vopselei.",
+        "features": ["Finisaj premium", "Elimină swirl-uri", "Luciu oglindă"]
+      },
+      {
+        "icon": "shield",
+        "title": "Coating ceramic",
+        "description": "Strat ceramic durabil și hidrofob care protejează vopseaua de murdărie, UV și zgârieturi fine.",
+        "features": ["Efect hidrofob", "Rezistență UV", "Protecție de durată"]
+      },
+      {
+        "icon": "layers",
+        "title": "PDR – îndreptare fără revopsire",
+        "description": "Paintless Dent Repair: îndreptăm loviturile, inclusiv cele de grindină, fără a revopsi mașina.",
+        "features": ["Fără revopsire", "Îndreptare grindină", "Păstrează vopseaua originală"]
+      },
+      {
+        "icon": "camera",
+        "title": "Revopsire piele",
+        "description": "Recondiționăm și revopsim tapițeria din piele, pentru un interior ca nou și fără uzură vizibilă.",
+        "features": ["Recondiționare piele", "Culoare uniformă", "Aspect ca nou"]
+      },
+      {
+        "icon": "medal",
+        "title": "Smart repair",
+        "description": "Reparații estetice punctuale și rapide pentru zgârieturi, ciobituri și mici defecte de suprafață.",
+        "features": ["Reparații punctuale", "Rapid", "Cost redus"]
+      }
+    ]
+  },
+
+  "beforeAfter": {
+    "eyebrow": "Rezultate",
+    "title": "Diferența se vede. Trage cursorul.",
+    "subtitle": "Aceleași mașini, înainte și după o zi în studioul nostru.",
+    "items": [
+      {
+        "label": "Polish & luciu · BMW",
+        "before": "assets/ba-1-before.jpg",
+        "after": "assets/ba-1-after.jpg"
+      },
+      {
+        "label": "Detailing interior · Mercedes-Benz",
+        "before": "assets/ba-2-before.jpg",
+        "after": "assets/ba-2-after.jpg"
+      }
+    ]
+  },
+
+  "process": {
+    "eyebrow": "Cum lucrăm",
+    "title": "Un proces simplu, fără surprize.",
+    "subtitle": "De la prima ta întrebare până la predarea cheilor.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Scrie-ne",
+        "description": "Trimite-ne pe WhatsApp modelul mașinii și ce îți dorești. Îți răspundem cu o ofertă clară."
+      },
+      {
+        "number": "02",
+        "title": "Programare",
+        "description": "Alegem împreună o dată potrivită și te așteptăm în noua locație din Stăuceni."
+      },
+      {
+        "number": "03",
+        "title": "Lucrul propriu-zis",
+        "description": "Tratăm fiecare detaliu cu produse profesionale. Mașina ta primește atenția pe care o merită."
+      },
+      {
+        "number": "04",
+        "title": "Predare",
+        "description": "Îți predăm mașina impecabilă, cu strălucire și aspect ca scos din showroom."
+      }
+    ]
+  },
+
+  "benefits": {
+    "eyebrow": "De ce ASY Detailing",
+    "title": "Detaliile fac diferența dintre curat și impecabil.",
+    "subtitle": "Locație nouă în Stăuceni, echipamente profesionale și atenție la fiecare detaliu.",
+    "items": [
+      {
+        "icon": "medal",
+        "title": "Peste 4.600 de urmăritori",
+        "description": "O comunitate care ne urmărește și ne recomandă pe Facebook."
+      },
+      {
+        "icon": "shield",
+        "title": "Produse profesionale",
+        "description": "Lucrăm exclusiv cu produse premium, testate pentru rezultate de durată."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Servicii complete",
+        "description": "De la detailing și coating până la PDR și smart repair — tot ce are nevoie mașina ta."
+      },
+      {
+        "icon": "heart",
+        "title": "Atenție la detalii",
+        "description": "Fiecare zonă contează, inclusiv cele greu accesibile. Se vede în rezultatul final."
+      },
+      {
+        "icon": "clock",
+        "title": "Program flexibil",
+        "description": "Ne adaptăm programului tău. Programări rapide pe WhatsApp sau telefon."
+      },
+      {
+        "icon": "leaf",
+        "title": "Sigur pentru mașină",
+        "description": "Tehnici blânde și produse potrivite pentru orice tip de vopsea și material."
+      }
+    ]
+  },
+
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Lucrări din studio",
+    "subtitle": "O selecție din mașinile care au trecut prin mâinile noastre.",
+    "items": [
+      { "image": "assets/gallery-1.jpg", "caption": "Coating ceramic · finisaj lucios" },
+      { "image": "assets/gallery-2.jpg", "caption": "Polish profesional · finisaj premium" },
+      { "image": "assets/gallery-3.jpg", "caption": "Detailing interior · revopsire piele" },
+      { "image": "assets/gallery-4.jpg", "caption": "Spălare & decontaminare exterior" },
+      { "image": "assets/gallery-5.jpg", "caption": "Smart repair · reparații punctuale" },
+      { "image": "assets/gallery-6.jpg", "caption": "Detailing complet exterior" }
+    ]
+  },
+
+  "reviews": {
+    "eyebrow": "Recenzii",
+    "title": "Ce spun clienții noștri.",
+    "subtitle": "Oameni din Botoșani care și-au recuperat mașina ca nouă.",
+    "rating": "5.0",
+    "ratingLabel": "clienți mulțumiți",
+    "items": [
+      {
+        "name": "Andrei M.",
+        "role": "Client · BMW Seria 3",
+        "rating": 5,
+        "text": "Polish cu finisaj premium și coating ceramic. Mașina arată senzațional, luciu ca oglinda. Recomand cu încredere!",
+        "avatar": "assets/avatar-1.svg"
+      },
+      {
+        "name": "Ioana P.",
+        "role": "Client · Audi A4",
+        "rating": 5,
+        "text": "Am avut o lovitură de grindină și mi-au rezolvat-o prin PDR, fără revopsire. Nici nu se mai vede. Profesioniști!",
+        "avatar": "assets/avatar-2.svg"
+      },
+      {
+        "name": "Radu C.",
+        "role": "Client · VW Passat",
+        "rating": 5,
+        "text": "Detailing interior complet și revopsire piele. Interiorul arată ca nou. Băieți serioși, muncă de calitate.",
+        "avatar": "assets/avatar-3.svg"
+      },
+      {
+        "name": "Cristina D.",
+        "role": "Client · Mercedes C-Class",
+        "rating": 5,
+        "text": "Locație nouă, curată, echipamente profi. Coating-ul ceramic ține mașina curată mult mai mult. Merită!",
+        "avatar": "assets/avatar-4.svg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Întrebări frecvente",
+    "title": "Răspunsuri, înainte să întrebi.",
+    "subtitle": "Nu găsești ce cauți? Scrie-ne pe WhatsApp.",
+    "items": [
+      {
+        "question": "Ce servicii oferiți?",
+        "answer": "Detailing interior și exterior, polish profesional, coating ceramic, PDR (îndreptare fără revopsire, inclusiv lovituri de grindină), revopsire piele și smart repair."
+      },
+      {
+        "question": "Ce înseamnă PDR?",
+        "answer": "Paintless Dent Repair — îndreptarea loviturilor și a urmelor de grindină fără a revopsi mașina. Se păstrează vopseaua originală, iar costul e mai mic decât la o revopsire clasică."
+      },
+      {
+        "question": "Unde vă găsim?",
+        "answer": "Ne găsești în noua locație din Stăuceni (Botoșani). Programează-te pe WhatsApp sau la telefon și te așteptăm."
+      },
+      {
+        "question": "Cât costă un detailing?",
+        "answer": "Prețul depinde de starea mașinii și de serviciile dorite. Scrie-ne pe WhatsApp modelul mașinii și ce îți dorești, iar noi îți răspundem cu o ofertă clară."
+      },
+      {
+        "question": "Ce include coating-ul ceramic?",
+        "answer": "Un strat ceramic durabil și hidrofob care protejează vopseaua de murdărie, raze UV și zgârieturi fine. Apa alunecă de pe suprafață, iar mașina rămâne curată mult mai mult timp."
+      }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Gata de programare?",
+    "title": "Hai să facem mașina ta să strălucească.",
+    "subtitle": "Programează-te acum și te așteptăm în noua locație din Stăuceni.",
+    "primaryCta": { "label": "Scrie-ne pe WhatsApp", "action": "whatsapp" },
+    "secondaryCta": { "label": "Sună: 0746 645 259", "action": "phone" }
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Te așteptăm în Stăuceni, Botoșani.",
+    "subtitle": "Programează-te sau scrie-ne pentru detalii și intervale libere.",
+    "whatsappMessage": "Salut! Aș vrea o ofertă pentru mașina mea:"
+  },
+
+  "footer": {
+    "description": "Detailing și estetică auto în Stăuceni, Botoșani. Redăm strălucirea mașinii tale prin servicii profesionale.",
+    "columns": [
+      {
+        "title": "Servicii",
+        "links": [
+          { "label": "Detailing interior & exterior", "href": "#servicii" },
+          { "label": "Polish profesional", "href": "#servicii" },
+          { "label": "Coating ceramic", "href": "#servicii" },
+          { "label": "PDR & smart repair", "href": "#servicii" }
+        ]
+      },
+      {
+        "title": "Studio",
+        "links": [
+          { "label": "Rezultate", "href": "#rezultate" },
+          { "label": "Galerie", "href": "#galerie" },
+          { "label": "Recenzii", "href": "#recenzii" },
+          { "label": "Întrebări frecvente", "href": "#faq" }
+        ]
+      }
+    ],
+    "legal": "© 2026 ASY Detailing Botoșani. Toate drepturile rezervate.",
+    "credit": "Design de LimeSpark Development"
+  },
+
+  "whatsappDefaultMessage": "Salut! Am văzut site-ul și aș vrea mai multe detalii."
+}
