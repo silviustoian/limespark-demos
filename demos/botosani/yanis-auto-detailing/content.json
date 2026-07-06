@@ -1,0 +1,305 @@
+{
+  "$schema": "Yanis Auto Detailing Botoșani — demo LimeSpark. Editează doar acest fișier, tokens.json și imaginile din assets/.",
+
+  "business": {
+    "name": "Yanis",
+    "nameSuffix": "Auto Detailing",
+    "tagline": "Detailing & cosmetică auto în Botoșani",
+    "logoText": "Yanis Auto Detailing",
+    "logo": "assets/logo.png",
+    "logoBg": "#0A0A0B",
+    "phone": "+40 721 478 330",
+    "whatsapp": "40721478330",
+    "email": "bcutricichi@gmail.com",
+    "address": "Botoșani",
+    "mapsUrl": "https://maps.google.com/?q=Botosani",
+    "hours": "Program flexibil · pe bază de programare",
+    "social": [
+      { "label": "Facebook", "url": "https://facebook.com" },
+      { "label": "Instagram", "url": "https://instagram.com" }
+    ]
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Servicii", "href": "#servicii" },
+      { "label": "Rezultate", "href": "#rezultate" },
+      { "label": "Proces", "href": "#proces" },
+      { "label": "Galerie", "href": "#galerie" },
+      { "label": "Recenzii", "href": "#recenzii" }
+    ],
+    "cta": { "label": "Programează-te", "action": "whatsapp" }
+  },
+
+  "hero": {
+    "eyebrow": "Detailing & cosmetică auto · Botoșani",
+    "title": "Redă strălucirea mașinii tale.",
+    "titleAccent": "Simte diferența.",
+    "subtitle": "Cosmetică auto interioară, recondiționare faruri și curățare completă — servicii profesionale care redau strălucirea și prospețimea mașinii tale.",
+    "primaryCta": { "label": "Programează-te", "action": "whatsapp" },
+    "secondaryCta": { "label": "Vezi rezultatele", "href": "#rezultate" },
+    "image": "assets/hero.jpg",
+    "stats": [
+      { "value": "5★", "label": "clienți mulțumiți" },
+      { "value": "100%", "label": "atenție la detalii" },
+      { "value": "Botoșani", "label": "detailing auto" }
+    ]
+  },
+
+  "marquee": {
+    "enabled": true,
+    "label": "Lucrăm pe orice marcă",
+    "items": ["BMW", "Mercedes-Benz", "Audi", "Volkswagen", "Tesla", "Porsche"]
+  },
+
+  "services": {
+    "eyebrow": "Servicii",
+    "title": "Servicii profesionale de detailing auto.",
+    "subtitle": "Redăm strălucirea și prospețimea mașinii tale, cu atenție la fiecare detaliu.",
+    "items": [
+      {
+        "icon": "sparkle",
+        "title": "Detailing complet",
+        "description": "Cosmetică completă interior și exterior — mașina ta arată și se simte ca nouă.",
+        "features": ["Interior + exterior", "Atenție la detalii", "Rezultat impecabil"]
+      },
+      {
+        "icon": "camera",
+        "title": "Cosmetică interioară",
+        "description": "Curățare și împrospătare în profunzime a habitaclului, cu produse profesionale.",
+        "features": ["Curățare profundă", "Tratament suprafețe", "Aspect ca nou"]
+      },
+      {
+        "icon": "shine",
+        "title": "Curățare tapițerie & plafon",
+        "description": "Extracție și igienizare pentru tapițerie, plafon și portbagaj — fără pete, fără mirosuri.",
+        "features": ["Tapițerie", "Plafon", "Portbagaj"]
+      },
+      {
+        "icon": "wheel",
+        "title": "Recondiționare faruri",
+        "description": "Redăm claritatea farurilor îngălbenite sau mate, pentru vizibilitate mai bună și aspect ca nou.",
+        "features": ["Claritate redată", "Protecție UV", "Aspect ca nou"]
+      },
+      {
+        "icon": "layers",
+        "title": "Spălare & luciu exterior",
+        "description": "Spălare atentă, decontaminare și luciu profund care pun în valoare vopseaua mașinii.",
+        "features": ["Spălare atentă", "Decontaminare", "Luciu profund"]
+      },
+      {
+        "icon": "leaf",
+        "title": "Igienizare & prospețime",
+        "description": "Igienizarea habitaclului și împrospătarea aerului, pentru un interior curat și plăcut.",
+        "features": ["Igienizare habitaclu", "Împrospătare aer", "Interior sănătos"]
+      }
+    ]
+  },
+
+  "beforeAfter": {
+    "eyebrow": "Rezultate",
+    "title": "Diferența se vede. Trage cursorul.",
+    "subtitle": "Aceleași mașini, înainte și după o zi în studioul nostru.",
+    "items": [
+      {
+        "label": "Spălare & luciu · BMW",
+        "before": "assets/ba-1-before.jpg",
+        "after": "assets/ba-1-after.jpg"
+      },
+      {
+        "label": "Cosmetică interioară · Mercedes-Benz",
+        "before": "assets/ba-2-before.jpg",
+        "after": "assets/ba-2-after.jpg"
+      }
+    ]
+  },
+
+  "process": {
+    "eyebrow": "Cum lucrăm",
+    "title": "Un proces simplu, fără surprize.",
+    "subtitle": "De la prima ta întrebare până la predarea cheilor.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Scrie-ne",
+        "description": "Trimite-ne pe WhatsApp modelul mașinii și ce îți dorești. Îți răspundem cu o ofertă clară."
+      },
+      {
+        "number": "02",
+        "title": "Programare",
+        "description": "Alegem împreună o dată potrivită și îți rezervăm timpul necesar. Fără grabă."
+      },
+      {
+        "number": "03",
+        "title": "Detailing",
+        "description": "Tratăm fiecare detaliu cu produse profesionale. Mașina ta primește atenția pe care o merită."
+      },
+      {
+        "number": "04",
+        "title": "Predare",
+        "description": "Îți predăm mașina impecabilă, cu strălucire și prospețime ca în prima zi."
+      }
+    ]
+  },
+
+  "benefits": {
+    "eyebrow": "De ce Yanis Auto Detailing",
+    "title": "Detaliile fac diferența dintre curat și impecabil.",
+    "subtitle": "Tratăm fiecare mașină ca și cum ar fi a noastră. Se vede în rezultat.",
+    "items": [
+      {
+        "icon": "shield",
+        "title": "Produse profesionale",
+        "description": "Lucrăm exclusiv cu produse premium, testate pentru rezultate de durată."
+      },
+      {
+        "icon": "heart",
+        "title": "Atenție la detalii",
+        "description": "Fiecare zonă contează, inclusiv cele greu accesibile. Se vede în rezultatul final."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Strălucire & prospețime",
+        "description": "Redăm mașinii aspectul și senzația de nou, interior și exterior."
+      },
+      {
+        "icon": "clock",
+        "title": "Program flexibil",
+        "description": "Ne adaptăm programului tău. Programări rapide pe WhatsApp."
+      },
+      {
+        "icon": "medal",
+        "title": "Satisfacție garantată",
+        "description": "Ne mândrim cu fiecare mașină predată. Dacă ceva nu e perfect, rezolvăm."
+      },
+      {
+        "icon": "leaf",
+        "title": "Sigur pentru mașină",
+        "description": "Tehnici blânde și produse potrivite pentru orice tip de material."
+      }
+    ]
+  },
+
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Lucrări din studio",
+    "subtitle": "O selecție din mașinile care au trecut prin mâinile noastre.",
+    "items": [
+      { "image": "assets/gallery-1.jpg", "caption": "Detailing exterior · finisaj lucios" },
+      { "image": "assets/gallery-2.jpg", "caption": "Luciu & protecție vopsea" },
+      { "image": "assets/gallery-3.jpg", "caption": "Cosmetică interioară · tratament piele" },
+      { "image": "assets/gallery-4.jpg", "caption": "Spălare & decontaminare exterior" },
+      { "image": "assets/gallery-5.jpg", "caption": "Recondiționare faruri · claritate redată" },
+      { "image": "assets/gallery-6.jpg", "caption": "Cosmetică completă exterior" }
+    ]
+  },
+
+  "reviews": {
+    "eyebrow": "Recenzii",
+    "title": "Ce spun clienții noștri.",
+    "subtitle": "Oameni din Botoșani care și-au recuperat mașina ca nouă.",
+    "rating": "5.0",
+    "ratingLabel": "clienți mulțumiți",
+    "items": [
+      {
+        "name": "Andrei M.",
+        "role": "Client · BMW Seria 3",
+        "rating": 5,
+        "text": "Cosmetică interioară completă, arată impecabil. Se vede atenția la detalii. Recomand cu încredere!",
+        "avatar": "assets/avatar-1.svg"
+      },
+      {
+        "name": "Ioana P.",
+        "role": "Client · Audi A4",
+        "rating": 5,
+        "text": "Am făcut curățare de tapițerie și plafon. Rezultat peste așteptări, comunicare rapidă. Mulțumesc!",
+        "avatar": "assets/avatar-2.svg"
+      },
+      {
+        "name": "Radu C.",
+        "role": "Client · VW Passat",
+        "rating": 5,
+        "text": "Recondiționare faruri și spălare completă. Diferența e ca de la cer la pământ. Băieți serioși!",
+        "avatar": "assets/avatar-3.svg"
+      },
+      {
+        "name": "Cristina D.",
+        "role": "Client · Mercedes C-Class",
+        "rating": 5,
+        "text": "Mașina arată și miroase ca nouă după detailing. Cei mai buni din Botoșani. O să revin cu siguranță.",
+        "avatar": "assets/avatar-4.svg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Întrebări frecvente",
+    "title": "Răspunsuri, înainte să întrebi.",
+    "subtitle": "Nu găsești ce cauți? Scrie-ne pe WhatsApp.",
+    "items": [
+      {
+        "question": "Ce servicii oferiți?",
+        "answer": "Detailing și cosmetică auto: cosmetică interioară, curățare tapițerie, plafon și portbagaj, recondiționare faruri, spălare și luciu exterior, plus igienizarea habitaclului."
+      },
+      {
+        "question": "Cât costă un detailing?",
+        "answer": "Prețul depinde de starea mașinii și de ce îți dorești. Scrie-ne pe WhatsApp modelul mașinii și serviciile dorite, iar noi îți răspundem cu o ofertă clară."
+      },
+      {
+        "question": "Trebuie să mă programez?",
+        "answer": "Da, lucrăm pe bază de programare, ca să îți rezervăm timpul necesar. Scrie-ne pe WhatsApp și găsim rapid o dată potrivită."
+      },
+      {
+        "question": "Curățați și tapițeria, plafonul și portbagajul?",
+        "answer": "Da. Facem extracție și igienizare în profunzime pentru tapițerie, plafon și portbagaj — fără pete și fără mirosuri."
+      },
+      {
+        "question": "Faceți recondiționare de faruri?",
+        "answer": "Da. Redăm claritatea farurilor îngălbenite sau mate, pentru vizibilitate mai bună și un aspect ca nou."
+      }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Gata de programare?",
+    "title": "Hai să facem mașina ta să strălucească.",
+    "subtitle": "Programează-te acum și simte diferența.",
+    "primaryCta": { "label": "Scrie-ne pe WhatsApp", "action": "whatsapp" },
+    "secondaryCta": { "label": "Sună: 0721 478 330", "action": "phone" }
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Te așteptăm în Botoșani.",
+    "subtitle": "Programează-te sau scrie-ne pentru detalii și intervale libere.",
+    "whatsappMessage": "Salut! Aș vrea o ofertă pentru mașina mea:"
+  },
+
+  "footer": {
+    "description": "Detailing și cosmetică auto în Botoșani. Redăm strălucirea și prospețimea mașinii tale.",
+    "columns": [
+      {
+        "title": "Servicii",
+        "links": [
+          { "label": "Detailing complet", "href": "#servicii" },
+          { "label": "Cosmetică interioară", "href": "#servicii" },
+          { "label": "Curățare tapițerie", "href": "#servicii" },
+          { "label": "Recondiționare faruri", "href": "#servicii" }
+        ]
+      },
+      {
+        "title": "Studio",
+        "links": [
+          { "label": "Rezultate", "href": "#rezultate" },
+          { "label": "Galerie", "href": "#galerie" },
+          { "label": "Recenzii", "href": "#recenzii" },
+          { "label": "Întrebări frecvente", "href": "#faq" }
+        ]
+      }
+    ],
+    "legal": "© 2026 Yanis Auto Detailing Botoșani. Toate drepturile rezervate.",
+    "credit": "Design de LimeSpark Development"
+  },
+
+  "whatsappDefaultMessage": "Salut! Am văzut site-ul și aș vrea mai multe detalii."
+}
