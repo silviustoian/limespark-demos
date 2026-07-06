@@ -1,0 +1,13 @@
+# LimeSpark — Netlify config
+# Static sites, no build step. We publish the `demos/` folder as the site root,
+# so each client demo is reachable at a clean subpath, e.g.
+#   /botosani/vip-auto-detailing/
+[build]
+  publish = "demos"
+  command = ""
+
+# Nice-to-have: pretty 404 falls back to the landing page
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 404

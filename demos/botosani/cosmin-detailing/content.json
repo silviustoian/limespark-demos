@@ -1,0 +1,311 @@
+{
+  "$schema": "Cosmin Detailing Botoșani — demo LimeSpark. Editează doar acest fișier, tokens.json și imaginile din assets/.",
+
+  "business": {
+    "name": "Cosmin",
+    "nameSuffix": "Detailing",
+    "tagline": "Detailing auto premium în Botoșani",
+    "logoText": "Cosmin Detailing",
+    "logo": "assets/logo.png",
+    "phone": "+40 757 630 539",
+    "whatsapp": "40757630539",
+    "email": "ionutcosminbateriuc@gmail.com",
+    "address": "Str. Veteranilor nr. 16, Botoșani",
+    "mapsUrl": "https://maps.google.com/?q=Str.+Veteranilor+16+Botosani",
+    "hours": "Pe bază de programare · program flexibil",
+    "social": [
+      { "label": "Instagram", "url": "https://instagram.com" },
+      { "label": "Facebook", "url": "https://facebook.com" },
+      { "label": "TikTok", "url": "https://tiktok.com" }
+    ]
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Servicii", "href": "#servicii" },
+      { "label": "Rezultate", "href": "#rezultate" },
+      { "label": "Proces", "href": "#proces" },
+      { "label": "Galerie", "href": "#galerie" },
+      { "label": "Recenzii", "href": "#recenzii" }
+    ],
+    "cta": { "label": "Programează-te", "action": "whatsapp" }
+  },
+
+  "hero": {
+    "eyebrow": "Detailing auto · Botoșani",
+    "title": "Detaliile fac diferența.",
+    "titleAccent": "Mașina ta merită mai mult.",
+    "subtitle": "Detailing complet, polish profesional și protecție ceramică — redăm strălucirea mașinii tale, cu atenție la fiecare detaliu.",
+    "primaryCta": { "label": "Programează-te", "action": "whatsapp" },
+    "secondaryCta": { "label": "Vezi rezultatele", "href": "#rezultate" },
+    "image": "assets/hero.jpg",
+    "stats": [
+      { "value": "5★", "label": "clienți mulțumiți" },
+      { "value": "100%", "label": "satisfacție garantată" },
+      { "value": "Botoșani", "label": "str. Veteranilor 16" }
+    ]
+  },
+
+  "marquee": {
+    "enabled": true,
+    "label": "Lucrăm pe orice marcă",
+    "items": ["BMW", "Mercedes-Benz", "Audi", "Volkswagen", "Tesla", "Porsche"]
+  },
+
+  "services": {
+    "eyebrow": "Servicii",
+    "title": "Tot ce are nevoie mașina ta, într-un singur loc.",
+    "subtitle": "De la o spălare atentă până la protecție ceramică de durată. Prețurile diferă în funcție de starea mașinii.",
+    "items": [
+      {
+        "icon": "sparkle",
+        "title": "Detailing auto",
+        "description": "Curățare completă interior și exterior, inclusiv zonele greu accesibile. Pachete de la Basic la Full Detail.",
+        "price": "250 – 2.000 lei",
+        "features": ["Spălare & aspirare", "Curățare interior completă", "Dressing plastice & anvelope"]
+      },
+      {
+        "icon": "shine",
+        "title": "Polish auto",
+        "description": "Polish profesional care elimină micro-zgârieturile și swirl-urile și readuce luciul original al vopselei.",
+        "price": "inclus în Full Detail",
+        "features": ["Elimină micro-zgârieturi", "Reda luciul original", "Finisaj oglindă"]
+      },
+      {
+        "icon": "wheel",
+        "title": "Polish faruri",
+        "description": "Redăm claritatea farurilor îngălbenite sau mate, pentru vizibilitate mai bună și un aspect ca nou.",
+        "price": "100 – 200 lei",
+        "features": ["Claritate redată", "Protecție UV", "Aspect ca nou"]
+      },
+      {
+        "icon": "shield",
+        "title": "Protecție ceramică",
+        "description": "Strat ceramic durabil și hidrofob care protejează vopseaua de murdărie, UV și zgârieturi fine, ani la rând.",
+        "price": "de la 1.500 lei",
+        "features": ["Efect hidrofob", "Rezistență UV & chimică", "Protecție de durată"]
+      },
+      {
+        "icon": "layers",
+        "title": "Tratament hidrofob geamuri",
+        "description": "Peliculă hidrofobă pe parbriz și geamuri, care respinge apa și îmbunătățește vizibilitatea pe ploaie.",
+        "price": "inclus în pachete",
+        "features": ["Respinge apa", "Vizibilitate pe ploaie", "Aplicare rapidă"]
+      },
+      {
+        "icon": "camera",
+        "title": "Curățare tapițerie",
+        "description": "Extracție și igienizare în profunzime a scaunelor și tapițeriei, pentru un habitaclu curat și fără mirosuri.",
+        "price": "200 – 400 lei",
+        "features": ["Extracție profundă", "Igienizare", "Odorizant climatizare +50 lei"]
+      }
+    ]
+  },
+
+  "beforeAfter": {
+    "eyebrow": "Rezultate",
+    "title": "Diferența se vede. Trage cursorul.",
+    "subtitle": "Aceleași mașini, înainte și după o zi în studioul nostru.",
+    "items": [
+      {
+        "label": "Spălare & luciu · BMW",
+        "before": "assets/ba-1-before.jpg",
+        "after": "assets/ba-1-after.jpg"
+      },
+      {
+        "label": "Detailing interior · Mercedes-Benz",
+        "before": "assets/ba-2-before.jpg",
+        "after": "assets/ba-2-after.jpg"
+      }
+    ]
+  },
+
+  "process": {
+    "eyebrow": "Cum lucrăm",
+    "title": "Un proces simplu, fără surprize.",
+    "subtitle": "De la prima ta întrebare până la predarea cheilor.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Scrie-ne",
+        "description": "Trimite-ne pe WhatsApp modelul mașinii și ce îți dorești. Îți răspundem cu un preț clar, în funcție de starea mașinii."
+      },
+      {
+        "number": "02",
+        "title": "Programare",
+        "description": "Alegem împreună o dată potrivită. Lucrăm pe bază de programare, în privat, fără cozi și fără grabă."
+      },
+      {
+        "number": "03",
+        "title": "Detailing",
+        "description": "Tratăm fiecare detaliu cu produse premium. Mașina ta primește timpul de care are nevoie."
+      },
+      {
+        "number": "04",
+        "title": "Predare",
+        "description": "Îți predăm mașina impecabilă, cu aspect ca scos din showroom și recomandări de întreținere."
+      }
+    ]
+  },
+
+  "benefits": {
+    "eyebrow": "De ce Cosmin Detailing",
+    "title": "Detaliile fac diferența dintre curat și impecabil.",
+    "subtitle": "Nu grăbim niciodată o lucrare. Fiecare mașină primește atenția pe care o merită.",
+    "items": [
+      {
+        "icon": "shield",
+        "title": "Produse premium",
+        "description": "Lucrăm exclusiv cu produse profesionale, testate pentru rezultate de durată."
+      },
+      {
+        "icon": "heart",
+        "title": "Atenție la detalii",
+        "description": "Fiecare zonă contează, inclusiv cele greu accesibile. Se vede în rezultatul final."
+      },
+      {
+        "icon": "clock",
+        "title": "Programări flexibile",
+        "description": "Ne adaptăm programului tău. Lucrăm în privat, pe bază de programare."
+      },
+      {
+        "icon": "medal",
+        "title": "Satisfacție garantată",
+        "description": "Ne mândrim cu fiecare mașină predată. Dacă ceva nu e perfect, rezolvăm."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Pachete personalizate",
+        "description": "Prețurile și pachetele se adaptează stării mașinii și cerințelor tale."
+      },
+      {
+        "icon": "leaf",
+        "title": "Sigur pentru mașină",
+        "description": "Tehnici blânde și produse potrivite pentru orice tip de vopsea și material."
+      }
+    ]
+  },
+
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Lucrări din studio",
+    "subtitle": "O selecție din mașinile care au trecut prin mâinile noastre.",
+    "items": [
+      { "image": "assets/gallery-1.jpg", "caption": "Protecție ceramică · finisaj lucios" },
+      { "image": "assets/gallery-2.jpg", "caption": "Polish profesional · elimină swirl-uri" },
+      { "image": "assets/gallery-3.jpg", "caption": "Detailing interior · tratament piele" },
+      { "image": "assets/gallery-4.jpg", "caption": "Spălare & degresare exterior" },
+      { "image": "assets/gallery-5.jpg", "caption": "Polish faruri · claritate redată" },
+      { "image": "assets/gallery-6.jpg", "caption": "Spălare premium & decontaminare" }
+    ]
+  },
+
+  "reviews": {
+    "eyebrow": "Recenzii",
+    "title": "Ce spun clienții noștri.",
+    "subtitle": "Oameni din Botoșani care și-au recuperat mașina ca nouă.",
+    "rating": "5.0",
+    "ratingLabel": "clienți mulțumiți",
+    "items": [
+      {
+        "name": "Andrei M.",
+        "role": "Client · BMW Seria 3",
+        "rating": 5,
+        "text": "Am dus mașina la Full Detail și am primit-o ca scoasă din showroom. Se vede că e om cu atenție la detalii. Recomand!",
+        "avatar": "assets/avatar-1.svg"
+      },
+      {
+        "name": "Ioana P.",
+        "role": "Client · Audi A4",
+        "rating": 5,
+        "text": "Interiorul arată impecabil după curățarea tapițeriei. Comunicare rapidă pe WhatsApp și preț corect pentru calitate.",
+        "avatar": "assets/avatar-2.svg"
+      },
+      {
+        "name": "Radu C.",
+        "role": "Client · VW Passat",
+        "rating": 5,
+        "text": "Polish la faruri și spălare completă. Diferența e ca de la cer la pământ. Băiat serios, muncă de calitate.",
+        "avatar": "assets/avatar-3.svg"
+      },
+      {
+        "name": "Cristina D.",
+        "role": "Client · Mercedes C-Class",
+        "rating": 5,
+        "text": "Protecția ceramică ține mașina curată mult mai mult și apa alunecă efectiv. Merită fiecare leu. Mulțumesc!",
+        "avatar": "assets/avatar-4.svg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Întrebări frecvente",
+    "title": "Răspunsuri, înainte să întrebi.",
+    "subtitle": "Nu găsești ce cauți? Scrie-ne pe WhatsApp.",
+    "items": [
+      {
+        "question": "Cât costă un detailing complet?",
+        "answer": "Prețul depinde de starea mașinii și de pachetul ales: Basic 250–300 lei, Standard 450–700 lei, iar Full Detail (interior + exterior complet, cu polish și protecție ceramică) între 1.500 și 2.000 lei. Scrie-ne pe WhatsApp pentru o ofertă exactă."
+      },
+      {
+        "question": "Trebuie să mă programez?",
+        "answer": "Da, lucrăm pe bază de programare, în privat. Așa îți rezervăm timpul necesar și evităm graba. Scrie-ne pe WhatsApp și găsim rapid o dată potrivită."
+      },
+      {
+        "question": "Ce include protecția ceramică?",
+        "answer": "Un strat ceramic durabil și hidrofob care protejează vopseaua de murdărie, raze UV și zgârieturi fine. Apa alunecă de pe suprafață, iar mașina rămâne curată mult mai mult timp."
+      },
+      {
+        "question": "Faceți și curățare de tapițerie?",
+        "answer": "Da. Oferim extracție și igienizare în profunzime a scaunelor și tapițeriei (200–400 lei), plus odorizant pentru sistemul de climatizare la cerere (+50 lei)."
+      },
+      {
+        "question": "De ce diferă prețurile?",
+        "answer": "Fiecare mașină e diferită. Prețul final depinde de starea mașinii și de ce îți dorești. Construim un pachet personalizat pentru fiecare client în parte."
+      }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Gata de programare?",
+    "title": "Hai să facem mașina ta să strălucească.",
+    "subtitle": "Scrie-ne pe WhatsApp și primești o ofertă în funcție de starea mașinii.",
+    "primaryCta": { "label": "Scrie-ne pe WhatsApp", "action": "whatsapp" },
+    "secondaryCta": { "label": "Sună: 0757 630 539", "action": "phone" }
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Te așteptăm în Botoșani.",
+    "subtitle": "Programează-te sau scrie-ne pentru detalii și intervale libere.",
+    "whatsappMessage": "Salut, Cosmin! Aș vrea o ofertă pentru mașina mea:"
+  },
+
+  "footer": {
+    "description": "Detailing auto premium în Botoșani. Redăm strălucirea mașinii tale, cu atenție la fiecare detaliu.",
+    "columns": [
+      {
+        "title": "Servicii",
+        "links": [
+          { "label": "Detailing auto", "href": "#servicii" },
+          { "label": "Polish auto", "href": "#servicii" },
+          { "label": "Protecție ceramică", "href": "#servicii" },
+          { "label": "Polish faruri", "href": "#servicii" }
+        ]
+      },
+      {
+        "title": "Studio",
+        "links": [
+          { "label": "Rezultate", "href": "#rezultate" },
+          { "label": "Galerie", "href": "#galerie" },
+          { "label": "Recenzii", "href": "#recenzii" },
+          { "label": "Întrebări frecvente", "href": "#faq" }
+        ]
+      }
+    ],
+    "legal": "© 2026 Cosmin Detailing Botoșani. Toate drepturile rezervate.",
+    "credit": "Design de LimeSpark Development"
+  },
+
+  "whatsappDefaultMessage": "Salut, Cosmin! Am văzut site-ul și aș vrea mai multe detalii."
+}

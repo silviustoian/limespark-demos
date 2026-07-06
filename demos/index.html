@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex" />
+  <title>LimeSpark — Demo-uri</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0b0b0c; --surface: #151517; --line: rgba(255,255,255,0.1);
+      --ink: #f5f5f3; --muted: #9a9aa2; --accent: #c7f94b;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: radial-gradient(120% 90% at 50% 0%, #17170f, var(--bg));
+      color: var(--ink); min-height: 100vh;
+      padding: clamp(2rem, 6vw, 6rem) clamp(1.25rem, 5vw, 4rem);
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: 1000px; margin-inline: auto; }
+    .brand { display: inline-flex; align-items: center; gap: 0.6em; font-weight: 700; font-size: 1.2rem; margin-bottom: 3rem; }
+    .brand__mark { width: 28px; height: 28px; border-radius: 8px; background: #fff; position: relative; }
+    .brand__mark::after { content: ""; position: absolute; inset: 7px; border-radius: 3px; background: var(--accent); }
+    .eyebrow { text-transform: uppercase; letter-spacing: 0.14em; font-size: 0.8rem; font-weight: 600; color: var(--muted); display: flex; align-items: center; gap: 0.5em; }
+    .eyebrow::before { content: ""; width: 22px; height: 2px; background: var(--accent); border-radius: 2px; }
+    h1 { font-size: clamp(2rem, 1.2rem + 3vw, 3.4rem); font-weight: 700; letter-spacing: -0.03em; line-height: 1.1; margin: 0.8rem 0 0.6rem; }
+    .sub { color: var(--muted); font-size: 1.1rem; max-width: 48ch; margin-bottom: 3rem; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.25rem; }
+    .card {
+      display: block; padding: 1.75rem; border-radius: 20px;
+      background: var(--surface); border: 1px solid var(--line);
+      text-decoration: none; color: inherit;
+      transition: transform .26s cubic-bezier(.22,1,.36,1), border-color .26s, box-shadow .26s;
+    }
+    .card:hover { transform: translateY(-4px); border-color: rgba(255,255,255,0.28); box-shadow: 0 30px 60px rgba(0,0,0,0.4); }
+    .card__dot { width: 34px; height: 34px; border-radius: 10px; display: grid; place-items: center; margin-bottom: 1.1rem; font-weight: 700; }
+    .card__city { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--muted); }
+    .card__name { font-size: 1.35rem; font-weight: 600; letter-spacing: -0.02em; margin: 0.15rem 0 0.4rem; }
+    .card__desc { color: var(--muted); font-size: 0.95rem; }
+    .card__go { margin-top: 1.2rem; display: inline-flex; align-items: center; gap: 0.4em; font-weight: 600; font-size: 0.95rem; }
+    .card__go::after { content: "→"; transition: transform .26s cubic-bezier(.22,1,.36,1); }
+    .card:hover .card__go::after { transform: translateX(4px); }
+    footer { margin-top: 4rem; color: var(--muted); font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <span class="brand"><span class="brand__mark"></span> LimeSpark</span>
+
+    <span class="eyebrow">Demo-uri</span>
+    <h1>Site-uri construite pentru business-uri locale.</h1>
+    <p class="sub">O selecție de demo-uri live. Fiecare e construit din același design system reutilizabil.</p>
+
+    <div class="grid">
+      <a class="card" href="botosani/cosmin-detailing/">
+        <div class="card__dot" style="background:#c9a24c;color:#111">C</div>
+        <div class="card__city">Botoșani</div>
+        <div class="card__name">Cosmin Detailing</div>
+        <div class="card__desc">Detailing auto premium — polish, protecție ceramică, tratamente.</div>
+        <span class="card__go">Vezi demo-ul</span>
+      </a>
+
+      <a class="card" href="botosani/vip-auto-detailing/">
+        <div class="card__dot" style="background:#e11d2a;color:#fff">V</div>
+        <div class="card__city">Botoșani</div>
+        <div class="card__name">VIP Auto Detailing</div>
+        <div class="card__desc">Detailing profesional din 2019 — polish, ceramică, retușuri vopsea.</div>
+        <span class="card__go">Vezi demo-ul</span>
+      </a>
+    </div>
+
+    <footer>© 2026 LimeSpark Development · demo-uri interne</footer>
+  </div>
+</body>
+</html>

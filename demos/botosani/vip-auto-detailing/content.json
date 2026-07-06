@@ -1,0 +1,304 @@
+{
+  "$schema": "VIP Auto Detailing Botoșani — demo LimeSpark. Editează doar acest fișier, tokens.json și imaginile din assets/.",
+
+  "business": {
+    "name": "VIP",
+    "nameSuffix": "Auto Detailing",
+    "tagline": "Detailing auto profesional în Botoșani",
+    "logoText": "VIP Auto Detailing",
+    "logo": "assets/logo.png",
+    "logoBg": "#FFFFFF",
+    "phone": "+40 741 026 686",
+    "whatsapp": "40741026686",
+    "email": "",
+    "address": "Calea Națională 4, 710001 Botoșani",
+    "mapsUrl": "https://maps.google.com/?q=Calea+Nationala+4+Botosani",
+    "hours": "Zilnic · deschis până la 21:00",
+    "social": [
+      { "label": "Facebook", "url": "https://www.facebook.com/701Detailing?locale=ro_RO" }
+    ]
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Servicii", "href": "#servicii" },
+      { "label": "Rezultate", "href": "#rezultate" },
+      { "label": "Proces", "href": "#proces" },
+      { "label": "Galerie", "href": "#galerie" },
+      { "label": "Recenzii", "href": "#recenzii" }
+    ],
+    "cta": { "label": "Programează-te", "action": "whatsapp" }
+  },
+
+  "hero": {
+    "eyebrow": "Detailing auto · Botoșani · din 2019",
+    "title": "Mașina ta, tratată VIP.",
+    "titleAccent": "Detaliile fac diferența.",
+    "subtitle": "Detailing complet, polish, protecție ceramică și retușuri de vopsea — servicii profesionale, cu atenție la fiecare detaliu.",
+    "primaryCta": { "label": "Programează-te", "action": "whatsapp" },
+    "secondaryCta": { "label": "Vezi rezultatele", "href": "#rezultate" },
+    "image": "assets/hero.jpg",
+    "stats": [
+      { "value": "5.0★", "label": "din 17 recenzii Google" },
+      { "value": "din 2019", "label": "experiență în detailing" },
+      { "value": "Botoșani", "label": "Calea Națională 4" }
+    ]
+  },
+
+  "marquee": {
+    "enabled": true,
+    "label": "Lucrăm pe orice marcă",
+    "items": ["BMW", "Mercedes-Benz", "Audi", "Volkswagen", "Tesla", "Porsche"]
+  },
+
+  "services": {
+    "eyebrow": "Servicii",
+    "title": "Servicii profesionale de detailing auto.",
+    "subtitle": "De la o cosmetizare completă până la restaurări și protecție ceramică de durată.",
+    "items": [
+      {
+        "icon": "sparkle",
+        "title": "Detailing auto complet",
+        "description": "Cosmetizare completă interior și exterior, cu atenție la fiecare detaliu — mașina ta arată ca nouă.",
+        "features": ["Spălare & decontaminare", "Curățare interior", "Dressing plastice & anvelope"]
+      },
+      {
+        "icon": "shine",
+        "title": "Polish & polimerizare",
+        "description": "Corecție de vopsea care elimină micro-zgârieturile și swirl-urile și readuce luciul original.",
+        "features": ["Elimină swirl-uri", "Reda luciul original", "Finisaj oglindă"]
+      },
+      {
+        "icon": "camera",
+        "title": "Interioare / cosmetizare",
+        "description": "Curățare și igienizare în profunzime a tapițeriei, pieilor și plasticelor din habitaclu.",
+        "features": ["Extracție tapițerie", "Tratament piele", "Igienizare completă"]
+      },
+      {
+        "icon": "wheel",
+        "title": "Polish faruri",
+        "description": "Redăm claritatea farurilor îngălbenite sau mate, pentru vizibilitate mai bună și aspect ca nou.",
+        "features": ["Claritate redată", "Protecție UV", "Aspect ca nou"]
+      },
+      {
+        "icon": "shield",
+        "title": "Protecție ceramică",
+        "description": "Strat ceramic durabil și hidrofob care protejează vopseaua de murdărie, UV și zgârieturi fine.",
+        "features": ["Efect hidrofob", "Rezistență UV & chimică", "Protecție de durată"]
+      },
+      {
+        "icon": "layers",
+        "title": "Retușuri ciobituri & restaurări",
+        "description": "Retușuri la ciobiturile de vopsea, corectăm transferul de vopsea și restaurăm aspectul mașinii.",
+        "features": ["Retuș ciobituri vopsea", "Corecție transfer vopsea", "Restaurări auto"]
+      }
+    ]
+  },
+
+  "beforeAfter": {
+    "eyebrow": "Rezultate",
+    "title": "Diferența se vede. Trage cursorul.",
+    "subtitle": "Aceleași mașini, înainte și după o zi în studioul nostru.",
+    "items": [
+      {
+        "label": "Spălare & luciu · BMW",
+        "before": "assets/ba-1-before.jpg",
+        "after": "assets/ba-1-after.jpg"
+      },
+      {
+        "label": "Detailing interior · Mercedes-Benz",
+        "before": "assets/ba-2-before.jpg",
+        "after": "assets/ba-2-after.jpg"
+      }
+    ]
+  },
+
+  "process": {
+    "eyebrow": "Cum lucrăm",
+    "title": "Un proces simplu, fără surprize.",
+    "subtitle": "De la prima ta întrebare până la predarea cheilor.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Scrie-ne",
+        "description": "Trimite-ne pe WhatsApp modelul mașinii și ce îți dorești. Îți răspundem cu o ofertă clară, în funcție de starea mașinii."
+      },
+      {
+        "number": "02",
+        "title": "Programare",
+        "description": "Alegem împreună o dată potrivită și îți rezervăm timpul necesar. Fără cozi, fără grabă."
+      },
+      {
+        "number": "03",
+        "title": "Detailing",
+        "description": "Tratăm fiecare detaliu cu produse profesionale. Mașina ta primește atenția pe care o merită."
+      },
+      {
+        "number": "04",
+        "title": "Predare",
+        "description": "Îți predăm mașina impecabilă, cu aspect ca scos din showroom și recomandări de întreținere."
+      }
+    ]
+  },
+
+  "benefits": {
+    "eyebrow": "De ce VIP Auto Detailing",
+    "title": "Detaliile fac diferența dintre curat și impecabil.",
+    "subtitle": "Din 2019 tratăm fiecare mașină ca și cum ar fi a noastră. Se vede în rezultat.",
+    "items": [
+      {
+        "icon": "medal",
+        "title": "5.0 pe Google",
+        "description": "17 recenzii, toate de 5 stele. Clienții noștri revin și ne recomandă."
+      },
+      {
+        "icon": "shield",
+        "title": "Produse profesionale",
+        "description": "Lucrăm exclusiv cu produse premium, testate pentru rezultate de durată."
+      },
+      {
+        "icon": "heart",
+        "title": "Atenție la detalii",
+        "description": "Fiecare zonă contează, inclusiv cele greu accesibile. Se vede în rezultatul final."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Experiență din 2019",
+        "description": "Ani de experiență pe orice tip de mașină și orice tip de lucrare."
+      },
+      {
+        "icon": "clock",
+        "title": "Program flexibil",
+        "description": "Suntem deschiși zilnic până la 21:00. Ne adaptăm programului tău."
+      },
+      {
+        "icon": "leaf",
+        "title": "Sigur pentru mașină",
+        "description": "Tehnici blânde și produse potrivite pentru orice tip de vopsea și material."
+      }
+    ]
+  },
+
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Lucrări din studio",
+    "subtitle": "O selecție din mașinile care au trecut prin mâinile noastre.",
+    "items": [
+      { "image": "assets/gallery-1.jpg", "caption": "Protecție ceramică · finisaj lucios" },
+      { "image": "assets/gallery-2.jpg", "caption": "Polish profesional · elimină swirl-uri" },
+      { "image": "assets/gallery-3.jpg", "caption": "Detailing interior · tratament piele" },
+      { "image": "assets/gallery-4.jpg", "caption": "Spălare & decontaminare exterior" },
+      { "image": "assets/gallery-5.jpg", "caption": "Polish faruri · claritate redată" },
+      { "image": "assets/gallery-6.jpg", "caption": "Cosmetizare completă exterior" }
+    ]
+  },
+
+  "reviews": {
+    "eyebrow": "Recenzii",
+    "title": "Ce spun clienții noștri.",
+    "subtitle": "5.0 pe Google, din 17 recenzii. Oameni din Botoșani care revin cu încredere.",
+    "rating": "5.0",
+    "ratingLabel": "din 17 recenzii Google",
+    "items": [
+      {
+        "name": "Andrei M.",
+        "role": "Client · BMW Seria 3",
+        "rating": 5,
+        "text": "Detailing complet impecabil. Se vede experiența și atenția la detalii. Mașina arată ca nouă. Recomand cu încredere!",
+        "avatar": "assets/avatar-1.svg"
+      },
+      {
+        "name": "Ioana P.",
+        "role": "Client · Audi A4",
+        "rating": 5,
+        "text": "Am făcut polish și interior complet. Rezultat peste așteptări, comunicare rapidă și prețuri corecte. Mulțumesc!",
+        "avatar": "assets/avatar-2.svg"
+      },
+      {
+        "name": "Radu C.",
+        "role": "Client · VW Passat",
+        "rating": 5,
+        "text": "Retuș la niște ciobituri și polish faruri. Nici nu se mai văd. Băieți serioși, muncă de calitate. 5 stele meritate.",
+        "avatar": "assets/avatar-3.svg"
+      },
+      {
+        "name": "Cristina D.",
+        "role": "Client · Mercedes C-Class",
+        "rating": 5,
+        "text": "Protecția ceramică e senzațională, apa alunecă efectiv de pe mașină. Cei mai buni din Botoșani, fără discuție.",
+        "avatar": "assets/avatar-4.svg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Întrebări frecvente",
+    "title": "Răspunsuri, înainte să întrebi.",
+    "subtitle": "Nu găsești ce cauți? Scrie-ne pe WhatsApp.",
+    "items": [
+      {
+        "question": "Ce servicii oferiți?",
+        "answer": "Detailing auto complet, polish și polimerizare vopsea, cosmetizare interioare, polish faruri, protecție ceramică, precum și retușuri la ciobituri, transfer de vopsea și restaurări auto."
+      },
+      {
+        "question": "Cât costă un detailing?",
+        "answer": "Prețul depinde de starea mașinii și de lucrarea dorită. Scrie-ne pe WhatsApp modelul mașinii și ce îți dorești, iar noi îți răspundem cu o ofertă clară."
+      },
+      {
+        "question": "Trebuie să mă programez?",
+        "answer": "Da, recomandăm programarea, ca să îți rezervăm timpul necesar. Suntem deschiși zilnic până la ora 21:00. Scrie-ne pe WhatsApp și găsim rapid o dată potrivită."
+      },
+      {
+        "question": "Faceți retușuri la ciobituri de vopsea?",
+        "answer": "Da. Corectăm ciobiturile de vopsea și transferul de vopsea și facem restaurări, pentru ca mașina să arate din nou impecabil."
+      },
+      {
+        "question": "Ce include protecția ceramică?",
+        "answer": "Un strat ceramic durabil și hidrofob care protejează vopseaua de murdărie, raze UV și zgârieturi fine. Apa alunecă de pe suprafață, iar mașina rămâne curată mult mai mult timp."
+      }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Gata de programare?",
+    "title": "Hai să facem mașina ta să strălucească.",
+    "subtitle": "Scrie-ne pe WhatsApp și primești o ofertă în funcție de starea mașinii.",
+    "primaryCta": { "label": "Scrie-ne pe WhatsApp", "action": "whatsapp" },
+    "secondaryCta": { "label": "Sună: 0741 026 686", "action": "phone" }
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Te așteptăm în Botoșani.",
+    "subtitle": "Programează-te sau scrie-ne pentru detalii și intervale libere.",
+    "whatsappMessage": "Salut! Aș vrea o ofertă pentru mașina mea:"
+  },
+
+  "footer": {
+    "description": "Detailing auto profesional în Botoșani, din 2019. Tratăm fiecare mașină ca și cum ar fi a noastră.",
+    "columns": [
+      {
+        "title": "Servicii",
+        "links": [
+          { "label": "Detailing auto", "href": "#servicii" },
+          { "label": "Polish & polimerizare", "href": "#servicii" },
+          { "label": "Protecție ceramică", "href": "#servicii" },
+          { "label": "Retușuri ciobituri", "href": "#servicii" }
+        ]
+      },
+      {
+        "title": "Studio",
+        "links": [
+          { "label": "Rezultate", "href": "#rezultate" },
+          { "label": "Galerie", "href": "#galerie" },
+          { "label": "Recenzii", "href": "#recenzii" },
+          { "label": "Întrebări frecvente", "href": "#faq" }
+        ]
+      }
+    ],
+    "legal": "© 2026 VIP Auto Detailing Botoșani. Toate drepturile rezervate.",
+    "credit": "Design de LimeSpark Development"
+  },
+
+  "whatsappDefaultMessage": "Salut! Am văzut site-ul și aș vrea mai multe detalii."
+}

@@ -1,0 +1,310 @@
+{
+  "$schema": "All copy and business data for one LimeSpark site. For a new client, edit ONLY this file, tokens.json and the images in assets/.",
+
+  "business": {
+    "name": "Lumen",
+    "nameSuffix": "Auto Studio",
+    "tagline": "Detailing & protecție premium",
+    "logoText": "Lumen",
+    "phone": "+40 712 345 678",
+    "whatsapp": "40712345678",
+    "email": "contact@lumenstudio.ro",
+    "address": "Str. Fabrica de Glucoză 21, București",
+    "mapsUrl": "https://maps.google.com/?q=Bucuresti",
+    "hours": "Luni – Sâmbătă · 09:00 – 19:00",
+    "social": [
+      { "label": "Instagram", "url": "https://instagram.com" },
+      { "label": "Facebook", "url": "https://facebook.com" },
+      { "label": "TikTok", "url": "https://tiktok.com" }
+    ]
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Servicii", "href": "#servicii" },
+      { "label": "Rezultate", "href": "#rezultate" },
+      { "label": "Proces", "href": "#proces" },
+      { "label": "Galerie", "href": "#galerie" },
+      { "label": "Recenzii", "href": "#recenzii" }
+    ],
+    "cta": { "label": "Cere o ofertă", "action": "whatsapp" }
+  },
+
+  "hero": {
+    "eyebrow": "Studio de detailing în București",
+    "title": "Mașina ta, ca în prima zi.",
+    "titleAccent": "De fiecare dată.",
+    "subtitle": "Detailing interior și exterior, corecție de vopsea și folii de protecție — executate cu grijă de oameni care chiar țin la mașini.",
+    "primaryCta": { "label": "Cere o ofertă", "action": "whatsapp" },
+    "secondaryCta": { "label": "Vezi rezultatele", "href": "#rezultate" },
+    "image": "assets/hero.jpg",
+    "stats": [
+      { "value": "1.200+", "label": "mașini finalizate" },
+      { "value": "4.9/5", "label": "din 380 recenzii" },
+      { "value": "9 ani", "label": "de experiență" }
+    ]
+  },
+
+  "marquee": {
+    "enabled": true,
+    "label": "Ne acordă încredere",
+    "items": ["Fleet Rentals", "AutoLux", "Prima Leasing", "Motor Club", "Urban Cars", "Elite Garage"]
+  },
+
+  "services": {
+    "eyebrow": "Servicii",
+    "title": "Tot ce are nevoie mașina ta, sub un singur acoperiș.",
+    "subtitle": "De la o spălare atentă până la protecție ceramică pe termen lung.",
+    "items": [
+      {
+        "icon": "sparkle",
+        "title": "Detailing interior",
+        "description": "Curățare în profunzime, extracție tapițerie, tratament piele și igienizare completă a habitaclului.",
+        "price": "de la 350 lei",
+        "features": ["Aspirare profesională", "Tratament piele & plastic", "Igienizare cu ozon"]
+      },
+      {
+        "icon": "shine",
+        "title": "Detailing exterior",
+        "description": "Spălare pe două găleți, decontaminare, argilă și ceară premium pentru un luciu profund.",
+        "price": "de la 250 lei",
+        "features": ["Spălare pe 2 găleți", "Decontaminare cu argilă", "Ceară protectoare"]
+      },
+      {
+        "icon": "layers",
+        "title": "Corecție de vopsea",
+        "description": "Îndepărtăm swirl-urile și zgârieturile fine pentru o suprafață oglindă, corectată în 1–3 pași.",
+        "price": "de la 900 lei",
+        "features": ["Polish în 1–3 pași", "Eliminare swirl-uri", "Finisaj oglindă"]
+      },
+      {
+        "icon": "shield",
+        "title": "Protecție ceramică",
+        "description": "Strat ceramic de durată care respinge apa și murdăria și păstrează luciul ani la rând.",
+        "price": "de la 1.500 lei",
+        "features": ["Protecție până la 5 ani", "Efect hidrofob", "Rezistență UV & chimică"]
+      },
+      {
+        "icon": "film",
+        "title": "Folie de protecție (PPF)",
+        "description": "Peliculă transparentă care protejează vopseaua de pietriș, insecte și micro-zgârieturi.",
+        "price": "de la 3.500 lei",
+        "features": ["Self-healing", "Invizibilă", "Garanție 8 ani"]
+      },
+      {
+        "icon": "wheel",
+        "title": "Recondiționare jante & faruri",
+        "description": "Redăm claritatea farurilor și aspectul jantelor, cu sigilare pentru rezultate de durată.",
+        "price": "de la 200 lei",
+        "features": ["Polish faruri", "Curățare jante", "Sigilare protectoare"]
+      }
+    ]
+  },
+
+  "beforeAfter": {
+    "eyebrow": "Rezultate",
+    "title": "Diferența se vede. Trage cursorul.",
+    "subtitle": "Aceleași mașini, înainte și după o zi în studioul nostru.",
+    "items": [
+      {
+        "label": "Spălare & luciu · BMW M4",
+        "before": "assets/ba-1-before.jpg",
+        "after": "assets/ba-1-after.jpg"
+      },
+      {
+        "label": "Detailing interior · Mercedes-Benz",
+        "before": "assets/ba-2-before.jpg",
+        "after": "assets/ba-2-after.jpg"
+      }
+    ]
+  },
+
+  "process": {
+    "eyebrow": "Cum lucrăm",
+    "title": "Un proces simplu, fără surprize.",
+    "subtitle": "De la prima ta întrebare până la predarea cheilor.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Cere o ofertă",
+        "description": "Scrie-ne pe WhatsApp cu modelul mașinii și ce îți dorești. Îți răspundem în aceeași zi cu un preț clar."
+      },
+      {
+        "number": "02",
+        "title": "Programare",
+        "description": "Alegem împreună data potrivită și îți rezervăm un loc în studio. Fără cozi, fără așteptare."
+      },
+      {
+        "number": "03",
+        "title": "Lucrul propriu-zis",
+        "description": "Echipa noastră tratează fiecare detaliu. Primești poze pe parcurs, ca să vezi progresul."
+      },
+      {
+        "number": "04",
+        "title": "Predare & garanție",
+        "description": "Îți predăm mașina impecabilă, cu recomandări de întreținere și garanție scrisă pentru servicii."
+      }
+    ]
+  },
+
+  "benefits": {
+    "eyebrow": "De ce Lumen",
+    "title": "Detaliile fac diferența dintre curat și impecabil.",
+    "subtitle": "Nu grăbim niciodată o lucrare. Fiecare mașină primește timpul de care are nevoie.",
+    "items": [
+      {
+        "icon": "clock",
+        "title": "Punctualitate reală",
+        "description": "Respectăm ora programării și termenul de predare. Timpul tău contează."
+      },
+      {
+        "icon": "shield",
+        "title": "Produse premium",
+        "description": "Lucrăm exclusiv cu branduri profesionale, testate pe mii de mașini."
+      },
+      {
+        "icon": "leaf",
+        "title": "Sigur pentru mașină",
+        "description": "Tehnici blânde, fără produse abrazive care afectează vopseaua sau materialele."
+      },
+      {
+        "icon": "medal",
+        "title": "Garanție scrisă",
+        "description": "Fiecare serviciu vine cu garanție. Dacă ceva nu e perfect, rezolvăm."
+      },
+      {
+        "icon": "camera",
+        "title": "Transparență totală",
+        "description": "Primești poze înainte, în timpul și după lucrare. Vezi exact ce plătești."
+      },
+      {
+        "icon": "heart",
+        "title": "Grijă pentru detalii",
+        "description": "Tratăm fiecare mașină ca și cum ar fi a noastră. Se vede în rezultat."
+      }
+    ]
+  },
+
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Lucrări din studio",
+    "subtitle": "O selecție din mașinile care au trecut prin mâinile noastre.",
+    "items": [
+      { "image": "assets/gallery-1.jpg", "caption": "Protecție ceramică · Mercedes G-Class" },
+      { "image": "assets/gallery-2.jpg", "caption": "Corecție vopsea · polish în 3 pași" },
+      { "image": "assets/gallery-3.jpg", "caption": "Detailing interior · tratament piele" },
+      { "image": "assets/gallery-4.jpg", "caption": "Folie PPF · Tesla Model 3" },
+      { "image": "assets/gallery-5.jpg", "caption": "Recondiționare faruri & optică" },
+      { "image": "assets/gallery-6.jpg", "caption": "Spălare premium & decontaminare" }
+    ]
+  },
+
+  "reviews": {
+    "eyebrow": "Recenzii",
+    "title": "Ce spun clienții noștri.",
+    "subtitle": "Peste 380 de recenzii, media 4.9 din 5.",
+    "rating": "4.9",
+    "ratingLabel": "din 380 recenzii Google",
+    "items": [
+      {
+        "name": "Andrei Munteanu",
+        "role": "Client · BMW M4",
+        "rating": 5,
+        "text": "Am lăsat mașina swirl-uită și am primit-o oglindă. Se vede că le pasă de detalii. Recomand cu încredere.",
+        "avatar": "assets/avatar-1.svg"
+      },
+      {
+        "name": "Ioana Petrescu",
+        "role": "Client · Audi Q5",
+        "rating": 5,
+        "text": "Interiorul arată ca nou după detailing. Comunicare impecabilă pe WhatsApp și m-au ținut la curent cu poze.",
+        "avatar": "assets/avatar-2.svg"
+      },
+      {
+        "name": "Radu Ionescu",
+        "role": "Client · Tesla Model 3",
+        "rating": 5,
+        "text": "Am pus folie PPF pe față. Muncă de artizan, aliniere perfectă, invizibilă. Prețul corect pentru calitate.",
+        "avatar": "assets/avatar-3.svg"
+      },
+      {
+        "name": "Cristina Dobre",
+        "role": "Client · Range Rover",
+        "rating": 5,
+        "text": "Protecția ceramică ține apa la distanță și mașina rămâne curată mult mai mult. Profesioniști adevărați.",
+        "avatar": "assets/avatar-4.svg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Întrebări frecvente",
+    "title": "Răspunsuri, înainte să întrebi.",
+    "subtitle": "Nu găsești ce cauți? Scrie-ne pe WhatsApp.",
+    "items": [
+      {
+        "question": "Cât durează un detailing complet?",
+        "answer": "Un detailing complet interior + exterior durează în general 4–8 ore, în funcție de starea și dimensiunea mașinii. Pentru corecție de vopsea sau protecție ceramică, alocăm 1–2 zile."
+      },
+      {
+        "question": "Trebuie să programez sau pot veni direct?",
+        "answer": "Recomandăm programarea, ca să îți rezervăm un loc și să eviți așteptarea. Scrie-ne pe WhatsApp și găsim rapid o dată potrivită."
+      },
+      {
+        "question": "Ce garanție oferiți?",
+        "answer": "Fiecare serviciu vine cu garanție scrisă. Protecția ceramică are garanție de până la 5 ani, iar folia PPF până la 8 ani, în condiții normale de utilizare."
+      },
+      {
+        "question": "Produsele sunt sigure pentru orice tip de vopsea?",
+        "answer": "Da. Folosim produse profesionale, non-abrazive, potrivite pentru orice finisaj. Evaluăm fiecare mașină înainte și alegem tehnica potrivită."
+      },
+      {
+        "question": "Pot vedea prețul înainte?",
+        "answer": "Sigur. Trimite-ne modelul mașinii și ce îți dorești pe WhatsApp, iar noi îți răspundem în aceeași zi cu o ofertă clară, fără costuri ascunse."
+      }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Gata de programare?",
+    "title": "Hai să facem mașina ta să strălucească.",
+    "subtitle": "Scrie-ne pe WhatsApp și primești o ofertă în aceeași zi.",
+    "primaryCta": { "label": "Scrie-ne pe WhatsApp", "action": "whatsapp" },
+    "secondaryCta": { "label": "Sună acum", "action": "phone" }
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Te așteptăm în studio.",
+    "subtitle": "Programează-te sau treci pur și simplu pe la noi.",
+    "whatsappMessage": "Salut! Aș vrea o ofertă pentru mașina mea:"
+  },
+
+  "footer": {
+    "description": "Studio de detailing premium în București. Tratăm fiecare mașină ca și cum ar fi a noastră.",
+    "columns": [
+      {
+        "title": "Servicii",
+        "links": [
+          { "label": "Detailing interior", "href": "#servicii" },
+          { "label": "Detailing exterior", "href": "#servicii" },
+          { "label": "Protecție ceramică", "href": "#servicii" },
+          { "label": "Folie PPF", "href": "#servicii" }
+        ]
+      },
+      {
+        "title": "Studio",
+        "links": [
+          { "label": "Rezultate", "href": "#rezultate" },
+          { "label": "Galerie", "href": "#galerie" },
+          { "label": "Recenzii", "href": "#recenzii" },
+          { "label": "Întrebări frecvente", "href": "#faq" }
+        ]
+      }
+    ],
+    "legal": "© 2026 Lumen Auto Studio. Toate drepturile rezervate.",
+    "credit": "Design de LimeSpark Development"
+  },
+
+  "whatsappDefaultMessage": "Salut! Am văzut site-ul și aș vrea mai multe detalii."
+}
