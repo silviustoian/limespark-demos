@@ -1,0 +1,310 @@
+{
+  "$schema": "Auto Spa — Spălătorie & Detailing Iași — demo LimeSpark. Editează doar acest fișier, tokens.json și imaginile din assets/.",
+
+  "business": {
+    "name": "Auto Spa",
+    "nameSuffix": "Spălătorie & Detailing",
+    "tagline": "Spălătorie & detailing auto în Iași",
+    "logoText": "Auto Spa",
+    "logo": "assets/logo.png",
+    "logoBg": "#0A0A0B",
+    "phone": "+40 771 432 059",
+    "whatsapp": "40771432059",
+    "email": "",
+    "address": "Șos. Nicolina 147, Iași",
+    "mapsUrl": "https://maps.google.com/?q=Soseaua+Nicolina+147+Iasi",
+    "hours": "Luni – Sâmbătă · 09:00 – 20:00",
+    "social": [
+      { "label": "Facebook", "url": "https://www.facebook.com/people/Auto-Spa-Detailing/61590045873509/" }
+    ]
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Servicii", "href": "#servicii" },
+      { "label": "Rezultate", "href": "#rezultate" },
+      { "label": "Proces", "href": "#proces" },
+      { "label": "Galerie", "href": "#galerie" },
+      { "label": "Recenzii", "href": "#recenzii" }
+    ],
+    "cta": { "label": "Programează-te", "action": "whatsapp" }
+  },
+
+  "hero": {
+    "eyebrow": "Spălătorie & detailing · Iași",
+    "title": "Strălucește ca în prima zi.",
+    "titleAccent": "Spălătorie & detailing premium.",
+    "subtitle": "Spălare premium, detailing interior și exterior, corecție de vopsea și protecție ceramică — pe Șos. Nicolina 147, Iași. Mașina ta merită ce e mai bun.",
+    "primaryCta": { "label": "Programează-te", "action": "whatsapp" },
+    "secondaryCta": { "label": "Vezi rezultatele", "href": "#rezultate" },
+    "image": "assets/hero.jpg",
+    "stats": [
+      { "value": "-30%", "label": "17:00–20:00 · Luni–Sâmbătă" },
+      { "value": "3+1", "label": "a 4-a spălare gratis" },
+      { "value": "Iași", "label": "Șos. Nicolina 147" }
+    ]
+  },
+
+  "marquee": {
+    "enabled": true,
+    "label": "Lucrăm pe orice marcă",
+    "items": ["BMW", "Mercedes-Benz", "Audi", "Volkswagen", "Tesla", "Porsche"]
+  },
+
+  "services": {
+    "eyebrow": "Servicii",
+    "title": "De la o spălare rapidă la detailing complet.",
+    "subtitle": "Tot ce are nevoie mașina ta, într-un singur loc pe Șos. Nicolina.",
+    "items": [
+      {
+        "icon": "shine",
+        "title": "Spălare exterioară premium",
+        "description": "Spumă activă, spălare pe două găleți și uscare atentă — fără swirl-uri, fără compromisuri.",
+        "price": "la cerere",
+        "features": ["Spumă activă", "Spălare pe 2 găleți", "Uscare cu prosop microfibră"]
+      },
+      {
+        "icon": "sparkle",
+        "title": "Spălare completă interior + exterior",
+        "description": "Exterior impecabil plus aspirare și curățare în profunzime a habitaclului. Mașina ta, ca nouă.",
+        "price": "la cerere",
+        "features": ["Interior + exterior", "Aspirare profesională", "Geamuri & plastice"]
+      },
+      {
+        "icon": "layers",
+        "title": "Detailing interior",
+        "description": "Extracție tapițerie, tratament piele și igienizare completă a habitaclului.",
+        "price": "la cerere",
+        "features": ["Extracție tapițerie", "Tratament piele & plastic", "Igienizare habitaclu"]
+      },
+      {
+        "icon": "shield",
+        "title": "Corecție de vopsea",
+        "description": "Îndepărtăm swirl-urile și zgârieturile fine pentru o suprafață oglindă, corectată în 1–3 pași.",
+        "price": "la cerere",
+        "features": ["Polish în 1–3 pași", "Eliminare swirl-uri", "Finisaj oglindă"]
+      },
+      {
+        "icon": "film",
+        "title": "Protecție ceramică",
+        "description": "Strat ceramic de durată care respinge apa și murdăria și păstrează luciul ani la rând.",
+        "price": "la cerere",
+        "features": ["Protecție de durată", "Efect hidrofob", "Rezistență UV & chimică"]
+      },
+      {
+        "icon": "wheel",
+        "title": "Recondiționare faruri & jante",
+        "description": "Redăm claritatea farurilor și aspectul jantelor, cu sigilare pentru rezultate de durată.",
+        "price": "la cerere",
+        "features": ["Polish faruri", "Curățare jante", "Sigilare protectoare"]
+      }
+    ]
+  },
+
+  "beforeAfter": {
+    "eyebrow": "Rezultate",
+    "title": "Diferența se vede. Trage cursorul.",
+    "subtitle": "Aceleași mașini, înainte și după o vizită la Auto Spa.",
+    "items": [
+      {
+        "label": "Spălare & luciu · exterior",
+        "before": "assets/ba-1-before.jpg",
+        "after": "assets/ba-1-after.jpg"
+      },
+      {
+        "label": "Detailing interior · habitaclu",
+        "before": "assets/ba-2-before.jpg",
+        "after": "assets/ba-2-after.jpg"
+      }
+    ]
+  },
+
+  "process": {
+    "eyebrow": "Cum lucrăm",
+    "title": "Un proces simplu, fără surprize.",
+    "subtitle": "De la prima ta întrebare până la predarea cheilor.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Cere o ofertă",
+        "description": "Scrie-ne pe WhatsApp cu modelul mașinii și ce îți dorești. Îți răspundem în aceeași zi cu un preț clar."
+      },
+      {
+        "number": "02",
+        "title": "Programare",
+        "description": "Alegem împreună data potrivită și îți rezervăm un loc. Fără cozi, fără așteptare."
+      },
+      {
+        "number": "03",
+        "title": "Lucrul propriu-zis",
+        "description": "Tratăm fiecare detaliu cu grijă. Primești poze pe parcurs, ca să vezi progresul."
+      },
+      {
+        "number": "04",
+        "title": "Predare",
+        "description": "Îți predăm mașina impecabilă, cu recomandări de întreținere ca să păstrezi rezultatul cât mai mult."
+      }
+    ]
+  },
+
+  "benefits": {
+    "eyebrow": "De ce Auto Spa",
+    "title": "Mașina ta merită ce e mai bun.",
+    "subtitle": "Curățenie la superlativ și grijă pentru fiecare detaliu — la fiecare vizită.",
+    "items": [
+      {
+        "icon": "medal",
+        "title": "La 3 spălări, a 4-a gratis",
+        "description": "Recompensăm fidelitatea: la fiecare a patra spălare, tu nu plătești nimic."
+      },
+      {
+        "icon": "clock",
+        "title": "-30% între 17:00 și 20:00",
+        "description": "Reducere de 30% în fiecare seară, de luni până sâmbătă. Program flexibil pentru tine."
+      },
+      {
+        "icon": "shield",
+        "title": "Produse premium",
+        "description": "Lucrăm exclusiv cu branduri profesionale, testate pe mii de mașini."
+      },
+      {
+        "icon": "leaf",
+        "title": "Curățenie la superlativ",
+        "description": "Tehnici blânde, fără produse abrazive care afectează vopseaua sau materialele."
+      },
+      {
+        "icon": "camera",
+        "title": "Transparență totală",
+        "description": "Primești poze înainte, în timpul și după lucrare. Vezi exact ce plătești."
+      },
+      {
+        "icon": "heart",
+        "title": "Grijă pentru fiecare detaliu",
+        "description": "Tratăm fiecare mașină ca și cum ar fi a noastră. Se vede în rezultat."
+      }
+    ]
+  },
+
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Lucrări din spălătorie",
+    "subtitle": "O selecție din mașinile care au trecut pe la Auto Spa.",
+    "items": [
+      { "image": "assets/gallery-1.jpg", "caption": "Protecție ceramică" },
+      { "image": "assets/gallery-2.jpg", "caption": "Corecție vopsea · polish în pași" },
+      { "image": "assets/gallery-3.jpg", "caption": "Detailing interior · tratament piele" },
+      { "image": "assets/gallery-4.jpg", "caption": "Spălare premium & luciu" },
+      { "image": "assets/gallery-5.jpg", "caption": "Recondiționare faruri & optică" },
+      { "image": "assets/gallery-6.jpg", "caption": "Spălare completă & decontaminare" }
+    ]
+  },
+
+  "reviews": {
+    "eyebrow": "Recenzii",
+    "title": "Ce spun clienții noștri.",
+    "subtitle": "Clienți care revin pentru fiecare spălare.",
+    "rating": "5.0",
+    "ratingLabel": "clienți mulțumiți",
+    "items": [
+      {
+        "name": "Andrei M.",
+        "role": "Client · BMW",
+        "rating": 5,
+        "text": "Spălare impecabilă și atenție la detalii. Reducerea de seară e un mare plus. Recomand cu încredere.",
+        "avatar": "assets/avatar-1.svg"
+      },
+      {
+        "name": "Ioana P.",
+        "role": "Client · Audi",
+        "rating": 5,
+        "text": "Interiorul arată ca nou după detailing. Comunicare impecabilă pe WhatsApp și m-au ținut la curent cu poze.",
+        "avatar": "assets/avatar-2.svg"
+      },
+      {
+        "name": "Radu I.",
+        "role": "Client · VW",
+        "rating": 5,
+        "text": "Merg constant la spălat aici — la a 4-a e gratis, iar rezultatul e mereu la superlativ. Mă întorc sigur.",
+        "avatar": "assets/avatar-3.svg"
+      },
+      {
+        "name": "Cristina D.",
+        "role": "Client · Mercedes-Benz",
+        "rating": 5,
+        "text": "Protecția ceramică ține apa la distanță și mașina rămâne curată mult mai mult. Profesioniști adevărați.",
+        "avatar": "assets/avatar-4.svg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Întrebări frecvente",
+    "title": "Răspunsuri, înainte să întrebi.",
+    "subtitle": "Nu găsești ce cauți? Scrie-ne pe WhatsApp.",
+    "items": [
+      {
+        "question": "Cum funcționează oferta „la 3 spălări, a 4-a gratis”?",
+        "answer": "Simplu: după trei spălări la Auto Spa, a patra este din partea casei. Te ținem noi la curent cu numărul de spălări."
+      },
+      {
+        "question": "Când se aplică reducerea de 30%?",
+        "answer": "Reducerea de 30% se aplică în fiecare seară între 17:00 și 20:00, de luni până sâmbătă."
+      },
+      {
+        "question": "Trebuie să programez sau pot veni direct?",
+        "answer": "Poți trece direct, dar pentru detailing sau protecție ceramică îți recomandăm o programare pe WhatsApp, ca să îți rezervăm un loc și să eviți așteptarea."
+      },
+      {
+        "question": "Produsele sunt sigure pentru orice tip de vopsea?",
+        "answer": "Da. Folosim produse profesionale, non-abrazive, potrivite pentru orice finisaj. Evaluăm fiecare mașină înainte și alegem tehnica potrivită."
+      },
+      {
+        "question": "Pot vedea prețul înainte?",
+        "answer": "Sigur. Trimite-ne modelul mașinii și ce îți dorești pe WhatsApp, iar noi îți răspundem în aceeași zi cu o ofertă clară, fără costuri ascunse."
+      }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Gata de programare?",
+    "title": "Hai să facem mașina ta să strălucească.",
+    "subtitle": "Profită de -30% între 17:00 și 20:00 și de a 4-a spălare gratis. Scrie-ne pe WhatsApp.",
+    "primaryCta": { "label": "Scrie-ne pe WhatsApp", "action": "whatsapp" },
+    "secondaryCta": { "label": "Sună acum", "action": "phone" }
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Te așteptăm pe Șos. Nicolina 147.",
+    "subtitle": "Programează-te sau treci pur și simplu pe la noi.",
+    "whatsappMessage": "Salut! Aș vrea o ofertă pentru mașina mea:"
+  },
+
+  "footer": {
+    "description": "Spălătorie & detailing auto premium în Iași, pe Șos. Nicolina 147. Mașina ta merită ce e mai bun.",
+    "columns": [
+      {
+        "title": "Servicii",
+        "links": [
+          { "label": "Spălare premium", "href": "#servicii" },
+          { "label": "Detailing interior", "href": "#servicii" },
+          { "label": "Corecție de vopsea", "href": "#servicii" },
+          { "label": "Protecție ceramică", "href": "#servicii" }
+        ]
+      },
+      {
+        "title": "Auto Spa",
+        "links": [
+          { "label": "Rezultate", "href": "#rezultate" },
+          { "label": "Galerie", "href": "#galerie" },
+          { "label": "Recenzii", "href": "#recenzii" },
+          { "label": "Întrebări frecvente", "href": "#faq" }
+        ]
+      }
+    ],
+    "legal": "© 2026 Auto Spa · Spălătorie & Detailing Iași. Toate drepturile rezervate.",
+    "credit": "Design de LimeSpark Development"
+  },
+
+  "whatsappDefaultMessage": "Salut! Am văzut site-ul și aș vrea mai multe detalii."
+}
