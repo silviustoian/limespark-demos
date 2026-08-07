@@ -1,0 +1,311 @@
+{
+  "$schema": "Auto Max Iași — Service Auto & Detailing — demo LimeSpark. Editează doar acest fișier, tokens.json și imaginile din assets/.",
+
+  "business": {
+    "name": "Auto Max",
+    "nameSuffix": "Service Auto & Detailing",
+    "tagline": "Service auto & detailing profesional în Iași",
+    "logoText": "Auto Max",
+    "logo": "assets/logo.png",
+    "logoBg": "#0A0A0B",
+    "phone": "+40 756 984 951",
+    "whatsapp": "40756984951",
+    "email": "",
+    "address": "B-dul Chimiei nr. 14, Iași (vizavi de Tipografia PrintCo)",
+    "mapsUrl": "https://maps.google.com/?q=Bulevardul+Chimiei+14+Iasi",
+    "hours": "Program flexibil · service & detailing",
+    "social": [
+      { "label": "Facebook", "url": "https://www.facebook.com/automaxiasi" },
+      { "label": "TikTok", "url": "https://www.tiktok.com/@automaxiasi" }
+    ]
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Servicii", "href": "#servicii" },
+      { "label": "Rezultate", "href": "#rezultate" },
+      { "label": "Proces", "href": "#proces" },
+      { "label": "Galerie", "href": "#galerie" },
+      { "label": "Recenzii", "href": "#recenzii" }
+    ],
+    "cta": { "label": "Programează-te", "action": "whatsapp" }
+  },
+
+  "hero": {
+    "eyebrow": "Service auto & detailing · Iași",
+    "title": "Service și detailing, sub un singur acoperiș.",
+    "titleAccent": "De la freon la ceramică, le facem pe toate.",
+    "subtitle": "Detailing interior și exterior, service auto, încărcare freon, foliere, tratamente ceramice și chiar cursuri de detailing — pe B-dul Chimiei nr. 14, Iași.",
+    "primaryCta": { "label": "Programează-te", "action": "whatsapp" },
+    "secondaryCta": { "label": "Vezi serviciile", "href": "#servicii" },
+    "image": "assets/hero.jpg",
+    "stats": [
+      { "value": "Freon", "label": "R134a / R1234yf" },
+      { "value": "Cursuri", "label": "de detailing" },
+      { "value": "Iași", "label": "B-dul Chimiei 14" }
+    ]
+  },
+
+  "marquee": {
+    "enabled": true,
+    "label": "Ce facem",
+    "items": ["Detailing", "Service auto", "Încărcare freon", "Foliere & PPF", "Tratamente ceramice", "Cursuri detailing"]
+  },
+
+  "services": {
+    "eyebrow": "Servicii",
+    "title": "Service auto și detailing, complet.",
+    "subtitle": "Tot ce are nevoie mașina ta — mecanică, estetică și protecție — într-un singur loc.",
+    "items": [
+      {
+        "icon": "sparkle",
+        "title": "Detailing interior & exterior",
+        "description": "Curățare în profunzime, tratament piele, spălare atentă și finisaj impecabil, pe dinăuntru și pe dinafară.",
+        "price": "la cerere",
+        "features": ["Interior în profunzime", "Exterior & luciu", "Igienizare habitaclu"]
+      },
+      {
+        "icon": "shield",
+        "title": "Tratamente ceramice & polish",
+        "description": "Polish caroserie și faruri, plus protecție ceramică de durată pentru un luciu care rezistă.",
+        "price": "la cerere",
+        "features": ["Polish caroserie & faruri", "Protecție ceramică", "Efect hidrofob"]
+      },
+      {
+        "icon": "film",
+        "title": "Foliere geamuri & PPF",
+        "description": "Foliere geamuri și peliculă de protecție PPF pentru vopsea. Protecție și confort, executate curat.",
+        "price": "la cerere",
+        "features": ["Foliere geamuri", "Folie PPF", "Aplicare precisă"]
+      },
+      {
+        "icon": "shine",
+        "title": "Încărcare freon R134a / R1234yf",
+        "description": "Încărcare freon disponibilă fără programare, la locația noastră sau mobil, direct la tine acasă ori la birou.",
+        "price": "la cerere",
+        "features": ["R134a & R1234yf", "Fără programare", "La sediu sau mobil"]
+      },
+      {
+        "icon": "wheel",
+        "title": "Service auto & diagnoză",
+        "description": "Diagnoză, vulcanizare, curățare DPF & motor, schimb ulei cutie ATF/manuală, recondiționare turbine, piese auto.",
+        "price": "la cerere",
+        "features": ["Diagnoză & DPF", "Ulei cutie ATF/manuală", "Turbine & piese auto"]
+      },
+      {
+        "icon": "layers",
+        "title": "Cursuri de detailing",
+        "description": "Vrei să înveți detailing ca la carte? Organizăm cursuri practice, de la spălare corectă la polish și protecții.",
+        "price": "la cerere",
+        "features": ["Curs practic", "De la bază la avansat", "Certificat de participare"]
+      }
+    ]
+  },
+
+  "beforeAfter": {
+    "eyebrow": "Rezultate",
+    "title": "Diferența se vede. Trage cursorul.",
+    "subtitle": "Aceleași mașini, înainte și după o zi la Auto Max.",
+    "items": [
+      {
+        "label": "Polish & luciu · caroserie",
+        "before": "assets/ba-1-before.jpg",
+        "after": "assets/ba-1-after.jpg"
+      },
+      {
+        "label": "Detailing interior · habitaclu",
+        "before": "assets/ba-2-before.jpg",
+        "after": "assets/ba-2-after.jpg"
+      }
+    ]
+  },
+
+  "process": {
+    "eyebrow": "Cum lucrăm",
+    "title": "Un proces simplu, fără surprize.",
+    "subtitle": "De la prima ta întrebare până la predarea cheilor.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Cere o ofertă",
+        "description": "Scrie-ne pe WhatsApp cu modelul mașinii și ce îți dorești — service, detailing sau freon. Îți răspundem cu un preț clar."
+      },
+      {
+        "number": "02",
+        "title": "Programare",
+        "description": "Alegem împreună data potrivită. Pentru încărcare freon poți veni chiar și fără programare."
+      },
+      {
+        "number": "03",
+        "title": "Lucrul propriu-zis",
+        "description": "Ne ocupăm de tot, de la mecanică la estetică. Primești poze pe parcurs, ca să vezi progresul."
+      },
+      {
+        "number": "04",
+        "title": "Predare",
+        "description": "Îți predăm mașina impecabilă și în siguranță, cu recomandări pentru întreținere."
+      }
+    ]
+  },
+
+  "benefits": {
+    "eyebrow": "De ce Auto Max",
+    "title": "Un singur loc pentru orice are nevoie mașina ta.",
+    "subtitle": "Mecanică, estetică și protecție — plus cursuri pentru cei care vor să învețe.",
+    "items": [
+      {
+        "icon": "medal",
+        "title": "Service & detailing la un loc",
+        "description": "Nu mai alergi între ateliere. De la freon la ceramică, rezolvi tot într-un singur loc."
+      },
+      {
+        "icon": "clock",
+        "title": "Încărcare freon fără programare",
+        "description": "Vii direct la locația noastră sau te deservim mobil, la tine acasă ori la birou."
+      },
+      {
+        "icon": "shield",
+        "title": "Produse premium",
+        "description": "Lucrăm cu produse și piese profesionale, pentru rezultate de durată."
+      },
+      {
+        "icon": "leaf",
+        "title": "Cursuri de detailing",
+        "description": "Împărtășim din experiență: cursuri practice pentru cine vrea să învețe detailing corect."
+      },
+      {
+        "icon": "camera",
+        "title": "Transparență totală",
+        "description": "Primești poze înainte, în timpul și după lucrare. Vezi exact ce plătești."
+      },
+      {
+        "icon": "heart",
+        "title": "Grijă pentru detalii",
+        "description": "Tratăm fiecare mașină ca și cum ar fi a noastră. Se vede în rezultat."
+      }
+    ]
+  },
+
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Lucrări din atelier",
+    "subtitle": "O selecție din mașinile care au trecut prin mâinile noastre.",
+    "items": [
+      { "image": "assets/gallery-1.jpg", "caption": "Tratament ceramic" },
+      { "image": "assets/gallery-2.jpg", "caption": "Polish caroserie & faruri" },
+      { "image": "assets/gallery-3.jpg", "caption": "Detailing interior · tratament piele" },
+      { "image": "assets/gallery-4.jpg", "caption": "Foliere & PPF" },
+      { "image": "assets/gallery-5.jpg", "caption": "Service auto & diagnoză" },
+      { "image": "assets/gallery-6.jpg", "caption": "Detailing exterior & luciu" }
+    ]
+  },
+
+  "reviews": {
+    "eyebrow": "Recenzii",
+    "title": "Ce spun clienții noștri.",
+    "subtitle": "Clienți care se întorc pentru orice are nevoie mașina lor.",
+    "rating": "5.0",
+    "ratingLabel": "clienți mulțumiți",
+    "items": [
+      {
+        "name": "Andrei M.",
+        "role": "Client · service + detailing",
+        "rating": 5,
+        "text": "Mi-au făcut și service, și detailing în aceeași zi. Comod să rezolvi tot într-un loc. Recomand cu încredere.",
+        "avatar": "assets/avatar-1.svg"
+      },
+      {
+        "name": "Ioana P.",
+        "role": "Client · încărcare freon",
+        "rating": 5,
+        "text": "Am venit fără programare pentru freon și au rezolvat rapid. AC-ul suflă gheață acum. Super serviciu.",
+        "avatar": "assets/avatar-2.svg"
+      },
+      {
+        "name": "Radu I.",
+        "role": "Cursant detailing",
+        "rating": 5,
+        "text": "Am făcut cursul de detailing și am învățat enorm. Explicații clare, practică pe bune. Merită fiecare leu.",
+        "avatar": "assets/avatar-3.svg"
+      },
+      {
+        "name": "Cristina D.",
+        "role": "Client · tratament ceramic",
+        "rating": 5,
+        "text": "Protecția ceramică ține apa la distanță și mașina rămâne curată mult mai mult. Profesioniști adevărați.",
+        "avatar": "assets/avatar-4.svg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Întrebări frecvente",
+    "title": "Răspunsuri, înainte să întrebi.",
+    "subtitle": "Nu găsești ce cauți? Scrie-ne pe WhatsApp.",
+    "items": [
+      {
+        "question": "Faceți și service, și detailing?",
+        "answer": "Da. Suntem service auto și centru de detailing în același loc: de la mecanică, diagnoză și încărcare freon, până la polish, ceramică și foliere."
+      },
+      {
+        "question": "Încărcarea de freon necesită programare?",
+        "answer": "Nu. Poți veni direct la locația noastră fără programare. Facem și încărcare freon mobilă, la tine acasă sau la birou, pentru R134a și R1234yf."
+      },
+      {
+        "question": "Organizați cursuri de detailing?",
+        "answer": "Da. Ținem cursuri practice de detailing, de la nivel de bază la avansat. Scrie-ne pe WhatsApp pentru detalii și următoarea sesiune."
+      },
+      {
+        "question": "Rezolvați probleme la trapă / panoramic?",
+        "answer": "Da, facem mentenanță pentru trapă și plafon panoramic — dacă nu se mai închide sau îți intră apă, îți rezolvăm rapid problema."
+      },
+      {
+        "question": "Pot vedea prețul înainte?",
+        "answer": "Sigur. Trimite-ne modelul mașinii și ce îți dorești pe WhatsApp, iar noi îți răspundem cu o ofertă clară, fără costuri ascunse."
+      }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Gata de programare?",
+    "title": "Service, detailing sau freon — te așteptăm.",
+    "subtitle": "Scrie-ne pe WhatsApp și primești o ofertă pentru serviciul dorit.",
+    "primaryCta": { "label": "Scrie-ne pe WhatsApp", "action": "whatsapp" },
+    "secondaryCta": { "label": "Sună acum", "action": "phone" }
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Ne găsești pe B-dul Chimiei nr. 14.",
+    "subtitle": "Vizavi de Tipografia PrintCo, Iași. Programează-te sau treci pe la noi.",
+    "whatsappMessage": "Salut! Aș vrea o ofertă pentru:"
+  },
+
+  "footer": {
+    "description": "Service auto & detailing profesional în Iași, pe B-dul Chimiei nr. 14 — detailing, service, încărcare freon, foliere, tratamente ceramice și cursuri de detailing.",
+    "columns": [
+      {
+        "title": "Servicii",
+        "links": [
+          { "label": "Detailing interior & exterior", "href": "#servicii" },
+          { "label": "Tratamente ceramice & polish", "href": "#servicii" },
+          { "label": "Încărcare freon", "href": "#servicii" },
+          { "label": "Service auto & diagnoză", "href": "#servicii" }
+        ]
+      },
+      {
+        "title": "Auto Max",
+        "links": [
+          { "label": "Cursuri de detailing", "href": "#servicii" },
+          { "label": "Galerie", "href": "#galerie" },
+          { "label": "Recenzii", "href": "#recenzii" },
+          { "label": "Întrebări frecvente", "href": "#faq" }
+        ]
+      }
+    ],
+    "legal": "© 2026 Auto Max Iași · Service Auto & Detailing. Toate drepturile rezervate.",
+    "credit": "Design de LimeSpark Development"
+  },
+
+  "whatsappDefaultMessage": "Salut! Am văzut site-ul și aș vrea mai multe detalii."
+}
