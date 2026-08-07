@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 168" role="img" aria-label="PMC Detailing Iași">
+  <g fill="#E11D2A" font-family="'Arial Black', Arial, Helvetica, sans-serif">
+    <text x="4" y="104" font-size="112" font-weight="800" letter-spacing="2">PMC</text>
+  </g>
+  <g fill="#E11D2A">
+    <rect x="6" y="128" width="30" height="6" rx="3"/>
+    <text x="46" y="148" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" letter-spacing="9">DETAILING</text>
+    <text x="322" y="148" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" letter-spacing="7">IAȘI</text>
+  </g>
+</svg>
