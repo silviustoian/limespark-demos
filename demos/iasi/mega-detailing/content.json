@@ -1,0 +1,310 @@
+{
+  "$schema": "Mega Detailing Iași — demo LimeSpark. Editează doar acest fișier, tokens.json și imaginile din assets/.",
+
+  "business": {
+    "name": "Mega Detailing",
+    "nameSuffix": "Automotive Experts",
+    "tagline": "Atelier de detailing auto în Iași · din 2016",
+    "logoText": "Mega Detailing",
+    "logo": "assets/logo.png",
+    "logoBg": "#0A0A0B",
+    "phone": "+40 743 652 846",
+    "whatsapp": "40743652846",
+    "email": "",
+    "address": "Str. Antreprenorilor 21, Tomești, Iași",
+    "mapsUrl": "https://maps.google.com/?q=Strada+Antreprenorilor+21+Tomesti+Iasi",
+    "hours": "Luni – Vineri · doar pe bază de programare",
+    "social": [
+      { "label": "Facebook", "url": "https://www.facebook.com/megadetailingromania?locale=ro_RO" }
+    ]
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Servicii", "href": "#servicii" },
+      { "label": "Rezultate", "href": "#rezultate" },
+      { "label": "Proces", "href": "#proces" },
+      { "label": "Galerie", "href": "#galerie" },
+      { "label": "Recenzii", "href": "#recenzii" }
+    ],
+    "cta": { "label": "Programează-te", "action": "whatsapp" }
+  },
+
+  "hero": {
+    "eyebrow": "Atelier de detailing · Iași · din 2016",
+    "title": "Detailing dus la alt nivel.",
+    "titleAccent": "Curățare în detaliu & ceramică avansată.",
+    "subtitle": "Atelier de detailing auto în Tomești, Iași. Servicii profesionale de curățare în detaliu, corecție de lac și protecții ceramice avansate — doar pe bază de programare.",
+    "primaryCta": { "label": "Programează-te", "action": "whatsapp" },
+    "secondaryCta": { "label": "Vezi serviciile", "href": "#servicii" },
+    "image": "assets/hero.jpg",
+    "stats": [
+      { "value": "Din 2016", "label": "atelier de detailing" },
+      { "value": "Ceramică", "label": "protecții avansate" },
+      { "value": "Iași", "label": "Tomești" }
+    ]
+  },
+
+  "marquee": {
+    "enabled": true,
+    "label": "Lucrăm pe orice marcă",
+    "items": ["BMW", "Mercedes-Benz", "Audi", "Volkswagen", "Tesla", "Porsche"]
+  },
+
+  "services": {
+    "eyebrow": "Servicii",
+    "title": "Detailing, corecție de lac și ceramică avansată.",
+    "subtitle": "Servicii profesionale, executate cu răbdare și atenție la fiecare detaliu.",
+    "items": [
+      {
+        "icon": "sparkle",
+        "title": "Detailing interior",
+        "description": "Curățare în detaliu, extracție tapițerie, tratament piele și igienizare completă a habitaclului.",
+        "price": "la cerere",
+        "features": ["Aspirare profesională", "Tratament piele & plastic", "Igienizare habitaclu"]
+      },
+      {
+        "icon": "shine",
+        "title": "Detailing exterior",
+        "description": "Spălare pe două găleți, decontaminare, argilă și pregătirea vopselei pentru un luciu profund.",
+        "price": "la cerere",
+        "features": ["Spălare pe 2 găleți", "Decontaminare cu argilă", "Pregătire vopsea"]
+      },
+      {
+        "icon": "layers",
+        "title": "Corecție de lac & polish",
+        "description": "Îndepărtăm swirl-urile și zgârieturile fine pentru o suprafață oglindă, corectată în 1–3 pași.",
+        "price": "la cerere",
+        "features": ["Polish în 1–3 pași", "Eliminare swirl-uri", "Finisaj oglindă"]
+      },
+      {
+        "icon": "shield",
+        "title": "Protecții ceramice avansate",
+        "description": "Straturi ceramice de ultimă generație care resping apa și murdăria și păstrează luciul ani la rând.",
+        "price": "la cerere",
+        "features": ["Ceramică avansată", "Efect hidrofob", "Rezistență UV & chimică"]
+      },
+      {
+        "icon": "film",
+        "title": "Pachet corecție + ceramică",
+        "description": "Combinația ideală: corecție completă a lacului, urmată de un strat ceramic de protecție de durată.",
+        "price": "la cerere",
+        "features": ["Corecție completă", "Bază perfectă pentru ceramică", "Protecție maximă"]
+      },
+      {
+        "icon": "wheel",
+        "title": "Recondiționare faruri & jante",
+        "description": "Redăm claritatea farurilor și aspectul jantelor, cu sigilare pentru rezultate de durată.",
+        "price": "la cerere",
+        "features": ["Polish faruri", "Curățare jante", "Sigilare protectoare"]
+      }
+    ]
+  },
+
+  "beforeAfter": {
+    "eyebrow": "Rezultate",
+    "title": "Diferența se vede. Trage cursorul.",
+    "subtitle": "Aceleași mașini, înainte și după o zi la Mega Detailing.",
+    "items": [
+      {
+        "label": "Corecție & luciu · caroserie",
+        "before": "assets/ba-1-before.jpg",
+        "after": "assets/ba-1-after.jpg"
+      },
+      {
+        "label": "Detailing interior · habitaclu",
+        "before": "assets/ba-2-before.jpg",
+        "after": "assets/ba-2-after.jpg"
+      }
+    ]
+  },
+
+  "process": {
+    "eyebrow": "Cum lucrăm",
+    "title": "Un proces simplu, fără surprize.",
+    "subtitle": "Lucrăm doar pe bază de programare, de luni până vineri.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Cere o ofertă",
+        "description": "Scrie-ne pe WhatsApp cu modelul mașinii și ce îți dorești. Îți răspundem cu un preț clar."
+      },
+      {
+        "number": "02",
+        "title": "Programare & avans",
+        "description": "Îți rezervăm un loc pe baza unui avans. Lucrăm exclusiv pe bază de programare, luni – vineri."
+      },
+      {
+        "number": "03",
+        "title": "Lucrul propriu-zis",
+        "description": "Tratăm fiecare detaliu cu răbdare. Primești poze pe parcurs, ca să vezi progresul."
+      },
+      {
+        "number": "04",
+        "title": "Predare",
+        "description": "Îți predăm mașina impecabilă, cu recomandări de întreținere ca să păstrezi rezultatul cât mai mult."
+      }
+    ]
+  },
+
+  "benefits": {
+    "eyebrow": "De ce Mega Detailing",
+    "title": "Atenție la detaliu, din 2016.",
+    "subtitle": "Nu grăbim niciodată o lucrare. Fiecare mașină primește timpul de care are nevoie.",
+    "items": [
+      {
+        "icon": "medal",
+        "title": "Experiență din 2016",
+        "description": "Atelier dedicat, cu ani de experiență în corecție de lac și protecții ceramice."
+      },
+      {
+        "icon": "shield",
+        "title": "Ceramică avansată",
+        "description": "Lucrăm cu protecții ceramice de ultimă generație, pentru rezultate de durată."
+      },
+      {
+        "icon": "leaf",
+        "title": "Sigur pentru mașină",
+        "description": "Tehnici blânde, fără produse abrazive care afectează vopseaua sau materialele."
+      },
+      {
+        "icon": "clock",
+        "title": "Doar pe bază de programare",
+        "description": "Fiecare mașină are locul și timpul ei. Fără grabă, fără aglomerație — doar lucru de calitate."
+      },
+      {
+        "icon": "camera",
+        "title": "Transparență totală",
+        "description": "Primești poze înainte, în timpul și după lucrare. Vezi exact ce plătești."
+      },
+      {
+        "icon": "heart",
+        "title": "Grijă pentru detalii",
+        "description": "Tratăm fiecare mașină ca și cum ar fi a noastră. Se vede în rezultat."
+      }
+    ]
+  },
+
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Lucrări din atelier",
+    "subtitle": "O selecție din mașinile care au trecut prin mâinile noastre.",
+    "items": [
+      { "image": "assets/gallery-1.jpg", "caption": "Protecție ceramică avansată" },
+      { "image": "assets/gallery-2.jpg", "caption": "Corecție de lac · polish în pași" },
+      { "image": "assets/gallery-3.jpg", "caption": "Detailing interior · tratament piele" },
+      { "image": "assets/gallery-4.jpg", "caption": "Pachet corecție + ceramică" },
+      { "image": "assets/gallery-5.jpg", "caption": "Recondiționare faruri & optică" },
+      { "image": "assets/gallery-6.jpg", "caption": "Detailing exterior & decontaminare" }
+    ]
+  },
+
+  "reviews": {
+    "eyebrow": "Recenzii",
+    "title": "Ce spun clienții noștri.",
+    "subtitle": "Clienți care s-au întors cu mașina la noi.",
+    "rating": "5.0",
+    "ratingLabel": "clienți mulțumiți",
+    "items": [
+      {
+        "name": "Andrei M.",
+        "role": "Client · BMW",
+        "rating": 5,
+        "text": "Am făcut corecție de lac și ceramică. Mașina arată ca nouă, luciu impecabil. Se vede că sunt experți. Recomand.",
+        "avatar": "assets/avatar-1.svg"
+      },
+      {
+        "name": "Ioana P.",
+        "role": "Client · Audi",
+        "rating": 5,
+        "text": "Interiorul arată ca nou după detailing. Comunicare impecabilă pe WhatsApp și m-au ținut la curent cu poze.",
+        "avatar": "assets/avatar-2.svg"
+      },
+      {
+        "name": "Radu I.",
+        "role": "Client · Tesla",
+        "rating": 5,
+        "text": "Protecție ceramică avansată pe toată mașina. Apa alunecă instant, luciul e incredibil. Muncă de calitate.",
+        "avatar": "assets/avatar-3.svg"
+      },
+      {
+        "name": "Cristina D.",
+        "role": "Client · Mercedes-Benz",
+        "rating": 5,
+        "text": "Se lucrează serios și organizat, pe programare. Fără grabă, exact cum trebuie. Rezultatul e pe măsură.",
+        "avatar": "assets/avatar-4.svg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Întrebări frecvente",
+    "title": "Răspunsuri, înainte să întrebi.",
+    "subtitle": "Nu găsești ce cauți? Scrie-ne pe WhatsApp.",
+    "items": [
+      {
+        "question": "Cum mă pot programa?",
+        "answer": "Lucrăm exclusiv pe bază de programare, de luni până vineri. Scrie-ne pe WhatsApp cu modelul mașinii și ce îți dorești, iar noi îți rezervăm un loc."
+      },
+      {
+        "question": "Este nevoie de avans?",
+        "answer": "Da. Programările se confirmă pe baza unui avans, ca să îți rezervăm locul și timpul necesar lucrării. Restul se achită la predare."
+      },
+      {
+        "question": "Ce înseamnă protecție ceramică avansată?",
+        "answer": "Folosim straturi ceramice de ultimă generație care oferă efect hidrofob, luciu intens și rezistență ridicată la UV și substanțe chimice, protejând vopseaua ani la rând."
+      },
+      {
+        "question": "De ce e nevoie de corecție înainte de ceramică?",
+        "answer": "Corecția de lac îndepărtează swirl-urile și zgârieturile fine, astfel încât stratul ceramic să se aplice pe o suprafață perfectă și să scoată în evidență un luciu maxim."
+      },
+      {
+        "question": "Pot vedea prețul înainte?",
+        "answer": "Sigur. Trimite-ne modelul mașinii și ce îți dorești pe WhatsApp, iar noi îți răspundem cu o ofertă clară, fără costuri ascunse."
+      }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Gata de programare?",
+    "title": "Hai să facem mașina ta să strălucească.",
+    "subtitle": "Scrie-ne pe WhatsApp și îți rezervăm un loc. Lucrăm luni – vineri, pe bază de programare.",
+    "primaryCta": { "label": "Scrie-ne pe WhatsApp", "action": "whatsapp" },
+    "secondaryCta": { "label": "Sună acum", "action": "phone" }
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Te așteptăm în atelier.",
+    "subtitle": "Str. Antreprenorilor 21, Tomești, Iași. Doar pe bază de programare, luni – vineri.",
+    "whatsappMessage": "Salut! Aș vrea o programare pentru mașina mea:"
+  },
+
+  "footer": {
+    "description": "Atelier de detailing auto în Iași (Tomești) din 2016 — curățare în detaliu, corecție de lac și protecții ceramice avansate. Doar pe bază de programare.",
+    "columns": [
+      {
+        "title": "Servicii",
+        "links": [
+          { "label": "Detailing interior", "href": "#servicii" },
+          { "label": "Corecție de lac & polish", "href": "#servicii" },
+          { "label": "Protecții ceramice avansate", "href": "#servicii" },
+          { "label": "Pachet corecție + ceramică", "href": "#servicii" }
+        ]
+      },
+      {
+        "title": "Mega Detailing",
+        "links": [
+          { "label": "Rezultate", "href": "#rezultate" },
+          { "label": "Galerie", "href": "#galerie" },
+          { "label": "Recenzii", "href": "#recenzii" },
+          { "label": "Întrebări frecvente", "href": "#faq" }
+        ]
+      }
+    ],
+    "legal": "© 2026 Mega Detailing. Toate drepturile rezervate.",
+    "credit": "Design de LimeSpark Development"
+  },
+
+  "whatsappDefaultMessage": "Salut! Am văzut site-ul și aș vrea mai multe detalii."
+}
