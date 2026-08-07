@@ -1,0 +1,310 @@
+{
+  "$schema": "Bubble Giroti — Spălătorie Auto & Detailing Iași — demo LimeSpark. Editează doar acest fișier, tokens.json și imaginile din assets/.",
+
+  "business": {
+    "name": "Bubble Giroti",
+    "nameSuffix": "Spălătorie Auto & Detailing",
+    "tagline": "Spălătorie self-service 24/7 & detailing în Iași",
+    "logoText": "Bubble Giroti",
+    "logo": "assets/logo.png",
+    "logoBg": "#0A0A0B",
+    "phone": "+40 740 396 360",
+    "whatsapp": "40740396360",
+    "email": "girotisrl@yahoo.com",
+    "address": "Bd. Nicolae Iorga, Iași, 700212",
+    "mapsUrl": "https://maps.google.com/?q=Bulevardul+Nicolae+Iorga+Iasi",
+    "hours": "Self-service 24/7 · cu operator 08:00 – 20:00",
+    "social": [
+      { "label": "Facebook", "url": "https://www.facebook.com/profile.php?id=100085296473335" }
+    ]
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Servicii", "href": "#servicii" },
+      { "label": "Rezultate", "href": "#rezultate" },
+      { "label": "Proces", "href": "#proces" },
+      { "label": "Galerie", "href": "#galerie" },
+      { "label": "Recenzii", "href": "#recenzii" }
+    ],
+    "cta": { "label": "Contactează-ne", "action": "whatsapp" }
+  },
+
+  "hero": {
+    "eyebrow": "Spălătorie self-service 24/7 & detailing · Iași",
+    "title": "Simțiți-vă bine într-o mașină curată.",
+    "titleAccent": "Self-wash 24/7, spălare cu operator & detailing.",
+    "subtitle": "Spălare self-service non-stop, spălare cu operator, detailing complet și spălare pentru TIR-uri și utilaje de mare tonaj — pe Bd. Nicolae Iorga, Iași.",
+    "primaryCta": { "label": "Contactează-ne", "action": "whatsapp" },
+    "secondaryCta": { "label": "Vezi serviciile", "href": "#servicii" },
+    "image": "assets/hero.jpg",
+    "stats": [
+      { "value": "24/7", "label": "self-wash non-stop" },
+      { "value": "TIR", "label": "spălare mare tonaj" },
+      { "value": "Iași", "label": "Bd. Nicolae Iorga" }
+    ]
+  },
+
+  "marquee": {
+    "enabled": true,
+    "label": "Spălăm orice, de la city car la TIR",
+    "items": ["Autoturisme", "SUV & 4x4", "Dube & utilitare", "TIR", "Utilaje mare tonaj", "Flote firme"]
+  },
+
+  "services": {
+    "eyebrow": "Servicii",
+    "title": "De la self-wash rapid la detailing complet.",
+    "subtitle": "Spălătorie non-stop, operatori dedicați și un garaj de detailing, toate într-un singur loc.",
+    "items": [
+      {
+        "icon": "shine",
+        "title": "Self wash 24/7",
+        "description": "Boxe de spălare self-service deschise non-stop. Vii când vrei tu și îți speli mașina în ritmul tău.",
+        "price": "self-service",
+        "features": ["Deschis 24/7", "Spumă activă & apă sub presiune", "Plătești cât folosești"]
+      },
+      {
+        "icon": "sparkle",
+        "title": "Spălare cu operator",
+        "description": "Lasă mașina pe mâinile echipei noastre. Spălare atentă, interior și exterior, cât timp îți vezi de treabă.",
+        "price": "la cerere",
+        "features": ["Interior & exterior", "Echipă dedicată", "Program 08:00 – 20:00"]
+      },
+      {
+        "icon": "layers",
+        "title": "Spălare interioară & manuală",
+        "description": "Aspirare, curățare tapițerie și spălare manuală atentă, pentru un habitaclu ca nou.",
+        "price": "la cerere",
+        "features": ["Aspirare profesională", "Curățare tapițerie", "Spălare manuală"]
+      },
+      {
+        "icon": "wheel",
+        "title": "Spălare TIR & mare tonaj",
+        "description": "Spălăm TIR-uri, dube și utilaje de mare tonaj. Pentru firme, oferim contracte cu reduceri.",
+        "price": "de la 150 lei",
+        "features": ["TIR & utilaje mari", "Spălare cu operator", "Contracte pentru firme"]
+      },
+      {
+        "icon": "shield",
+        "title": "Detailing complet",
+        "description": "Diamond Brothers Detailing Garage: servicii detaliate de curățare auto, interior și exterior.",
+        "price": "la cerere",
+        "features": ["Detailing interior", "Detailing exterior", "Tratamente premium"]
+      },
+      {
+        "icon": "film",
+        "title": "Contracte pentru firme",
+        "description": "Ai flotă sau utilaje de mare tonaj? Îți punem la dispoziție contracte care beneficiază de reduceri.",
+        "price": "ofertă personalizată",
+        "features": ["Reduceri de volum", "Facturare pentru firme", "Program flexibil"]
+      }
+    ]
+  },
+
+  "beforeAfter": {
+    "eyebrow": "Rezultate",
+    "title": "Diferența se vede. Trage cursorul.",
+    "subtitle": "Aceleași mașini, înainte și după o vizită la Bubble Giroti.",
+    "items": [
+      {
+        "label": "Spălare & luciu · exterior",
+        "before": "assets/ba-1-before.jpg",
+        "after": "assets/ba-1-after.jpg"
+      },
+      {
+        "label": "Spălare interioară · habitaclu",
+        "before": "assets/ba-2-before.jpg",
+        "after": "assets/ba-2-after.jpg"
+      }
+    ]
+  },
+
+  "process": {
+    "eyebrow": "Cum lucrăm",
+    "title": "Simplu, indiferent ce alegi.",
+    "subtitle": "De la self-wash rapid până la un contract pentru flota ta.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Alegi serviciul",
+        "description": "Self-wash non-stop, spălare cu operator, detailing sau spălare TIR. Ne spui ce ai nevoie."
+      },
+      {
+        "number": "02",
+        "title": "Vii sau ne contactezi",
+        "description": "Pentru self-wash treci oricând, 24/7. Pentru operator, detailing sau contracte, scrie-ne pe WhatsApp sau pe email."
+      },
+      {
+        "number": "03",
+        "title": "Ne ocupăm noi",
+        "description": "Echipa noastră tratează fiecare detaliu. Pentru firme stabilim un program potrivit flotei tale."
+      },
+      {
+        "number": "04",
+        "title": "Mașina curată, tu mulțumit",
+        "description": "Pleci cu mașina impecabilă. Pentru clienții cu contract, totul e simplu și predictibil."
+      }
+    ]
+  },
+
+  "benefits": {
+    "eyebrow": "De ce Bubble Giroti",
+    "title": "Obține cea mai bună calitate.",
+    "subtitle": "Un singur loc pentru orice fel de spălare — de la city car la TIR.",
+    "items": [
+      {
+        "icon": "clock",
+        "title": "Deschis 24/7",
+        "description": "Boxele self-service sunt disponibile non-stop. Speli mașina exact când ai timp."
+      },
+      {
+        "icon": "medal",
+        "title": "Spălăm și TIR-uri",
+        "description": "Puțini o fac: spălăm utilaje de mare tonaj și TIR-uri, cu operator dedicat."
+      },
+      {
+        "icon": "shield",
+        "title": "Contracte pentru firme",
+        "description": "Ai flotă? Beneficiezi de reduceri și facturare simplă printr-un contract dedicat."
+      },
+      {
+        "icon": "leaf",
+        "title": "Produse premium",
+        "description": "Spumă activă și soluții profesionale, sigure pentru vopseaua mașinii tale."
+      },
+      {
+        "icon": "camera",
+        "title": "Detailing la garaj",
+        "description": "Diamond Brothers Detailing Garage — servicii detaliate de curățare, când vrei mai mult decât o spălare."
+      },
+      {
+        "icon": "heart",
+        "title": "Grijă pentru fiecare client",
+        "description": "De la un simplu self-wash la un contract de flotă, primești aceeași atenție."
+      }
+    ]
+  },
+
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Din spălătorie & garaj",
+    "subtitle": "O selecție din mașinile și utilajele care au trecut pe la noi.",
+    "items": [
+      { "image": "assets/gallery-1.jpg", "caption": "Detailing complet" },
+      { "image": "assets/gallery-2.jpg", "caption": "Spălare cu operator" },
+      { "image": "assets/gallery-3.jpg", "caption": "Spălare interioară · tapițerie" },
+      { "image": "assets/gallery-4.jpg", "caption": "Self-wash 24/7" },
+      { "image": "assets/gallery-5.jpg", "caption": "Spălare TIR & mare tonaj" },
+      { "image": "assets/gallery-6.jpg", "caption": "Exterior curat & lucios" }
+    ]
+  },
+
+  "reviews": {
+    "eyebrow": "Recenzii",
+    "title": "Ce spun clienții noștri.",
+    "subtitle": "De la șoferi obișnuiți la firme de transport.",
+    "rating": "5.0",
+    "ratingLabel": "clienți mulțumiți",
+    "items": [
+      {
+        "name": "Andrei M.",
+        "role": "Client · self-wash",
+        "rating": 5,
+        "text": "Deschis non-stop, exact ce îmi trebuia. Vin seara târziu după tură și îmi spăl mașina liniștit. Recomand.",
+        "avatar": "assets/avatar-1.svg"
+      },
+      {
+        "name": "Ioana P.",
+        "role": "Client · detailing",
+        "rating": 5,
+        "text": "Am lăsat mașina la detailing și a ieșit impecabilă interior și exterior. Echipă serioasă și atentă.",
+        "avatar": "assets/avatar-2.svg"
+      },
+      {
+        "name": "Transport SRL",
+        "role": "Client · flotă TIR",
+        "rating": 5,
+        "text": "Spălăm TIR-urile aici pe bază de contract. Preț corect, program flexibil și mereu curat. Colaborare de încredere.",
+        "avatar": "assets/avatar-3.svg"
+      },
+      {
+        "name": "Cristina D.",
+        "role": "Client · spălare cu operator",
+        "rating": 5,
+        "text": "Rapid și de calitate. Am lăsat mașina, mi-am făcut cumpărăturile și era gata, curată lună. Perfect.",
+        "avatar": "assets/avatar-4.svg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Întrebări frecvente",
+    "title": "Răspunsuri, înainte să întrebi.",
+    "subtitle": "Nu găsești ce cauți? Scrie-ne pe WhatsApp sau pe email.",
+    "items": [
+      {
+        "question": "Care e programul?",
+        "answer": "Boxele self-service sunt deschise 24/7. Serviciile cu operator (spălare, detailing, TIR) sunt disponibile între 08:00 și 20:00."
+      },
+      {
+        "question": "Spălați și TIR-uri sau utilaje de mare tonaj?",
+        "answer": "Da. Spălăm TIR-uri și utilaje de mare tonaj, cu operator. Pentru firme oferim contracte cu reduceri — scrie-ne pentru o ofertă."
+      },
+      {
+        "question": "Cum funcționează self-wash-ul?",
+        "answer": "Vii oricând, la orice oră, alegi boxa liberă și îți speli mașina cu spumă activă și apă sub presiune. Plătești cât folosești."
+      },
+      {
+        "question": "Oferiți contracte pentru firme?",
+        "answer": "Da. Pentru persoanele juridice cu tiruri și utilaje de mare tonaj punem la dispoziție contracte care beneficiază de reduceri. Contactează-ne la girotisrl@yahoo.com."
+      },
+      {
+        "question": "Ce include detailing-ul?",
+        "answer": "Diamond Brothers Detailing Garage oferă servicii detaliate de curățare auto, interior și exterior. Spune-ne ce îți dorești și îți facem o ofertă."
+      }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Gata să-ți speli mașina?",
+    "title": "Treci pe la noi sau cere o ofertă.",
+    "subtitle": "Self-wash 24/7 pe Bd. Nicolae Iorga. Pentru operator, detailing sau contracte firme, scrie-ne.",
+    "primaryCta": { "label": "Scrie-ne pe WhatsApp", "action": "whatsapp" },
+    "secondaryCta": { "label": "Sună acum", "action": "phone" }
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Ne găsești pe Bd. Nicolae Iorga.",
+    "subtitle": "Self-service 24/7 · cu operator 08:00 – 20:00. Ofertă firme la girotisrl@yahoo.com.",
+    "whatsappMessage": "Salut! Aș vrea o ofertă pentru:"
+  },
+
+  "footer": {
+    "description": "Spălătorie auto self-service 24/7, spălare cu operator, spălare TIR și detailing în Iași, pe Bd. Nicolae Iorga.",
+    "columns": [
+      {
+        "title": "Servicii",
+        "links": [
+          { "label": "Self wash 24/7", "href": "#servicii" },
+          { "label": "Spălare cu operator", "href": "#servicii" },
+          { "label": "Spălare TIR & mare tonaj", "href": "#servicii" },
+          { "label": "Detailing", "href": "#servicii" }
+        ]
+      },
+      {
+        "title": "Bubble Giroti",
+        "links": [
+          { "label": "Servicii", "href": "#servicii" },
+          { "label": "Galerie", "href": "#galerie" },
+          { "label": "Recenzii", "href": "#recenzii" },
+          { "label": "Întrebări frecvente", "href": "#faq" }
+        ]
+      }
+    ],
+    "legal": "© 2026 Auto Bubble Giroti & Diamond Brothers Detailing Garage. Toate drepturile rezervate.",
+    "credit": "Design de LimeSpark Development"
+  },
+
+  "whatsappDefaultMessage": "Salut! Am văzut site-ul și aș vrea mai multe detalii."
+}
