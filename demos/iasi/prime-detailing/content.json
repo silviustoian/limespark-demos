@@ -1,0 +1,310 @@
+{
+  "$schema": "Prime Detailing Experts Iași — demo LimeSpark. Editează doar acest fișier, tokens.json și imaginile din assets/.",
+
+  "business": {
+    "name": "Prime Detailing",
+    "nameSuffix": "Experts",
+    "tagline": "Detailing auto profesional în Iași · din 2014",
+    "logoText": "Prime Detailing",
+    "logo": "assets/logo.png",
+    "logoBg": "#0A0A0B",
+    "phone": "+40 749 356 447",
+    "whatsapp": "40749356447",
+    "email": "",
+    "address": "Șoseaua Bucium nr. 3, Iași, 700280",
+    "mapsUrl": "https://maps.google.com/?q=Soseaua+Bucium+3+Iasi",
+    "hours": "Program flexibil · pe bază de programare",
+    "social": [
+      { "label": "Facebook", "url": "https://www.facebook.com/profile.php?id=100057468938198&locale=ro_RO" }
+    ]
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Servicii", "href": "#servicii" },
+      { "label": "Rezultate", "href": "#rezultate" },
+      { "label": "Proces", "href": "#proces" },
+      { "label": "Galerie", "href": "#galerie" },
+      { "label": "Recenzii", "href": "#recenzii" }
+    ],
+    "cta": { "label": "Programează-te", "action": "whatsapp" }
+  },
+
+  "hero": {
+    "eyebrow": "Detailing experts · Iași · din 2014",
+    "title": "Detailing la nivel de experți.",
+    "titleAccent": "Din 2014, fiecare detaliu contează.",
+    "subtitle": "Corecție de lac și polish, protecție ceramică, folieri PPF, colantări, chrome delete și revopsire piele — detailing auto profesional pe Șoseaua Bucium nr. 3, Iași.",
+    "primaryCta": { "label": "Programează-te", "action": "whatsapp" },
+    "secondaryCta": { "label": "Vezi serviciile", "href": "#servicii" },
+    "image": "assets/hero.jpg",
+    "stats": [
+      { "value": "Din 2014", "label": "experiență detailing" },
+      { "value": "5★", "label": "clienți mulțumiți" },
+      { "value": "Iași", "label": "Șos. Bucium 3" }
+    ]
+  },
+
+  "marquee": {
+    "enabled": true,
+    "label": "Lucrăm pe orice marcă",
+    "items": ["BMW", "Mercedes-Benz", "Audi", "Volkswagen", "Tesla", "Porsche"]
+  },
+
+  "services": {
+    "eyebrow": "Servicii",
+    "title": "Servicii complete de detailing auto.",
+    "subtitle": "De la corecție de lac la folieri și revopsire piele — cu experiență de peste 10 ani.",
+    "items": [
+      {
+        "icon": "sparkle",
+        "title": "Detailing auto complet",
+        "description": "Detailing interior și exterior în profunzime, pentru o mașină impecabilă pe dinăuntru și pe dinafară.",
+        "price": "la cerere",
+        "features": ["Interior & exterior", "Curățare în profunzime", "Finisaj impecabil"]
+      },
+      {
+        "icon": "layers",
+        "title": "Corecție lac & polish",
+        "description": "Îndepărtăm swirl-urile și zgârieturile fine pentru o suprafață oglindă, corectată în 1–3 pași.",
+        "price": "la cerere",
+        "features": ["Polish în 1–3 pași", "Eliminare swirl-uri", "Finisaj oglindă"]
+      },
+      {
+        "icon": "shield",
+        "title": "Protecție ceramică caroserie",
+        "description": "Strat ceramic de durată care respinge apa și murdăria și păstrează luciul ani la rând.",
+        "price": "la cerere",
+        "features": ["Protecție de durată", "Efect hidrofob", "Rezistență UV & chimică"]
+      },
+      {
+        "icon": "film",
+        "title": "Folieri PPF & colantări",
+        "description": "Peliculă de protecție PPF și colantări — protejează vopseaua sau schimbă complet look-ul mașinii.",
+        "price": "la cerere",
+        "features": ["Folie PPF", "Schimbare culoare", "Elemente & accente"]
+      },
+      {
+        "icon": "shine",
+        "title": "Chrome delete",
+        "description": "Transformăm elementele cromate în negru mat sau lucios, pentru un aspect modern și unitar.",
+        "price": "la cerere",
+        "features": ["Negru mat / lucios", "Aspect modern", "Aplicare precisă"]
+      },
+      {
+        "icon": "wheel",
+        "title": "Revopsire piele",
+        "description": "Redăm culoarea și aspectul tapițeriei din piele uzate sau decolorate, pentru un interior ca nou.",
+        "price": "la cerere",
+        "features": ["Restaurare culoare", "Piele ca nouă", "Rezultat de durată"]
+      }
+    ]
+  },
+
+  "beforeAfter": {
+    "eyebrow": "Rezultate",
+    "title": "Diferența se vede. Trage cursorul.",
+    "subtitle": "Aceleași mașini, înainte și după o zi la Prime Detailing.",
+    "items": [
+      {
+        "label": "Corecție & luciu · caroserie",
+        "before": "assets/ba-1-before.jpg",
+        "after": "assets/ba-1-after.jpg"
+      },
+      {
+        "label": "Revopsire piele · interior",
+        "before": "assets/ba-2-before.jpg",
+        "after": "assets/ba-2-after.jpg"
+      }
+    ]
+  },
+
+  "process": {
+    "eyebrow": "Cum lucrăm",
+    "title": "Un proces simplu, fără surprize.",
+    "subtitle": "De la prima ta întrebare până la predarea cheilor.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Cere o ofertă",
+        "description": "Scrie-ne pe WhatsApp cu modelul mașinii și ce îți dorești. Îți răspundem cu un preț clar."
+      },
+      {
+        "number": "02",
+        "title": "Programare",
+        "description": "Alegem împreună data potrivită și îți rezervăm un loc. Ne găsești pe Șoseaua Bucium nr. 3."
+      },
+      {
+        "number": "03",
+        "title": "Lucrul propriu-zis",
+        "description": "Tratăm fiecare detaliu cu grijă și experiență. Primești poze pe parcurs, ca să vezi progresul."
+      },
+      {
+        "number": "04",
+        "title": "Predare",
+        "description": "Îți predăm mașina impecabilă, cu recomandări de întreținere ca să păstrezi rezultatul cât mai mult."
+      }
+    ]
+  },
+
+  "benefits": {
+    "eyebrow": "De ce Prime",
+    "title": "Experiență care se vede în fiecare detaliu.",
+    "subtitle": "Peste 10 ani de detailing, produse premium și atenție la fiecare lucrare.",
+    "items": [
+      {
+        "icon": "medal",
+        "title": "Din 2014",
+        "description": "Peste un deceniu de experiență în detailing, folieri și restaurare interior."
+      },
+      {
+        "icon": "shield",
+        "title": "Produse premium",
+        "description": "Lucrăm exclusiv cu branduri profesionale și folii de calitate, testate pe mii de mașini."
+      },
+      {
+        "icon": "leaf",
+        "title": "Sigur pentru mașină",
+        "description": "Tehnici blânde, fără produse abrazive care afectează vopseaua sau materialele."
+      },
+      {
+        "icon": "clock",
+        "title": "Servicii complete",
+        "description": "De la corecție de lac la chrome delete și revopsire piele — tot ce ține de estetica mașinii."
+      },
+      {
+        "icon": "camera",
+        "title": "Transparență totală",
+        "description": "Primești poze înainte, în timpul și după lucrare. Vezi exact ce plătești."
+      },
+      {
+        "icon": "heart",
+        "title": "Grijă pentru detalii",
+        "description": "Tratăm fiecare mașină ca și cum ar fi a noastră. Se vede în rezultat."
+      }
+    ]
+  },
+
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Lucrări din atelier",
+    "subtitle": "O selecție din mașinile care au trecut prin mâinile noastre.",
+    "items": [
+      { "image": "assets/gallery-1.jpg", "caption": "Protecție ceramică caroserie" },
+      { "image": "assets/gallery-2.jpg", "caption": "Corecție lac · polish în pași" },
+      { "image": "assets/gallery-3.jpg", "caption": "Revopsire piele · interior" },
+      { "image": "assets/gallery-4.jpg", "caption": "Folie PPF & colantări" },
+      { "image": "assets/gallery-5.jpg", "caption": "Chrome delete" },
+      { "image": "assets/gallery-6.jpg", "caption": "Detailing exterior & luciu" }
+    ]
+  },
+
+  "reviews": {
+    "eyebrow": "Recenzii",
+    "title": "Ce spun clienții noștri.",
+    "subtitle": "Clienți care s-au întors cu mașina la noi.",
+    "rating": "5.0",
+    "ratingLabel": "clienți mulțumiți",
+    "items": [
+      {
+        "name": "Andrei M.",
+        "role": "Client · BMW",
+        "rating": 5,
+        "text": "Am făcut corecție de lac și protecție ceramică. Mașina arată ca nouă, luciu impecabil. Se vede experiența.",
+        "avatar": "assets/avatar-1.svg"
+      },
+      {
+        "name": "Ioana P.",
+        "role": "Client · Audi",
+        "rating": 5,
+        "text": "Mi-au revopsit pielea uzată de pe scaune și arată ca din fabrică. Muncă de finețe, recomand cu încredere.",
+        "avatar": "assets/avatar-2.svg"
+      },
+      {
+        "name": "Radu I.",
+        "role": "Client · VW",
+        "rating": 5,
+        "text": "Am făcut chrome delete și PPF. Aliniere perfectă, finisaje curate. Adevărați experți, ca în nume.",
+        "avatar": "assets/avatar-3.svg"
+      },
+      {
+        "name": "Cristina D.",
+        "role": "Client · Mercedes-Benz",
+        "rating": 5,
+        "text": "Protecția ceramică ține apa la distanță și mașina rămâne curată mult mai mult. Profesioniști adevărați.",
+        "avatar": "assets/avatar-4.svg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Întrebări frecvente",
+    "title": "Răspunsuri, înainte să întrebi.",
+    "subtitle": "Nu găsești ce cauți? Scrie-ne pe WhatsApp.",
+    "items": [
+      {
+        "question": "Ce înseamnă chrome delete?",
+        "answer": "Chrome delete înseamnă transformarea elementelor cromate ale mașinii (grilaj, rame geamuri, ornamente) în negru mat sau lucios, prin foliere sau vopsire, pentru un aspect modern și unitar."
+      },
+      {
+        "question": "Se poate reface pielea uzată din interior?",
+        "answer": "Da. Prin revopsire piele redăm culoarea și aspectul tapițeriei uzate, decolorate sau crăpate, pentru un interior ca nou, cu rezultate de durată."
+      },
+      {
+        "question": "Care e diferența dintre PPF și colantare?",
+        "answer": "Folia PPF este transparentă și protejează vopseaua de pietriș și zgârieturi. Colantarea schimbă aspectul mașinii — culoare și finisaj. Le putem combina, în funcție de ce îți dorești."
+      },
+      {
+        "question": "Trebuie să programez sau pot veni direct?",
+        "answer": "Recomandăm programarea, ca să îți rezervăm un loc și să evaluăm corect lucrarea. Scrie-ne pe WhatsApp și găsim rapid o dată potrivită."
+      },
+      {
+        "question": "Pot vedea prețul înainte?",
+        "answer": "Sigur. Trimite-ne modelul mașinii și ce îți dorești pe WhatsApp, iar noi îți răspundem cu o ofertă clară, fără costuri ascunse."
+      }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Gata de programare?",
+    "title": "Hai să facem mașina ta să strălucească.",
+    "subtitle": "Scrie-ne pe WhatsApp și primești o ofertă pentru serviciul dorit.",
+    "primaryCta": { "label": "Scrie-ne pe WhatsApp", "action": "whatsapp" },
+    "secondaryCta": { "label": "Sună acum", "action": "phone" }
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Te așteptăm în atelier.",
+    "subtitle": "Șoseaua Bucium nr. 3, Iași. Programează-te sau treci pe la noi.",
+    "whatsappMessage": "Salut! Aș vrea o ofertă pentru mașina mea:"
+  },
+
+  "footer": {
+    "description": "Detailing auto profesional în Iași din 2014, pe Șoseaua Bucium nr. 3 — corecție lac, protecție ceramică, folieri PPF, chrome delete și revopsire piele.",
+    "columns": [
+      {
+        "title": "Servicii",
+        "links": [
+          { "label": "Corecție lac & polish", "href": "#servicii" },
+          { "label": "Protecție ceramică", "href": "#servicii" },
+          { "label": "Folieri PPF & colantări", "href": "#servicii" },
+          { "label": "Revopsire piele", "href": "#servicii" }
+        ]
+      },
+      {
+        "title": "Prime",
+        "links": [
+          { "label": "Rezultate", "href": "#rezultate" },
+          { "label": "Galerie", "href": "#galerie" },
+          { "label": "Recenzii", "href": "#recenzii" },
+          { "label": "Întrebări frecvente", "href": "#faq" }
+        ]
+      }
+    ],
+    "legal": "© 2026 Prime Detailing Experts. Toate drepturile rezervate.",
+    "credit": "Design de LimeSpark Development"
+  },
+
+  "whatsappDefaultMessage": "Salut! Am văzut site-ul și aș vrea mai multe detalii."
+}
