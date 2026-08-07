@@ -1,0 +1,310 @@
+{
+  "$schema": "Goșman Detailing Auto Iași — demo LimeSpark. Editează doar acest fișier, tokens.json și imaginile din assets/.",
+
+  "business": {
+    "name": "Goșman",
+    "nameSuffix": "Detailing Auto",
+    "tagline": "Servicii de detailing auto profesional în Iași",
+    "logoText": "Goșman Detailing",
+    "logo": "assets/logo.png",
+    "logoBg": "#0A0A0B",
+    "phone": "+40 771 012 445",
+    "whatsapp": "40771012445",
+    "email": "",
+    "address": "Str. Sergent Grigore Ioan nr. 7, Iași (în curte la COMAT SA)",
+    "mapsUrl": "https://maps.google.com/?q=Strada+Sergent+Grigore+Ioan+Iasi",
+    "hours": "Program flexibil · pe bază de programare",
+    "social": [
+      { "label": "Facebook", "url": "https://www.facebook.com/gosmaniasi?locale=ro_RO" }
+    ]
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Servicii", "href": "#servicii" },
+      { "label": "Rezultate", "href": "#rezultate" },
+      { "label": "Proces", "href": "#proces" },
+      { "label": "Galerie", "href": "#galerie" },
+      { "label": "Recenzii", "href": "#recenzii" }
+    ],
+    "cta": { "label": "Programează-te", "action": "whatsapp" }
+  },
+
+  "hero": {
+    "eyebrow": "Detailing auto profesional · Iași",
+    "title": "Detailing auto profesional.",
+    "titleAccent": "Fiecare detaliu contează.",
+    "subtitle": "Polish caroserie și faruri, protecție ceramică, detailing interior, retapițare plafon și tratamente premium — servicii profesionale de detailing în Iași.",
+    "primaryCta": { "label": "Programează-te", "action": "whatsapp" },
+    "secondaryCta": { "label": "Vezi serviciile", "href": "#servicii" },
+    "image": "assets/hero.jpg",
+    "stats": [
+      { "value": "Polish", "label": "caroserie & faruri" },
+      { "value": "Ceramică", "label": "protecție de durată" },
+      { "value": "Iași", "label": "Str. Sgt. Grigore Ioan" }
+    ]
+  },
+
+  "marquee": {
+    "enabled": true,
+    "label": "Lucrăm pe orice marcă",
+    "items": ["BMW", "Mercedes-Benz", "Audi", "Volkswagen", "Tesla", "Porsche"]
+  },
+
+  "services": {
+    "eyebrow": "Servicii",
+    "title": "Servicii complete de detailing auto.",
+    "subtitle": "De la polish profesional la protecție ceramică și tratamente personalizate.",
+    "items": [
+      {
+        "icon": "layers",
+        "title": "Polish profesional caroserie",
+        "description": "Îndepărtăm swirl-urile și zgârieturile fine și redăm luciul profund al vopselei, corectat în pași.",
+        "price": "la cerere",
+        "features": ["Eliminare swirl-uri", "Corecție în pași", "Finisaj oglindă"]
+      },
+      {
+        "icon": "wheel",
+        "title": "Polish & polimerizare faruri",
+        "description": "Redăm claritatea farurilor îngălbenite sau mate, cu polish profesional și polimerizare pentru durabilitate.",
+        "price": "la cerere",
+        "features": ["Polish faruri", "Polimerizare", "Vizibilitate îmbunătățită"]
+      },
+      {
+        "icon": "shield",
+        "title": "Protecție ceramică & ceară nano",
+        "description": "Protecție ceramică de durată și ceară auto nano technology hybrid pentru un luciu și o protecție superioare.",
+        "price": "la cerere",
+        "features": ["Protecție ceramică", "Ceară nano hybrid", "Efect hidrofob"]
+      },
+      {
+        "icon": "sparkle",
+        "title": "Detailing interior",
+        "description": "Curățare în profunzime, extracție tapițerie, tratament piele și igienizare completă a habitaclului.",
+        "price": "la cerere",
+        "features": ["Aspirare profesională", "Tratament piele & plastic", "Igienizare habitaclu"]
+      },
+      {
+        "icon": "shine",
+        "title": "Retapițare plafon",
+        "description": "Reînnoim plafonul căzut sau uzat, cu materiale de calitate și montaj îngrijit.",
+        "price": "la cerere",
+        "features": ["Material nou", "Montaj îngrijit", "Aspect ca din fabrică"]
+      },
+      {
+        "icon": "film",
+        "title": "Tratament hidrofob parbriz & decolantări",
+        "description": "Tratament nano glass pentru parbriz și decolantări auto, plus alte servicii de detailing personalizate.",
+        "price": "la cerere",
+        "features": ["Nano glass parbriz", "Decolantări auto", "Servicii personalizate"]
+      }
+    ]
+  },
+
+  "beforeAfter": {
+    "eyebrow": "Rezultate",
+    "title": "Diferența se vede. Trage cursorul.",
+    "subtitle": "Aceleași mașini, înainte și după o zi la Goșman Detailing.",
+    "items": [
+      {
+        "label": "Polish & luciu · caroserie",
+        "before": "assets/ba-1-before.jpg",
+        "after": "assets/ba-1-after.jpg"
+      },
+      {
+        "label": "Detailing interior · habitaclu",
+        "before": "assets/ba-2-before.jpg",
+        "after": "assets/ba-2-after.jpg"
+      }
+    ]
+  },
+
+  "process": {
+    "eyebrow": "Cum lucrăm",
+    "title": "Un proces simplu, fără surprize.",
+    "subtitle": "De la prima ta întrebare până la predarea cheilor.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Cere o ofertă",
+        "description": "Scrie-ne pe WhatsApp cu modelul mașinii și ce îți dorești. Îți răspundem cu un preț clar."
+      },
+      {
+        "number": "02",
+        "title": "Programare",
+        "description": "Alegem împreună data potrivită și îți rezervăm un loc. Ne găsești pe Str. Sgt. Grigore Ioan, în curte la COMAT SA."
+      },
+      {
+        "number": "03",
+        "title": "Lucrul propriu-zis",
+        "description": "Tratăm fiecare detaliu cu grijă. Primești poze pe parcurs, ca să vezi progresul."
+      },
+      {
+        "number": "04",
+        "title": "Predare",
+        "description": "Îți predăm mașina impecabilă, cu recomandări de întreținere ca să păstrezi rezultatul cât mai mult."
+      }
+    ]
+  },
+
+  "benefits": {
+    "eyebrow": "De ce Goșman",
+    "title": "Detaliile fac diferența dintre curat și impecabil.",
+    "subtitle": "Nu grăbim niciodată o lucrare. Fiecare mașină primește timpul de care are nevoie.",
+    "items": [
+      {
+        "icon": "medal",
+        "title": "Detailing profesional",
+        "description": "Polish, ceramică, interior și tratamente executate cu experiență și produse profesionale."
+      },
+      {
+        "icon": "shield",
+        "title": "Produse premium",
+        "description": "Ceară nano hybrid, protecție ceramică și soluții de top pentru rezultate de durată."
+      },
+      {
+        "icon": "leaf",
+        "title": "Sigur pentru mașină",
+        "description": "Tehnici blânde, fără produse abrazive care afectează vopseaua sau materialele."
+      },
+      {
+        "icon": "clock",
+        "title": "Servicii personalizate",
+        "description": "Ai o cerință specială? Adaptăm serviciile exact pe nevoile mașinii tale."
+      },
+      {
+        "icon": "camera",
+        "title": "Transparență totală",
+        "description": "Primești poze înainte, în timpul și după lucrare. Vezi exact ce plătești."
+      },
+      {
+        "icon": "heart",
+        "title": "Grijă pentru detalii",
+        "description": "Tratăm fiecare mașină ca și cum ar fi a noastră. Se vede în rezultat."
+      }
+    ]
+  },
+
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Lucrări din atelier",
+    "subtitle": "O selecție din mașinile care au trecut prin mâinile noastre.",
+    "items": [
+      { "image": "assets/gallery-1.jpg", "caption": "Protecție ceramică" },
+      { "image": "assets/gallery-2.jpg", "caption": "Polish profesional caroserie" },
+      { "image": "assets/gallery-3.jpg", "caption": "Detailing interior · tratament piele" },
+      { "image": "assets/gallery-4.jpg", "caption": "Polish & polimerizare faruri" },
+      { "image": "assets/gallery-5.jpg", "caption": "Retapițare plafon" },
+      { "image": "assets/gallery-6.jpg", "caption": "Ceară nano & tratament hidrofob" }
+    ]
+  },
+
+  "reviews": {
+    "eyebrow": "Recenzii",
+    "title": "Ce spun clienții noștri.",
+    "subtitle": "Clienți care s-au întors cu mașina la noi.",
+    "rating": "5.0",
+    "ratingLabel": "clienți mulțumiți",
+    "items": [
+      {
+        "name": "Andrei M.",
+        "role": "Client · BMW",
+        "rating": 5,
+        "text": "Am făcut polish și protecție ceramică. Mașina arată ca nouă, luciu impecabil. Se vede munca de profesionist.",
+        "avatar": "assets/avatar-1.svg"
+      },
+      {
+        "name": "Ioana P.",
+        "role": "Client · Audi",
+        "rating": 5,
+        "text": "Interiorul arată ca nou după detailing. Comunicare impecabilă pe WhatsApp și m-au ținut la curent cu poze.",
+        "avatar": "assets/avatar-2.svg"
+      },
+      {
+        "name": "Radu I.",
+        "role": "Client · VW",
+        "rating": 5,
+        "text": "Am polișat farurile îngălbenite și acum sunt ca noi. Preț corect și lucrare rapidă. Recomand cu încredere.",
+        "avatar": "assets/avatar-3.svg"
+      },
+      {
+        "name": "Cristina D.",
+        "role": "Client · Mercedes-Benz",
+        "rating": 5,
+        "text": "Retapițare plafon impecabilă și tratament ceramic. Atenție la detalii și seriozitate. Profesioniști adevărați.",
+        "avatar": "assets/avatar-4.svg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Întrebări frecvente",
+    "title": "Răspunsuri, înainte să întrebi.",
+    "subtitle": "Nu găsești ce cauți? Scrie-ne pe WhatsApp.",
+    "items": [
+      {
+        "question": "Unde vă găsesc?",
+        "answer": "Ne găsești pe Str. Sergent Grigore Ioan nr. 7, Iași, în curtea COMAT SA. Scrie-ne pe WhatsApp și te îndrumăm."
+      },
+      {
+        "question": "Ce presupune protecția ceramică?",
+        "answer": "Aplicăm un strat ceramic de durată care respinge apa și murdăria și păstrează luciul mult timp. Îl putem combina cu ceară nano hybrid pentru rezultate superioare."
+      },
+      {
+        "question": "Se pot recondiționa farurile îngălbenite?",
+        "answer": "Da. Prin polish profesional și polimerizare redăm claritatea farurilor mate sau îngălbenite, cu rezultate de durată."
+      },
+      {
+        "question": "Faceți și retapițare plafon?",
+        "answer": "Da. Reînnoim plafoanele căzute sau uzate cu materiale de calitate și montaj îngrijit, pentru un aspect ca din fabrică."
+      },
+      {
+        "question": "Pot vedea prețul înainte?",
+        "answer": "Sigur. Trimite-ne modelul mașinii și ce îți dorești pe WhatsApp, iar noi îți răspundem cu o ofertă clară, fără costuri ascunse."
+      }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Gata de programare?",
+    "title": "Hai să facem mașina ta să strălucească.",
+    "subtitle": "Scrie-ne pe WhatsApp și primești o ofertă pentru serviciul dorit.",
+    "primaryCta": { "label": "Scrie-ne pe WhatsApp", "action": "whatsapp" },
+    "secondaryCta": { "label": "Sună acum", "action": "phone" }
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Te așteptăm în atelier.",
+    "subtitle": "Str. Sergent Grigore Ioan nr. 7, Iași — în curte la COMAT SA.",
+    "whatsappMessage": "Salut! Aș vrea o ofertă pentru mașina mea:"
+  },
+
+  "footer": {
+    "description": "Servicii de detailing auto profesional în Iași — polish, protecție ceramică, detailing interior și tratamente premium.",
+    "columns": [
+      {
+        "title": "Servicii",
+        "links": [
+          { "label": "Polish caroserie", "href": "#servicii" },
+          { "label": "Protecție ceramică", "href": "#servicii" },
+          { "label": "Detailing interior", "href": "#servicii" },
+          { "label": "Polish & polimerizare faruri", "href": "#servicii" }
+        ]
+      },
+      {
+        "title": "Goșman",
+        "links": [
+          { "label": "Rezultate", "href": "#rezultate" },
+          { "label": "Galerie", "href": "#galerie" },
+          { "label": "Recenzii", "href": "#recenzii" },
+          { "label": "Întrebări frecvente", "href": "#faq" }
+        ]
+      }
+    ],
+    "legal": "© 2026 Goșman Detailing Auto SRL. Toate drepturile rezervate.",
+    "credit": "Design de LimeSpark Development"
+  },
+
+  "whatsappDefaultMessage": "Salut! Am văzut site-ul și aș vrea mai multe detalii."
+}
