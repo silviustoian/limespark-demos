@@ -1,0 +1,310 @@
+{
+  "$schema": "Essential Detailing Lab Iași — demo LimeSpark. Editează doar acest fișier, tokens.json și imaginile din assets/.",
+
+  "business": {
+    "name": "Essential",
+    "nameSuffix": "Detailing Lab",
+    "tagline": "Laborator de detailing, PPF & protecție ceramică în Iași",
+    "logoText": "Essential Lab",
+    "logo": "assets/logo.png",
+    "logoBg": "#0A0A0B",
+    "phone": "+40 763 888 699",
+    "whatsapp": "40763888699",
+    "email": "",
+    "address": "Calea Chișinăului 132, Iași",
+    "mapsUrl": "https://maps.google.com/?q=Calea+Chisinaului+132+Iasi",
+    "hours": "Program flexibil · pe bază de programare",
+    "social": [
+      { "label": "Facebook", "url": "https://www.facebook.com/profile.php?id=100063498491546&locale=ro_RO" }
+    ]
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Servicii", "href": "#servicii" },
+      { "label": "Rezultate", "href": "#rezultate" },
+      { "label": "Proces", "href": "#proces" },
+      { "label": "Galerie", "href": "#galerie" },
+      { "label": "Recenzii", "href": "#recenzii" }
+    ],
+    "cta": { "label": "Programează-te", "action": "whatsapp" }
+  },
+
+  "hero": {
+    "eyebrow": "Laborator de detailing · Iași",
+    "title": "Detailing cu precizie de laborator.",
+    "titleAccent": "PPF & protecție ceramică Opti-Coat.",
+    "subtitle": "Servicii profesionale de detailing, aplicare folie PPF predecupată și protecție ceramică Opti-Coat — fiecare mașină, tratată ca într-un laborator, pe Calea Chișinăului 132, Iași.",
+    "primaryCta": { "label": "Programează-te", "action": "whatsapp" },
+    "secondaryCta": { "label": "Vezi serviciile", "href": "#servicii" },
+    "image": "assets/hero.jpg",
+    "stats": [
+      { "value": "PPF", "label": "folie predecupată" },
+      { "value": "Opti-Coat", "label": "protecție ceramică" },
+      { "value": "Iași", "label": "Calea Chișinăului" }
+    ]
+  },
+
+  "marquee": {
+    "enabled": true,
+    "label": "Lucrăm pe orice marcă",
+    "items": ["BMW", "Mercedes-Benz", "Audi", "Volkswagen", "Tesla", "Porsche"]
+  },
+
+  "services": {
+    "eyebrow": "Servicii",
+    "title": "Detailing, PPF și protecție ceramică — cu metodă.",
+    "subtitle": "Tratamente profesionale, aplicate precis, cu produse de top.",
+    "items": [
+      {
+        "icon": "film",
+        "title": "Folie PPF predecupată",
+        "description": "Peliculă de protecție transparentă, predecupată exact pe modelul mașinii tale, pentru o aplicare precisă și invizibilă.",
+        "price": "la cerere",
+        "features": ["Predecupată pe model", "Self-healing", "Protecție anti-pietriș"]
+      },
+      {
+        "icon": "shield",
+        "title": "Protecție ceramică Opti-Coat",
+        "description": "Protecție ceramică premium Opti-Coat, de durată, care respinge apa și murdăria și păstrează luciul ani la rând.",
+        "price": "la cerere",
+        "features": ["Opti-Coat premium", "Efect hidrofob", "Protecție de durată"]
+      },
+      {
+        "icon": "layers",
+        "title": "Corecție de vopsea",
+        "description": "Îndepărtăm swirl-urile și zgârieturile fine pentru o suprafață oglindă, corectată în 1–3 pași.",
+        "price": "la cerere",
+        "features": ["Polish în 1–3 pași", "Eliminare swirl-uri", "Finisaj oglindă"]
+      },
+      {
+        "icon": "sparkle",
+        "title": "Detailing interior",
+        "description": "Curățare în profunzime, extracție tapițerie, tratament piele și igienizare completă a habitaclului.",
+        "price": "la cerere",
+        "features": ["Aspirare profesională", "Tratament piele & plastic", "Igienizare habitaclu"]
+      },
+      {
+        "icon": "shine",
+        "title": "Detailing exterior",
+        "description": "Spălare pe două găleți, decontaminare, argilă și ceară premium pentru un luciu profund.",
+        "price": "la cerere",
+        "features": ["Spălare pe 2 găleți", "Decontaminare cu argilă", "Ceară protectoare"]
+      },
+      {
+        "icon": "wheel",
+        "title": "Recondiționare faruri & jante",
+        "description": "Redăm claritatea farurilor și aspectul jantelor, cu sigilare pentru rezultate de durată.",
+        "price": "la cerere",
+        "features": ["Polish faruri", "Curățare jante", "Sigilare protectoare"]
+      }
+    ]
+  },
+
+  "beforeAfter": {
+    "eyebrow": "Rezultate",
+    "title": "Diferența se vede. Trage cursorul.",
+    "subtitle": "Aceleași mașini, înainte și după o zi în laborator.",
+    "items": [
+      {
+        "label": "Corecție & luciu · caroserie",
+        "before": "assets/ba-1-before.jpg",
+        "after": "assets/ba-1-after.jpg"
+      },
+      {
+        "label": "Detailing interior · habitaclu",
+        "before": "assets/ba-2-before.jpg",
+        "after": "assets/ba-2-after.jpg"
+      }
+    ]
+  },
+
+  "process": {
+    "eyebrow": "Cum lucrăm",
+    "title": "Un protocol clar, fără surprize.",
+    "subtitle": "De la prima ta întrebare până la predarea cheilor.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Cere o ofertă",
+        "description": "Scrie-ne pe WhatsApp cu modelul mașinii și ce îți dorești. Îți răspundem cu un preț clar."
+      },
+      {
+        "number": "02",
+        "title": "Evaluare & programare",
+        "description": "Evaluăm starea mașinii, alegem tratamentul potrivit și îți rezervăm un loc în laborator."
+      },
+      {
+        "number": "03",
+        "title": "Aplicarea propriu-zisă",
+        "description": "Lucrăm cu metodă și produse de top. Primești poze pe parcurs, ca să vezi progresul."
+      },
+      {
+        "number": "04",
+        "title": "Predare",
+        "description": "Îți predăm mașina impecabilă, cu recomandări de întreținere ca să păstrezi rezultatul cât mai mult."
+      }
+    ]
+  },
+
+  "benefits": {
+    "eyebrow": "De ce Essential",
+    "title": "Detailing tratat ca o știință exactă.",
+    "subtitle": "Produse premium, metodă și atenție la fiecare detaliu — ca într-un laborator.",
+    "items": [
+      {
+        "icon": "medal",
+        "title": "PPF predecupată",
+        "description": "Folie tăiată exact pe modelul mașinii tale, pentru o aplicare precisă și invizibilă."
+      },
+      {
+        "icon": "shield",
+        "title": "Opti-Coat premium",
+        "description": "Lucrăm cu protecție ceramică Opti-Coat, un standard de top în industrie."
+      },
+      {
+        "icon": "leaf",
+        "title": "Sigur pentru mașină",
+        "description": "Tehnici blânde, fără produse abrazive care afectează vopseaua sau materialele."
+      },
+      {
+        "icon": "clock",
+        "title": "Metodă & precizie",
+        "description": "Fiecare pas are un protocol clar. Nimic la întâmplare, totul cu grijă."
+      },
+      {
+        "icon": "camera",
+        "title": "Transparență totală",
+        "description": "Primești poze înainte, în timpul și după lucrare. Vezi exact ce plătești."
+      },
+      {
+        "icon": "heart",
+        "title": "Grijă pentru detalii",
+        "description": "Tratăm fiecare mașină ca și cum ar fi a noastră. Se vede în rezultat."
+      }
+    ]
+  },
+
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Lucrări din laborator",
+    "subtitle": "O selecție din mașinile care au trecut prin mâinile noastre.",
+    "items": [
+      { "image": "assets/gallery-1.jpg", "caption": "Protecție ceramică Opti-Coat" },
+      { "image": "assets/gallery-2.jpg", "caption": "Corecție vopsea · polish în pași" },
+      { "image": "assets/gallery-3.jpg", "caption": "Detailing interior · tratament piele" },
+      { "image": "assets/gallery-4.jpg", "caption": "Folie PPF predecupată" },
+      { "image": "assets/gallery-5.jpg", "caption": "Recondiționare faruri & optică" },
+      { "image": "assets/gallery-6.jpg", "caption": "Detailing exterior & decontaminare" }
+    ]
+  },
+
+  "reviews": {
+    "eyebrow": "Recenzii",
+    "title": "Ce spun clienții noștri.",
+    "subtitle": "Clienți care s-au întors cu mașina la noi.",
+    "rating": "5.0",
+    "ratingLabel": "clienți mulțumiți",
+    "items": [
+      {
+        "name": "Andrei M.",
+        "role": "Client · BMW",
+        "rating": 5,
+        "text": "Am pus PPF predecupată pe față. Aplicare perfectă, invizibilă, aliniere impecabilă. Muncă de laborator, exact cum spune numele.",
+        "avatar": "assets/avatar-1.svg"
+      },
+      {
+        "name": "Ioana P.",
+        "role": "Client · Audi",
+        "rating": 5,
+        "text": "Interiorul arată ca nou după detailing. Comunicare impecabilă pe WhatsApp și m-au ținut la curent cu poze.",
+        "avatar": "assets/avatar-2.svg"
+      },
+      {
+        "name": "Radu I.",
+        "role": "Client · Tesla",
+        "rating": 5,
+        "text": "Protecție ceramică Opti-Coat pe toată mașina. Apa alunecă instant, luciul e incredibil. Profesioniști adevărați.",
+        "avatar": "assets/avatar-3.svg"
+      },
+      {
+        "name": "Cristina D.",
+        "role": "Client · Mercedes-Benz",
+        "rating": 5,
+        "text": "Corecție de vopsea impecabilă, atenție la fiecare detaliu. Se vede metoda și seriozitatea. Recomand cu încredere.",
+        "avatar": "assets/avatar-4.svg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Întrebări frecvente",
+    "title": "Răspunsuri, înainte să întrebi.",
+    "subtitle": "Nu găsești ce cauți? Scrie-ne pe WhatsApp.",
+    "items": [
+      {
+        "question": "Ce înseamnă folie PPF predecupată?",
+        "answer": "Este o peliculă de protecție transparentă, tăiată digital exact pe modelul mașinii tale înainte de aplicare. Rezultă o montare precisă, invizibilă, care protejează vopseaua de pietriș și micro-zgârieturi."
+      },
+      {
+        "question": "Ce este protecția ceramică Opti-Coat?",
+        "answer": "Opti-Coat este o protecție ceramică premium, de durată, care formează un strat rezistent peste vopsea. Respinge apa și murdăria, oferă efect hidrofob și păstrează luciul ani la rând."
+      },
+      {
+        "question": "Cât durează un detailing complet?",
+        "answer": "Un detailing complet interior + exterior durează în general 4–8 ore. Pentru corecție de vopsea, PPF sau protecție ceramică, alocăm 1–3 zile, în funcție de lucrare."
+      },
+      {
+        "question": "Trebuie să programez sau pot veni direct?",
+        "answer": "Recomandăm programarea, ca să îți rezervăm un loc și să evaluăm corect lucrarea. Scrie-ne pe WhatsApp și găsim rapid o dată potrivită."
+      },
+      {
+        "question": "Pot vedea prețul înainte?",
+        "answer": "Sigur. Trimite-ne modelul mașinii și ce îți dorești pe WhatsApp, iar noi îți răspundem cu o ofertă clară, fără costuri ascunse."
+      }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Gata de programare?",
+    "title": "Hai să facem mașina ta să strălucească.",
+    "subtitle": "Scrie-ne pe WhatsApp și primești o ofertă pentru detailing, PPF sau protecție ceramică.",
+    "primaryCta": { "label": "Scrie-ne pe WhatsApp", "action": "whatsapp" },
+    "secondaryCta": { "label": "Sună acum", "action": "phone" }
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Te așteptăm în laborator.",
+    "subtitle": "Calea Chișinăului 132, Iași. Programează-te sau treci pe la noi.",
+    "whatsappMessage": "Salut! Aș vrea o ofertă pentru mașina mea:"
+  },
+
+  "footer": {
+    "description": "Laborator de detailing în Iași, pe Calea Chișinăului 132 — detailing profesional, folie PPF predecupată și protecție ceramică Opti-Coat.",
+    "columns": [
+      {
+        "title": "Servicii",
+        "links": [
+          { "label": "Folie PPF predecupată", "href": "#servicii" },
+          { "label": "Protecție ceramică Opti-Coat", "href": "#servicii" },
+          { "label": "Corecție de vopsea", "href": "#servicii" },
+          { "label": "Detailing interior", "href": "#servicii" }
+        ]
+      },
+      {
+        "title": "Essential",
+        "links": [
+          { "label": "Rezultate", "href": "#rezultate" },
+          { "label": "Galerie", "href": "#galerie" },
+          { "label": "Recenzii", "href": "#recenzii" },
+          { "label": "Întrebări frecvente", "href": "#faq" }
+        ]
+      }
+    ],
+    "legal": "© 2026 Essential Detailing Lab. Toate drepturile rezervate.",
+    "credit": "Design de LimeSpark Development"
+  },
+
+  "whatsappDefaultMessage": "Salut! Am văzut site-ul și aș vrea mai multe detalii."
+}
