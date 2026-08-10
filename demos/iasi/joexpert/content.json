@@ -1,0 +1,310 @@
+{
+  "$schema": "JoExpert Vulcanizare & Detailing (Miroslava, Iași) — demo LimeSpark. Editează doar acest fișier, tokens.json și imaginile din assets/.",
+
+  "business": {
+    "name": "JoExpert",
+    "nameSuffix": "Vulcanizare & Detailing",
+    "tagline": "Vulcanizare & detailing în Miroslava, Iași",
+    "logoText": "JoExpert",
+    "logo": "assets/logo.png",
+    "logoBg": "#0A0A0B",
+    "phone": "+40 743 891 783",
+    "whatsapp": "40743891783",
+    "email": "",
+    "address": "Str. Constantin Langa nr. 40, Miroslava, Iași",
+    "mapsUrl": "https://maps.google.com/?q=Constantin+Langa+40+Miroslava+Iasi",
+    "hours": "Program flexibil · pe bază de programare",
+    "social": [
+      { "label": "Facebook", "url": "https://www.facebook.com/VulcanizareJo" }
+    ]
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Servicii", "href": "#servicii" },
+      { "label": "Rezultate", "href": "#rezultate" },
+      { "label": "Proces", "href": "#proces" },
+      { "label": "Galerie", "href": "#galerie" },
+      { "label": "Recenzii", "href": "#recenzii" }
+    ],
+    "cta": { "label": "Programează-te", "action": "whatsapp" }
+  },
+
+  "hero": {
+    "eyebrow": "Vulcanizare & detailing · Miroslava, Iași",
+    "title": "Profesioniști în detalii și siguranță.",
+    "titleAccent": "Vulcanizare & detailing, într-un singur loc.",
+    "subtitle": "Vulcanizare auto, vânzare anvelope, senzori TPMS și detailing / cosmetică auto interior — pe Str. Constantin Langa nr. 40, Miroslava, Iași.",
+    "primaryCta": { "label": "Programează-te", "action": "whatsapp" },
+    "secondaryCta": { "label": "Vezi serviciile", "href": "#servicii" },
+    "image": "assets/hero.jpg",
+    "stats": [
+      { "value": "Anvelope", "label": "montaj · echilibrare · reparații" },
+      { "value": "TPMS", "label": "senzori & calibrare" },
+      { "value": "Iași", "label": "Miroslava" }
+    ]
+  },
+
+  "marquee": {
+    "enabled": true,
+    "label": "Ce facem",
+    "items": ["Schimburi sezoniere", "Montaj anvelope", "Echilibrare", "Reparații pană", "Senzori TPMS", "Detailing interior"]
+  },
+
+  "services": {
+    "eyebrow": "Servicii",
+    "title": "Vulcanizare completă și detailing interior.",
+    "subtitle": "De la anvelope și senzori TPMS la curățare interior în detaliu.",
+    "items": [
+      {
+        "icon": "wheel",
+        "title": "Schimburi sezoniere & montaj anvelope",
+        "description": "Schimbăm și montăm anvelopele rapid și corect, cu echipamente moderne. Ideal pentru sezonul rece sau cald.",
+        "price": "la cerere",
+        "features": ["Schimburi sezoniere", "Montaj anvelope", "Lucru rapid"]
+      },
+      {
+        "icon": "shield",
+        "title": "Echilibrare & reparații pană",
+        "description": "Echilibrare roți pentru un mers lin și reparații de pană profesionale, inclusiv extras prezoane ovalizate.",
+        "price": "la cerere",
+        "features": ["Echilibrare roți", "Reparații pană", "Extras prezoane ovalizate"]
+      },
+      {
+        "icon": "layers",
+        "title": "Senzori TPMS · montaj & calibrare",
+        "description": "Vânzare, montaj și calibrare senzori TPMS, plus montaj valve — presiune monitorizată corect, siguranță maximă.",
+        "price": "la cerere",
+        "features": ["Vânzare & montaj TPMS", "Calibrare senzori", "Montaj valve"]
+      },
+      {
+        "icon": "film",
+        "title": "Vânzare anvelope",
+        "description": "Anvelope pe stoc sau la comandă, pentru orice model și buget. Te ajutăm să alegi varianta potrivită.",
+        "price": "la cerere",
+        "features": ["Pe stoc sau la comandă", "Orice dimensiune", "Consiliere la alegere"]
+      },
+      {
+        "icon": "sparkle",
+        "title": "Detailing / cosmetică interior",
+        "description": "Curățare interior auto în detaliu, dressing piele și plastic și curățare textile prin injecție + extracție.",
+        "price": "la cerere",
+        "features": ["Curățare în detaliu", "Dressing piele & plastic", "Textile injecție + extracție"]
+      },
+      {
+        "icon": "shine",
+        "title": "Polish & polimerizare faruri",
+        "description": "Redăm claritatea farurilor îngălbenite sau mate, cu polish și polimerizare pentru durabilitate și vizibilitate.",
+        "price": "la cerere",
+        "features": ["Polish faruri", "Polimerizare", "Vizibilitate îmbunătățită"]
+      }
+    ]
+  },
+
+  "beforeAfter": {
+    "eyebrow": "Rezultate",
+    "title": "Diferența se vede. Trage cursorul.",
+    "subtitle": "Aceleași mașini, înainte și după o vizită la JoExpert.",
+    "items": [
+      {
+        "label": "Interior auto · curățare în detaliu",
+        "before": "assets/ba-1-before.jpg",
+        "after": "assets/ba-1-after.jpg"
+      },
+      {
+        "label": "Polish faruri · înainte / după",
+        "before": "assets/ba-2-before.jpg",
+        "after": "assets/ba-2-after.jpg"
+      }
+    ]
+  },
+
+  "process": {
+    "eyebrow": "Cum lucrăm",
+    "title": "Un proces simplu, fără surprize.",
+    "subtitle": "De la prima ta întrebare până la predarea cheilor.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Cere o ofertă",
+        "description": "Scrie-ne pe WhatsApp ce ai nevoie — anvelope, senzori TPMS sau detailing. Îți răspundem cu un preț clar."
+      },
+      {
+        "number": "02",
+        "title": "Programare",
+        "description": "Alegem împreună data potrivită. Ne găsești pe Str. Constantin Langa nr. 40, Miroslava."
+      },
+      {
+        "number": "03",
+        "title": "Lucrul propriu-zis",
+        "description": "Fie că e vulcanizare sau detailing, lucrăm cu grijă și profesionalism. Siguranța ta e pe primul loc."
+      },
+      {
+        "number": "04",
+        "title": "Predare",
+        "description": "Îți predăm mașina gata de drum, curată și în siguranță, cu recomandările necesare."
+      }
+    ]
+  },
+
+  "benefits": {
+    "eyebrow": "De ce JoExpert",
+    "title": "Profesioniști în detalii și siguranță.",
+    "subtitle": "Vulcanizare și detailing într-un singur loc, cu echipamente moderne și grijă pentru fiecare client.",
+    "items": [
+      {
+        "icon": "medal",
+        "title": "Două servicii, un singur loc",
+        "description": "Vulcanizare completă și detailing interior — rezolvi anvelopele și cosmetica mașinii deodată."
+      },
+      {
+        "icon": "shield",
+        "title": "Siguranță pe primul loc",
+        "description": "Echilibrare corectă, senzori TPMS și reparații de calitate — pentru drumuri sigure."
+      },
+      {
+        "icon": "leaf",
+        "title": "Echipamente moderne",
+        "description": "Lucrăm cu aparatură profesională pentru rezultate rapide și precise."
+      },
+      {
+        "icon": "clock",
+        "title": "Anvelope pe stoc sau la comandă",
+        "description": "Găsim rapid anvelopa potrivită pentru mașina și bugetul tău."
+      },
+      {
+        "icon": "camera",
+        "title": "Transparență totală",
+        "description": "Îți explicăm exact ce e de făcut și primești o ofertă clară, fără costuri ascunse."
+      },
+      {
+        "icon": "heart",
+        "title": "Grijă pentru detalii",
+        "description": "Tratăm fiecare mașină ca și cum ar fi a noastră. Se vede în rezultat."
+      }
+    ]
+  },
+
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Lucrări din atelier",
+    "subtitle": "O selecție din mașinile care au trecut prin mâinile noastre.",
+    "items": [
+      { "image": "assets/gallery-1.jpg", "caption": "Montaj & echilibrare anvelope" },
+      { "image": "assets/gallery-2.jpg", "caption": "Senzori TPMS · montaj & calibrare" },
+      { "image": "assets/gallery-3.jpg", "caption": "Detailing interior · curățare în detaliu" },
+      { "image": "assets/gallery-4.jpg", "caption": "Dressing piele & plastic" },
+      { "image": "assets/gallery-5.jpg", "caption": "Polish & polimerizare faruri" },
+      { "image": "assets/gallery-6.jpg", "caption": "Curățare textile · injecție + extracție" }
+    ]
+  },
+
+  "reviews": {
+    "eyebrow": "Recenzii",
+    "title": "Ce spun clienții noștri.",
+    "subtitle": "Clienți care se întorc pentru anvelope și pentru detailing.",
+    "rating": "5.0",
+    "ratingLabel": "clienți mulțumiți",
+    "items": [
+      {
+        "name": "Andrei M.",
+        "role": "Client · vulcanizare",
+        "rating": 5,
+        "text": "Schimb sezonier rapid și echilibrare impecabilă. Oameni serioși, prețuri corecte. Îi recomand cu încredere.",
+        "avatar": "assets/avatar-1.svg"
+      },
+      {
+        "name": "Ioana P.",
+        "role": "Client · detailing interior",
+        "rating": 5,
+        "text": "Mi-au curățat interiorul în detaliu, cu injecție și extracție. Arată și miroase ca nou. Foarte mulțumită.",
+        "avatar": "assets/avatar-2.svg"
+      },
+      {
+        "name": "Radu I.",
+        "role": "Client · senzori TPMS",
+        "rating": 5,
+        "text": "Mi-au montat și calibrat senzorii TPMS fără nicio bătaie de cap. Profesioniști, exact cum spune numele.",
+        "avatar": "assets/avatar-3.svg"
+      },
+      {
+        "name": "Cristina D.",
+        "role": "Client · polish faruri",
+        "rating": 5,
+        "text": "Farurile îngălbenite arată acum ca noi, iar interiorul e impecabil. Bonus că fac și anvelope, și detailing.",
+        "avatar": "assets/avatar-4.svg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Întrebări frecvente",
+    "title": "Răspunsuri, înainte să întrebi.",
+    "subtitle": "Nu găsești ce cauți? Scrie-ne pe WhatsApp.",
+    "items": [
+      {
+        "question": "Vindeți anvelope sau doar montați?",
+        "answer": "Vindem anvelope pe stoc sau la comandă, pentru orice model și buget, și le și montăm. Spune-ne dimensiunea și îți facem o ofertă."
+      },
+      {
+        "question": "Montați și calibrați senzori TPMS?",
+        "answer": "Da. Vindem, montăm și calibrăm senzori TPMS, plus montaj valve, ca presiunea din anvelope să fie monitorizată corect."
+      },
+      {
+        "question": "Ce include detailing-ul interior?",
+        "answer": "Curățare interior auto în detaliu, aplicare dressing pe piele și plastic și curățare elemente textile prin injecție + extracție. Facem și polish/polimerizare faruri."
+      },
+      {
+        "question": "Faceți reparații de pană?",
+        "answer": "Da. Reparăm penele, echilibrăm roțile și rezolvăm inclusiv extras prezoane ovalizate. Trecem pe la noi și rezolvăm rapid."
+      },
+      {
+        "question": "Trebuie să programez?",
+        "answer": "Îți recomandăm o programare pe WhatsApp, ca să eviți așteptarea, mai ales în sezonul de schimbat anvelopele. Îți răspundem rapid."
+      }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Gata de programare?",
+    "title": "Anvelope sau detailing — te așteptăm.",
+    "subtitle": "Scrie-ne pe WhatsApp și primești o ofertă pentru serviciul dorit.",
+    "primaryCta": { "label": "Scrie-ne pe WhatsApp", "action": "whatsapp" },
+    "secondaryCta": { "label": "Sună acum", "action": "phone" }
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Ne găsești în Miroslava.",
+    "subtitle": "Str. Constantin Langa nr. 40, Miroslava, Iași. Programează-te sau treci pe la noi.",
+    "whatsappMessage": "Salut! Aș vrea o ofertă pentru:"
+  },
+
+  "footer": {
+    "description": "JoExpert — vulcanizare auto, vânzare anvelope, senzori TPMS și detailing / cosmetică auto interior în Miroslava, Iași. Profesioniști în detalii și siguranță.",
+    "columns": [
+      {
+        "title": "Servicii",
+        "links": [
+          { "label": "Schimburi sezoniere", "href": "#servicii" },
+          { "label": "Senzori TPMS", "href": "#servicii" },
+          { "label": "Vânzare anvelope", "href": "#servicii" },
+          { "label": "Detailing interior", "href": "#servicii" }
+        ]
+      },
+      {
+        "title": "JoExpert",
+        "links": [
+          { "label": "Rezultate", "href": "#rezultate" },
+          { "label": "Galerie", "href": "#galerie" },
+          { "label": "Recenzii", "href": "#recenzii" },
+          { "label": "Întrebări frecvente", "href": "#faq" }
+        ]
+      }
+    ],
+    "legal": "© 2026 Vulcanizare & Detailing JoExpert SRL. Toate drepturile rezervate.",
+    "credit": "Design de LimeSpark Development"
+  },
+
+  "whatsappDefaultMessage": "Salut! Am văzut site-ul și aș vrea mai multe detalii."
+}
