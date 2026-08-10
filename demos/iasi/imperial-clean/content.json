@@ -1,0 +1,310 @@
+{
+  "$schema": "Imperial Clean Iași — demo LimeSpark. Editează doar acest fișier, tokens.json și imaginile din assets/.",
+
+  "business": {
+    "name": "Imperial Clean",
+    "nameSuffix": "Iași",
+    "tagline": "Curățenie & igienizare premium, la tine acasă",
+    "logoText": "Imperial Clean",
+    "logo": "assets/logo.png",
+    "logoBg": "#0A0A0B",
+    "phone": "+40 721 955 384",
+    "whatsapp": "40721955384",
+    "email": "",
+    "address": "Str. Luminii, Valea Lupului, Iași",
+    "mapsUrl": "https://maps.google.com/?q=Valea+Lupului+Iasi",
+    "hours": "Program flexibil · venim la tine",
+    "social": [
+      { "label": "Facebook", "url": "https://www.facebook.com/profile.php?id=61591975468149&locale=ro_RO" }
+    ]
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Servicii", "href": "#servicii" },
+      { "label": "Rezultate", "href": "#rezultate" },
+      { "label": "Proces", "href": "#proces" },
+      { "label": "Galerie", "href": "#galerie" },
+      { "label": "Recenzii", "href": "#recenzii" }
+    ],
+    "cta": { "label": "Programează-te", "action": "whatsapp" }
+  },
+
+  "hero": {
+    "eyebrow": "Curățenie & igienizare · Iași și împrejurimi",
+    "title": "Tratament imperial pentru mașina și casa ta.",
+    "titleAccent": "Curățenie premium, direct la tine acasă.",
+    "subtitle": "Servicii profesionale de curățenie și igienizare cu echipamente premium — interior auto cu extracție, scaune din piele, canapele, fotolii, saltele și covoare. Venim la tine, în Iași și împrejurimi.",
+    "primaryCta": { "label": "Programează-te", "action": "whatsapp" },
+    "secondaryCta": { "label": "Vezi serviciile", "href": "#servicii" },
+    "image": "assets/hero.jpg",
+    "stats": [
+      { "value": "-10%", "label": "la prima programare" },
+      { "value": "La tine", "label": "acasă, cu echipament premium" },
+      { "value": "Iași", "label": "și împrejurimi" }
+    ]
+  },
+
+  "marquee": {
+    "enabled": true,
+    "label": "Curățăm și igienizăm",
+    "items": ["Interior auto", "Scaune din piele", "Canapele", "Fotolii", "Saltele", "Covoare & mochete"]
+  },
+
+  "services": {
+    "eyebrow": "Servicii",
+    "title": "Curățenie și igienizare în profunzime.",
+    "subtitle": "Echipamente premium, extracție profesională — pentru mașină și pentru casă.",
+    "items": [
+      {
+        "icon": "sparkle",
+        "title": "Interior auto cu extracție profesională",
+        "description": "Curățare în profunzime a habitaclului cu extracție, pentru tapițerie, mochetă și plafon ca noi.",
+        "price": "la cerere",
+        "features": ["Extracție profesională", "Tapițerie & mochetă", "Plafon & plastice"]
+      },
+      {
+        "icon": "shield",
+        "title": "Curățare & hidratare scaune din piele",
+        "description": "Curățăm delicat pielea și o hidratăm, ca să rămână moale, curată și fără crăpături.",
+        "price": "la cerere",
+        "features": ["Curățare delicată", "Hidratare piele", "Protecție & finisaj"]
+      },
+      {
+        "icon": "shine",
+        "title": "Geamuri · Igienizare · Deep clean",
+        "description": "Igienizare completă a habitaclului, geamuri fără urme și deep clean pentru un interior sănătos.",
+        "price": "la cerere",
+        "features": ["Igienizare habitaclu", "Geamuri fără urme", "Deep clean"]
+      },
+      {
+        "icon": "layers",
+        "title": "Canapele, fotolii & colțare",
+        "description": "Curățare și igienizare cu extracție pentru canapele, fotolii și colțare — direct la tine acasă.",
+        "price": "la cerere",
+        "features": ["Extracție textilă", "Igienizare", "La tine acasă"]
+      },
+      {
+        "icon": "film",
+        "title": "Saltele",
+        "description": "Curățăm și igienizăm saltelele în profunzime, îndepărtând acarienii, petele și mirosurile.",
+        "price": "la cerere",
+        "features": ["Curățare în profunzime", "Anti-acarieni", "Uscare rapidă"]
+      },
+      {
+        "icon": "wheel",
+        "title": "Covoare & mochete",
+        "description": "Redăm prospețimea covoarelor și mochetelor prin curățare cu extracție și soluții premium.",
+        "price": "la cerere",
+        "features": ["Extracție profesională", "Pete & mirosuri", "Fibre ca noi"]
+      }
+    ]
+  },
+
+  "beforeAfter": {
+    "eyebrow": "Rezultate",
+    "title": "Diferența se vede. Trage cursorul.",
+    "subtitle": "Aceleași suprafețe, înainte și după curățarea Imperial Clean.",
+    "items": [
+      {
+        "label": "Interior auto · tapițerie",
+        "before": "assets/ba-1-before.jpg",
+        "after": "assets/ba-1-after.jpg"
+      },
+      {
+        "label": "Canapea · extracție & igienizare",
+        "before": "assets/ba-2-before.jpg",
+        "after": "assets/ba-2-after.jpg"
+      }
+    ]
+  },
+
+  "process": {
+    "eyebrow": "Cum lucrăm",
+    "title": "Un proces simplu, fără surprize.",
+    "subtitle": "De la prima ta întrebare până la suprafețe impecabile, la tine acasă.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Cere o ofertă",
+        "description": "Scrie-ne pe WhatsApp ce vrei curățat — mașină, canapea, saltea, covor — și adresa. Îți răspundem cu un preț clar."
+      },
+      {
+        "number": "02",
+        "title": "Venim la tine",
+        "description": "Stabilim ziua și ora, apoi venim la adresa ta cu echipamentele premium. Beneficiezi de -10% la prima programare."
+      },
+      {
+        "number": "03",
+        "title": "Curățare & igienizare",
+        "description": "Curățăm în profunzime, cu extracție și soluții premium. Vezi rezultatul pe loc."
+      },
+      {
+        "number": "04",
+        "title": "Gata de folosit",
+        "description": "Îți predăm totul curat, igienizat și proaspăt, cu timp scurt de uscare."
+      }
+    ]
+  },
+
+  "benefits": {
+    "eyebrow": "De ce Imperial Clean",
+    "title": "Curățenie de nivel imperial.",
+    "subtitle": "Echipamente premium, extracție profesională și grijă pentru fiecare detaliu.",
+    "items": [
+      {
+        "icon": "clock",
+        "title": "Venim la tine",
+        "description": "Direct la tine acasă, în Iași și împrejurimi. Tu nu muți nimic, ne ocupăm noi de tot."
+      },
+      {
+        "icon": "medal",
+        "title": "-10% la prima programare",
+        "description": "Prima curățare vine cu 10% reducere. Un motiv în plus să încerci serviciul nostru."
+      },
+      {
+        "icon": "shield",
+        "title": "Echipamente premium",
+        "description": "Folosim aparate de extracție profesionale și soluții de calitate, sigure pentru textile și piele."
+      },
+      {
+        "icon": "leaf",
+        "title": "Igienizare reală",
+        "description": "Nu doar curățăm — igienizăm în profunzime, îndepărtând acarieni, bacterii și mirosuri."
+      },
+      {
+        "icon": "camera",
+        "title": "Transparență totală",
+        "description": "Primești poze înainte și după. Vezi exact rezultatul pentru care plătești."
+      },
+      {
+        "icon": "heart",
+        "title": "Grijă pentru detalii",
+        "description": "Tratăm fiecare suprafață cu atenție, ca și cum ar fi a noastră. Se vede în rezultat."
+      }
+    ]
+  },
+
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Lucrări Imperial Clean",
+    "subtitle": "O selecție din mașinile și suprafețele pe care le-am readus la viață.",
+    "items": [
+      { "image": "assets/gallery-1.jpg", "caption": "Interior auto · extracție" },
+      { "image": "assets/gallery-2.jpg", "caption": "Scaune din piele · curățare & hidratare" },
+      { "image": "assets/gallery-3.jpg", "caption": "Canapea · igienizare" },
+      { "image": "assets/gallery-4.jpg", "caption": "Saltea · deep clean" },
+      { "image": "assets/gallery-5.jpg", "caption": "Covor · extracție profesională" },
+      { "image": "assets/gallery-6.jpg", "caption": "Habitaclu igienizat & proaspăt" }
+    ]
+  },
+
+  "reviews": {
+    "eyebrow": "Recenzii",
+    "title": "Ce spun clienții noștri.",
+    "subtitle": "Clienți care ne cheamă din nou, direct la ei acasă.",
+    "rating": "5.0",
+    "ratingLabel": "clienți mulțumiți",
+    "items": [
+      {
+        "name": "Andrei M.",
+        "role": "Client · interior auto",
+        "rating": 5,
+        "text": "Au venit la mine acasă și au curățat interiorul mașinii cu extracție. Arată și miroase ca nou. Super comod.",
+        "avatar": "assets/avatar-1.svg"
+      },
+      {
+        "name": "Ioana P.",
+        "role": "Client · canapea",
+        "rating": 5,
+        "text": "Mi-au igienizat canapeaua și fotoliile. Petele au dispărut complet, iar totul e proaspăt. Recomand cu încredere.",
+        "avatar": "assets/avatar-2.svg"
+      },
+      {
+        "name": "Radu I.",
+        "role": "Client · saltele",
+        "rating": 5,
+        "text": "Curățare saltele la domiciliu, rapid și profesional. Se usucă repede și dormi altfel. Oameni serioși.",
+        "avatar": "assets/avatar-3.svg"
+      },
+      {
+        "name": "Cristina D.",
+        "role": "Client · scaune piele",
+        "rating": 5,
+        "text": "Au curățat și hidratat pielea scaunelor din mașină. Arată ca din showroom. Atenție la detalii, exact ca la carte.",
+        "avatar": "assets/avatar-4.svg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Întrebări frecvente",
+    "title": "Răspunsuri, înainte să întrebi.",
+    "subtitle": "Nu găsești ce cauți? Scrie-ne pe WhatsApp.",
+    "items": [
+      {
+        "question": "Veniți la domiciliu?",
+        "answer": "Da. Venim la tine acasă, în Iași și împrejurimi, cu toate echipamentele premium necesare. Tu nu trebuie să muți nimic."
+      },
+      {
+        "question": "Ce înseamnă curățare cu extracție?",
+        "answer": "Extracția injectează soluție de curățare în profunzimea fibrelor și o aspiră imediat împreună cu murdăria dizolvată. Rezultă o curățare mult mai profundă decât o simplă ștergere, cu timp scurt de uscare."
+      },
+      {
+        "question": "Ce suprafețe curățați?",
+        "answer": "Interior auto (tapițerie, mochetă, plafon, piele), dar și canapele, fotolii, colțare, saltele, covoare și mochete din locuință."
+      },
+      {
+        "question": "Cum obțin reducerea de 10%?",
+        "answer": "Reducerea de 10% se aplică automat la prima ta programare. Scrie-ne pe WhatsApp și îți facem oferta cu discountul inclus."
+      },
+      {
+        "question": "Cât durează până se usucă?",
+        "answer": "Datorită extracției profesionale, timpul de uscare este scurt — de regulă câteva ore, în funcție de material și de gradul de murdărie."
+      }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Gata de programare?",
+    "title": "Curățenie imperială, direct la tine acasă.",
+    "subtitle": "Scrie-ne pe WhatsApp și beneficiezi de -10% la prima programare.",
+    "primaryCta": { "label": "Scrie-ne pe WhatsApp", "action": "whatsapp" },
+    "secondaryCta": { "label": "Sună acum", "action": "phone" }
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Venim la tine.",
+    "subtitle": "Curățenie & igienizare la domiciliu, în Iași și împrejurimi (Valea Lupului).",
+    "whatsappMessage": "Salut! Aș vrea o ofertă pentru curățenie / igienizare:"
+  },
+
+  "footer": {
+    "description": "Servicii profesionale de curățenie și igienizare cu echipamente premium, direct la tine acasă — auto și textile — în Iași și împrejurimi.",
+    "columns": [
+      {
+        "title": "Servicii",
+        "links": [
+          { "label": "Interior auto cu extracție", "href": "#servicii" },
+          { "label": "Scaune din piele", "href": "#servicii" },
+          { "label": "Canapele & fotolii", "href": "#servicii" },
+          { "label": "Saltele & covoare", "href": "#servicii" }
+        ]
+      },
+      {
+        "title": "Imperial Clean",
+        "links": [
+          { "label": "Rezultate", "href": "#rezultate" },
+          { "label": "Galerie", "href": "#galerie" },
+          { "label": "Recenzii", "href": "#recenzii" },
+          { "label": "Întrebări frecvente", "href": "#faq" }
+        ]
+      }
+    ],
+    "legal": "© 2026 Imperial Clean Iași. Toate drepturile rezervate.",
+    "credit": "Design de LimeSpark Development"
+  },
+
+  "whatsappDefaultMessage": "Salut! Am văzut site-ul și aș vrea mai multe detalii."
+}
