@@ -1,0 +1,310 @@
+{
+  "$schema": "WePolish.ro Iași — demo LimeSpark. Editează doar acest fișier, tokens.json și imaginile din assets/.",
+
+  "business": {
+    "name": "WePolish",
+    "nameSuffix": "Detailing Iași",
+    "tagline": "Detailing & protecții premium în Iași",
+    "logoText": "WePolish.ro",
+    "logo": "assets/logo.png",
+    "logoBg": "#0A0A0B",
+    "phone": "+40 751 616 508",
+    "whatsapp": "40751616508",
+    "email": "",
+    "address": "Iași",
+    "mapsUrl": "https://maps.google.com/?q=Iasi",
+    "hours": "Program flexibil · pe bază de programare",
+    "social": [
+      { "label": "Facebook", "url": "https://www.facebook.com/WePolish.official?locale=ro_RO" }
+    ]
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Servicii", "href": "#servicii" },
+      { "label": "Rezultate", "href": "#rezultate" },
+      { "label": "Proces", "href": "#proces" },
+      { "label": "Galerie", "href": "#galerie" },
+      { "label": "Recenzii", "href": "#recenzii" }
+    ],
+    "cta": { "label": "Programează-te", "action": "whatsapp" }
+  },
+
+  "hero": {
+    "eyebrow": "Detailing & protecții · Iași",
+    "title": "Detailing și protecții la nivel de top.",
+    "titleAccent": "Ceramică KRYTEX, PPF & Piano Black.",
+    "subtitle": "Detailing exterior și interior, protecții ceramice KRYTEX, folie PPF regenerativă, Piano Black și chrome delete — protecție completă pentru mașina ta, în Iași.",
+    "primaryCta": { "label": "Programează-te", "action": "whatsapp" },
+    "secondaryCta": { "label": "Vezi serviciile", "href": "#servicii" },
+    "image": "assets/hero.jpg",
+    "stats": [
+      { "value": "KRYTEX", "label": "protecție ceramică" },
+      { "value": "PPF", "label": "folie regenerativă" },
+      { "value": "Iași", "label": "detailing & protecții" }
+    ]
+  },
+
+  "marquee": {
+    "enabled": true,
+    "label": "Protejăm tot",
+    "items": ["Vopsea", "Textil", "Piele", "Sticlă", "Jante", "Soft-Top"]
+  },
+
+  "services": {
+    "eyebrow": "Servicii",
+    "title": "Detailing complet și protecții pentru orice suprafață.",
+    "subtitle": "De la detailing la protecții ceramice, PPF și finisaje Piano Black.",
+    "items": [
+      {
+        "icon": "sparkle",
+        "title": "Detailing exterior & interior",
+        "description": "Curățare în profunzime și finisaj impecabil, pe dinăuntru și pe dinafară, ca bază pentru orice protecție.",
+        "price": "la cerere",
+        "features": ["Interior & exterior", "Curățare în profunzime", "Pregătire pentru protecții"]
+      },
+      {
+        "icon": "shield",
+        "title": "Protecție ceramică KRYTEX",
+        "description": "Protecție ceramică premium KRYTEX pentru caroserie, cu luciu intens, efect hidrofob și rezistență de durată.",
+        "price": "la cerere",
+        "features": ["Ceramică KRYTEX", "Efect hidrofob", "Protecție de durată"]
+      },
+      {
+        "icon": "layers",
+        "title": "Protecții exterioare & suprafețe",
+        "description": "Protecții pentru textil, piele, sticlă, jante și soft-top — fiecare suprafață primește tratamentul potrivit.",
+        "price": "la cerere",
+        "features": ["Textil / piele / sticlă", "Jante & soft-top", "Tratament dedicat"]
+      },
+      {
+        "icon": "film",
+        "title": "Folie PPF regenerativă",
+        "description": "Folie de protecție transparentă, regenerativă (self-healing), care apără vopseaua de pietriș și zgârieturi.",
+        "price": "la cerere",
+        "features": ["Transparentă", "Self-healing", "Anti-pietriș"]
+      },
+      {
+        "icon": "shine",
+        "title": "Piano Black",
+        "description": "Restaurare și finisaj Piano Black pentru faruri, caroserie, display și elemente de interior — luciu ca de fabrică.",
+        "price": "la cerere",
+        "features": ["Faruri & caroserie", "Display & interior", "Finisaj Piano Black"]
+      },
+      {
+        "icon": "wheel",
+        "title": "Chrome delete",
+        "description": "Transformăm elementele cromate în negru mat sau lucios, pentru un aspect modern și unitar.",
+        "price": "la cerere",
+        "features": ["Negru mat / lucios", "Aspect modern", "Aplicare precisă"]
+      }
+    ]
+  },
+
+  "beforeAfter": {
+    "eyebrow": "Rezultate",
+    "title": "Diferența se vede. Trage cursorul.",
+    "subtitle": "Aceleași mașini, înainte și după o zi la WePolish.",
+    "items": [
+      {
+        "label": "Detailing & luciu · caroserie",
+        "before": "assets/ba-1-before.jpg",
+        "after": "assets/ba-1-after.jpg"
+      },
+      {
+        "label": "Detailing interior · habitaclu",
+        "before": "assets/ba-2-before.jpg",
+        "after": "assets/ba-2-after.jpg"
+      }
+    ]
+  },
+
+  "process": {
+    "eyebrow": "Cum lucrăm",
+    "title": "Un proces simplu, fără surprize.",
+    "subtitle": "De la prima ta întrebare până la predarea cheilor.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Cere o ofertă",
+        "description": "Scrie-ne pe WhatsApp cu modelul mașinii și ce îți dorești. Îți răspundem cu un preț clar."
+      },
+      {
+        "number": "02",
+        "title": "Programare & evaluare",
+        "description": "Evaluăm starea mașinii, recomandăm protecțiile potrivite și îți rezervăm un loc."
+      },
+      {
+        "number": "03",
+        "title": "Lucrul propriu-zis",
+        "description": "Aplicăm detailing și protecții cu produse premium. Primești poze pe parcurs, ca să vezi progresul."
+      },
+      {
+        "number": "04",
+        "title": "Predare",
+        "description": "Îți predăm mașina impecabilă și protejată, cu recomandări de întreținere ca să păstrezi rezultatul."
+      }
+    ]
+  },
+
+  "benefits": {
+    "eyebrow": "De ce WePolish",
+    "title": "Protecție completă, pentru orice suprafață.",
+    "subtitle": "Produse premium și tehnici de top pentru un rezultat de durată.",
+    "items": [
+      {
+        "icon": "shield",
+        "title": "Ceramică KRYTEX",
+        "description": "Lucrăm cu protecții ceramice premium KRYTEX, pentru luciu și rezistență de durată."
+      },
+      {
+        "icon": "medal",
+        "title": "Protejăm orice suprafață",
+        "description": "Textil, piele, sticlă, jante, soft-top — fiecare material primește protecția potrivită."
+      },
+      {
+        "icon": "film",
+        "title": "PPF regenerativă",
+        "description": "Folie transparentă self-healing care apără vopseaua de pietriș și micro-zgârieturi."
+      },
+      {
+        "icon": "leaf",
+        "title": "Sigur pentru mașină",
+        "description": "Tehnici blânde, fără produse abrazive care afectează vopseaua sau materialele."
+      },
+      {
+        "icon": "camera",
+        "title": "Transparență totală",
+        "description": "Primești poze înainte, în timpul și după lucrare. Vezi exact ce plătești."
+      },
+      {
+        "icon": "heart",
+        "title": "Grijă pentru detalii",
+        "description": "Tratăm fiecare mașină ca și cum ar fi a noastră. Se vede în rezultat."
+      }
+    ]
+  },
+
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Lucrări din atelier",
+    "subtitle": "O selecție din mașinile care au trecut prin mâinile noastre.",
+    "items": [
+      { "image": "assets/gallery-1.jpg", "caption": "Protecție ceramică KRYTEX" },
+      { "image": "assets/gallery-2.jpg", "caption": "Detailing & luciu caroserie" },
+      { "image": "assets/gallery-3.jpg", "caption": "Detailing interior · tratament piele" },
+      { "image": "assets/gallery-4.jpg", "caption": "Folie PPF regenerativă" },
+      { "image": "assets/gallery-5.jpg", "caption": "Piano Black · faruri & interior" },
+      { "image": "assets/gallery-6.jpg", "caption": "Chrome delete" }
+    ]
+  },
+
+  "reviews": {
+    "eyebrow": "Recenzii",
+    "title": "Ce spun clienții noștri.",
+    "subtitle": "Clienți care s-au întors cu mașina la noi.",
+    "rating": "5.0",
+    "ratingLabel": "clienți mulțumiți",
+    "items": [
+      {
+        "name": "Andrei M.",
+        "role": "Client · BMW",
+        "rating": 5,
+        "text": "Protecție ceramică KRYTEX pe toată mașina. Luciu incredibil, apa alunecă instant. Muncă de profesioniști. Recomand.",
+        "avatar": "assets/avatar-1.svg"
+      },
+      {
+        "name": "Ioana P.",
+        "role": "Client · Audi",
+        "rating": 5,
+        "text": "Interiorul arată ca nou după detailing. Comunicare impecabilă pe WhatsApp și m-au ținut la curent cu poze.",
+        "avatar": "assets/avatar-2.svg"
+      },
+      {
+        "name": "Radu I.",
+        "role": "Client · Tesla",
+        "rating": 5,
+        "text": "Am pus folie PPF regenerativă pe față și am făcut chrome delete. Aliniere perfectă, aspect modern. Super calitate.",
+        "avatar": "assets/avatar-3.svg"
+      },
+      {
+        "name": "Cristina D.",
+        "role": "Client · Mercedes-Benz",
+        "rating": 5,
+        "text": "Mi-au refăcut elementele Piano Black din interior și arată ca noi. Atenție la detalii și seriozitate. Profesioniști.",
+        "avatar": "assets/avatar-4.svg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Întrebări frecvente",
+    "title": "Răspunsuri, înainte să întrebi.",
+    "subtitle": "Nu găsești ce cauți? Scrie-ne pe WhatsApp.",
+    "items": [
+      {
+        "question": "Ce este protecția ceramică KRYTEX?",
+        "answer": "KRYTEX este o gamă de protecții ceramice premium. Formează un strat rezistent peste vopsea, cu luciu intens, efect hidrofob și rezistență la UV și substanțe chimice, protejând mașina ani la rând."
+      },
+      {
+        "question": "Ce înseamnă folie PPF regenerativă?",
+        "answer": "Este o peliculă de protecție transparentă cu proprietăți self-healing: micro-zgârieturile dispar la căldură. Protejează vopseaua de pietriș și lovituri ușoare, rămânând invizibilă."
+      },
+      {
+        "question": "Ce este finisajul Piano Black?",
+        "answer": "Piano Black este un finisaj negru lucios, ca de pian. Îl restaurăm sau aplicăm pe faruri, caroserie, display și elemente de interior, pentru un aspect elegant, ca de fabrică."
+      },
+      {
+        "question": "Ce suprafețe puteți proteja?",
+        "answer": "Vopsea, textil, piele, sticlă, jante și soft-top. Fiecare material primește tratamentul și protecția potrivită, în funcție de nevoile mașinii tale."
+      },
+      {
+        "question": "Pot vedea prețul înainte?",
+        "answer": "Sigur. Trimite-ne modelul mașinii și ce îți dorești pe WhatsApp, iar noi îți răspundem cu o ofertă clară, fără costuri ascunse."
+      }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Gata de programare?",
+    "title": "Hai să facem mașina ta să strălucească și să reziste.",
+    "subtitle": "Scrie-ne pe WhatsApp și primești o ofertă pentru detailing sau protecții.",
+    "primaryCta": { "label": "Scrie-ne pe WhatsApp", "action": "whatsapp" },
+    "secondaryCta": { "label": "Sună acum", "action": "phone" }
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Te așteptăm în atelier.",
+    "subtitle": "Detailing & protecții premium în Iași. Programează-te sau treci pe la noi.",
+    "whatsappMessage": "Salut! Aș vrea o ofertă pentru mașina mea:"
+  },
+
+  "footer": {
+    "description": "WePolish.ro — detailing exterior & interior, protecții ceramice KRYTEX, folie PPF regenerativă, Piano Black și chrome delete în Iași.",
+    "columns": [
+      {
+        "title": "Servicii",
+        "links": [
+          { "label": "Detailing exterior & interior", "href": "#servicii" },
+          { "label": "Protecție ceramică KRYTEX", "href": "#servicii" },
+          { "label": "Folie PPF regenerativă", "href": "#servicii" },
+          { "label": "Piano Black & chrome delete", "href": "#servicii" }
+        ]
+      },
+      {
+        "title": "WePolish",
+        "links": [
+          { "label": "Rezultate", "href": "#rezultate" },
+          { "label": "Galerie", "href": "#galerie" },
+          { "label": "Recenzii", "href": "#recenzii" },
+          { "label": "Întrebări frecvente", "href": "#faq" }
+        ]
+      }
+    ],
+    "legal": "© 2026 WePolish.ro. Toate drepturile rezervate.",
+    "credit": "Design de LimeSpark Development"
+  },
+
+  "whatsappDefaultMessage": "Salut! Am văzut site-ul și aș vrea mai multe detalii."
+}
