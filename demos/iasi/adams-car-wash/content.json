@@ -1,0 +1,310 @@
+{
+  "$schema": "Adam's Car Wash & Detailing Iași — demo LimeSpark. Editează doar acest fișier, tokens.json și imaginile din assets/.",
+
+  "business": {
+    "name": "Adam's",
+    "nameSuffix": "Car Wash & Detailing",
+    "tagline": "Spălătorie & detailing auto în Iași",
+    "logoText": "Adam's",
+    "logo": "assets/logo.png",
+    "logoBg": "#FFFFFF",
+    "phone": "+40 730 154 154",
+    "whatsapp": "40730154154",
+    "email": "",
+    "address": "Str. Hlincea nr. 23, Iași (capăt CUG, lângă Spitalul Providența)",
+    "mapsUrl": "https://maps.google.com/?q=Strada+Hlincea+23+Iasi",
+    "hours": "Luni – Sâmbătă 08:00 – 19:00 · Duminică 09:00 – 14:00",
+    "social": [
+      { "label": "Facebook", "url": "https://www.facebook.com/profile.php?id=61551471299706&locale=ro_RO" }
+    ]
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Servicii", "href": "#servicii" },
+      { "label": "Rezultate", "href": "#rezultate" },
+      { "label": "Proces", "href": "#proces" },
+      { "label": "Galerie", "href": "#galerie" },
+      { "label": "Recenzii", "href": "#recenzii" }
+    ],
+    "cta": { "label": "Programează-te", "action": "whatsapp" }
+  },
+
+  "hero": {
+    "eyebrow": "Spălătorie & detailing · Iași",
+    "title": "Mașina ta, curată lună.",
+    "titleAccent": "Spălătorie & detailing auto în Iași.",
+    "subtitle": "Spălare auto, polish, curățare tapițerie și piele, curățare motor și tratament ceramic — în Hlincea, la capăt CUG. Deschis și duminica.",
+    "primaryCta": { "label": "Programează-te", "action": "whatsapp" },
+    "secondaryCta": { "label": "Vezi serviciile", "href": "#servicii" },
+    "image": "assets/hero.jpg",
+    "stats": [
+      { "value": "08–19", "label": "Luni – Sâmbătă" },
+      { "value": "Duminica", "label": "09:00 – 14:00 deschis" },
+      { "value": "Iași", "label": "Hlincea, capăt CUG" }
+    ]
+  },
+
+  "marquee": {
+    "enabled": true,
+    "label": "Lucrăm pe orice marcă",
+    "items": ["BMW", "Mercedes-Benz", "Audi", "Volkswagen", "Dacia", "Ford"]
+  },
+
+  "services": {
+    "eyebrow": "Servicii",
+    "title": "De la spălare la detailing complet.",
+    "subtitle": "Tot ce are nevoie mașina ta, într-un singur loc în Hlincea.",
+    "items": [
+      {
+        "icon": "shine",
+        "title": "Spălare auto",
+        "description": "Spălare atentă exterioară și interioară, pentru o mașină curată lună, gata de drum.",
+        "price": "la cerere",
+        "features": ["Exterior & interior", "Spălare atentă", "Geamuri & plastice"]
+      },
+      {
+        "icon": "layers",
+        "title": "Polish",
+        "description": "Redăm luciul vopselei și îndepărtăm swirl-urile și zgârieturile fine pentru un finisaj strălucitor.",
+        "price": "la cerere",
+        "features": ["Luciu profund", "Eliminare swirl-uri", "Finisaj strălucitor"]
+      },
+      {
+        "icon": "sparkle",
+        "title": "Curățare tapițerie & fețe portiere",
+        "description": "Curățare în profunzime a tapițeriei și a fețelor de portiere, pentru un interior proaspăt și igienizat.",
+        "price": "la cerere",
+        "features": ["Tapițerie", "Fețe portiere", "Igienizare"]
+      },
+      {
+        "icon": "shield",
+        "title": "Curățare & întreținere piele",
+        "description": "Curățăm delicat pielea și o hidratăm, ca să rămână moale, curată și fără crăpături.",
+        "price": "la cerere",
+        "features": ["Curățare delicată", "Hidratare piele", "Protecție & finisaj"]
+      },
+      {
+        "icon": "wheel",
+        "title": "Curățare motor",
+        "description": "Curățare atentă a compartimentului motor, pentru un aspect îngrijit și întreținere mai ușoară.",
+        "price": "la cerere",
+        "features": ["Compartiment motor", "Curățare atentă", "Aspect îngrijit"]
+      },
+      {
+        "icon": "film",
+        "title": "Tratament ceramic",
+        "description": "Strat ceramic de durată care respinge apa și murdăria și păstrează luciul ani la rând.",
+        "price": "la cerere",
+        "features": ["Protecție de durată", "Efect hidrofob", "Rezistență UV & chimică"]
+      }
+    ]
+  },
+
+  "beforeAfter": {
+    "eyebrow": "Rezultate",
+    "title": "Diferența se vede. Trage cursorul.",
+    "subtitle": "Aceleași mașini, înainte și după o vizită la Adam's.",
+    "items": [
+      {
+        "label": "Spălare & luciu · exterior",
+        "before": "assets/ba-1-before.jpg",
+        "after": "assets/ba-1-after.jpg"
+      },
+      {
+        "label": "Curățare tapițerie · interior",
+        "before": "assets/ba-2-before.jpg",
+        "after": "assets/ba-2-after.jpg"
+      }
+    ]
+  },
+
+  "process": {
+    "eyebrow": "Cum lucrăm",
+    "title": "Un proces simplu, fără surprize.",
+    "subtitle": "De la prima ta întrebare până la predarea cheilor.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Cere o ofertă",
+        "description": "Scrie-ne pe WhatsApp cu modelul mașinii și ce îți dorești. Îți răspundem cu un preț clar."
+      },
+      {
+        "number": "02",
+        "title": "Treci pe la noi",
+        "description": "Ne găsești pe Str. Hlincea nr. 23, la capăt CUG, lângă Spitalul Providența. Deschis și duminica."
+      },
+      {
+        "number": "03",
+        "title": "Lucrul propriu-zis",
+        "description": "Spălăm și tratăm fiecare detaliu cu grijă. Mașina ta e pe mâini bune."
+      },
+      {
+        "number": "04",
+        "title": "Predare",
+        "description": "Îți predăm mașina curată lună, gata de drum, cu recomandări de întreținere."
+      }
+    ]
+  },
+
+  "benefits": {
+    "eyebrow": "De ce Adam's",
+    "title": "Curat, rapid și la un preț corect.",
+    "subtitle": "Spălătorie și detailing într-un singur loc, deschis șapte zile din șapte.",
+    "items": [
+      {
+        "icon": "clock",
+        "title": "Deschis și duminica",
+        "description": "Luni–Sâmbătă 08:00–19:00 și Duminică 09:00–14:00. Vii când îți convine."
+      },
+      {
+        "icon": "medal",
+        "title": "Spălătorie & detailing",
+        "description": "De la o spălare rapidă la polish, piele și tratament ceramic — tot într-un singur loc."
+      },
+      {
+        "icon": "shield",
+        "title": "Produse premium",
+        "description": "Lucrăm cu produse profesionale, sigure pentru vopsea și materiale."
+      },
+      {
+        "icon": "leaf",
+        "title": "Sigur pentru mașină",
+        "description": "Tehnici blânde, fără produse abrazive care afectează vopseaua sau materialele."
+      },
+      {
+        "icon": "camera",
+        "title": "Transparență totală",
+        "description": "Îți explicăm exact ce e de făcut și primești o ofertă clară, fără costuri ascunse."
+      },
+      {
+        "icon": "heart",
+        "title": "Grijă pentru detalii",
+        "description": "Tratăm fiecare mașină ca și cum ar fi a noastră. Se vede în rezultat."
+      }
+    ]
+  },
+
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Lucrări din spălătorie",
+    "subtitle": "O selecție din mașinile care au trecut pe la noi.",
+    "items": [
+      { "image": "assets/gallery-1.jpg", "caption": "Tratament ceramic" },
+      { "image": "assets/gallery-2.jpg", "caption": "Polish & luciu caroserie" },
+      { "image": "assets/gallery-3.jpg", "caption": "Curățare tapițerie & piele" },
+      { "image": "assets/gallery-4.jpg", "caption": "Curățare motor" },
+      { "image": "assets/gallery-5.jpg", "caption": "Spălare premium & luciu" },
+      { "image": "assets/gallery-6.jpg", "caption": "Interior curat & proaspăt" }
+    ]
+  },
+
+  "reviews": {
+    "eyebrow": "Recenzii",
+    "title": "Ce spun clienții noștri.",
+    "subtitle": "Clienți care revin pentru fiecare spălare.",
+    "rating": "5.0",
+    "ratingLabel": "clienți mulțumiți",
+    "items": [
+      {
+        "name": "Andrei M.",
+        "role": "Client · spălare",
+        "rating": 5,
+        "text": "Spălare impecabilă și atenție la detalii. Îmi convine că e deschis și duminica. Recomand cu încredere.",
+        "avatar": "assets/avatar-1.svg"
+      },
+      {
+        "name": "Ioana P.",
+        "role": "Client · curățare interior",
+        "rating": 5,
+        "text": "Mi-au curățat tapițeria și pielea, iar interiorul arată ca nou. Oameni de treabă și prețuri corecte.",
+        "avatar": "assets/avatar-2.svg"
+      },
+      {
+        "name": "Radu I.",
+        "role": "Client · polish",
+        "rating": 5,
+        "text": "Polish impecabil, mașina strălucește ca nouă. Rapid și profesional. Mă întorc sigur.",
+        "avatar": "assets/avatar-3.svg"
+      },
+      {
+        "name": "Cristina D.",
+        "role": "Client · tratament ceramic",
+        "rating": 5,
+        "text": "Tratamentul ceramic ține apa la distanță și mașina rămâne curată mult mai mult. Foarte mulțumită.",
+        "avatar": "assets/avatar-4.svg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Întrebări frecvente",
+    "title": "Răspunsuri, înainte să întrebi.",
+    "subtitle": "Nu găsești ce cauți? Scrie-ne pe WhatsApp.",
+    "items": [
+      {
+        "question": "Care e programul?",
+        "answer": "Suntem deschiși Luni–Sâmbătă între 08:00 și 19:00, iar Duminică între 09:00 și 14:00. Ne găsești pe Str. Hlincea nr. 23, la capăt CUG."
+      },
+      {
+        "question": "Unde vă găsesc?",
+        "answer": "Pe Str. Hlincea nr. 23, Iași, la capăt CUG, în apropierea Spitalului Providența."
+      },
+      {
+        "question": "Faceți și curățare motor?",
+        "answer": "Da. Curățăm atent compartimentul motor, pentru un aspect îngrijit și o întreținere mai ușoară."
+      },
+      {
+        "question": "Trebuie să programez sau pot veni direct?",
+        "answer": "Poți trece direct, dar pentru detailing, polish sau tratament ceramic îți recomandăm o programare pe WhatsApp, ca să eviți așteptarea."
+      },
+      {
+        "question": "Pot vedea prețul înainte?",
+        "answer": "Sigur. Trimite-ne modelul mașinii și ce îți dorești pe WhatsApp, iar noi îți răspundem cu o ofertă clară, fără costuri ascunse."
+      }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Gata de programare?",
+    "title": "Hai să facem mașina ta să strălucească.",
+    "subtitle": "Scrie-ne pe WhatsApp sau treci pe la noi în Hlincea. Deschis și duminica.",
+    "primaryCta": { "label": "Scrie-ne pe WhatsApp", "action": "whatsapp" },
+    "secondaryCta": { "label": "Sună acum", "action": "phone" }
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Te așteptăm în Hlincea.",
+    "subtitle": "Str. Hlincea nr. 23, capăt CUG, lângă Spitalul Providența. Luni–Sâmbătă 08–19, Duminică 09–14.",
+    "whatsappMessage": "Salut! Aș vrea o ofertă pentru mașina mea:"
+  },
+
+  "footer": {
+    "description": "Adam's Car Wash & Detailing — spălătorie și detailing auto în Iași, pe Str. Hlincea nr. 23 (capăt CUG). Polish, curățare tapițerie și piele, curățare motor și tratament ceramic.",
+    "columns": [
+      {
+        "title": "Servicii",
+        "links": [
+          { "label": "Spălare auto", "href": "#servicii" },
+          { "label": "Polish", "href": "#servicii" },
+          { "label": "Curățare tapițerie & piele", "href": "#servicii" },
+          { "label": "Tratament ceramic", "href": "#servicii" }
+        ]
+      },
+      {
+        "title": "Adam's",
+        "links": [
+          { "label": "Rezultate", "href": "#rezultate" },
+          { "label": "Galerie", "href": "#galerie" },
+          { "label": "Recenzii", "href": "#recenzii" },
+          { "label": "Întrebări frecvente", "href": "#faq" }
+        ]
+      }
+    ],
+    "legal": "© 2026 Adam's Car Wash & Detailing. Toate drepturile rezervate.",
+    "credit": "Design de LimeSpark Development"
+  },
+
+  "whatsappDefaultMessage": "Salut! Am văzut site-ul și aș vrea mai multe detalii."
+}
