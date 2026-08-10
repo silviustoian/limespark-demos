@@ -1,0 +1,312 @@
+{
+  "$schema": "VERR Detailing Iași — demo LimeSpark. Editează doar acest fișier, tokens.json și imaginile din assets/.",
+
+  "business": {
+    "name": "VERR",
+    "nameSuffix": "Detailing Iași",
+    "tagline": "Where every detail counts!",
+    "logoText": "VERR Detailing",
+    "logo": "assets/logo.png",
+    "logoBg": "#0A0A0B",
+    "phone": "+40 754 290 293",
+    "whatsapp": "40754290293",
+    "email": "",
+    "address": "Str. Bradului nr. 5, Iași, 700730",
+    "mapsUrl": "https://maps.google.com/?q=Strada+Bradului+5+Iasi",
+    "hours": "Program flexibil · pe bază de programare",
+    "social": [
+      { "label": "Instagram", "url": "https://www.instagram.com/verrdetailing.iasi" },
+      { "label": "Facebook", "url": "https://www.facebook.com/VERRDetailingIasi?locale=ro_RO" },
+      { "label": "TikTok", "url": "https://www.tiktok.com/@verrdetailing.iasi" }
+    ]
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Servicii", "href": "#servicii" },
+      { "label": "Rezultate", "href": "#rezultate" },
+      { "label": "Proces", "href": "#proces" },
+      { "label": "Galerie", "href": "#galerie" },
+      { "label": "Recenzii", "href": "#recenzii" }
+    ],
+    "cta": { "label": "Programează-te", "action": "whatsapp" }
+  },
+
+  "hero": {
+    "eyebrow": "Detailing & custom interior · Iași",
+    "title": "Where every detail counts.",
+    "titleAccent": "Detailing, insonorizare & plafon înstelat.",
+    "subtitle": "Detailing interior și exterior, tratamente de protecție, insonorizare auto, retapițare plafon și montaj steluțe & lumini ambientale — pe Str. Bradului nr. 5, Iași.",
+    "primaryCta": { "label": "Programează-te", "action": "whatsapp" },
+    "secondaryCta": { "label": "Vezi serviciile", "href": "#servicii" },
+    "image": "assets/hero.jpg",
+    "stats": [
+      { "value": "Steluțe", "label": "plafon înstelat & ambiental" },
+      { "value": "Insonorizare", "label": "auto completă" },
+      { "value": "Iași", "label": "Str. Bradului 5" }
+    ]
+  },
+
+  "marquee": {
+    "enabled": true,
+    "label": "Lucrăm pe orice marcă",
+    "items": ["BMW", "Mercedes-Benz", "Audi", "Volkswagen", "Ford", "Porsche"]
+  },
+
+  "services": {
+    "eyebrow": "Servicii",
+    "title": "Detailing și transformări de interior.",
+    "subtitle": "De la curățare în detaliu la insonorizare, plafon înstelat și lumini ambientale.",
+    "items": [
+      {
+        "icon": "sparkle",
+        "title": "Detailing interior & exterior",
+        "description": "Curățare în profunzime, tratament piele, spălare atentă și finisaj impecabil, pe dinăuntru și pe dinafară.",
+        "price": "la cerere",
+        "features": ["Interior în profunzime", "Exterior & luciu", "Igienizare habitaclu"]
+      },
+      {
+        "icon": "shield",
+        "title": "Tratamente de protecție",
+        "description": "Protecție ceramică și tratamente de durată care resping apa și murdăria și păstrează luciul.",
+        "price": "la cerere",
+        "features": ["Protecție ceramică", "Efect hidrofob", "Luciu de durată"]
+      },
+      {
+        "icon": "film",
+        "title": "Tratamente spații vitrate",
+        "description": "Tratament hidrofob pentru parbriz și geamuri — vizibilitate mai bună pe ploaie, curățare mai ușoară.",
+        "price": "la cerere",
+        "features": ["Efect hidrofob geamuri", "Vizibilitate pe ploaie", "Curățare ușoară"]
+      },
+      {
+        "icon": "layers",
+        "title": "Retapițare plafon & stâlpi",
+        "description": "Reînnoim plafonul și stâlpii căzuți sau uzați, cu materiale de calitate și montaj îngrijit.",
+        "price": "la cerere",
+        "features": ["Plafon & stâlpi", "Material nou", "Aspect ca din fabrică"]
+      },
+      {
+        "icon": "wheel",
+        "title": "Insonorizare auto completă",
+        "description": "Reducem zgomotele și vibrațiile din mașină pentru un habitaclu mult mai silențios și confortabil.",
+        "price": "la cerere",
+        "features": ["Uși, podea & portbagaj", "Mai puțin zgomot", "Sunet audio îmbunătățit"]
+      },
+      {
+        "icon": "shine",
+        "title": "Montaj steluțe & lumini ambientale",
+        "description": "Plafon înstelat și lumini ambientale personalizate, pentru o atmosferă premium în interiorul mașinii.",
+        "price": "la cerere",
+        "features": ["Plafon înstelat", "Lumini ambientale LED", "Personalizat pe mașina ta"]
+      }
+    ]
+  },
+
+  "beforeAfter": {
+    "eyebrow": "Rezultate",
+    "title": "Diferența se vede. Trage cursorul.",
+    "subtitle": "Aceleași mașini, înainte și după o zi la VERR Detailing.",
+    "items": [
+      {
+        "label": "Detailing interior · habitaclu",
+        "before": "assets/ba-1-before.jpg",
+        "after": "assets/ba-1-after.jpg"
+      },
+      {
+        "label": "Plafon înstelat · montaj steluțe",
+        "before": "assets/ba-2-before.jpg",
+        "after": "assets/ba-2-after.jpg"
+      }
+    ]
+  },
+
+  "process": {
+    "eyebrow": "Cum lucrăm",
+    "title": "Un proces simplu, fără surprize.",
+    "subtitle": "De la prima ta întrebare până la predarea cheilor.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Cere o ofertă",
+        "description": "Scrie-ne pe WhatsApp cu modelul mașinii și ce îți dorești. Îți răspundem cu un preț clar."
+      },
+      {
+        "number": "02",
+        "title": "Programare",
+        "description": "Alegem împreună data potrivită și îți rezervăm un loc. Ne găsești pe Str. Bradului nr. 5."
+      },
+      {
+        "number": "03",
+        "title": "Lucrul propriu-zis",
+        "description": "Fie că e detailing, insonorizare sau plafon înstelat, tratăm fiecare detaliu cu grijă. Primești poze pe parcurs."
+      },
+      {
+        "number": "04",
+        "title": "Predare",
+        "description": "Îți predăm mașina impecabilă, cu recomandări de întreținere ca să păstrezi rezultatul cât mai mult."
+      }
+    ]
+  },
+
+  "benefits": {
+    "eyebrow": "De ce VERR",
+    "title": "Where every detail counts.",
+    "subtitle": "Detailing și transformări de interior, executate cu atenție la fiecare detaliu.",
+    "items": [
+      {
+        "icon": "medal",
+        "title": "Interior personalizat",
+        "description": "Plafon înstelat, lumini ambientale și retapițare — transformăm interiorul exact pe gustul tău."
+      },
+      {
+        "icon": "leaf",
+        "title": "Habitaclu silențios",
+        "description": "Prin insonorizare completă reducem zgomotul și vibrațiile pentru un confort de clasă superioară."
+      },
+      {
+        "icon": "shield",
+        "title": "Produse premium",
+        "description": "Lucrăm exclusiv cu produse și materiale profesionale, testate pe mii de mașini."
+      },
+      {
+        "icon": "clock",
+        "title": "Grijă la fiecare detaliu",
+        "description": "Numele o spune: la VERR, fiecare detaliu contează. Nimic nu e lăsat la voia întâmplării."
+      },
+      {
+        "icon": "camera",
+        "title": "Transparență totală",
+        "description": "Primești poze înainte, în timpul și după lucrare. Vezi exact ce plătești."
+      },
+      {
+        "icon": "heart",
+        "title": "Pasiune pentru mașini",
+        "description": "Tratăm fiecare mașină ca și cum ar fi a noastră. Se vede în rezultat."
+      }
+    ]
+  },
+
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Lucrări din atelier",
+    "subtitle": "O selecție din mașinile care au trecut prin mâinile noastre.",
+    "items": [
+      { "image": "assets/gallery-1.jpg", "caption": "Tratament de protecție" },
+      { "image": "assets/gallery-2.jpg", "caption": "Detailing interior · tratament piele" },
+      { "image": "assets/gallery-3.jpg", "caption": "Plafon înstelat & lumini ambientale" },
+      { "image": "assets/gallery-4.jpg", "caption": "Insonorizare auto" },
+      { "image": "assets/gallery-5.jpg", "caption": "Retapițare plafon & stâlpi" },
+      { "image": "assets/gallery-6.jpg", "caption": "Detailing exterior & luciu" }
+    ]
+  },
+
+  "reviews": {
+    "eyebrow": "Recenzii",
+    "title": "Ce spun clienții noștri.",
+    "subtitle": "Clienți care s-au întors cu mașina la noi.",
+    "rating": "5.0",
+    "ratingLabel": "clienți mulțumiți",
+    "items": [
+      {
+        "name": "Andrei M.",
+        "role": "Client · plafon înstelat",
+        "rating": 5,
+        "text": "Mi-au montat plafon înstelat și lumini ambientale. Interiorul arată ca într-un show car. Muncă de finețe, recomand.",
+        "avatar": "assets/avatar-1.svg"
+      },
+      {
+        "name": "Ioana P.",
+        "role": "Client · detailing",
+        "rating": 5,
+        "text": "Interiorul arată ca nou după detailing. Comunicare impecabilă pe WhatsApp și m-au ținut la curent cu poze.",
+        "avatar": "assets/avatar-2.svg"
+      },
+      {
+        "name": "Radu I.",
+        "role": "Client · insonorizare",
+        "rating": 5,
+        "text": "Am făcut insonorizare completă și diferența e uriașă. Mașina e mult mai silențioasă, iar sistemul audio sună altfel.",
+        "avatar": "assets/avatar-3.svg"
+      },
+      {
+        "name": "Cristina D.",
+        "role": "Client · retapițare plafon",
+        "rating": 5,
+        "text": "Plafonul căzut arată acum ca din fabrică. Atenție la detalii și seriozitate. Where every detail counts, chiar așa.",
+        "avatar": "assets/avatar-4.svg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Întrebări frecvente",
+    "title": "Răspunsuri, înainte să întrebi.",
+    "subtitle": "Nu găsești ce cauți? Scrie-ne pe WhatsApp.",
+    "items": [
+      {
+        "question": "Ce înseamnă plafon înstelat?",
+        "answer": "Montăm fibre optice în plafonul mașinii, care creează efectul unui cer înstelat. Îl putem combina cu lumini ambientale LED pentru o atmosferă premium, personalizată pe gustul tău."
+      },
+      {
+        "question": "Ce presupune insonorizarea auto?",
+        "answer": "Aplicăm materiale fonoabsorbante pe uși, podea, plafon și portbagaj pentru a reduce zgomotul și vibrațiile. Rezultă un habitaclu mai silențios și un sunet audio mai bun."
+      },
+      {
+        "question": "Faceți și retapițare plafon?",
+        "answer": "Da. Reînnoim plafonul și stâlpii căzuți sau uzați cu materiale de calitate și montaj îngrijit, pentru un aspect ca din fabrică."
+      },
+      {
+        "question": "Trebuie să programez sau pot veni direct?",
+        "answer": "Recomandăm programarea, ca să îți rezervăm un loc și să evaluăm corect lucrarea. Scrie-ne pe WhatsApp și găsim rapid o dată potrivită."
+      },
+      {
+        "question": "Pot vedea prețul înainte?",
+        "answer": "Sigur. Trimite-ne modelul mașinii și ce îți dorești pe WhatsApp, iar noi îți răspundem cu o ofertă clară, fără costuri ascunse."
+      }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Gata de programare?",
+    "title": "Hai să facem mașina ta să iasă în evidență.",
+    "subtitle": "Scrie-ne pe WhatsApp și primești o ofertă pentru serviciul dorit.",
+    "primaryCta": { "label": "Scrie-ne pe WhatsApp", "action": "whatsapp" },
+    "secondaryCta": { "label": "Sună acum", "action": "phone" }
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Te așteptăm în atelier.",
+    "subtitle": "Str. Bradului nr. 5, Iași. Programează-te sau treci pe la noi.",
+    "whatsappMessage": "Salut! Aș vrea o ofertă pentru mașina mea:"
+  },
+
+  "footer": {
+    "description": "VERR Detailing Iași — detailing interior & exterior, tratamente de protecție, insonorizare, retapițare plafon și montaj steluțe & lumini ambientale. Where every detail counts.",
+    "columns": [
+      {
+        "title": "Servicii",
+        "links": [
+          { "label": "Detailing interior & exterior", "href": "#servicii" },
+          { "label": "Tratamente de protecție", "href": "#servicii" },
+          { "label": "Insonorizare auto", "href": "#servicii" },
+          { "label": "Plafon înstelat & ambiental", "href": "#servicii" }
+        ]
+      },
+      {
+        "title": "VERR",
+        "links": [
+          { "label": "Rezultate", "href": "#rezultate" },
+          { "label": "Galerie", "href": "#galerie" },
+          { "label": "Recenzii", "href": "#recenzii" },
+          { "label": "Întrebări frecvente", "href": "#faq" }
+        ]
+      }
+    ],
+    "legal": "© 2026 VERR Detailing Iași. Toate drepturile rezervate.",
+    "credit": "Design de LimeSpark Development"
+  },
+
+  "whatsappDefaultMessage": "Salut! Am văzut site-ul și aș vrea mai multe detalii."
+}
