@@ -1,0 +1,310 @@
+{
+  "$schema": "CAF Haus Iași — demo LimeSpark. Editează doar acest fișier, tokens.json și imaginile din assets/.",
+
+  "business": {
+    "name": "CAF",
+    "nameSuffix": "Haus",
+    "tagline": "Transpunem pasiunea în detalii",
+    "logoText": "CAF Haus",
+    "logo": "assets/logo.png",
+    "logoBg": "#FFFFFF",
+    "phone": "+40 754 350 936",
+    "whatsapp": "40754350936",
+    "email": "",
+    "address": "Str. Industriilor nr. 40, Iași, 707305",
+    "mapsUrl": "https://maps.google.com/?q=Strada+Industriilor+40+Iasi",
+    "hours": "Program flexibil · pe bază de programare",
+    "social": [
+      { "label": "Facebook", "url": "https://www.facebook.com/cafhaus?locale=ro_RO" }
+    ]
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Servicii", "href": "#servicii" },
+      { "label": "Rezultate", "href": "#rezultate" },
+      { "label": "Proces", "href": "#proces" },
+      { "label": "Galerie", "href": "#galerie" },
+      { "label": "Recenzii", "href": "#recenzii" }
+    ],
+    "cta": { "label": "Programează-te", "action": "whatsapp" }
+  },
+
+  "hero": {
+    "eyebrow": "GYEON Certified · CovrGard PPF · Iași",
+    "title": "Transpunem pasiunea în detalii.",
+    "titleAccent": "Detailing, protecție ceramică & PPF.",
+    "subtitle": "Detailing interior și exterior, protecții ceramice și folii PPF, executate de un GYEON Certified Detailer și CovrGard PPF Authorized Installer — în Iași.",
+    "primaryCta": { "label": "Programează-te", "action": "whatsapp" },
+    "secondaryCta": { "label": "Vezi serviciile", "href": "#servicii" },
+    "image": "assets/hero.jpg",
+    "stats": [
+      { "value": "GYEON", "label": "Certified Detailer" },
+      { "value": "CovrGard", "label": "PPF Authorized Installer" },
+      { "value": "Iași", "label": "Str. Industriilor 40" }
+    ]
+  },
+
+  "marquee": {
+    "enabled": true,
+    "label": "Certificări & parteneri",
+    "items": ["GYEON Certified Detailer", "CovrGard PPF Authorized", "Protecție ceramică", "Folie PPF", "Detailing", "Corecție vopsea"]
+  },
+
+  "services": {
+    "eyebrow": "Servicii",
+    "title": "Detailing și protecție, la standard certificat.",
+    "subtitle": "Produse și tehnici premium, aplicate de un detailer certificat GYEON și instalator autorizat CovrGard.",
+    "items": [
+      {
+        "icon": "sparkle",
+        "title": "Detailing interior",
+        "description": "Curățare în profunzime, extracție tapițerie, tratament piele și igienizare completă a habitaclului.",
+        "price": "la cerere",
+        "features": ["Aspirare profesională", "Tratament piele & plastic", "Igienizare habitaclu"]
+      },
+      {
+        "icon": "shine",
+        "title": "Detailing exterior",
+        "description": "Spălare pe două găleți, decontaminare, argilă și pregătirea vopselei pentru un luciu profund.",
+        "price": "la cerere",
+        "features": ["Spălare pe 2 găleți", "Decontaminare cu argilă", "Pregătire vopsea"]
+      },
+      {
+        "icon": "layers",
+        "title": "Corecție de vopsea",
+        "description": "Îndepărtăm swirl-urile și zgârieturile fine pentru o suprafață oglindă, corectată în 1–3 pași.",
+        "price": "la cerere",
+        "features": ["Polish în 1–3 pași", "Eliminare swirl-uri", "Finisaj oglindă"]
+      },
+      {
+        "icon": "shield",
+        "title": "Protecție ceramică GYEON",
+        "description": "Protecție ceramică premium GYEON, aplicată de un detailer certificat, pentru luciu și rezistență de durată.",
+        "price": "la cerere",
+        "features": ["Produse GYEON", "Aplicare certificată", "Efect hidrofob"]
+      },
+      {
+        "icon": "film",
+        "title": "Folie PPF CovrGard",
+        "description": "Peliculă de protecție PPF CovrGard, montată de un instalator autorizat — protecție invizibilă anti-pietriș.",
+        "price": "la cerere",
+        "features": ["CovrGard Authorized", "Self-healing", "Protecție anti-pietriș"]
+      },
+      {
+        "icon": "wheel",
+        "title": "Recondiționare faruri & jante",
+        "description": "Redăm claritatea farurilor și aspectul jantelor, cu sigilare pentru rezultate de durată.",
+        "price": "la cerere",
+        "features": ["Polish faruri", "Curățare jante", "Sigilare protectoare"]
+      }
+    ]
+  },
+
+  "beforeAfter": {
+    "eyebrow": "Rezultate",
+    "title": "Diferența se vede. Trage cursorul.",
+    "subtitle": "Aceleași mașini, înainte și după o zi la CAF Haus.",
+    "items": [
+      {
+        "label": "Corecție & luciu · caroserie",
+        "before": "assets/ba-1-before.jpg",
+        "after": "assets/ba-1-after.jpg"
+      },
+      {
+        "label": "Detailing interior · habitaclu",
+        "before": "assets/ba-2-before.jpg",
+        "after": "assets/ba-2-after.jpg"
+      }
+    ]
+  },
+
+  "process": {
+    "eyebrow": "Cum lucrăm",
+    "title": "Un proces simplu, fără surprize.",
+    "subtitle": "De la prima ta întrebare până la predarea cheilor.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Cere o ofertă",
+        "description": "Scrie-ne pe WhatsApp cu modelul mașinii și ce îți dorești. Îți răspundem cu un preț clar."
+      },
+      {
+        "number": "02",
+        "title": "Programare & evaluare",
+        "description": "Evaluăm starea mașinii, recomandăm soluția potrivită și îți rezervăm un loc. Ne găsești pe Str. Industriilor nr. 40."
+      },
+      {
+        "number": "03",
+        "title": "Aplicarea propriu-zisă",
+        "description": "Lucrăm cu produse GYEON și CovrGard, la standard certificat. Primești poze pe parcurs, ca să vezi progresul."
+      },
+      {
+        "number": "04",
+        "title": "Predare",
+        "description": "Îți predăm mașina impecabilă, cu recomandări de întreținere ca să păstrezi rezultatul cât mai mult."
+      }
+    ]
+  },
+
+  "benefits": {
+    "eyebrow": "De ce CAF Haus",
+    "title": "Pasiune pentru detalii, la standard certificat.",
+    "subtitle": "Certificări reale, produse premium și atenție la fiecare detaliu.",
+    "items": [
+      {
+        "icon": "medal",
+        "title": "GYEON Certified Detailer",
+        "description": "Aplicăm protecțiile ceramice GYEON la standardul cerut de un detailer certificat oficial."
+      },
+      {
+        "icon": "shield",
+        "title": "CovrGard PPF Authorized",
+        "description": "Instalator autorizat CovrGard — montaj corect al foliei PPF, cu garanția standardelor mărcii."
+      },
+      {
+        "icon": "leaf",
+        "title": "Sigur pentru mașină",
+        "description": "Tehnici blânde, fără produse abrazive care afectează vopseaua sau materialele."
+      },
+      {
+        "icon": "clock",
+        "title": "Lucrare de finețe",
+        "description": "Nu grăbim niciodată o lucrare. Fiecare mașină primește timpul de care are nevoie."
+      },
+      {
+        "icon": "camera",
+        "title": "Transparență totală",
+        "description": "Primești poze înainte, în timpul și după lucrare. Vezi exact ce plătești."
+      },
+      {
+        "icon": "heart",
+        "title": "Pasiune în fiecare detaliu",
+        "description": "Transpunem pasiunea în detalii. Tratăm fiecare mașină ca și cum ar fi a noastră."
+      }
+    ]
+  },
+
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Lucrări din atelier",
+    "subtitle": "O selecție din mașinile care au trecut prin mâinile noastre.",
+    "items": [
+      { "image": "assets/gallery-1.jpg", "caption": "Protecție ceramică GYEON" },
+      { "image": "assets/gallery-2.jpg", "caption": "Corecție vopsea · polish în pași" },
+      { "image": "assets/gallery-3.jpg", "caption": "Detailing interior · tratament piele" },
+      { "image": "assets/gallery-4.jpg", "caption": "Folie PPF CovrGard" },
+      { "image": "assets/gallery-5.jpg", "caption": "Recondiționare faruri & optică" },
+      { "image": "assets/gallery-6.jpg", "caption": "Detailing exterior & decontaminare" }
+    ]
+  },
+
+  "reviews": {
+    "eyebrow": "Recenzii",
+    "title": "Ce spun clienții noștri.",
+    "subtitle": "Clienți care s-au întors cu mașina la noi.",
+    "rating": "5.0",
+    "ratingLabel": "clienți mulțumiți",
+    "items": [
+      {
+        "name": "Andrei M.",
+        "role": "Client · BMW",
+        "rating": 5,
+        "text": "Protecție ceramică GYEON aplicată impecabil. Se vede că e lucrare de detailer certificat. Luciu incredibil, recomand.",
+        "avatar": "assets/avatar-1.svg"
+      },
+      {
+        "name": "Ioana P.",
+        "role": "Client · Audi",
+        "rating": 5,
+        "text": "Interiorul arată ca nou după detailing. Comunicare impecabilă pe WhatsApp și m-au ținut la curent cu poze.",
+        "avatar": "assets/avatar-2.svg"
+      },
+      {
+        "name": "Radu I.",
+        "role": "Client · Tesla",
+        "rating": 5,
+        "text": "Am pus folie PPF CovrGard pe față. Montaj perfect, invizibilă, aliniere de instalator autorizat. Muncă de calitate.",
+        "avatar": "assets/avatar-3.svg"
+      },
+      {
+        "name": "Cristina D.",
+        "role": "Client · Mercedes-Benz",
+        "rating": 5,
+        "text": "Eleganță și seriozitate de la început până la sfârșit. Transpun cu adevărat pasiunea în detalii. Profesioniști.",
+        "avatar": "assets/avatar-4.svg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Întrebări frecvente",
+    "title": "Răspunsuri, înainte să întrebi.",
+    "subtitle": "Nu găsești ce cauți? Scrie-ne pe WhatsApp.",
+    "items": [
+      {
+        "question": "Ce înseamnă GYEON Certified Detailer?",
+        "answer": "Înseamnă că suntem instruiți și certificați oficial de GYEON pentru aplicarea protecțiilor ceramice, la standardele și cu garanțiile impuse de brand."
+      },
+      {
+        "question": "Ce înseamnă CovrGard PPF Authorized Installer?",
+        "answer": "Suntem instalator autorizat CovrGard pentru folie de protecție PPF. Montajul respectă standardele mărcii, iar tu beneficiezi de garanția aferentă."
+      },
+      {
+        "question": "Care e diferența dintre protecție ceramică și PPF?",
+        "answer": "Protecția ceramică oferă luciu, efect hidrofob și rezistență chimică. Folia PPF este o peliculă fizică ce protejează vopseaua de pietriș și zgârieturi. Cele două se pot combina pentru protecție maximă."
+      },
+      {
+        "question": "Trebuie să programez sau pot veni direct?",
+        "answer": "Recomandăm programarea, ca să îți rezervăm un loc și să evaluăm corect lucrarea. Scrie-ne pe WhatsApp și găsim rapid o dată potrivită."
+      },
+      {
+        "question": "Pot vedea prețul înainte?",
+        "answer": "Sigur. Trimite-ne modelul mașinii și ce îți dorești pe WhatsApp, iar noi îți răspundem cu o ofertă clară, fără costuri ascunse."
+      }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Gata de programare?",
+    "title": "Hai să facem mașina ta să strălucească.",
+    "subtitle": "Scrie-ne pe WhatsApp și primești o ofertă pentru detailing, ceramică sau PPF.",
+    "primaryCta": { "label": "Scrie-ne pe WhatsApp", "action": "whatsapp" },
+    "secondaryCta": { "label": "Sună acum", "action": "phone" }
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Te așteptăm în atelier.",
+    "subtitle": "Str. Industriilor nr. 40, Iași. Programează-te sau treci pe la noi.",
+    "whatsappMessage": "Salut! Aș vrea o ofertă pentru mașina mea:"
+  },
+
+  "footer": {
+    "description": "CAF Haus — GYEON Certified Detailer și CovrGard PPF Authorized Installer în Iași. Detailing interior/exterior, protecții ceramice și PPF. Transpunem pasiunea în detalii.",
+    "columns": [
+      {
+        "title": "Servicii",
+        "links": [
+          { "label": "Detailing interior & exterior", "href": "#servicii" },
+          { "label": "Protecție ceramică GYEON", "href": "#servicii" },
+          { "label": "Folie PPF CovrGard", "href": "#servicii" },
+          { "label": "Corecție de vopsea", "href": "#servicii" }
+        ]
+      },
+      {
+        "title": "CAF Haus",
+        "links": [
+          { "label": "Rezultate", "href": "#rezultate" },
+          { "label": "Galerie", "href": "#galerie" },
+          { "label": "Recenzii", "href": "#recenzii" },
+          { "label": "Întrebări frecvente", "href": "#faq" }
+        ]
+      }
+    ],
+    "legal": "© 2026 CAF Haus. Toate drepturile rezervate.",
+    "credit": "Design de LimeSpark Development"
+  },
+
+  "whatsappDefaultMessage": "Salut! Am văzut site-ul și aș vrea mai multe detalii."
+}
