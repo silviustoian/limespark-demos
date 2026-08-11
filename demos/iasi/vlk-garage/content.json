@@ -1,0 +1,311 @@
+{
+  "$schema": "VLK Garage — Colantări Auto Iași — demo LimeSpark. Editează doar acest fișier, tokens.json și imaginile din assets/.",
+
+  "business": {
+    "name": "VLK",
+    "nameSuffix": "Garage",
+    "tagline": "Colantări auto & detailing în Iași",
+    "logoText": "VLK Garage",
+    "logo": "assets/logo.png",
+    "logoBg": "#0A0A0B",
+    "phone": "+40 746 489 255",
+    "whatsapp": "40746489255",
+    "email": "",
+    "address": "Stradela Moara de Vânt nr. 20, Iași, 700535",
+    "mapsUrl": "https://maps.google.com/?q=Stradela+Moara+de+Vant+20+Iasi",
+    "hours": "Program flexibil · pe bază de programare",
+    "social": [
+      { "label": "Facebook", "url": "https://www.facebook.com/VasiBahrii" },
+      { "label": "TikTok", "url": "https://www.tiktok.com/@vlkgarage" }
+    ]
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Servicii", "href": "#servicii" },
+      { "label": "Rezultate", "href": "#rezultate" },
+      { "label": "Proces", "href": "#proces" },
+      { "label": "Galerie", "href": "#galerie" },
+      { "label": "Recenzii", "href": "#recenzii" }
+    ],
+    "cta": { "label": "Programează-te", "action": "whatsapp" }
+  },
+
+  "hero": {
+    "eyebrow": "Colantări auto & detailing · Iași",
+    "title": "Schimbă look-ul mașinii tale.",
+    "titleAccent": "Colantări, detailing & interior personalizat.",
+    "subtitle": "Colantări auto, polish caroserie, detailing interior, retapițări plafoane și lumini ambientale — transformăm mașina ta la VLK Garage, în Iași.",
+    "primaryCta": { "label": "Programează-te", "action": "whatsapp" },
+    "secondaryCta": { "label": "Vezi serviciile", "href": "#servicii" },
+    "image": "assets/hero.jpg",
+    "stats": [
+      { "value": "Colantări", "label": "schimbare culoare" },
+      { "value": "Retapițări", "label": "plafoane & stâlpi" },
+      { "value": "Iași", "label": "Moara de Vânt" }
+    ]
+  },
+
+  "marquee": {
+    "enabled": true,
+    "label": "Lucrăm pe orice marcă",
+    "items": ["BMW", "Mercedes-Benz", "Audi", "Volkswagen", "Tesla", "Porsche"]
+  },
+
+  "services": {
+    "eyebrow": "Servicii",
+    "title": "Colantări și transformări, cap-coadă.",
+    "subtitle": "De la schimbarea culorii la interior personalizat și detailing.",
+    "items": [
+      {
+        "icon": "film",
+        "title": "Colantări auto",
+        "description": "Schimbăm complet look-ul mașinii cu folii premium — culoare integrală, elemente de caroserie sau accente, mat, lucios sau satin.",
+        "price": "la cerere",
+        "features": ["Schimbare culoare", "Folii mat / lucios / satin", "Elemente & accente"]
+      },
+      {
+        "icon": "shine",
+        "title": "Polish caroserie",
+        "description": "Redăm luciul vopselei și îndepărtăm swirl-urile și zgârieturile fine pentru o suprafață oglindă.",
+        "price": "la cerere",
+        "features": ["Luciu profund", "Eliminare swirl-uri", "Finisaj oglindă"]
+      },
+      {
+        "icon": "sparkle",
+        "title": "Detailing interior",
+        "description": "Curățare în profunzime, extracție tapițerie, tratament piele și igienizare completă a habitaclului.",
+        "price": "la cerere",
+        "features": ["Aspirare profesională", "Tratament piele & plastic", "Igienizare habitaclu"]
+      },
+      {
+        "icon": "layers",
+        "title": "Retapițări plafoane & stâlpi",
+        "description": "Reînnoim plafonul și stâlpii căzuți sau uzați, cu materiale de calitate și montaj îngrijit.",
+        "price": "la cerere",
+        "features": ["Plafon & stâlpi", "Material nou", "Aspect ca din fabrică"]
+      },
+      {
+        "icon": "shield",
+        "title": "Lumini ambientale & plafon înstelat",
+        "description": "Montaj lumini ambientale LED și plafon înstelat, pentru o atmosferă premium în interiorul mașinii.",
+        "price": "la cerere",
+        "features": ["Lumini ambientale LED", "Plafon înstelat", "Personalizat pe mașina ta"]
+      },
+      {
+        "icon": "wheel",
+        "title": "Chrome delete & folii decorative",
+        "description": "Transformăm elementele cromate în negru mat sau lucios și aplicăm folii decorative pentru un aspect unitar.",
+        "price": "la cerere",
+        "features": ["Chrome delete", "Negru mat / lucios", "Folii decorative"]
+      }
+    ]
+  },
+
+  "beforeAfter": {
+    "eyebrow": "Rezultate",
+    "title": "Diferența se vede. Trage cursorul.",
+    "subtitle": "Aceleași mașini, înainte și după o zi la VLK Garage.",
+    "items": [
+      {
+        "label": "Colantare · schimbare culoare",
+        "before": "assets/ba-1-before.jpg",
+        "after": "assets/ba-1-after.jpg"
+      },
+      {
+        "label": "Detailing interior · habitaclu",
+        "before": "assets/ba-2-before.jpg",
+        "after": "assets/ba-2-after.jpg"
+      }
+    ]
+  },
+
+  "process": {
+    "eyebrow": "Cum lucrăm",
+    "title": "Un proces simplu, fără surprize.",
+    "subtitle": "De la prima ta întrebare până la predarea cheilor.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Cere o ofertă",
+        "description": "Scrie-ne pe WhatsApp cu modelul mașinii și ce îți dorești. Îți răspundem cu un preț clar."
+      },
+      {
+        "number": "02",
+        "title": "Programare",
+        "description": "Alegem împreună data potrivită și îți rezervăm un loc. Ne găsești pe Stradela Moara de Vânt nr. 20."
+      },
+      {
+        "number": "03",
+        "title": "Lucrul propriu-zis",
+        "description": "Fie că e colantare, retapițare sau lumini ambientale, tratăm fiecare detaliu cu grijă. Primești poze pe parcurs."
+      },
+      {
+        "number": "04",
+        "title": "Predare",
+        "description": "Îți predăm mașina transformată, cu recomandări de întreținere ca să păstrezi rezultatul cât mai mult."
+      }
+    ]
+  },
+
+  "benefits": {
+    "eyebrow": "De ce VLK Garage",
+    "title": "Transformăm mașina ta exact pe gustul tău.",
+    "subtitle": "Colantări, interior personalizat și detailing, executate cu atenție la fiecare detaliu.",
+    "items": [
+      {
+        "icon": "medal",
+        "title": "Colantări executate corect",
+        "description": "Aliniere, întindere și finisaje curate — colantări care arată din fabrică, nu improvizat."
+      },
+      {
+        "icon": "shield",
+        "title": "Folii & materiale premium",
+        "description": "Lucrăm exclusiv cu folii și materiale profesionale, testate pe mii de mașini."
+      },
+      {
+        "icon": "leaf",
+        "title": "Sigur pentru mașină",
+        "description": "Folia se aplică peste vopseaua originală și o protejează. La îndepărtare, vopseaua rămâne intactă."
+      },
+      {
+        "icon": "clock",
+        "title": "Interior personalizat",
+        "description": "Retapițări, lumini ambientale și plafon înstelat — dăm caracter interiorului mașinii tale."
+      },
+      {
+        "icon": "camera",
+        "title": "Transparență totală",
+        "description": "Primești poze înainte, în timpul și după lucrare. Vezi exact ce plătești."
+      },
+      {
+        "icon": "heart",
+        "title": "Pasiune pentru mașini",
+        "description": "Tratăm fiecare mașină ca și cum ar fi a noastră. Se vede în rezultat."
+      }
+    ]
+  },
+
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Lucrări din garaj",
+    "subtitle": "O selecție din mașinile care au trecut prin mâinile noastre.",
+    "items": [
+      { "image": "assets/gallery-1.jpg", "caption": "Colantare · schimbare culoare" },
+      { "image": "assets/gallery-2.jpg", "caption": "Polish caroserie" },
+      { "image": "assets/gallery-3.jpg", "caption": "Detailing interior · tratament piele" },
+      { "image": "assets/gallery-4.jpg", "caption": "Retapițare plafon" },
+      { "image": "assets/gallery-5.jpg", "caption": "Lumini ambientale & plafon înstelat" },
+      { "image": "assets/gallery-6.jpg", "caption": "Chrome delete & folii decorative" }
+    ]
+  },
+
+  "reviews": {
+    "eyebrow": "Recenzii",
+    "title": "Ce spun clienții noștri.",
+    "subtitle": "Clienți care s-au întors cu mașina la noi.",
+    "rating": "5.0",
+    "ratingLabel": "clienți mulțumiți",
+    "items": [
+      {
+        "name": "Andrei M.",
+        "role": "Client · BMW",
+        "rating": 5,
+        "text": "Am făcut colantare mat integral. Aliniere perfectă, finisaje curate, arată impecabil. Muncă de calitate, recomand.",
+        "avatar": "assets/avatar-1.svg"
+      },
+      {
+        "name": "Ioana P.",
+        "role": "Client · Audi",
+        "rating": 5,
+        "text": "Mi-au montat lumini ambientale și plafon înstelat. Interiorul arată ca într-un show car. Super mulțumită.",
+        "avatar": "assets/avatar-2.svg"
+      },
+      {
+        "name": "Radu I.",
+        "role": "Client · VW",
+        "rating": 5,
+        "text": "Retapițare plafon impecabilă și detailing interior. Atenție la detalii și seriozitate. Mă întorc sigur.",
+        "avatar": "assets/avatar-3.svg"
+      },
+      {
+        "name": "Cristina D.",
+        "role": "Client · Mercedes-Benz",
+        "rating": 5,
+        "text": "Polish și chrome delete — mașina arată complet altfel, într-un mod bun. Profesioniști adevărați. Recomand.",
+        "avatar": "assets/avatar-4.svg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Întrebări frecvente",
+    "title": "Răspunsuri, înainte să întrebi.",
+    "subtitle": "Nu găsești ce cauți? Scrie-ne pe WhatsApp.",
+    "items": [
+      {
+        "question": "Cât durează o colantare completă?",
+        "answer": "O colantare integrală de schimbare a culorii durează în general 2–4 zile, în funcție de model și de complexitatea caroseriei. Îți spunem exact la evaluare, înainte de a începe."
+      },
+      {
+        "question": "Colantarea afectează vopseaua originală?",
+        "answer": "Nu. Folia se aplică peste vopseaua originală și o protejează. La îndepărtare, făcută corect, vopseaua rămâne intactă."
+      },
+      {
+        "question": "Ce înseamnă plafon înstelat?",
+        "answer": "Montăm fibre optice în plafonul mașinii, care creează efectul unui cer înstelat. Îl putem combina cu lumini ambientale LED pentru o atmosferă premium."
+      },
+      {
+        "question": "Faceți și retapițare plafon?",
+        "answer": "Da. Reînnoim plafoanele și stâlpii căzuți sau uzați cu materiale de calitate și montaj îngrijit, pentru un aspect ca din fabrică."
+      },
+      {
+        "question": "Pot vedea prețul înainte?",
+        "answer": "Sigur. Trimite-ne modelul mașinii și ce îți dorești pe WhatsApp, iar noi îți răspundem cu o ofertă clară, fără costuri ascunse."
+      }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Gata de programare?",
+    "title": "Hai să transformăm mașina ta.",
+    "subtitle": "Scrie-ne pe WhatsApp și primești o ofertă pentru serviciul dorit.",
+    "primaryCta": { "label": "Scrie-ne pe WhatsApp", "action": "whatsapp" },
+    "secondaryCta": { "label": "Sună acum", "action": "phone" }
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Te așteptăm în garaj.",
+    "subtitle": "Stradela Moara de Vânt nr. 20, Iași. Programează-te sau treci pe la noi.",
+    "whatsappMessage": "Salut! Aș vrea o ofertă pentru mașina mea:"
+  },
+
+  "footer": {
+    "description": "VLK Garage — colantări auto, polish caroserie, detailing interior, retapițări plafoane și lumini ambientale în Iași, pe Stradela Moara de Vânt nr. 20.",
+    "columns": [
+      {
+        "title": "Servicii",
+        "links": [
+          { "label": "Colantări auto", "href": "#servicii" },
+          { "label": "Polish caroserie", "href": "#servicii" },
+          { "label": "Retapițări plafoane", "href": "#servicii" },
+          { "label": "Lumini ambientale", "href": "#servicii" }
+        ]
+      },
+      {
+        "title": "VLK Garage",
+        "links": [
+          { "label": "Rezultate", "href": "#rezultate" },
+          { "label": "Galerie", "href": "#galerie" },
+          { "label": "Recenzii", "href": "#recenzii" },
+          { "label": "Întrebări frecvente", "href": "#faq" }
+        ]
+      }
+    ],
+    "legal": "© 2026 VLK Garage. Toate drepturile rezervate.",
+    "credit": "Design de LimeSpark Development"
+  },
+
+  "whatsappDefaultMessage": "Salut! Am văzut site-ul și aș vrea mai multe detalii."
+}
