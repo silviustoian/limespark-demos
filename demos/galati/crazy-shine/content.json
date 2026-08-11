@@ -1,0 +1,310 @@
+{
+  "$schema": "Crazy Shine Detailing Galați — demo LimeSpark. Editează doar acest fișier, tokens.json și imaginile din assets/.",
+
+  "business": {
+    "name": "Crazy Shine",
+    "nameSuffix": "Detailing",
+    "tagline": "Correction · Reflection · Protection",
+    "logoText": "Crazy Shine",
+    "logo": "assets/logo.png",
+    "logoBg": "#0A0A0B",
+    "phone": "+40 752 407 741",
+    "whatsapp": "40752407741",
+    "email": "",
+    "address": "Str. Traian nr. 302, Galați, 800444",
+    "mapsUrl": "https://maps.google.com/?q=Strada+Traian+302+Galati",
+    "hours": "Program flexibil · pe bază de programare",
+    "social": [
+      { "label": "Facebook", "url": "https://www.facebook.com/polishautogalati/?locale=ro_RO" }
+    ]
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Servicii", "href": "#servicii" },
+      { "label": "Rezultate", "href": "#rezultate" },
+      { "label": "Proces", "href": "#proces" },
+      { "label": "Galerie", "href": "#galerie" },
+      { "label": "Recenzii", "href": "#recenzii" }
+    ],
+    "cta": { "label": "Programează-te", "action": "whatsapp" }
+  },
+
+  "hero": {
+    "eyebrow": "Correction · Reflection · Protection · Galați",
+    "title": "Luciu de nebunie pentru mașina ta.",
+    "titleAccent": "Corecție, reflexie & protecție.",
+    "subtitle": "Polish auto, detailing interior și exterior, polish faruri și protecții ceramice pentru lac, sticlă, piele și plastice — pe Str. Traian nr. 302, Galați.",
+    "primaryCta": { "label": "Programează-te", "action": "whatsapp" },
+    "secondaryCta": { "label": "Vezi serviciile", "href": "#servicii" },
+    "image": "assets/hero.jpg",
+    "stats": [
+      { "value": "Correction", "label": "polish & corecție vopsea" },
+      { "value": "Protection", "label": "protecții ceramice" },
+      { "value": "Galați", "label": "Str. Traian 302" }
+    ]
+  },
+
+  "marquee": {
+    "enabled": true,
+    "label": "Lucrăm pe orice marcă",
+    "items": ["BMW", "Mercedes-Benz", "Audi", "Volkswagen", "Tesla", "Porsche"]
+  },
+
+  "services": {
+    "eyebrow": "Servicii",
+    "title": "Polish și protecții, la nivel de artă.",
+    "subtitle": "Correction, reflection, protection — de la corecția lacului la protecții ceramice complete.",
+    "items": [
+      {
+        "icon": "layers",
+        "title": "Polish auto & corecție vopsea",
+        "description": "Îndepărtăm swirl-urile și zgârieturile fine pentru o suprafață oglindă, cu un luciu de nebunie.",
+        "price": "la cerere",
+        "features": ["Polish în 1–3 pași", "Eliminare swirl-uri", "Finisaj oglindă"]
+      },
+      {
+        "icon": "shine",
+        "title": "Detailing exterior",
+        "description": "Spălare pe două găleți, decontaminare, argilă și pregătirea vopselei pentru un luciu profund.",
+        "price": "la cerere",
+        "features": ["Spălare pe 2 găleți", "Decontaminare cu argilă", "Pregătire vopsea"]
+      },
+      {
+        "icon": "sparkle",
+        "title": "Detailing interior",
+        "description": "Curățare în profunzime, extracție tapițerie, tratament piele și igienizare completă a habitaclului.",
+        "price": "la cerere",
+        "features": ["Aspirare profesională", "Tratament piele & plastic", "Igienizare habitaclu"]
+      },
+      {
+        "icon": "wheel",
+        "title": "Polish faruri",
+        "description": "Redăm claritatea farurilor îngălbenite sau mate, cu polish profesional și sigilare pentru durabilitate.",
+        "price": "la cerere",
+        "features": ["Polish faruri", "Vizibilitate îmbunătățită", "Sigilare protectoare"]
+      },
+      {
+        "icon": "shield",
+        "title": "Protecție ceramică lac",
+        "description": "Strat ceramic de durată pe caroserie, care respinge apa și murdăria și păstrează luciul ani la rând.",
+        "price": "la cerere",
+        "features": ["Ceramică pe lac", "Efect hidrofob", "Rezistență UV & chimică"]
+      },
+      {
+        "icon": "film",
+        "title": "Protecții ceramice sticlă, piele & plastice",
+        "description": "Protecții ceramice dedicate pentru sticlă, piele și plastice — fiecare suprafață, protejată corect.",
+        "price": "la cerere",
+        "features": ["Sticlă hidrofobă", "Piele protejată", "Plastice tratate"]
+      }
+    ]
+  },
+
+  "beforeAfter": {
+    "eyebrow": "Rezultate",
+    "title": "Diferența se vede. Trage cursorul.",
+    "subtitle": "Aceleași mașini, înainte și după o zi la Crazy Shine.",
+    "items": [
+      {
+        "label": "Polish & corecție · caroserie",
+        "before": "assets/ba-1-before.jpg",
+        "after": "assets/ba-1-after.jpg"
+      },
+      {
+        "label": "Detailing interior · habitaclu",
+        "before": "assets/ba-2-before.jpg",
+        "after": "assets/ba-2-after.jpg"
+      }
+    ]
+  },
+
+  "process": {
+    "eyebrow": "Cum lucrăm",
+    "title": "Un proces simplu, fără surprize.",
+    "subtitle": "De la prima ta întrebare până la predarea cheilor.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Cere o ofertă",
+        "description": "Scrie-ne pe WhatsApp cu modelul mașinii și ce îți dorești. Îți răspundem cu un preț clar."
+      },
+      {
+        "number": "02",
+        "title": "Programare",
+        "description": "Alegem împreună data potrivită și îți rezervăm un loc. Ne găsești pe Str. Traian nr. 302, Galați."
+      },
+      {
+        "number": "03",
+        "title": "Lucrul propriu-zis",
+        "description": "Corecție, reflexie, protecție — tratăm fiecare detaliu cu grijă. Primești poze pe parcurs."
+      },
+      {
+        "number": "04",
+        "title": "Predare",
+        "description": "Îți predăm mașina cu un luciu de nebunie, cu recomandări de întreținere ca să păstrezi rezultatul."
+      }
+    ]
+  },
+
+  "benefits": {
+    "eyebrow": "De ce Crazy Shine",
+    "title": "Correction. Reflection. Protection.",
+    "subtitle": "Corectăm lacul, scoatem reflexia și protejăm rezultatul — cap-coadă.",
+    "items": [
+      {
+        "icon": "layers",
+        "title": "Correction",
+        "description": "Corectăm lacul și eliminăm swirl-urile și zgârieturile pentru o suprafață perfectă."
+      },
+      {
+        "icon": "shine",
+        "title": "Reflection",
+        "description": "Scoatem un luciu de oglindă, o reflexie profundă care întoarce privirile."
+      },
+      {
+        "icon": "shield",
+        "title": "Protection",
+        "description": "Protejăm rezultatul cu protecții ceramice pentru lac, sticlă, piele și plastice."
+      },
+      {
+        "icon": "leaf",
+        "title": "Sigur pentru mașină",
+        "description": "Tehnici blânde, fără produse abrazive care afectează vopseaua sau materialele."
+      },
+      {
+        "icon": "camera",
+        "title": "Transparență totală",
+        "description": "Primești poze înainte, în timpul și după lucrare. Vezi exact ce plătești."
+      },
+      {
+        "icon": "heart",
+        "title": "Pasiune pentru luciu",
+        "description": "Tratăm fiecare mașină ca și cum ar fi a noastră. Se vede în rezultat."
+      }
+    ]
+  },
+
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Lucrări din atelier",
+    "subtitle": "O selecție din mașinile care au trecut prin mâinile noastre.",
+    "items": [
+      { "image": "assets/gallery-1.jpg", "caption": "Protecție ceramică lac" },
+      { "image": "assets/gallery-2.jpg", "caption": "Polish & corecție vopsea" },
+      { "image": "assets/gallery-3.jpg", "caption": "Detailing interior · tratament piele" },
+      { "image": "assets/gallery-4.jpg", "caption": "Polish faruri" },
+      { "image": "assets/gallery-5.jpg", "caption": "Reflexie de oglindă" },
+      { "image": "assets/gallery-6.jpg", "caption": "Detailing exterior & decontaminare" }
+    ]
+  },
+
+  "reviews": {
+    "eyebrow": "Recenzii",
+    "title": "Ce spun clienții noștri.",
+    "subtitle": "Clienți care s-au întors cu mașina la noi.",
+    "rating": "5.0",
+    "ratingLabel": "clienți mulțumiți",
+    "items": [
+      {
+        "name": "Andrei M.",
+        "role": "Client · BMW",
+        "rating": 5,
+        "text": "Am făcut polish și protecție ceramică. Mașina are un luciu de nebunie, exact ca-n nume. Muncă de artist, recomand.",
+        "avatar": "assets/avatar-1.svg"
+      },
+      {
+        "name": "Ioana P.",
+        "role": "Client · Audi",
+        "rating": 5,
+        "text": "Interiorul arată ca nou după detailing. Comunicare impecabilă pe WhatsApp și m-au ținut la curent cu poze.",
+        "avatar": "assets/avatar-2.svg"
+      },
+      {
+        "name": "Radu I.",
+        "role": "Client · Tesla",
+        "rating": 5,
+        "text": "Corecție de vopsea impecabilă și ceramică pe lac, sticlă și piele. Reflexie incredibilă. Profesioniști adevărați.",
+        "avatar": "assets/avatar-3.svg"
+      },
+      {
+        "name": "Cristina D.",
+        "role": "Client · Mercedes-Benz",
+        "rating": 5,
+        "text": "Am polișat farurile îngălbenite și acum sunt ca noi. Preț corect, atenție la detalii. Mă întorc sigur.",
+        "avatar": "assets/avatar-4.svg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Întrebări frecvente",
+    "title": "Răspunsuri, înainte să întrebi.",
+    "subtitle": "Nu găsești ce cauți? Scrie-ne pe WhatsApp.",
+    "items": [
+      {
+        "question": "Ce înseamnă corecția vopselei?",
+        "answer": "Prin polish în mai mulți pași îndepărtăm swirl-urile și zgârieturile fine din lac, redând o suprafață oglindă. Este pasul recomandat înainte de o protecție ceramică."
+      },
+      {
+        "question": "Ce suprafețe puteți proteja ceramic?",
+        "answer": "Aplicăm protecții ceramice pe lac (caroserie), sticlă, piele și plastice. Fiecare suprafață primește tratamentul potrivit, pentru o protecție completă."
+      },
+      {
+        "question": "Cât durează un polish complet?",
+        "answer": "Un polish cu corecție durează în general 1–2 zile, în funcție de starea vopselei și de numărul de pași. Pentru un rezultat maxim, îl combinăm cu protecție ceramică."
+      },
+      {
+        "question": "Trebuie să programez sau pot veni direct?",
+        "answer": "Recomandăm programarea, ca să îți rezervăm un loc și să evaluăm corect lucrarea. Scrie-ne pe WhatsApp și găsim rapid o dată potrivită."
+      },
+      {
+        "question": "Pot vedea prețul înainte?",
+        "answer": "Sigur. Trimite-ne modelul mașinii și ce îți dorești pe WhatsApp, iar noi îți răspundem cu o ofertă clară, fără costuri ascunse."
+      }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Gata de programare?",
+    "title": "Hai să-i dăm mașinii tale un luciu de nebunie.",
+    "subtitle": "Scrie-ne pe WhatsApp și primești o ofertă pentru polish sau protecții.",
+    "primaryCta": { "label": "Scrie-ne pe WhatsApp", "action": "whatsapp" },
+    "secondaryCta": { "label": "Sună acum", "action": "phone" }
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Te așteptăm în atelier.",
+    "subtitle": "Str. Traian nr. 302, Galați. Programează-te sau treci pe la noi.",
+    "whatsappMessage": "Salut! Aș vrea o ofertă pentru mașina mea:"
+  },
+
+  "footer": {
+    "description": "Crazy Shine Detailing — polish auto, detailing interior și exterior, polish faruri și protecții ceramice (lac, sticlă, piele, plastice) în Galați. Correction · Reflection · Protection.",
+    "columns": [
+      {
+        "title": "Servicii",
+        "links": [
+          { "label": "Polish auto & corecție", "href": "#servicii" },
+          { "label": "Detailing interior & exterior", "href": "#servicii" },
+          { "label": "Polish faruri", "href": "#servicii" },
+          { "label": "Protecții ceramice", "href": "#servicii" }
+        ]
+      },
+      {
+        "title": "Crazy Shine",
+        "links": [
+          { "label": "Rezultate", "href": "#rezultate" },
+          { "label": "Galerie", "href": "#galerie" },
+          { "label": "Recenzii", "href": "#recenzii" },
+          { "label": "Întrebări frecvente", "href": "#faq" }
+        ]
+      }
+    ],
+    "legal": "© 2026 Crazy Shine Detailing. Toate drepturile rezervate.",
+    "credit": "Design de LimeSpark Development"
+  },
+
+  "whatsappDefaultMessage": "Salut! Am văzut site-ul și aș vrea mai multe detalii."
+}
