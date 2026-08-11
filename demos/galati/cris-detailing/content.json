@@ -1,0 +1,312 @@
+{
+  "$schema": "Cris Detailing Auto Galați — demo LimeSpark. Editează doar acest fișier, tokens.json și imaginile din assets/.",
+
+  "business": {
+    "name": "Cris",
+    "nameSuffix": "Detailing Auto",
+    "tagline": "Perfecțiune în fiecare detaliu · Galați",
+    "logoText": "Cris Detailing Auto",
+    "logo": "assets/logo.png",
+    "logoBg": "#0A0A0B",
+    "phone": "+40 754 952 934",
+    "whatsapp": "40754952934",
+    "email": "",
+    "address": "Str. Domnească nr. 193, Galați",
+    "mapsUrl": "https://maps.google.com/?q=Strada+Domneasca+193+Galati",
+    "hours": "Program flexibil · pe bază de programare",
+    "social": [
+      { "label": "Instagram", "url": "https://www.instagram.com/crisdetailingauto" },
+      { "label": "Facebook", "url": "https://www.facebook.com/profile.php?id=61570408097594&locale=ro_RO" },
+      { "label": "TikTok", "url": "https://www.tiktok.com/@cristicioara2" }
+    ]
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Pachete", "href": "#servicii" },
+      { "label": "Rezultate", "href": "#rezultate" },
+      { "label": "Proces", "href": "#proces" },
+      { "label": "Galerie", "href": "#galerie" },
+      { "label": "Recenzii", "href": "#recenzii" }
+    ],
+    "cta": { "label": "Programează-te", "action": "whatsapp" }
+  },
+
+  "hero": {
+    "eyebrow": "Detailing auto premium · Galați",
+    "title": "Perfecțiune în fiecare detaliu.",
+    "titleAccent": "Pachete complete, cu ozon inclus.",
+    "subtitle": "Mașina ta merită cele mai bune îngrijiri. Pachete de detailing de la spălătorie la Gold — polish, protecție ceramică, detailing interior și motor — fiecare cu tratament cu ozon inclus. Str. Domnească nr. 193, Galați.",
+    "primaryCta": { "label": "Programează-te", "action": "whatsapp" },
+    "secondaryCta": { "label": "Vezi pachetele", "href": "#servicii" },
+    "image": "assets/hero.jpg",
+    "stats": [
+      { "value": "Ozon", "label": "inclus în fiecare pachet" },
+      { "value": "3 ani", "label": "garanție ceramică" },
+      { "value": "Galați", "label": "Str. Domnească 193" }
+    ]
+  },
+
+  "marquee": {
+    "enabled": true,
+    "label": "Fiecare pachet include tratamentul cu ozon",
+    "items": ["Polish", "Protecție ceramică", "Detailing interior", "Detailing motor", "Polish faruri", "Igienizare ozon"]
+  },
+
+  "services": {
+    "eyebrow": "Pachete & servicii",
+    "title": "Alege pachetul potrivit pentru mașina ta.",
+    "subtitle": "Fiecare pachet include tratamentul cu ozon. Garanție până la 3 ani.",
+    "items": [
+      {
+        "icon": "medal",
+        "title": "Pachet Gold",
+        "description": "Polish în 3 pași cu corecție de lac (90–95%), detailing compartiment motor, polish faruri, vopsire etriere, polish și tratament hidrofob pe toate geamurile, plus tratament cu ozon.",
+        "price": "2500 lei",
+        "features": ["Polish 3 pași (90–95%)", "Vopsire etriere & motor", "Hidrofob geamuri + ozon"]
+      },
+      {
+        "icon": "shield",
+        "title": "Pachet Silver",
+        "description": "Polish în 2 pași (80% din zgârieturi), protecție ceramică cu garanție 3 ani, detailing interior, detailing motor, polish faruri și tratament cu ozon.",
+        "price": "1500 lei",
+        "features": ["Polish 2 pași (80%)", "Ceramică garanție 3 ani", "Interior, motor & ozon"]
+      },
+      {
+        "icon": "sparkle",
+        "title": "Pachet Platinum",
+        "description": "Polish One Step (60% din zgârieturi), protecție ceramică, detailing interior cu scoaterea banchetelor și curățare cu injecție-extracție, plus tratament cu ozon.",
+        "price": "1000 lei",
+        "features": ["Polish One Step (60%)", "Protecție ceramică", "Interior injecție-extracție + ozon"]
+      },
+      {
+        "icon": "shine",
+        "title": "Pachet Spălătorie",
+        "description": "Spălare exterioară completă (prespălare, spălare, clătire), curățare jante și anvelope, degresare praguri și aripi, uscare și detailing exterior, plus ceară solidă premium la final.",
+        "price": "150 lei",
+        "features": ["Spălare completă exterioară", "Jante, anvelope & praguri", "Ceară solidă premium"]
+      },
+      {
+        "icon": "wheel",
+        "title": "Vopsire etriere",
+        "description": "Vopsim etrierele pentru un look premium, în culoarea dorită, cu pregătire și finisaj de durată.",
+        "price": "500 lei",
+        "features": ["Look premium", "Culoare la alegere", "Finisaj de durată"]
+      },
+      {
+        "icon": "film",
+        "title": "Servicii individuale",
+        "description": "Polish faruri (150 lei perechea, 300 lei cu folie), detailing motor (100 lei) și detailing full interior (de la 400–700 lei, în funcție de gradul de murdărie).",
+        "price": "de la 100 lei",
+        "features": ["Polish faruri de la 150 lei", "Detailing motor 100 lei", "Full interior 400–700 lei"]
+      }
+    ]
+  },
+
+  "beforeAfter": {
+    "eyebrow": "Rezultate",
+    "title": "Diferența se vede. Trage cursorul.",
+    "subtitle": "Aceleași mașini, înainte și după o zi la Cris Detailing Auto.",
+    "items": [
+      {
+        "label": "Polish & corecție · caroserie",
+        "before": "assets/ba-1-before.jpg",
+        "after": "assets/ba-1-after.jpg"
+      },
+      {
+        "label": "Detailing interior · habitaclu",
+        "before": "assets/ba-2-before.jpg",
+        "after": "assets/ba-2-after.jpg"
+      }
+    ]
+  },
+
+  "process": {
+    "eyebrow": "Cum lucrăm",
+    "title": "Un proces simplu, fără surprize.",
+    "subtitle": "De la prima ta întrebare până la predarea cheilor.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Alege pachetul",
+        "description": "Spune-ne ce îți dorești — un pachet complet sau un serviciu individual. Te consiliem cu drag."
+      },
+      {
+        "number": "02",
+        "title": "Programare",
+        "description": "Alegem împreună data potrivită și îți rezervăm un loc. Ne găsești pe Str. Domnească nr. 193."
+      },
+      {
+        "number": "03",
+        "title": "Lucrul propriu-zis",
+        "description": "Tratăm fiecare detaliu cu produse și echipamente profesionale. Fiecare pachet include tratamentul cu ozon."
+      },
+      {
+        "number": "04",
+        "title": "Predare & garanție",
+        "description": "Îți predăm mașina impecabilă, cu garanție până la 3 ani și recomandări de întreținere."
+      }
+    ]
+  },
+
+  "benefits": {
+    "eyebrow": "De ce Cris",
+    "title": "Perfecțiune în fiecare detaliu.",
+    "subtitle": "Produse premium, echipamente profesionale și seriozitate — la fiecare lucrare.",
+    "items": [
+      {
+        "icon": "medal",
+        "title": "Garanție până la 3 ani",
+        "description": "Protecțiile ceramice vin cu garanție de până la 3 ani. Stăm în spatele lucrării."
+      },
+      {
+        "icon": "leaf",
+        "title": "Ozon inclus",
+        "description": "Fiecare pachet include tratamentul cu ozon — elimină mirosurile neplăcute, aer curat, mașină protejată."
+      },
+      {
+        "icon": "shield",
+        "title": "Produse premium",
+        "description": "Lucrăm exclusiv cu produse premium și echipamente profesionale, testate pe mii de mașini."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Atenție la fiecare detaliu",
+        "description": "Nu lăsăm nimic la voia întâmplării. Fiecare colț al mașinii primește atenția cuvenită."
+      },
+      {
+        "icon": "camera",
+        "title": "Transparență totală",
+        "description": "Primești poze înainte, în timpul și după lucrare. Vezi exact ce plătești."
+      },
+      {
+        "icon": "heart",
+        "title": "Seriozitate & pasiune",
+        "description": "Tratăm fiecare mașină ca și cum ar fi a noastră. Se vede în rezultat."
+      }
+    ]
+  },
+
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Lucrări din atelier",
+    "subtitle": "O selecție din mașinile care au trecut prin mâinile noastre.",
+    "items": [
+      { "image": "assets/gallery-1.jpg", "caption": "Protecție ceramică" },
+      { "image": "assets/gallery-2.jpg", "caption": "Polish caroserie · corecție lac" },
+      { "image": "assets/gallery-3.jpg", "caption": "Detailing interior · injecție-extracție" },
+      { "image": "assets/gallery-4.jpg", "caption": "Vopsire etriere · look premium" },
+      { "image": "assets/gallery-5.jpg", "caption": "Polish faruri · claritate maximă" },
+      { "image": "assets/gallery-6.jpg", "caption": "Igienizare cu ozon" }
+    ]
+  },
+
+  "reviews": {
+    "eyebrow": "Recenzii",
+    "title": "Ce spun clienții noștri.",
+    "subtitle": "Clienți care s-au întors cu mașina la noi.",
+    "rating": "5.0",
+    "ratingLabel": "clienți mulțumiți",
+    "items": [
+      {
+        "name": "Andrei M.",
+        "role": "Client · pachet Gold",
+        "rating": 5,
+        "text": "Am luat pachetul Gold. Polish în 3 pași, etriere vopsite, geamuri hidrofobe — mașina arată de showroom. Perfecțiune.",
+        "avatar": "assets/avatar-1.svg"
+      },
+      {
+        "name": "Ioana P.",
+        "role": "Client · pachet Silver",
+        "rating": 5,
+        "text": "Protecție ceramică cu garanție 3 ani și interior impecabil. Ozonul a scos toate mirosurile. Foarte mulțumită.",
+        "avatar": "assets/avatar-2.svg"
+      },
+      {
+        "name": "Radu I.",
+        "role": "Client · vopsire etriere",
+        "rating": 5,
+        "text": "Etriere vopsite impecabil, look premium. Oameni serioși, atenți la detalii. Recomand cu încredere.",
+        "avatar": "assets/avatar-3.svg"
+      },
+      {
+        "name": "Cristina D.",
+        "role": "Client · pachet Platinum",
+        "rating": 5,
+        "text": "Detailing interior cu injecție-extracție și ozon. Interiorul arată și miroase ca nou. Perfecțiune în fiecare detaliu.",
+        "avatar": "assets/avatar-4.svg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Întrebări frecvente",
+    "title": "Răspunsuri, înainte să întrebi.",
+    "subtitle": "Nu găsești ce cauți? Scrie-ne pe WhatsApp.",
+    "items": [
+      {
+        "question": "Ce include tratamentul cu ozon?",
+        "answer": "Tratamentul cu ozon elimină mirosurile neplăcute și dezinfectează complet habitaclul — aer curat și mașină protejată. Este inclus în fiecare pachet de detailing."
+      },
+      {
+        "question": "Care e diferența dintre pachete?",
+        "answer": "Pachetele diferă prin gradul de corecție a vopselei: Platinum (polish One Step, 60%), Silver (polish 2 pași, 80%) și Gold (polish 3 pași, 90–95%), plus serviciile incluse. Pachetul Spălătorie acoperă spălarea completă exterioară."
+      },
+      {
+        "question": "Ce garanție oferiți?",
+        "answer": "Oferim garanție de până la 3 ani pentru protecțiile ceramice, în condiții normale de utilizare."
+      },
+      {
+        "question": "Pot lua un serviciu individual, nu un pachet?",
+        "answer": "Sigur. Oferim și servicii individuale: polish faruri (de la 150 lei), detailing motor (100 lei), detailing full interior (400–700 lei) și vopsire etriere (500 lei)."
+      },
+      {
+        "question": "Cum mă programez?",
+        "answer": "Scrie-ne pe WhatsApp cu modelul mașinii și pachetul dorit, iar noi te programăm rapid. Ne găsești pe Str. Domnească nr. 193, Galați."
+      }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Gata de programare?",
+    "title": "Mașina ta merită cele mai bune îngrijiri.",
+    "subtitle": "Scrie-ne pe WhatsApp și primești o ofertă pentru pachetul dorit. Ozon inclus în fiecare pachet.",
+    "primaryCta": { "label": "Scrie-ne pe WhatsApp", "action": "whatsapp" },
+    "secondaryCta": { "label": "Sună acum", "action": "phone" }
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Te așteptăm în atelier.",
+    "subtitle": "Str. Domnească nr. 193, Galați. Programează-te sau treci pe la noi.",
+    "whatsappMessage": "Salut! Aș vrea o ofertă pentru un pachet de detailing:"
+  },
+
+  "footer": {
+    "description": "Cris Detailing Auto — detailing auto premium în Galați, pe Str. Domnească nr. 193. Pachete complete cu ozon inclus, protecție ceramică cu garanție până la 3 ani. Perfecțiune în fiecare detaliu.",
+    "columns": [
+      {
+        "title": "Pachete",
+        "links": [
+          { "label": "Pachet Gold", "href": "#servicii" },
+          { "label": "Pachet Silver", "href": "#servicii" },
+          { "label": "Pachet Platinum", "href": "#servicii" },
+          { "label": "Pachet Spălătorie", "href": "#servicii" }
+        ]
+      },
+      {
+        "title": "Cris Detailing",
+        "links": [
+          { "label": "Rezultate", "href": "#rezultate" },
+          { "label": "Galerie", "href": "#galerie" },
+          { "label": "Recenzii", "href": "#recenzii" },
+          { "label": "Întrebări frecvente", "href": "#faq" }
+        ]
+      }
+    ],
+    "legal": "© 2026 Cris Detailing Auto. Toate drepturile rezervate.",
+    "credit": "Design de LimeSpark Development"
+  },
+
+  "whatsappDefaultMessage": "Salut! Am văzut site-ul și aș vrea mai multe detalii."
+}
