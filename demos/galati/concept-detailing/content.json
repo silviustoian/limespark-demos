@@ -1,0 +1,310 @@
+{
+  "$schema": "Concept Auto Detailing Galați — demo LimeSpark. Editează doar acest fișier, tokens.json și imaginile din assets/.",
+
+  "business": {
+    "name": "Concept",
+    "nameSuffix": "Auto Detailing",
+    "tagline": "Excelența în detalii · Galați",
+    "logoText": "Concept",
+    "logo": "assets/logo.png",
+    "logoBg": "#FFFFFF",
+    "phone": "+40 741 664 272",
+    "whatsapp": "40741664272",
+    "email": "",
+    "address": "Str. Ștefan cel Mare nr. 3A, Galați, 800198",
+    "mapsUrl": "https://maps.google.com/?q=Strada+Stefan+cel+Mare+3A+Galati",
+    "hours": "Program flexibil · pe bază de programare",
+    "social": [
+      { "label": "Facebook", "url": "https://www.facebook.com/ConceptDetailing" }
+    ]
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Servicii", "href": "#servicii" },
+      { "label": "Rezultate", "href": "#rezultate" },
+      { "label": "Proces", "href": "#proces" },
+      { "label": "Galerie", "href": "#galerie" },
+      { "label": "Recenzii", "href": "#recenzii" }
+    ],
+    "cta": { "label": "Programează-te", "action": "whatsapp" }
+  },
+
+  "hero": {
+    "eyebrow": "Servicii premium de detailing · Galați",
+    "title": "Excelența în detalii.",
+    "titleAccent": "Detailing, polish & cosmetică auto premium.",
+    "subtitle": "Servicii profesionale de cosmetică auto în Galați: detailing interior și exterior, polish profesional, polish faruri, curățare tapițerie și protecție ceramică — pe Str. Ștefan cel Mare nr. 3A.",
+    "primaryCta": { "label": "Programează-te", "action": "whatsapp" },
+    "secondaryCta": { "label": "Vezi serviciile", "href": "#servicii" },
+    "image": "assets/hero.jpg",
+    "stats": [
+      { "value": "Interior", "label": "pachet complet de la 800 lei" },
+      { "value": "Ceramică", "label": "protecție de durată" },
+      { "value": "Galați", "label": "Ștefan cel Mare 3A" }
+    ]
+  },
+
+  "marquee": {
+    "enabled": true,
+    "label": "Lucrăm pe orice marcă",
+    "items": ["BMW", "Mercedes-Benz", "Audi", "Volkswagen", "Tesla", "Ferrari"]
+  },
+
+  "services": {
+    "eyebrow": "Servicii de cosmetică auto",
+    "title": "Detailing complet, la standard premium.",
+    "subtitle": "Excelența în detalii — pe interior, pe exterior și pe fiecare suprafață.",
+    "items": [
+      {
+        "icon": "sparkle",
+        "title": "Pachet detailing interior",
+        "description": "Aspirare în profunzime, spălare mochetă și tapițerie cu injecție/extracție, igienizare plafon și centuri, curățare bord, plastice, uși și chedere, plus curățare și protejare piele.",
+        "price": "de la 800 lei",
+        "features": ["Injecție + extracție", "Igienizare plafon & centuri", "SUV-uri de la 1000 lei"]
+      },
+      {
+        "icon": "layers",
+        "title": "Polish profesional",
+        "description": "Îndepărtăm swirl-urile și zgârieturile fine pentru o suprafață oglindă, cu un luciu de durată.",
+        "price": "la cerere",
+        "features": ["Polish în 1–3 pași", "Eliminare swirl-uri", "Finisaj oglindă"]
+      },
+      {
+        "icon": "wheel",
+        "title": "Polish faruri",
+        "description": "Redăm claritatea farurilor îngălbenite sau mate, cu polish profesional și sigilare pentru durabilitate.",
+        "price": "la cerere",
+        "features": ["Polish faruri", "Vizibilitate îmbunătățită", "Sigilare protectoare"]
+      },
+      {
+        "icon": "shine",
+        "title": "Cosmetică auto & detailing exterior",
+        "description": "Spălare pe două găleți, decontaminare și pregătirea vopselei pentru un luciu profund și curat.",
+        "price": "la cerere",
+        "features": ["Spălare pe 2 găleți", "Decontaminare", "Pregătire vopsea"]
+      },
+      {
+        "icon": "film",
+        "title": "Curățare tapițerie auto",
+        "description": "Curățare în profunzime a tapițeriei și covorașelor prin injecție și extracție, pentru un interior ca nou.",
+        "price": "la cerere",
+        "features": ["Injecție + extracție", "Tapițerie & covorașe", "Fără pete & mirosuri"]
+      },
+      {
+        "icon": "shield",
+        "title": "Protecție ceramică",
+        "description": "Strat ceramic de durată care respinge apa și murdăria și păstrează luciul ani la rând.",
+        "price": "la cerere",
+        "features": ["Protecție de durată", "Efect hidrofob", "Rezistență UV & chimică"]
+      }
+    ]
+  },
+
+  "beforeAfter": {
+    "eyebrow": "Rezultate",
+    "title": "Diferența se vede. Trage cursorul.",
+    "subtitle": "Aceleași mașini, înainte și după o zi la Concept Auto Detailing.",
+    "items": [
+      {
+        "label": "Polish & luciu · caroserie",
+        "before": "assets/ba-1-before.jpg",
+        "after": "assets/ba-1-after.jpg"
+      },
+      {
+        "label": "Detailing interior · habitaclu",
+        "before": "assets/ba-2-before.jpg",
+        "after": "assets/ba-2-after.jpg"
+      }
+    ]
+  },
+
+  "process": {
+    "eyebrow": "Cum lucrăm",
+    "title": "Un proces simplu, fără surprize.",
+    "subtitle": "De la prima ta întrebare până la predarea cheilor.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Cere o ofertă",
+        "description": "Scrie-ne pe WhatsApp cu modelul mașinii și ce îți dorești. Îți răspundem cu un preț clar."
+      },
+      {
+        "number": "02",
+        "title": "Programare",
+        "description": "Alegem împreună data potrivită și îți rezervăm un loc. Ne găsești pe Str. Ștefan cel Mare nr. 3A."
+      },
+      {
+        "number": "03",
+        "title": "Lucrul propriu-zis",
+        "description": "Tratăm fiecare detaliu cu grijă. Primești poze pe parcurs, ca să vezi progresul."
+      },
+      {
+        "number": "04",
+        "title": "Predare",
+        "description": "Îți predăm mașina impecabilă, cu recomandări de întreținere ca să păstrezi rezultatul cât mai mult."
+      }
+    ]
+  },
+
+  "benefits": {
+    "eyebrow": "De ce Concept",
+    "title": "Excelența e în fiecare detaliu.",
+    "subtitle": "Nu grăbim niciodată o lucrare. Fiecare mașină primește timpul de care are nevoie.",
+    "items": [
+      {
+        "icon": "medal",
+        "title": "Servicii premium",
+        "description": "Detailing și cosmetică auto la standard premium, cu atenție la fiecare detaliu."
+      },
+      {
+        "icon": "shield",
+        "title": "Produse premium",
+        "description": "Lucrăm exclusiv cu branduri profesionale, testate pe mii de mașini."
+      },
+      {
+        "icon": "leaf",
+        "title": "Sigur pentru mașină",
+        "description": "Tehnici blânde, fără produse abrazive care afectează vopseaua sau materialele."
+      },
+      {
+        "icon": "clock",
+        "title": "Pachete clare",
+        "description": "Pachete de interior cu preț clar — mașini mici de la 800 lei, SUV-uri de la 1000 lei."
+      },
+      {
+        "icon": "camera",
+        "title": "Transparență totală",
+        "description": "Primești poze înainte, în timpul și după lucrare. Vezi exact ce plătești."
+      },
+      {
+        "icon": "heart",
+        "title": "Grijă pentru detalii",
+        "description": "Tratăm fiecare mașină ca și cum ar fi a noastră. Se vede în rezultat."
+      }
+    ]
+  },
+
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Lucrări din atelier",
+    "subtitle": "O selecție din mașinile care au trecut prin mâinile noastre.",
+    "items": [
+      { "image": "assets/gallery-1.jpg", "caption": "Protecție ceramică" },
+      { "image": "assets/gallery-2.jpg", "caption": "Polish profesional" },
+      { "image": "assets/gallery-3.jpg", "caption": "Detailing interior · injecție/extracție" },
+      { "image": "assets/gallery-4.jpg", "caption": "Polish faruri" },
+      { "image": "assets/gallery-5.jpg", "caption": "Curățare tapițerie & piele" },
+      { "image": "assets/gallery-6.jpg", "caption": "Cosmetică auto & luciu" }
+    ]
+  },
+
+  "reviews": {
+    "eyebrow": "Recenzii",
+    "title": "Ce spun clienții noștri.",
+    "subtitle": "Clienți care s-au întors cu mașina la noi.",
+    "rating": "5.0",
+    "ratingLabel": "clienți mulțumiți",
+    "items": [
+      {
+        "name": "Andrei M.",
+        "role": "Client · BMW",
+        "rating": 5,
+        "text": "Am făcut pachetul de interior complet. Aspirare, injecție/extracție, piele — arată și miroase ca nou. Excelent.",
+        "avatar": "assets/avatar-1.svg"
+      },
+      {
+        "name": "Ioana P.",
+        "role": "Client · Audi",
+        "rating": 5,
+        "text": "Polish profesional și protecție ceramică. Mașina strălucește ca nouă. Comunicare impecabilă și poze pe parcurs.",
+        "avatar": "assets/avatar-2.svg"
+      },
+      {
+        "name": "Radu I.",
+        "role": "Client · Tesla",
+        "rating": 5,
+        "text": "Excelența în detalii, exact ca-n slogan. Atenție la fiecare colț al mașinii. Preț corect. Mă întorc sigur.",
+        "avatar": "assets/avatar-3.svg"
+      },
+      {
+        "name": "Cristina D.",
+        "role": "Client · Mercedes-Benz",
+        "rating": 5,
+        "text": "Am polișat farurile și curățat tapițeria. Rezultat impecabil, oameni serioși. Recomand cu încredere.",
+        "avatar": "assets/avatar-4.svg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Întrebări frecvente",
+    "title": "Răspunsuri, înainte să întrebi.",
+    "subtitle": "Nu găsești ce cauți? Scrie-ne pe WhatsApp.",
+    "items": [
+      {
+        "question": "Ce include pachetul de interior?",
+        "answer": "Aspirare în profunzime, spălare mochetă și tapițerie cu injecție/extracție, igienizarea plafonului și a centurilor, curățare completă bord, plastice, uși și chedere, curățare și protejare suprafețe din piele, curățare covorașe și îngrijire plastice interioare."
+      },
+      {
+        "question": "Cât costă pachetul de interior?",
+        "answer": "Pentru mașini mici, pachetul de interior pornește de la 800 lei, iar pentru SUV-uri de la 1000 lei. Scrie-ne pentru o ofertă exactă în funcție de mașina ta."
+      },
+      {
+        "question": "Cât durează un detailing complet?",
+        "answer": "Un detailing complet interior + exterior durează în general 4–8 ore, în funcție de starea și dimensiunea mașinii. Pentru polish sau protecție ceramică, alocăm 1–2 zile."
+      },
+      {
+        "question": "Trebuie să programez sau pot veni direct?",
+        "answer": "Recomandăm programarea, ca să îți rezervăm un loc și să eviți așteptarea. Locurile sunt limitate — scrie-ne pe WhatsApp și găsim rapid o dată potrivită."
+      },
+      {
+        "question": "Pot vedea prețul înainte?",
+        "answer": "Sigur. Trimite-ne modelul mașinii și ce îți dorești pe WhatsApp, iar noi îți răspundem cu o ofertă clară, fără costuri ascunse."
+      }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Gata de programare?",
+    "title": "Hai să facem mașina ta să strălucească.",
+    "subtitle": "Programează-te acum — locuri limitate. Scrie-ne pe WhatsApp și primești o ofertă.",
+    "primaryCta": { "label": "Scrie-ne pe WhatsApp", "action": "whatsapp" },
+    "secondaryCta": { "label": "Sună acum", "action": "phone" }
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Te așteptăm în atelier.",
+    "subtitle": "Str. Ștefan cel Mare nr. 3A, Galați. Programează-te sau treci pe la noi.",
+    "whatsappMessage": "Salut! Aș vrea o ofertă pentru mașina mea:"
+  },
+
+  "footer": {
+    "description": "Concept Auto Detailing — servicii profesionale de cosmetică auto în Galați, pe Str. Ștefan cel Mare nr. 3A. Detailing, polish profesional, curățare tapițerie și protecție ceramică. Excelența în detalii.",
+    "columns": [
+      {
+        "title": "Servicii",
+        "links": [
+          { "label": "Pachet detailing interior", "href": "#servicii" },
+          { "label": "Polish profesional", "href": "#servicii" },
+          { "label": "Polish faruri", "href": "#servicii" },
+          { "label": "Protecție ceramică", "href": "#servicii" }
+        ]
+      },
+      {
+        "title": "Concept",
+        "links": [
+          { "label": "Rezultate", "href": "#rezultate" },
+          { "label": "Galerie", "href": "#galerie" },
+          { "label": "Recenzii", "href": "#recenzii" },
+          { "label": "Întrebări frecvente", "href": "#faq" }
+        ]
+      }
+    ],
+    "legal": "© 2026 Concept Auto Detailing. Toate drepturile rezervate.",
+    "credit": "Design de LimeSpark Development"
+  },
+
+  "whatsappDefaultMessage": "Salut! Am văzut site-ul și aș vrea mai multe detalii."
+}
