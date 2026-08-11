@@ -1,0 +1,310 @@
+{
+  "$schema": "Fresh Detailing Galați — demo LimeSpark. Editează doar acest fișier, tokens.json și imaginile din assets/.",
+
+  "business": {
+    "name": "Fresh",
+    "nameSuffix": "Detailing",
+    "tagline": "Detailing auto premium în Galați · din 2013",
+    "logoText": "Fresh Detailing",
+    "logo": "assets/logo.png",
+    "logoBg": "#0A0A0B",
+    "phone": "+40 741 328 711",
+    "whatsapp": "40741328711",
+    "email": "",
+    "address": "Str. Dogăriei nr. 95, Galați, 800225",
+    "mapsUrl": "https://maps.google.com/?q=Strada+Dogariei+95+Galati",
+    "hours": "Program flexibil · pe bază de programare",
+    "social": [
+      { "label": "Facebook", "url": "https://www.facebook.com/freshdetailing2013?locale=ro_RO" }
+    ]
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Servicii", "href": "#servicii" },
+      { "label": "Rezultate", "href": "#rezultate" },
+      { "label": "Proces", "href": "#proces" },
+      { "label": "Galerie", "href": "#galerie" },
+      { "label": "Recenzii", "href": "#recenzii" }
+    ],
+    "cta": { "label": "Sună-ne", "action": "phone" }
+  },
+
+  "hero": {
+    "eyebrow": "Detailing auto · Galați · din 2013",
+    "title": "Mașina ta, pe mâini care țin la detalii.",
+    "titleAccent": "O soluție personalizată, doar pentru tine.",
+    "subtitle": "Din 2013 facem detailing auto premium în Galați. Ai o mașină și te gândești să o aduci la noi? Dă-ne un telefon și îți oferim o soluție personalizată pentru tine și mașina ta.",
+    "primaryCta": { "label": "Sună-ne", "action": "phone" },
+    "secondaryCta": { "label": "Vezi serviciile", "href": "#servicii" },
+    "image": "assets/hero.jpg",
+    "stats": [
+      { "value": "Din 2013", "label": "experiență detailing" },
+      { "value": "Ceramică", "label": "protecție de durată" },
+      { "value": "Galați", "label": "Str. Dogăriei 95" }
+    ]
+  },
+
+  "marquee": {
+    "enabled": true,
+    "label": "Lucrăm pe orice marcă",
+    "items": ["BMW", "Mercedes-Benz", "Audi", "Volkswagen", "Tesla", "Porsche"]
+  },
+
+  "services": {
+    "eyebrow": "Servicii",
+    "title": "Tot ce are nevoie mașina ta, sub un singur acoperiș.",
+    "subtitle": "De la o curățare atentă până la protecție ceramică de durată.",
+    "items": [
+      {
+        "icon": "sparkle",
+        "title": "Detailing interior",
+        "description": "Curățare în profunzime, extracție tapițerie, tratament piele și igienizare completă a habitaclului.",
+        "price": "la cerere",
+        "features": ["Aspirare profesională", "Tratament piele & plastic", "Igienizare habitaclu"]
+      },
+      {
+        "icon": "shine",
+        "title": "Detailing exterior",
+        "description": "Spălare pe două găleți, decontaminare, argilă și ceară premium pentru un luciu profund.",
+        "price": "la cerere",
+        "features": ["Spălare pe 2 găleți", "Decontaminare cu argilă", "Ceară protectoare"]
+      },
+      {
+        "icon": "layers",
+        "title": "Corecție de vopsea",
+        "description": "Îndepărtăm swirl-urile și zgârieturile fine pentru o suprafață oglindă, corectată în 1–3 pași.",
+        "price": "la cerere",
+        "features": ["Polish în 1–3 pași", "Eliminare swirl-uri", "Finisaj oglindă"]
+      },
+      {
+        "icon": "shield",
+        "title": "Protecție ceramică",
+        "description": "Strat ceramic de durată care respinge apa și murdăria și păstrează luciul ani la rând.",
+        "price": "la cerere",
+        "features": ["Protecție de durată", "Efect hidrofob", "Rezistență UV & chimică"]
+      },
+      {
+        "icon": "film",
+        "title": "Folie de protecție (PPF)",
+        "description": "Peliculă transparentă care protejează vopseaua de pietriș, insecte și micro-zgârieturi.",
+        "price": "la cerere",
+        "features": ["Self-healing", "Invizibilă", "Protecție de durată"]
+      },
+      {
+        "icon": "wheel",
+        "title": "Recondiționare faruri & jante",
+        "description": "Redăm claritatea farurilor și aspectul jantelor, cu sigilare pentru rezultate de durată.",
+        "price": "la cerere",
+        "features": ["Polish faruri", "Curățare jante", "Sigilare protectoare"]
+      }
+    ]
+  },
+
+  "beforeAfter": {
+    "eyebrow": "Rezultate",
+    "title": "Diferența se vede. Trage cursorul.",
+    "subtitle": "Aceleași mașini, înainte și după o zi la Fresh Detailing.",
+    "items": [
+      {
+        "label": "Corecție & luciu · caroserie",
+        "before": "assets/ba-1-before.jpg",
+        "after": "assets/ba-1-after.jpg"
+      },
+      {
+        "label": "Detailing interior · habitaclu",
+        "before": "assets/ba-2-before.jpg",
+        "after": "assets/ba-2-after.jpg"
+      }
+    ]
+  },
+
+  "process": {
+    "eyebrow": "Cum lucrăm",
+    "title": "Un proces simplu, fără surprize.",
+    "subtitle": "De la primul telefon până la predarea cheilor.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Dă-ne un telefon",
+        "description": "Spune-ne despre mașina ta și ce îți dorești. Îți oferim o soluție personalizată și un preț clar."
+      },
+      {
+        "number": "02",
+        "title": "Programare",
+        "description": "Alegem împreună data potrivită și îți rezervăm un loc. Ne găsești pe Str. Dogăriei nr. 95."
+      },
+      {
+        "number": "03",
+        "title": "Lucrul propriu-zis",
+        "description": "Tratăm fiecare detaliu cu grijă. Primești poze pe parcurs, ca să vezi progresul."
+      },
+      {
+        "number": "04",
+        "title": "Predare",
+        "description": "Îți predăm mașina impecabilă, cu recomandări de întreținere ca să păstrezi rezultatul cât mai mult."
+      }
+    ]
+  },
+
+  "benefits": {
+    "eyebrow": "De ce Fresh",
+    "title": "Experiență din 2013 și grijă pentru fiecare mașină.",
+    "subtitle": "Nu grăbim niciodată o lucrare. Fiecare mașină primește timpul de care are nevoie.",
+    "items": [
+      {
+        "icon": "medal",
+        "title": "Experiență din 2013",
+        "description": "Peste un deceniu de detailing în Galați. Am văzut de toate și știm ce are nevoie mașina ta."
+      },
+      {
+        "icon": "heart",
+        "title": "Soluție personalizată",
+        "description": "Nu lucrăm pe șablon. Îți oferim exact ce are nevoie mașina ta, adaptat pe situația ta."
+      },
+      {
+        "icon": "shield",
+        "title": "Produse premium",
+        "description": "Lucrăm exclusiv cu branduri profesionale, testate pe mii de mașini."
+      },
+      {
+        "icon": "leaf",
+        "title": "Sigur pentru mașină",
+        "description": "Tehnici blânde, fără produse abrazive care afectează vopseaua sau materialele."
+      },
+      {
+        "icon": "camera",
+        "title": "Transparență totală",
+        "description": "Primești poze înainte, în timpul și după lucrare. Vezi exact ce plătești."
+      },
+      {
+        "icon": "clock",
+        "title": "Grijă pentru detalii",
+        "description": "Tratăm fiecare mașină ca și cum ar fi a noastră. Se vede în rezultat."
+      }
+    ]
+  },
+
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Lucrări din atelier",
+    "subtitle": "O selecție din mașinile care au trecut prin mâinile noastre.",
+    "items": [
+      { "image": "assets/gallery-1.jpg", "caption": "Protecție ceramică" },
+      { "image": "assets/gallery-2.jpg", "caption": "Corecție vopsea · polish în pași" },
+      { "image": "assets/gallery-3.jpg", "caption": "Detailing interior · tratament piele" },
+      { "image": "assets/gallery-4.jpg", "caption": "Folie PPF" },
+      { "image": "assets/gallery-5.jpg", "caption": "Recondiționare faruri & optică" },
+      { "image": "assets/gallery-6.jpg", "caption": "Detailing exterior & decontaminare" }
+    ]
+  },
+
+  "reviews": {
+    "eyebrow": "Recenzii",
+    "title": "Ce spun clienții noștri.",
+    "subtitle": "Clienți care fac parte din povestea noastră.",
+    "rating": "5.0",
+    "ratingLabel": "clienți mulțumiți",
+    "items": [
+      {
+        "name": "Andrei M.",
+        "role": "Client · BMW",
+        "rating": 5,
+        "text": "Am lăsat mașina swirl-uită și am primit-o oglindă. Se vede că le pasă de detalii. Recomand cu încredere.",
+        "avatar": "assets/avatar-1.svg"
+      },
+      {
+        "name": "Ioana P.",
+        "role": "Client · Audi",
+        "rating": 5,
+        "text": "Interiorul arată ca nou după detailing. M-au consiliat exact ce avea nevoie mașina mea. Comunicare impecabilă.",
+        "avatar": "assets/avatar-2.svg"
+      },
+      {
+        "name": "Radu I.",
+        "role": "Client · Tesla",
+        "rating": 5,
+        "text": "Protecție ceramică impecabilă. Apa alunecă instant, luciul e incredibil. Oameni de treabă și profesioniști.",
+        "avatar": "assets/avatar-3.svg"
+      },
+      {
+        "name": "Cristina D.",
+        "role": "Client · Range Rover",
+        "rating": 5,
+        "text": "Vin la ei de ani buni. Mereu aceeași grijă și seriozitate. Chiar te simți parte din povestea lor. Recomand.",
+        "avatar": "assets/avatar-4.svg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Întrebări frecvente",
+    "title": "Răspunsuri, înainte să întrebi.",
+    "subtitle": "Ai întrebări, vrei să stăm de vorbă despre detailing? Dă-ne un telefon.",
+    "items": [
+      {
+        "question": "Cum aflu ce e potrivit pentru mașina mea?",
+        "answer": "Cel mai simplu e să ne dai un telefon sau să ne scrii. Discutăm despre mașina ta și îți oferim o soluție personalizată, exact pe nevoile tale."
+      },
+      {
+        "question": "Cât durează un detailing complet?",
+        "answer": "Un detailing complet interior + exterior durează în general 4–8 ore, în funcție de starea și dimensiunea mașinii. Pentru corecție de vopsea sau protecție ceramică, alocăm 1–2 zile."
+      },
+      {
+        "question": "Trebuie să programez sau pot veni direct?",
+        "answer": "Recomandăm programarea, ca să îți rezervăm un loc și să eviți așteptarea. Dă-ne un telefon și găsim rapid o dată potrivită."
+      },
+      {
+        "question": "Ce presupune protecția ceramică?",
+        "answer": "Aplicăm un strat ceramic de durată care respinge apa și murdăria și păstrează luciul mult timp. Îl recomandăm după o corecție de vopsea, pentru un rezultat maxim."
+      },
+      {
+        "question": "Pot vedea prețul înainte?",
+        "answer": "Sigur. Spune-ne modelul mașinii și ce îți dorești, iar noi îți răspundem cu o ofertă clară, fără costuri ascunse."
+      }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Vrei să stăm de vorbă?",
+    "title": "Fă parte din povestea noastră.",
+    "subtitle": "Ai o mașină și te gândești să o aduci la noi? Dă-ne un telefon — te așteptăm cu drag.",
+    "primaryCta": { "label": "Sună acum", "action": "phone" },
+    "secondaryCta": { "label": "Scrie-ne pe WhatsApp", "action": "whatsapp" }
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Te așteptăm cu drag.",
+    "subtitle": "Str. Dogăriei nr. 95, Galați. Dă-ne un telefon sau treci pe la noi.",
+    "whatsappMessage": "Salut! Aș vrea să stăm de vorbă despre mașina mea:"
+  },
+
+  "footer": {
+    "description": "Fresh Detailing — detailing auto premium în Galați din 2013, pe Str. Dogăriei nr. 95. Soluții personalizate pentru tine și mașina ta.",
+    "columns": [
+      {
+        "title": "Servicii",
+        "links": [
+          { "label": "Detailing interior", "href": "#servicii" },
+          { "label": "Detailing exterior", "href": "#servicii" },
+          { "label": "Corecție de vopsea", "href": "#servicii" },
+          { "label": "Protecție ceramică", "href": "#servicii" }
+        ]
+      },
+      {
+        "title": "Fresh Detailing",
+        "links": [
+          { "label": "Rezultate", "href": "#rezultate" },
+          { "label": "Galerie", "href": "#galerie" },
+          { "label": "Recenzii", "href": "#recenzii" },
+          { "label": "Întrebări frecvente", "href": "#faq" }
+        ]
+      }
+    ],
+    "legal": "© 2026 Fresh Detailing Galați. Toate drepturile rezervate.",
+    "credit": "Design de LimeSpark Development"
+  },
+
+  "whatsappDefaultMessage": "Salut! Am văzut site-ul și aș vrea mai multe detalii."
+}
