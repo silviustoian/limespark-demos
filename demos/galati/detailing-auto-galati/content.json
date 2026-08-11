@@ -1,0 +1,308 @@
+{
+  "$schema": "Detailing Auto la Domiciliu Galați — demo LimeSpark. Editează doar acest fișier, tokens.json și imaginile din assets/.",
+
+  "business": {
+    "name": "Detailing Auto",
+    "nameSuffix": "Galați",
+    "tagline": "Detailing auto la domiciliu · Galați și împrejurimi",
+    "logoText": "Detailing Galați",
+    "logo": "assets/logo.png",
+    "logoBg": "#0A0A0B",
+    "phone": "+40 753 364 556",
+    "whatsapp": "40753364556",
+    "email": "",
+    "address": "Detailing la domiciliu · Galați și împrejurimi",
+    "mapsUrl": "https://maps.google.com/?q=Galati",
+    "hours": "Program flexibil · venim la tine",
+    "social": []
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Servicii", "href": "#servicii" },
+      { "label": "Rezultate", "href": "#rezultate" },
+      { "label": "Proces", "href": "#proces" },
+      { "label": "Galerie", "href": "#galerie" },
+      { "label": "Recenzii", "href": "#recenzii" }
+    ],
+    "cta": { "label": "Sună acum", "action": "phone" }
+  },
+
+  "hero": {
+    "eyebrow": "Detailing la domiciliu · Galați și împrejurimi",
+    "title": "Tu te ocupi de treaba ta,",
+    "titleAccent": "noi ne ocupăm de mașina ta.",
+    "subtitle": "Detailing auto la domiciliu în Galați și împrejurimi. Orice mașină, orice loc, oricând — venim noi la tine, fără deplasare, cu rezultate premium.",
+    "primaryCta": { "label": "Sună acum", "action": "phone" },
+    "secondaryCta": { "label": "Vezi serviciile", "href": "#servicii" },
+    "image": "assets/hero.jpg",
+    "stats": [
+      { "value": "La tine", "label": "venim noi, fără deplasare" },
+      { "value": "Orice vehicul", "label": "de la city car la TIR" },
+      { "value": "Galați", "label": "și împrejurimi" }
+    ]
+  },
+
+  "marquee": {
+    "enabled": true,
+    "label": "Detailing pentru orice tip de mașină",
+    "items": ["Autoturisme", "Taxi / Maxi Taxi", "Dube & autoutilitare", "Capuri de TIR", "Autocare", "Microbuze"]
+  },
+
+  "services": {
+    "eyebrow": "Serviciile noastre",
+    "title": "Detailing complet, direct la tine.",
+    "subtitle": "Venim cu tot echipamentul și facem mașina să arate ca nouă, oriunde ai fi.",
+    "items": [
+      {
+        "icon": "sparkle",
+        "title": "Detailing interior",
+        "description": "Curățare în profunzime a tapițeriei, plasticelor și portbagajului, cu eliminarea mirosurilor neplăcute.",
+        "price": "la cerere",
+        "features": ["Curățare în profunzime", "Tapițerie & plastice", "Eliminare mirosuri"]
+      },
+      {
+        "icon": "shine",
+        "title": "Polish profesional",
+        "description": "Polish într-o etapă sau în două etape, corecție de vopsea și luciu de durată pentru o caroserie impecabilă.",
+        "price": "la cerere",
+        "features": ["Polish în 1 sau 2 etape", "Corecție vopsea", "Luciu de durată"]
+      },
+      {
+        "icon": "shield",
+        "title": "Protecție ceramică",
+        "description": "Strat ceramic de durată care respinge apa și murdăria și păstrează luciul ani la rând.",
+        "price": "la cerere",
+        "features": ["Protecție de durată", "Efect hidrofob", "Rezistență UV & chimică"]
+      },
+      {
+        "icon": "wheel",
+        "title": "Recondiționare faruri",
+        "description": "Redăm claritatea farurilor îngălbenite sau mate — vizibilitate maximă, siguranță sporită, aspect ca nou.",
+        "price": "la cerere",
+        "features": ["Vizibilitate maximă", "Siguranță sporită", "Aspect ca nou"]
+      },
+      {
+        "icon": "layers",
+        "title": "Detailing compartiment motor",
+        "description": "Curățare profesională a compartimentului motor, cu protecția componentelor și un aspect îngrijit.",
+        "price": "la cerere",
+        "features": ["Curățare profesională", "Protecție componente", "Aspect îngrijit"]
+      },
+      {
+        "icon": "film",
+        "title": "Decolantare",
+        "description": "Îndepărtăm folii și inscripționări de pe dube, taxi, autoutilitare sau mașini personale, fără urme de adeziv.",
+        "price": "la cerere",
+        "features": ["Dube, taxi & personale", "Îndepărtare urme adeziv", "Folie protecție (opțional)"]
+      }
+    ]
+  },
+
+  "beforeAfter": {
+    "eyebrow": "Rezultate",
+    "title": "Diferența se vede. Trage cursorul.",
+    "subtitle": "Aceleași mașini, înainte și după — direct la tine acasă.",
+    "items": [
+      {
+        "label": "Recondiționare faruri · înainte / după",
+        "before": "assets/ba-1-before.jpg",
+        "after": "assets/ba-1-after.jpg"
+      },
+      {
+        "label": "Compartiment motor · înainte / după",
+        "before": "assets/ba-2-before.jpg",
+        "after": "assets/ba-2-after.jpg"
+      }
+    ]
+  },
+
+  "process": {
+    "eyebrow": "Cum lucrăm",
+    "title": "Un proces simplu, fără surprize.",
+    "subtitle": "De la prima ta întrebare până la mașina impecabilă în fața casei.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Sună sau scrie-ne",
+        "description": "Spune-ne modelul mașinii, adresa și ce îți dorești. Îți răspundem cu un preț clar."
+      },
+      {
+        "number": "02",
+        "title": "Venim la tine",
+        "description": "Stabilim ziua și ora, apoi venim la adresa ta cu tot echipamentul. Fără deplasare pentru tine."
+      },
+      {
+        "number": "03",
+        "title": "Lucrul propriu-zis",
+        "description": "Ne ocupăm de fiecare detaliu, cât timp tu îți vezi de treaba ta. Rezultate premium, garantat."
+      },
+      {
+        "number": "04",
+        "title": "Predare",
+        "description": "Îți predăm mașina ca nouă, gata de drum, cu recomandări de întreținere."
+      }
+    ]
+  },
+
+  "benefits": {
+    "eyebrow": "De ce noi",
+    "title": "Orice mașină. Orice loc. Oricând.",
+    "subtitle": "Aducem detailing-ul profesional direct la ușa ta, cu satisfacție garantată.",
+    "items": [
+      {
+        "icon": "clock",
+        "title": "Venim noi la tine",
+        "description": "Fără deplasare pentru tine. Economisești timp — tu îți vezi de treabă, noi de mașină."
+      },
+      {
+        "icon": "medal",
+        "title": "Orice tip de vehicul",
+        "description": "Autoturisme, taxi, dube, autoutilitare, capuri de TIR, autocare și microbuze. Avem grijă de toate."
+      },
+      {
+        "icon": "shield",
+        "title": "Produse profesionale",
+        "description": "Lucrăm exclusiv cu produse profesionale, pentru rezultate premium de durată."
+      },
+      {
+        "icon": "leaf",
+        "title": "Sigur pentru mașină",
+        "description": "Tehnici blânde, fără produse abrazive care afectează vopseaua sau materialele."
+      },
+      {
+        "icon": "camera",
+        "title": "Atenție la fiecare detaliu",
+        "description": "Nu lăsăm nimic la voia întâmplării. Fiecare colț al mașinii primește atenția cuvenită."
+      },
+      {
+        "icon": "heart",
+        "title": "Satisfacție garantată",
+        "description": "100% garantat, calitate premium. Noi o facem să arate ca nouă."
+      }
+    ]
+  },
+
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Lucrări la domiciliu",
+    "subtitle": "O selecție din mașinile pe care le-am readus la viață, chiar la clienți acasă.",
+    "items": [
+      { "image": "assets/gallery-1.jpg", "caption": "Polish profesional" },
+      { "image": "assets/gallery-2.jpg", "caption": "Detailing interior · tapițerie" },
+      { "image": "assets/gallery-3.jpg", "caption": "Recondiționare faruri" },
+      { "image": "assets/gallery-4.jpg", "caption": "Detailing compartiment motor" },
+      { "image": "assets/gallery-5.jpg", "caption": "Protecție ceramică" },
+      { "image": "assets/gallery-6.jpg", "caption": "Decolantare & folie" }
+    ]
+  },
+
+  "reviews": {
+    "eyebrow": "Recenzii",
+    "title": "Ce spun clienții noștri.",
+    "subtitle": "Clienți care ne cheamă din nou, direct la ei acasă.",
+    "rating": "5.0",
+    "ratingLabel": "clienți mulțumiți",
+    "items": [
+      {
+        "name": "Andrei M.",
+        "role": "Client · autoturism",
+        "rating": 5,
+        "text": "Au venit la mine acasă cu tot echipamentul și mi-au lăsat mașina ca nouă. Super comod, nu m-am mișcat nicăieri.",
+        "avatar": "assets/avatar-1.svg"
+      },
+      {
+        "name": "Ioana P.",
+        "role": "Client · detailing interior",
+        "rating": 5,
+        "text": "Interiorul arată și miroase ca nou. Rapizi, atenți la detalii și cu prețuri corecte. Recomand cu încredere.",
+        "avatar": "assets/avatar-2.svg"
+      },
+      {
+        "name": "Transport SRL",
+        "role": "Client · flotă dube",
+        "rating": 5,
+        "text": "Ne fac detailing la dubele de firmă, direct la sediu. Comod, serios și de calitate. Colaborare de încredere.",
+        "avatar": "assets/avatar-3.svg"
+      },
+      {
+        "name": "Cristina D.",
+        "role": "Client · recondiționare faruri",
+        "rating": 5,
+        "text": "Farurile îngălbenite arată acum ca noi și văd mult mai bine noaptea. Muncă de calitate, la mine în curte.",
+        "avatar": "assets/avatar-4.svg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Întrebări frecvente",
+    "title": "Răspunsuri, înainte să întrebi.",
+    "subtitle": "Nu găsești ce cauți? Sună-ne.",
+    "items": [
+      {
+        "question": "În ce zone veniți?",
+        "answer": "Venim la domiciliu în Galați și împrejurimi. Oriunde ai fi, venim noi — spune-ne adresa și găsim o soluție."
+      },
+      {
+        "question": "Ce tipuri de vehicule detailați?",
+        "answer": "Orice tip de vehicul: autoturisme, taxi și maxi taxi, dube și autoutilitare, capuri de TIR, autocare și microbuze. Orice dimensiune, orice brand."
+      },
+      {
+        "question": "De ce aveți nevoie ca să lucrați la mine?",
+        "answer": "Venim cu echipamentul propriu. E de ajutor un loc unde putem parca mașina și, ideal, acces la o sursă de apă și curent — dar spune-ne situația ta și ne adaptăm."
+      },
+      {
+        "question": "Cât durează un detailing complet?",
+        "answer": "Depinde de serviciu și de starea mașinii — de la câteva ore pentru un interior, până la o zi pentru polish și protecție. Îți spunem exact când stabilim programarea."
+      },
+      {
+        "question": "Cum mă programez?",
+        "answer": "Sună la 0753 364 556 sau scrie-ne pe WhatsApp cu modelul mașinii, adresa și ce îți dorești. Stabilim rapid ziua și ora la care venim la tine."
+      }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Programează serviciul",
+    "title": "Bucură-te de o mașină ca nouă.",
+    "subtitle": "Sună acum la 0753 364 556 — venim noi la tine, în Galați și împrejurimi.",
+    "primaryCta": { "label": "Sună acum", "action": "phone" },
+    "secondaryCta": { "label": "Scrie-ne pe WhatsApp", "action": "whatsapp" }
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Oriunde ai fi, venim noi.",
+    "subtitle": "Detailing la domiciliu în Galați și împrejurimi. Sună sau scrie-ne pe WhatsApp.",
+    "whatsappMessage": "Salut! Aș vrea o ofertă pentru detailing la domiciliu:"
+  },
+
+  "footer": {
+    "description": "Detailing auto la domiciliu în Galați și împrejurimi. Orice mașină, orice loc, oricând — venim noi la tine, cu rezultate premium.",
+    "columns": [
+      {
+        "title": "Servicii",
+        "links": [
+          { "label": "Detailing interior", "href": "#servicii" },
+          { "label": "Polish profesional", "href": "#servicii" },
+          { "label": "Recondiționare faruri", "href": "#servicii" },
+          { "label": "Detailing motor & decolantare", "href": "#servicii" }
+        ]
+      },
+      {
+        "title": "Detailing Galați",
+        "links": [
+          { "label": "Rezultate", "href": "#rezultate" },
+          { "label": "Galerie", "href": "#galerie" },
+          { "label": "Recenzii", "href": "#recenzii" },
+          { "label": "Întrebări frecvente", "href": "#faq" }
+        ]
+      }
+    ],
+    "legal": "© 2026 Detailing Auto la Domiciliu Galați. Toate drepturile rezervate.",
+    "credit": "Design de LimeSpark Development"
+  },
+
+  "whatsappDefaultMessage": "Salut! Am văzut anunțul și aș vrea mai multe detalii."
+}
