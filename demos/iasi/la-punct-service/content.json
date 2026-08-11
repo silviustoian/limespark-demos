@@ -1,0 +1,310 @@
+{
+  "$schema": "Service Auto La Punct Iași — demo LimeSpark (service auto). Editează doar acest fișier, tokens.json și imaginile din assets/.",
+
+  "business": {
+    "name": "La Punct",
+    "nameSuffix": "Service Auto",
+    "tagline": "Service auto complet în Iași",
+    "logoText": "La Punct",
+    "logo": "assets/logo.png",
+    "logoBg": "#FFFFFF",
+    "phone": "+40 755 537 383",
+    "whatsapp": "40755537383",
+    "email": "",
+    "address": "Str. Hlincea nr. 7A, Iași, 707410",
+    "mapsUrl": "https://maps.google.com/?q=Strada+Hlincea+7A+Iasi",
+    "hours": "Program flexibil · pe bază de programare",
+    "social": [
+      { "label": "Facebook", "url": "https://www.facebook.com/servicelapunct/" }
+    ]
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Servicii", "href": "#servicii" },
+      { "label": "Rezultate", "href": "#rezultate" },
+      { "label": "Proces", "href": "#proces" },
+      { "label": "Galerie", "href": "#galerie" },
+      { "label": "Recenzii", "href": "#recenzii" }
+    ],
+    "cta": { "label": "Programează-te", "action": "whatsapp" }
+  },
+
+  "hero": {
+    "eyebrow": "Service auto · Iași",
+    "title": "Mașina ta, reparată la punct.",
+    "titleAccent": "Diagnoză corectă, lucrare de încredere.",
+    "subtitle": "Service auto complet în Iași: diagnoză computerizată, revizii, distribuție, ambreiaj, frâne, suspensie, electrică și climatizare — pe Str. Hlincea nr. 7A.",
+    "primaryCta": { "label": "Programează-te", "action": "whatsapp" },
+    "secondaryCta": { "label": "Vezi serviciile", "href": "#servicii" },
+    "image": "assets/hero.jpg",
+    "stats": [
+      { "value": "Diagnoză", "label": "computerizată" },
+      { "value": "Garanție", "label": "la manoperă & piese" },
+      { "value": "Iași", "label": "Str. Hlincea 7A" }
+    ]
+  },
+
+  "marquee": {
+    "enabled": true,
+    "label": "Lucrăm pe orice marcă",
+    "items": ["BMW", "Mercedes-Benz", "Audi", "Volkswagen", "Dacia", "Ford"]
+  },
+
+  "services": {
+    "eyebrow": "Servicii",
+    "title": "Service auto complet, sub un singur acoperiș.",
+    "subtitle": "De la o revizie simplă la reparații complexe de mecanică și electrică.",
+    "items": [
+      {
+        "icon": "shield",
+        "title": "Diagnoză computerizată",
+        "description": "Citim erorile din calculatorul mașinii și identificăm exact problema, înainte de orice reparație.",
+        "price": "la cerere",
+        "features": ["Citire coduri eroare", "Diagnoză precisă", "Recomandări clare"]
+      },
+      {
+        "icon": "clock",
+        "title": "Revizii & schimb ulei",
+        "description": "Revizii periodice complete: schimb ulei și filtre (ulei, aer, polen, combustibil), verificări de siguranță.",
+        "price": "la cerere",
+        "features": ["Ulei & filtre", "Verificări complete", "Fișă de service"]
+      },
+      {
+        "icon": "shine",
+        "title": "Distribuție & ambreiaj",
+        "description": "Înlocuire kit distribuție și kit ambreiaj, cu piese de calitate și montaj corect, la termen.",
+        "price": "la cerere",
+        "features": ["Kit distribuție", "Kit ambreiaj", "Piese de calitate"]
+      },
+      {
+        "icon": "wheel",
+        "title": "Sistem de frânare",
+        "description": "Plăcuțe, discuri, etriere și lichid de frână — pentru o frânare sigură și fără zgomote.",
+        "price": "la cerere",
+        "features": ["Plăcuțe & discuri", "Etriere", "Lichid de frână"]
+      },
+      {
+        "icon": "layers",
+        "title": "Suspensie & direcție",
+        "description": "Amortizoare, brațe, bielete, capete de bară și geometrie — pentru un mers lin și sigur.",
+        "price": "la cerere",
+        "features": ["Amortizoare & brațe", "Bielete & capete bară", "Geometrie roți"]
+      },
+      {
+        "icon": "sparkle",
+        "title": "Electrică auto & climatizare",
+        "description": "Depanare electrică, baterii, alternatoare, demaroare și încărcare / igienizare climatizare.",
+        "price": "la cerere",
+        "features": ["Depanare electrică", "Baterii & alternatoare", "Încărcare climatizare"]
+      }
+    ]
+  },
+
+  "beforeAfter": {
+    "eyebrow": "Rezultate",
+    "title": "Reparat la punct. Trage cursorul.",
+    "subtitle": "Aceleași mașini, înainte și după o vizită în service-ul nostru.",
+    "items": [
+      {
+        "label": "Sistem de frânare · înainte / după",
+        "before": "assets/ba-1-before.jpg",
+        "after": "assets/ba-1-after.jpg"
+      },
+      {
+        "label": "Compartiment motor · înainte / după",
+        "before": "assets/ba-2-before.jpg",
+        "after": "assets/ba-2-after.jpg"
+      }
+    ]
+  },
+
+  "process": {
+    "eyebrow": "Cum lucrăm",
+    "title": "Un proces simplu, fără surprize.",
+    "subtitle": "De la prima ta întrebare până la predarea cheilor.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Cere o programare",
+        "description": "Scrie-ne pe WhatsApp cu modelul mașinii și problema. Îți spunem ce verificăm și te programăm."
+      },
+      {
+        "number": "02",
+        "title": "Diagnoză & ofertă",
+        "description": "Facem diagnoza, îți explicăm exact ce e de reparat și primești un deviz clar înainte de a începe."
+      },
+      {
+        "number": "03",
+        "title": "Reparația propriu-zisă",
+        "description": "Lucrăm cu piese de calitate și montaj corect. Fără reparații inutile, doar ce e necesar."
+      },
+      {
+        "number": "04",
+        "title": "Predare & garanție",
+        "description": "Îți predăm mașina reparată la punct, cu garanție la manoperă și piese."
+      }
+    ]
+  },
+
+  "benefits": {
+    "eyebrow": "De ce La Punct",
+    "title": "Reparăm la punct, nu la nimereală.",
+    "subtitle": "Diagnoză corectă, piese de calitate și prețuri transparente — fără surprize.",
+    "items": [
+      {
+        "icon": "shield",
+        "title": "Diagnoză corectă",
+        "description": "Identificăm exact problema înainte de a înlocui ceva. Fără reparații inutile."
+      },
+      {
+        "icon": "medal",
+        "title": "Garanție la lucrări",
+        "description": "Oferim garanție la manoperă și la piesele montate. Stăm în spatele lucrării."
+      },
+      {
+        "icon": "clock",
+        "title": "Respectăm termenul",
+        "description": "Îți spunem clar cât durează și predăm mașina la timp. Timpul tău contează."
+      },
+      {
+        "icon": "leaf",
+        "title": "Piese de calitate",
+        "description": "Montăm piese de calitate, la raport corect preț–valoare. Îți explicăm opțiunile."
+      },
+      {
+        "icon": "camera",
+        "title": "Transparență totală",
+        "description": "Primești deviz clar înainte de reparație și îți arătăm piesele înlocuite. Fără costuri ascunse."
+      },
+      {
+        "icon": "heart",
+        "title": "Grijă pentru mașina ta",
+        "description": "Tratăm fiecare mașină ca și cum ar fi a noastră. Se vede în rezultat."
+      }
+    ]
+  },
+
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Lucrări din service",
+    "subtitle": "O selecție din mașinile care au trecut prin mâinile noastre.",
+    "items": [
+      { "image": "assets/gallery-1.jpg", "caption": "Diagnoză computerizată" },
+      { "image": "assets/gallery-2.jpg", "caption": "Distribuție & ambreiaj" },
+      { "image": "assets/gallery-3.jpg", "caption": "Sistem de frânare" },
+      { "image": "assets/gallery-4.jpg", "caption": "Suspensie & direcție" },
+      { "image": "assets/gallery-5.jpg", "caption": "Revizie & schimb ulei" },
+      { "image": "assets/gallery-6.jpg", "caption": "Electrică & climatizare" }
+    ]
+  },
+
+  "reviews": {
+    "eyebrow": "Recenzii",
+    "title": "Ce spun clienții noștri.",
+    "subtitle": "Clienți care se întorc cu încredere la noi.",
+    "rating": "5.0",
+    "ratingLabel": "clienți mulțumiți",
+    "items": [
+      {
+        "name": "Andrei M.",
+        "role": "Client · BMW",
+        "rating": 5,
+        "text": "Au găsit repede problema pe care alții n-o depistau. Diagnoză corectă, preț corect, reparat la punct. Recomand.",
+        "avatar": "assets/avatar-1.svg"
+      },
+      {
+        "name": "Ioana P.",
+        "role": "Client · Volkswagen",
+        "rating": 5,
+        "text": "Mi-au făcut distribuția și revizia. Totul explicat clar, deviz corect, fără costuri ascunse. Oameni de încredere.",
+        "avatar": "assets/avatar-2.svg"
+      },
+      {
+        "name": "Radu I.",
+        "role": "Client · Ford",
+        "rating": 5,
+        "text": "Am schimbat plăcuțe, discuri și amortizoare. Lucrare rapidă și de calitate, cu garanție. Mă întorc sigur.",
+        "avatar": "assets/avatar-3.svg"
+      },
+      {
+        "name": "Cristina D.",
+        "role": "Client · Dacia",
+        "rating": 5,
+        "text": "Service serios, care nu îți inventează probleme. Au reparat exact ce trebuia. Prețuri corecte și transparență.",
+        "avatar": "assets/avatar-4.svg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Întrebări frecvente",
+    "title": "Răspunsuri, înainte să întrebi.",
+    "subtitle": "Nu găsești ce cauți? Scrie-ne pe WhatsApp.",
+    "items": [
+      {
+        "question": "Faceți diagnoză înainte de reparație?",
+        "answer": "Da. Începem întotdeauna cu o diagnoză, ca să identificăm exact problema. Îți explicăm ce e de reparat și primești un deviz clar înainte de a începe."
+      },
+      {
+        "question": "Oferiți garanție la lucrări?",
+        "answer": "Da. Oferim garanție atât la manoperă, cât și la piesele montate. Stăm în spatele fiecărei reparații."
+      },
+      {
+        "question": "Pot veni cu piesele mele?",
+        "answer": "Da, putem monta și piese aduse de tine, dar îți putem recomanda și procura piese de calitate, la un raport corect preț–valoare. Discutăm opțiunile."
+      },
+      {
+        "question": "Cât durează o reparație?",
+        "answer": "Depinde de lucrare. După diagnoză îți spunem clar cât durează și când poți ridica mașina. Respectăm termenul stabilit."
+      },
+      {
+        "question": "Cum mă programez?",
+        "answer": "Scrie-ne pe WhatsApp cu modelul mașinii și problema, iar noi te programăm rapid. Ne găsești pe Str. Hlincea nr. 7A, Iași."
+      }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Gata de programare?",
+    "title": "Hai să-ți reparăm mașina la punct.",
+    "subtitle": "Scrie-ne pe WhatsApp cu problema și te programăm rapid.",
+    "primaryCta": { "label": "Scrie-ne pe WhatsApp", "action": "whatsapp" },
+    "secondaryCta": { "label": "Sună acum", "action": "phone" }
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Te așteptăm în service.",
+    "subtitle": "Str. Hlincea nr. 7A, Iași. Programează-te sau treci pe la noi.",
+    "whatsappMessage": "Salut! Aș vrea o programare la service pentru mașina mea:"
+  },
+
+  "footer": {
+    "description": "Service Auto La Punct — service auto complet în Iași, pe Str. Hlincea nr. 7A: diagnoză, revizii, distribuție, ambreiaj, frâne, suspensie, electrică și climatizare.",
+    "columns": [
+      {
+        "title": "Servicii",
+        "links": [
+          { "label": "Diagnoză computerizată", "href": "#servicii" },
+          { "label": "Revizii & schimb ulei", "href": "#servicii" },
+          { "label": "Distribuție & ambreiaj", "href": "#servicii" },
+          { "label": "Frâne, suspensie & direcție", "href": "#servicii" }
+        ]
+      },
+      {
+        "title": "La Punct",
+        "links": [
+          { "label": "Rezultate", "href": "#rezultate" },
+          { "label": "Galerie", "href": "#galerie" },
+          { "label": "Recenzii", "href": "#recenzii" },
+          { "label": "Întrebări frecvente", "href": "#faq" }
+        ]
+      }
+    ],
+    "legal": "© 2026 Service Auto La Punct. Toate drepturile rezervate.",
+    "credit": "Design de LimeSpark Development"
+  },
+
+  "whatsappDefaultMessage": "Salut! Am văzut site-ul și aș vrea mai multe detalii."
+}
