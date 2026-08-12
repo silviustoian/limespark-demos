@@ -1,0 +1,310 @@
+{
+  "$schema": "Downtown Car Wash Galați — demo LimeSpark. Editează doar acest fișier, tokens.json și imaginile din assets/.",
+
+  "business": {
+    "name": "Downtown",
+    "nameSuffix": "Car Wash",
+    "tagline": "Spălătorie auto premium în Galați · din 2021",
+    "logoText": "Downtown Car Wash",
+    "logo": "assets/logo.png",
+    "logoBg": "#0A0A0B",
+    "phone": "+40 730 931 333",
+    "whatsapp": "40730931333",
+    "email": "",
+    "address": "Str. Ana Ipătescu nr. 4, Galați",
+    "mapsUrl": "https://maps.google.com/?q=Strada+Ana+Ipatescu+4+Galati",
+    "hours": "Program flexibil · spălătorie",
+    "social": [
+      { "label": "Facebook", "url": "https://www.facebook.com/p/Down-Town-Car-Wash-100067742231325/" }
+    ]
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Servicii", "href": "#servicii" },
+      { "label": "Rezultate", "href": "#rezultate" },
+      { "label": "Proces", "href": "#proces" },
+      { "label": "Galerie", "href": "#galerie" },
+      { "label": "Recenzii", "href": "#recenzii" }
+    ],
+    "cta": { "label": "Sună-ne", "action": "phone" }
+  },
+
+  "hero": {
+    "eyebrow": "Spălătorie auto · Galați · din 2021",
+    "title": "Mașina ta, curată lună.",
+    "titleAccent": "Premium quality, în inima orașului.",
+    "subtitle": "Spălătorie auto premium în Galați, pe Str. Ana Ipătescu nr. 4. Spălare exterioară și interioară, jante, ceară și luciu — rapid, atent și la un preț corect.",
+    "primaryCta": { "label": "Sună-ne", "action": "phone" },
+    "secondaryCta": { "label": "Vezi serviciile", "href": "#servicii" },
+    "image": "assets/hero.jpg",
+    "stats": [
+      { "value": "Din 2021", "label": "spălătorie premium" },
+      { "value": "Rapid", "label": "curat lună, cât aștepți" },
+      { "value": "Galați", "label": "Str. Ana Ipătescu 4" }
+    ]
+  },
+
+  "marquee": {
+    "enabled": true,
+    "label": "Spălăm orice mașină",
+    "items": ["Autoturisme", "SUV & 4x4", "Break", "Dube mici", "Mașini de oraș", "Premium quality"]
+  },
+
+  "services": {
+    "eyebrow": "Servicii",
+    "title": "Spălare completă, făcută ca la carte.",
+    "subtitle": "De la o spălare rapidă la program complet interior + exterior.",
+    "items": [
+      {
+        "icon": "shine",
+        "title": "Spălare exterioară",
+        "description": "Prespălare cu spumă activă, spălare, clătire și uscare atentă — pentru o caroserie curată și strălucitoare.",
+        "price": "la cerere",
+        "features": ["Spumă activă", "Spălare & clătire", "Uscare atentă"]
+      },
+      {
+        "icon": "sparkle",
+        "title": "Spălare interioară",
+        "description": "Aspirare completă, ștergere bord și plastice, curățare geamuri — un habitaclu curat și proaspăt.",
+        "price": "la cerere",
+        "features": ["Aspirare completă", "Bord & plastice", "Geamuri fără urme"]
+      },
+      {
+        "icon": "layers",
+        "title": "Spălare completă (int + ext)",
+        "description": "Combinația ideală: exterior impecabil plus interior aspirat și curățat. Mașina ta, curată din toate părțile.",
+        "price": "la cerere",
+        "features": ["Exterior + interior", "Aspirare & ștergere", "Rezultat complet"]
+      },
+      {
+        "icon": "wheel",
+        "title": "Curățare jante & anvelope",
+        "description": "Curățăm jantele și anvelopele și le dăm un aspect îngrijit, cu soluții dedicate.",
+        "price": "la cerere",
+        "features": ["Jante curate", "Anvelope îngrijite", "Soluții dedicate"]
+      },
+      {
+        "icon": "shield",
+        "title": "Ceară & luciu",
+        "description": "Aplicare de ceară pentru un luciu frumos și o protecție de scurtă durată împotriva mizeriei.",
+        "price": "la cerere",
+        "features": ["Ceară protectoare", "Luciu frumos", "Apă alunecă mai ușor"]
+      },
+      {
+        "icon": "film",
+        "title": "Covorașe & tapițerie",
+        "description": "Curățăm covorașele și împrospătăm tapițeria, pentru un interior curat și fără mirosuri.",
+        "price": "la cerere",
+        "features": ["Covorașe curate", "Tapițerie împrospătată", "Fără mirosuri"]
+      }
+    ]
+  },
+
+  "beforeAfter": {
+    "eyebrow": "Rezultate",
+    "title": "Diferența se vede. Trage cursorul.",
+    "subtitle": "Aceleași mașini, înainte și după o spălare la Downtown.",
+    "items": [
+      {
+        "label": "Spălare & luciu · exterior",
+        "before": "assets/ba-1-before.jpg",
+        "after": "assets/ba-1-after.jpg"
+      },
+      {
+        "label": "Aspirare & curățare · interior",
+        "before": "assets/ba-2-before.jpg",
+        "after": "assets/ba-2-after.jpg"
+      }
+    ]
+  },
+
+  "process": {
+    "eyebrow": "Cum lucrăm",
+    "title": "Simplu și rapid.",
+    "subtitle": "Vii, aștepți puțin și pleci cu mașina curată lună.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Treci pe la noi",
+        "description": "Ne găsești pe Str. Ana Ipătescu nr. 4, în Galați. Alegi ce spălare îți dorești."
+      },
+      {
+        "number": "02",
+        "title": "Ne ocupăm noi",
+        "description": "Spălăm mașina rapid și atent, cu spumă activă și soluții profesionale."
+      },
+      {
+        "number": "03",
+        "title": "Verificare finală",
+        "description": "Ne asigurăm că totul e curat — caroserie, geamuri, jante și interior."
+      },
+      {
+        "number": "04",
+        "title": "Gata de drum",
+        "description": "Pleci cu mașina curată lună și strălucitoare. Simplu, ca la carte."
+      }
+    ]
+  },
+
+  "benefits": {
+    "eyebrow": "De ce Downtown",
+    "title": "Premium quality, de fiecare dată.",
+    "subtitle": "Spălare rapidă, atentă și la un preț corect, în inima orașului.",
+    "items": [
+      {
+        "icon": "clock",
+        "title": "Rapid",
+        "description": "Nu îți pierdem timpul. Spălare rapidă, cât aștepți, fără compromisuri la calitate."
+      },
+      {
+        "icon": "shield",
+        "title": "Produse profesionale",
+        "description": "Spumă activă și soluții profesionale, sigure pentru vopseaua mașinii tale."
+      },
+      {
+        "icon": "medal",
+        "title": "Premium quality",
+        "description": "Nu ne grăbim să terminăm. Verificăm fiecare colț, ca mașina ta să iasă impecabilă."
+      },
+      {
+        "icon": "leaf",
+        "title": "Sigur pentru mașină",
+        "description": "Tehnici blânde, fără produse abrazive care afectează vopseaua sau materialele."
+      },
+      {
+        "icon": "heart",
+        "title": "În inima orașului",
+        "description": "Ușor de ajuns, pe Str. Ana Ipătescu nr. 4. Treci pe la noi când îți convine."
+      },
+      {
+        "icon": "camera",
+        "title": "Preț corect",
+        "description": "Îți spunem clar cât costă, fără surprize. Calitate premium la un preț bun."
+      }
+    ]
+  },
+
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Din spălătorie",
+    "subtitle": "O selecție din mașinile care au trecut pe la Downtown.",
+    "items": [
+      { "image": "assets/gallery-1.jpg", "caption": "Exterior curat & lucios" },
+      { "image": "assets/gallery-2.jpg", "caption": "Spumă activă & prespălare" },
+      { "image": "assets/gallery-3.jpg", "caption": "Interior aspirat & curat" },
+      { "image": "assets/gallery-4.jpg", "caption": "Jante & anvelope îngrijite" },
+      { "image": "assets/gallery-5.jpg", "caption": "Ceară & luciu" },
+      { "image": "assets/gallery-6.jpg", "caption": "Geamuri fără urme" }
+    ]
+  },
+
+  "reviews": {
+    "eyebrow": "Recenzii",
+    "title": "Ce spun clienții noștri.",
+    "subtitle": "Clienți care revin pentru fiecare spălare.",
+    "rating": "5.0",
+    "ratingLabel": "clienți mulțumiți",
+    "items": [
+      {
+        "name": "Andrei M.",
+        "role": "Client · spălare completă",
+        "rating": 5,
+        "text": "Spălare rapidă și impecabilă. Mașina arată ca nouă de fiecare dată. Preț corect. Recomand cu încredere.",
+        "avatar": "assets/avatar-1.svg"
+      },
+      {
+        "name": "Ioana P.",
+        "role": "Client · interior",
+        "rating": 5,
+        "text": "Au aspirat și curățat interiorul foarte bine. Miroase proaspăt, arată curat. Oameni de treabă și rapizi.",
+        "avatar": "assets/avatar-2.svg"
+      },
+      {
+        "name": "Radu I.",
+        "role": "Client · exterior & ceară",
+        "rating": 5,
+        "text": "Spălare exterioară cu ceară — luciu frumos și apa alunecă mult mai ușor după. Premium quality, exact ca-n reclamă.",
+        "avatar": "assets/avatar-3.svg"
+      },
+      {
+        "name": "Cristina D.",
+        "role": "Client · spălare completă",
+        "rating": 5,
+        "text": "Vin de fiecare dată aici. Serioși, rapizi și mereu curat lună. Cea mai bună spălătorie din zonă.",
+        "avatar": "assets/avatar-4.svg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Întrebări frecvente",
+    "title": "Răspunsuri, înainte să întrebi.",
+    "subtitle": "Nu găsești ce cauți? Sună-ne.",
+    "items": [
+      {
+        "question": "Unde vă găsesc?",
+        "answer": "Pe Str. Ana Ipătescu nr. 4, în Galați. Ne găsești ușor, în inima orașului."
+      },
+      {
+        "question": "Cât durează o spălare?",
+        "answer": "O spălare exterioară durează de regulă 15–30 de minute, iar o spălare completă interior + exterior în jur de o oră, în funcție de starea mașinii."
+      },
+      {
+        "question": "Trebuie să programez?",
+        "answer": "Nu neapărat. Poți trece direct pe la noi. Pentru siguranță, ne poți da un telefon înainte, ca să eviți așteptarea."
+      },
+      {
+        "question": "Ce include spălarea completă?",
+        "answer": "Spălare exterioară (spumă activă, spălare, clătire, uscare) plus interior (aspirare, ștergere bord și plastice, geamuri). Mașina ta, curată din toate părțile."
+      },
+      {
+        "question": "Produsele sunt sigure pentru vopsea?",
+        "answer": "Da. Folosim spumă activă și soluții profesionale, sigure pentru orice tip de vopsea și finisaj."
+      }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Gata de o spălare?",
+    "title": "Treci pe la noi și pleci cu mașina curată lună.",
+    "subtitle": "Sună-ne sau treci direct pe Str. Ana Ipătescu nr. 4, în Galați.",
+    "primaryCta": { "label": "Sună acum", "action": "phone" },
+    "secondaryCta": { "label": "Scrie-ne pe WhatsApp", "action": "whatsapp" }
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Te așteptăm la spălătorie.",
+    "subtitle": "Str. Ana Ipătescu nr. 4, Galați. Treci pe la noi sau dă-ne un telefon.",
+    "whatsappMessage": "Salut! Aș vrea mai multe detalii despre spălare:"
+  },
+
+  "footer": {
+    "description": "Downtown Car Wash — spălătorie auto premium în Galați din 2021, pe Str. Ana Ipătescu nr. 4. Spălare exterioară, interioară, jante, ceară și luciu.",
+    "columns": [
+      {
+        "title": "Servicii",
+        "links": [
+          { "label": "Spălare exterioară", "href": "#servicii" },
+          { "label": "Spălare interioară", "href": "#servicii" },
+          { "label": "Spălare completă", "href": "#servicii" },
+          { "label": "Ceară & luciu", "href": "#servicii" }
+        ]
+      },
+      {
+        "title": "Downtown",
+        "links": [
+          { "label": "Rezultate", "href": "#rezultate" },
+          { "label": "Galerie", "href": "#galerie" },
+          { "label": "Recenzii", "href": "#recenzii" },
+          { "label": "Întrebări frecvente", "href": "#faq" }
+        ]
+      }
+    ],
+    "legal": "© 2026 Downtown Car Wash. Toate drepturile rezervate.",
+    "credit": "Design de LimeSpark Development"
+  },
+
+  "whatsappDefaultMessage": "Salut! Am văzut site-ul și aș vrea mai multe detalii."
+}
