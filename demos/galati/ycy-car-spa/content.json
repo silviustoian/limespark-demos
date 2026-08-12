@@ -1,0 +1,308 @@
+{
+  "$schema": "YCY Car Spa Galați — demo LimeSpark. Editează doar acest fișier, tokens.json și imaginile din assets/.",
+
+  "business": {
+    "name": "YCY",
+    "nameSuffix": "Car Spa",
+    "tagline": "Spălătorie & cosmetică auto în Galați",
+    "logoText": "YCY Car Spa",
+    "phone": "+40 757 337 381",
+    "whatsapp": "40757337381",
+    "email": "",
+    "address": "Str. Bucureștii Noi colț cu Str. Gheorghe Doja, lângă BulromGas, Galați",
+    "mapsUrl": "https://maps.google.com/?q=Strada+Bucurestii+Noi+Galati",
+    "hours": "Zilnic · 08:00 – 20:00",
+    "social": [
+      { "label": "Facebook", "url": "https://www.facebook.com/ycy.car.spa?locale=ro_RO" }
+    ]
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Servicii", "href": "#servicii" },
+      { "label": "Rezultate", "href": "#rezultate" },
+      { "label": "Proces", "href": "#proces" },
+      { "label": "Galerie", "href": "#galerie" },
+      { "label": "Recenzii", "href": "#recenzii" }
+    ],
+    "cta": { "label": "Programează-te", "action": "whatsapp" }
+  },
+
+  "hero": {
+    "eyebrow": "Spălătorie & cosmetică auto · Galați",
+    "title": "Mașina ta merită un spa.",
+    "titleAccent": "Cu preluare și predare, oriunde.",
+    "subtitle": "Ești în căutarea unei spălătorii auto profesionale? La YCY Car Spa te răsfățăm mașina — spălare, cosmetică și detailing, cu serviciu de preluare și predare oriunde în Galați.",
+    "primaryCta": { "label": "Programează-te", "action": "whatsapp" },
+    "secondaryCta": { "label": "Vezi serviciile", "href": "#servicii" },
+    "image": "assets/hero.jpg",
+    "stats": [
+      { "value": "Preluare", "label": "& predare oriunde" },
+      { "value": "08–20", "label": "program zilnic" },
+      { "value": "Galați", "label": "Bucureștii Noi" }
+    ]
+  },
+
+  "marquee": {
+    "enabled": true,
+    "label": "Lucrăm pe orice marcă",
+    "items": ["BMW", "Mercedes-Benz", "Audi", "Volkswagen", "Dacia", "Ford"]
+  },
+
+  "services": {
+    "eyebrow": "Servicii",
+    "title": "Un spa complet pentru mașina ta.",
+    "subtitle": "Spălătorie, cosmetică și detailing — plus preluare, predare și asigurări.",
+    "items": [
+      {
+        "icon": "shine",
+        "title": "Spălătorie auto profesională",
+        "description": "Spălare atentă exterioară și interioară, cu produse profesionale, pentru o mașină curată lună.",
+        "price": "la cerere",
+        "features": ["Exterior & interior", "Produse profesionale", "Geamuri & plastice"]
+      },
+      {
+        "icon": "clock",
+        "title": "Preluare & predare",
+        "description": "Venim după mașina ta și ți-o aducem înapoi, oriunde ești. Tu nu te miști de la treabă.",
+        "price": "la cerere",
+        "features": ["Preluare oriunde", "Predare la adresa ta", "Fără drumuri pentru tine"]
+      },
+      {
+        "icon": "sparkle",
+        "title": "Cosmetică & detailing interior",
+        "description": "Atelierul de cosmetică by YCY Car Spa: curățare în profunzime, tapițerie, piele și igienizare.",
+        "price": "la cerere",
+        "features": ["Curățare în profunzime", "Tapițerie & piele", "Igienizare habitaclu"]
+      },
+      {
+        "icon": "layers",
+        "title": "Polish & luciu",
+        "description": "Redăm luciul vopselei și îndepărtăm swirl-urile pentru o suprafață strălucitoare.",
+        "price": "la cerere",
+        "features": ["Polish caroserie", "Eliminare swirl-uri", "Luciu de durată"]
+      },
+      {
+        "icon": "shield",
+        "title": "Protecție ceramică",
+        "description": "Strat ceramic de durată care respinge apa și murdăria și păstrează luciul ani la rând.",
+        "price": "la cerere",
+        "features": ["Protecție de durată", "Efect hidrofob", "Rezistență UV & chimică"]
+      },
+      {
+        "icon": "medal",
+        "title": "Asigurări auto RCA / CASCO",
+        "description": "Pe lângă îngrijirea mașinii, îți oferim și asigurări auto tip RCA sau CASCO. Totul într-un singur loc.",
+        "price": "la cerere",
+        "features": ["RCA", "CASCO", "Consiliere"]
+      }
+    ]
+  },
+
+  "beforeAfter": {
+    "eyebrow": "Rezultate",
+    "title": "Diferența se vede. Trage cursorul.",
+    "subtitle": "Aceleași mașini, înainte și după o vizită la YCY Car Spa.",
+    "items": [
+      {
+        "label": "Spălare & luciu · exterior",
+        "before": "assets/ba-1-before.jpg",
+        "after": "assets/ba-1-after.jpg"
+      },
+      {
+        "label": "Cosmetică interior · habitaclu",
+        "before": "assets/ba-2-before.jpg",
+        "after": "assets/ba-2-after.jpg"
+      }
+    ]
+  },
+
+  "process": {
+    "eyebrow": "Cum lucrăm",
+    "title": "Un proces simplu, fără surprize.",
+    "subtitle": "De la prima ta solicitare până la mașina curată în fața casei.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Trimite o solicitare",
+        "description": "Scrie-ne pe WhatsApp ce îți dorești și de unde preluăm mașina. Îți răspundem cu un preț clar."
+      },
+      {
+        "number": "02",
+        "title": "Preluăm mașina",
+        "description": "Venim după mașina ta, oriunde ești în Galați. Program zilnic, 08:00 – 20:00."
+      },
+      {
+        "number": "03",
+        "title": "Spălare & cosmetică",
+        "description": "O răsfățăm cu spălare, cosmetică și detailing, cu grijă pentru fiecare detaliu."
+      },
+      {
+        "number": "04",
+        "title": "Predare",
+        "description": "Îți aducem mașina înapoi, curată lună și gata de drum. Simplu și comod."
+      }
+    ]
+  },
+
+  "benefits": {
+    "eyebrow": "De ce YCY",
+    "title": "Îngrijire de spa, cu maximă comoditate.",
+    "subtitle": "Spălătorie, cosmetică și detailing — plus preluare, predare și asigurări, într-un singur loc.",
+    "items": [
+      {
+        "icon": "clock",
+        "title": "Preluare & predare oriunde",
+        "description": "Venim după mașina ta și ți-o aducem înapoi. Economisești timp, fără drumuri."
+      },
+      {
+        "icon": "medal",
+        "title": "Asigurări RCA / CASCO",
+        "description": "Pe lângă îngrijirea mașinii, îți facem și asigurarea auto. Totul într-un singur loc."
+      },
+      {
+        "icon": "shield",
+        "title": "Produse premium",
+        "description": "Lucrăm cu produse profesionale, sigure pentru vopsea și materiale."
+      },
+      {
+        "icon": "leaf",
+        "title": "Sigur pentru mașină",
+        "description": "Tehnici blânde, fără produse abrazive care afectează vopseaua sau materialele."
+      },
+      {
+        "icon": "camera",
+        "title": "Transparență totală",
+        "description": "Îți explicăm exact ce e de făcut și primești o ofertă clară, fără costuri ascunse."
+      },
+      {
+        "icon": "heart",
+        "title": "Grijă pentru detalii",
+        "description": "Tratăm fiecare mașină ca și cum ar fi a noastră. Se vede în rezultat."
+      }
+    ]
+  },
+
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Lucrări din spălătorie",
+    "subtitle": "O selecție din mașinile care au trecut pe la YCY Car Spa.",
+    "items": [
+      { "image": "assets/gallery-1.jpg", "caption": "Protecție ceramică" },
+      { "image": "assets/gallery-2.jpg", "caption": "Polish & luciu caroserie" },
+      { "image": "assets/gallery-3.jpg", "caption": "Cosmetică interior · tapițerie" },
+      { "image": "assets/gallery-4.jpg", "caption": "Spălare premium exterioară" },
+      { "image": "assets/gallery-5.jpg", "caption": "Curățare & întreținere piele" },
+      { "image": "assets/gallery-6.jpg", "caption": "Interior curat & proaspăt" }
+    ]
+  },
+
+  "reviews": {
+    "eyebrow": "Recenzii",
+    "title": "Ce spun clienții noștri.",
+    "subtitle": "Clienți care revin pentru comoditate și calitate.",
+    "rating": "5.0",
+    "ratingLabel": "clienți mulțumiți",
+    "items": [
+      {
+        "name": "Andrei M.",
+        "role": "Client · preluare/predare",
+        "rating": 5,
+        "text": "Au venit după mașină de la birou și mi-au adus-o curată lună. Super comod, exact ce îmi trebuia. Recomand.",
+        "avatar": "assets/avatar-1.svg"
+      },
+      {
+        "name": "Ioana P.",
+        "role": "Client · cosmetică interior",
+        "rating": 5,
+        "text": "Interiorul arată și miroase ca nou. Oameni de treabă, atenți la detalii și prețuri corecte. Foarte mulțumită.",
+        "avatar": "assets/avatar-2.svg"
+      },
+      {
+        "name": "Radu I.",
+        "role": "Client · spălare & RCA",
+        "rating": 5,
+        "text": "Mi-au spălat mașina și mi-au făcut și RCA-ul. Totul într-un singur loc, rapid și simplu. Genial.",
+        "avatar": "assets/avatar-3.svg"
+      },
+      {
+        "name": "Cristina D.",
+        "role": "Client · protecție ceramică",
+        "rating": 5,
+        "text": "Protecția ceramică ține apa la distanță și mașina rămâne curată mult mai mult. Profesioniști adevărați.",
+        "avatar": "assets/avatar-4.svg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Întrebări frecvente",
+    "title": "Răspunsuri, înainte să întrebi.",
+    "subtitle": "Nu găsești ce cauți? Scrie-ne pe WhatsApp.",
+    "items": [
+      {
+        "question": "Cum funcționează preluarea și predarea?",
+        "answer": "Venim după mașina ta, oriunde ești în Galați, o răsfățăm la spălătorie și ți-o aducem înapoi curată. Tu nu trebuie să te miști de la treabă. Program zilnic, 08:00 – 20:00."
+      },
+      {
+        "question": "Faceți și asigurări auto?",
+        "answer": "Da. Pe lângă spălătorie și cosmetică auto, îți oferim și asigurări auto tip RCA sau CASCO. Totul într-un singur loc."
+      },
+      {
+        "question": "Unde vă găsesc?",
+        "answer": "Pe Str. Bucureștii Noi, colț cu Str. Gheorghe Doja, lângă BulromGas, în Galați."
+      },
+      {
+        "question": "Trebuie să programez?",
+        "answer": "Îți recomandăm să ne trimiți o solicitare pe WhatsApp, mai ales dacă vrei preluare/predare, ca să stabilim ora potrivită."
+      },
+      {
+        "question": "Pot vedea prețul înainte?",
+        "answer": "Sigur. Trimite-ne modelul mașinii și ce îți dorești pe WhatsApp, iar noi îți răspundem cu o ofertă clară, fără costuri ascunse."
+      }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Gata de programare?",
+    "title": "Răsfață-ți mașina, fără să te miști de acasă.",
+    "subtitle": "Trimite o solicitare pe WhatsApp — venim după mașină și ți-o aducem curată lună.",
+    "primaryCta": { "label": "Scrie-ne pe WhatsApp", "action": "whatsapp" },
+    "secondaryCta": { "label": "Sună acum", "action": "phone" }
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Te așteptăm la YCY Car Spa.",
+    "subtitle": "Str. Bucureștii Noi colț cu Str. Gheorghe Doja, lângă BulromGas, Galați. Zilnic 08:00 – 20:00.",
+    "whatsappMessage": "Salut! Aș vrea o solicitare pentru mașina mea (spălătorie / preluare):"
+  },
+
+  "footer": {
+    "description": "YCY Car Spa — spălătorie auto profesională și cosmetică auto în Galați, cu serviciu de preluare/predare oriunde și asigurări auto RCA/CASCO.",
+    "columns": [
+      {
+        "title": "Servicii",
+        "links": [
+          { "label": "Spălătorie auto", "href": "#servicii" },
+          { "label": "Preluare & predare", "href": "#servicii" },
+          { "label": "Cosmetică & detailing", "href": "#servicii" },
+          { "label": "Asigurări RCA / CASCO", "href": "#servicii" }
+        ]
+      },
+      {
+        "title": "YCY Car Spa",
+        "links": [
+          { "label": "Rezultate", "href": "#rezultate" },
+          { "label": "Galerie", "href": "#galerie" },
+          { "label": "Recenzii", "href": "#recenzii" },
+          { "label": "Întrebări frecvente", "href": "#faq" }
+        ]
+      }
+    ],
+    "legal": "© 2026 YCY Car Spa. Toate drepturile rezervate.",
+    "credit": "Design de LimeSpark Development"
+  },
+
+  "whatsappDefaultMessage": "Salut! Am văzut site-ul și aș vrea mai multe detalii."
+}
