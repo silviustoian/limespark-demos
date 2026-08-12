@@ -1,0 +1,310 @@
+{
+  "$schema": "Valdesign Detailing & Wrapping Galați — demo LimeSpark. Editează doar acest fișier, tokens.json și imaginile din assets/.",
+
+  "business": {
+    "name": "Valdesign",
+    "nameSuffix": "Detailing & Wrapping",
+    "tagline": "Detailing & wrapping auto în Galați",
+    "logoText": "Valdesign",
+    "logo": "assets/logo.png",
+    "logoBg": "#0A0A0B",
+    "phone": "+40 756 225 761",
+    "whatsapp": "40756225761",
+    "email": "",
+    "address": "B-dul George Coșbuc nr. 294, Galați",
+    "mapsUrl": "https://maps.google.com/?q=Bulevardul+George+Cosbuc+294+Galati",
+    "hours": "Program flexibil · pe bază de programare",
+    "social": [
+      { "label": "Facebook", "url": "https://www.facebook.com/profile.php?id=61569757562639&locale=ro_RO" }
+    ]
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Servicii", "href": "#servicii" },
+      { "label": "Rezultate", "href": "#rezultate" },
+      { "label": "Proces", "href": "#proces" },
+      { "label": "Galerie", "href": "#galerie" },
+      { "label": "Recenzii", "href": "#recenzii" }
+    ],
+    "cta": { "label": "Programează-te", "action": "whatsapp" }
+  },
+
+  "hero": {
+    "eyebrow": "Detailing & wrapping · Galați",
+    "title": "Detailing și un nou design pentru mașina ta.",
+    "titleAccent": "Wrapping, detailing & protecție.",
+    "subtitle": "Detailing interior și exterior, wrapping și colantare, corecție de vopsea și protecție ceramică — dăm mașinii tale un look nou, pe B-dul George Coșbuc nr. 294, Galați.",
+    "primaryCta": { "label": "Programează-te", "action": "whatsapp" },
+    "secondaryCta": { "label": "Vezi serviciile", "href": "#servicii" },
+    "image": "assets/hero.jpg",
+    "stats": [
+      { "value": "Wrapping", "label": "schimbare culoare" },
+      { "value": "Ceramică", "label": "protecție de durată" },
+      { "value": "Galați", "label": "B-dul G. Coșbuc" }
+    ]
+  },
+
+  "marquee": {
+    "enabled": true,
+    "label": "Lucrăm pe orice marcă",
+    "items": ["BMW", "Mercedes-Benz", "Audi", "Volkswagen", "Tesla", "Porsche"]
+  },
+
+  "services": {
+    "eyebrow": "Servicii",
+    "title": "Detailing și wrapping, într-un singur loc.",
+    "subtitle": "De la o curățare atentă până la schimbarea completă a look-ului mașinii tale.",
+    "items": [
+      {
+        "icon": "film",
+        "title": "Wrapping & colantare",
+        "description": "Schimbăm complet look-ul mașinii cu folii premium — culoare integrală, elemente sau accente, mat, lucios sau satin.",
+        "price": "la cerere",
+        "features": ["Schimbare culoare", "Folii mat / lucios / satin", "Elemente & accente"]
+      },
+      {
+        "icon": "sparkle",
+        "title": "Detailing interior",
+        "description": "Curățare în profunzime, extracție tapițerie, tratament piele și igienizare completă a habitaclului.",
+        "price": "la cerere",
+        "features": ["Aspirare profesională", "Tratament piele & plastic", "Igienizare habitaclu"]
+      },
+      {
+        "icon": "shine",
+        "title": "Detailing exterior",
+        "description": "Spălare pe două găleți, decontaminare, argilă și ceară premium pentru un luciu profund.",
+        "price": "la cerere",
+        "features": ["Spălare pe 2 găleți", "Decontaminare cu argilă", "Ceară protectoare"]
+      },
+      {
+        "icon": "layers",
+        "title": "Corecție de vopsea",
+        "description": "Îndepărtăm swirl-urile și zgârieturile fine pentru o suprafață oglindă, corectată în 1–3 pași.",
+        "price": "la cerere",
+        "features": ["Polish în 1–3 pași", "Eliminare swirl-uri", "Finisaj oglindă"]
+      },
+      {
+        "icon": "shield",
+        "title": "Protecție ceramică",
+        "description": "Strat ceramic de durată care respinge apa și murdăria și păstrează luciul ani la rând.",
+        "price": "la cerere",
+        "features": ["Protecție de durată", "Efect hidrofob", "Rezistență UV & chimică"]
+      },
+      {
+        "icon": "wheel",
+        "title": "Folie PPF & chrome delete",
+        "description": "Peliculă de protecție PPF pentru vopsea și chrome delete pentru un aspect modern și unitar.",
+        "price": "la cerere",
+        "features": ["Folie PPF", "Chrome delete", "Aplicare precisă"]
+      }
+    ]
+  },
+
+  "beforeAfter": {
+    "eyebrow": "Rezultate",
+    "title": "Diferența se vede. Trage cursorul.",
+    "subtitle": "Aceleași mașini, înainte și după o zi la Valdesign.",
+    "items": [
+      {
+        "label": "Wrapping · schimbare culoare",
+        "before": "assets/ba-1-before.jpg",
+        "after": "assets/ba-1-after.jpg"
+      },
+      {
+        "label": "Detailing interior · habitaclu",
+        "before": "assets/ba-2-before.jpg",
+        "after": "assets/ba-2-after.jpg"
+      }
+    ]
+  },
+
+  "process": {
+    "eyebrow": "Cum lucrăm",
+    "title": "Un proces simplu, fără surprize.",
+    "subtitle": "De la prima ta întrebare până la predarea cheilor.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Cere o ofertă",
+        "description": "Scrie-ne pe WhatsApp cu modelul mașinii și ce îți dorești. Îți răspundem cu un preț clar."
+      },
+      {
+        "number": "02",
+        "title": "Programare",
+        "description": "Alegem împreună data potrivită și îți rezervăm un loc. Ne găsești pe B-dul George Coșbuc nr. 294."
+      },
+      {
+        "number": "03",
+        "title": "Lucrul propriu-zis",
+        "description": "Fie că e detailing sau wrapping, tratăm fiecare detaliu cu grijă. Primești poze pe parcurs."
+      },
+      {
+        "number": "04",
+        "title": "Predare",
+        "description": "Îți predăm mașina impecabilă, cu recomandări de întreținere ca să păstrezi rezultatul cât mai mult."
+      }
+    ]
+  },
+
+  "benefits": {
+    "eyebrow": "De ce Valdesign",
+    "title": "Un nou design și grijă pentru fiecare detaliu.",
+    "subtitle": "Nu grăbim niciodată o lucrare. Fiecare mașină primește timpul de care are nevoie.",
+    "items": [
+      {
+        "icon": "medal",
+        "title": "Wrapping executat corect",
+        "description": "Aliniere, întindere și finisaje curate — wrapping care arată din fabrică, nu improvizat."
+      },
+      {
+        "icon": "shield",
+        "title": "Folii & produse premium",
+        "description": "Lucrăm exclusiv cu folii și produse profesionale, testate pe mii de mașini."
+      },
+      {
+        "icon": "leaf",
+        "title": "Sigur pentru mașină",
+        "description": "Folia se aplică peste vopseaua originală și o protejează. La îndepărtare, vopseaua rămâne intactă."
+      },
+      {
+        "icon": "clock",
+        "title": "Design personalizat",
+        "description": "Schimbăm look-ul mașinii tale exact pe gustul tău — culoare, finisaj și accente."
+      },
+      {
+        "icon": "camera",
+        "title": "Transparență totală",
+        "description": "Primești poze înainte, în timpul și după lucrare. Vezi exact ce plătești."
+      },
+      {
+        "icon": "heart",
+        "title": "Pasiune pentru mașini",
+        "description": "Tratăm fiecare mașină ca și cum ar fi a noastră. Se vede în rezultat."
+      }
+    ]
+  },
+
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Lucrări din atelier",
+    "subtitle": "O selecție din mașinile care au trecut prin mâinile noastre.",
+    "items": [
+      { "image": "assets/gallery-1.jpg", "caption": "Wrapping · schimbare culoare" },
+      { "image": "assets/gallery-2.jpg", "caption": "Corecție vopsea · polish în pași" },
+      { "image": "assets/gallery-3.jpg", "caption": "Detailing interior · tratament piele" },
+      { "image": "assets/gallery-4.jpg", "caption": "Protecție ceramică" },
+      { "image": "assets/gallery-5.jpg", "caption": "Folie PPF & chrome delete" },
+      { "image": "assets/gallery-6.jpg", "caption": "Detailing exterior & luciu" }
+    ]
+  },
+
+  "reviews": {
+    "eyebrow": "Recenzii",
+    "title": "Ce spun clienții noștri.",
+    "subtitle": "Clienți care s-au întors cu mașina la noi.",
+    "rating": "5.0",
+    "ratingLabel": "clienți mulțumiți",
+    "items": [
+      {
+        "name": "Andrei M.",
+        "role": "Client · BMW",
+        "rating": 5,
+        "text": "Am făcut wrapping mat integral. Aliniere perfectă, finisaje curate, arată impecabil. Muncă de calitate, recomand.",
+        "avatar": "assets/avatar-1.svg"
+      },
+      {
+        "name": "Ioana P.",
+        "role": "Client · Audi",
+        "rating": 5,
+        "text": "Interiorul arată ca nou după detailing. Comunicare impecabilă pe WhatsApp și m-au ținut la curent cu poze.",
+        "avatar": "assets/avatar-2.svg"
+      },
+      {
+        "name": "Radu I.",
+        "role": "Client · VW",
+        "rating": 5,
+        "text": "Colantare pe elemente și chrome delete. Mașina arată complet altfel, într-un mod bun. Profesioniști adevărați.",
+        "avatar": "assets/avatar-3.svg"
+      },
+      {
+        "name": "Cristina D.",
+        "role": "Client · Mercedes-Benz",
+        "rating": 5,
+        "text": "Corecție de vopsea și protecție ceramică impecabile. Atenție la detalii și seriozitate. Mă întorc sigur.",
+        "avatar": "assets/avatar-4.svg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Întrebări frecvente",
+    "title": "Răspunsuri, înainte să întrebi.",
+    "subtitle": "Nu găsești ce cauți? Scrie-ne pe WhatsApp.",
+    "items": [
+      {
+        "question": "Cât durează un wrapping complet?",
+        "answer": "Un wrapping integral de schimbare a culorii durează în general 2–4 zile, în funcție de model și de complexitatea caroseriei. Îți spunem exact la evaluare, înainte de a începe."
+      },
+      {
+        "question": "Wrapping-ul afectează vopseaua originală?",
+        "answer": "Nu. Folia se aplică peste vopseaua originală și o protejează. La îndepărtare, făcută corect, vopseaua rămâne intactă."
+      },
+      {
+        "question": "Cât durează un detailing complet?",
+        "answer": "Un detailing complet interior + exterior durează în general 4–8 ore, în funcție de starea și dimensiunea mașinii. Pentru corecție de vopsea sau protecție ceramică, alocăm 1–2 zile."
+      },
+      {
+        "question": "Trebuie să programez sau pot veni direct?",
+        "answer": "Recomandăm programarea, ca să îți rezervăm un loc și să eviți așteptarea. Scrie-ne pe WhatsApp și găsim rapid o dată potrivită."
+      },
+      {
+        "question": "Pot vedea prețul înainte?",
+        "answer": "Sigur. Trimite-ne modelul mașinii și ce îți dorești pe WhatsApp, iar noi îți răspundem cu o ofertă clară, fără costuri ascunse."
+      }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Gata de programare?",
+    "title": "Hai să dăm mașinii tale un nou design.",
+    "subtitle": "Scrie-ne pe WhatsApp și primești o ofertă pentru detailing sau wrapping.",
+    "primaryCta": { "label": "Scrie-ne pe WhatsApp", "action": "whatsapp" },
+    "secondaryCta": { "label": "Sună acum", "action": "phone" }
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Te așteptăm în atelier.",
+    "subtitle": "B-dul George Coșbuc nr. 294, Galați. Programează-te sau treci pe la noi.",
+    "whatsappMessage": "Salut! Aș vrea o ofertă pentru mașina mea:"
+  },
+
+  "footer": {
+    "description": "Valdesign — detailing & wrapping auto în Galați, pe B-dul George Coșbuc nr. 294. Wrapping, colantare, detailing interior/exterior, corecție de vopsea și protecție ceramică.",
+    "columns": [
+      {
+        "title": "Servicii",
+        "links": [
+          { "label": "Wrapping & colantare", "href": "#servicii" },
+          { "label": "Detailing interior & exterior", "href": "#servicii" },
+          { "label": "Corecție de vopsea", "href": "#servicii" },
+          { "label": "Protecție ceramică", "href": "#servicii" }
+        ]
+      },
+      {
+        "title": "Valdesign",
+        "links": [
+          { "label": "Rezultate", "href": "#rezultate" },
+          { "label": "Galerie", "href": "#galerie" },
+          { "label": "Recenzii", "href": "#recenzii" },
+          { "label": "Întrebări frecvente", "href": "#faq" }
+        ]
+      }
+    ],
+    "legal": "© 2026 Valdesign Detailing & Wrapping. Toate drepturile rezervate.",
+    "credit": "Design de LimeSpark Development"
+  },
+
+  "whatsappDefaultMessage": "Salut! Am văzut site-ul și aș vrea mai multe detalii."
+}
