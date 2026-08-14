@@ -1,0 +1,310 @@
+{
+  "$schema": "H2Ø Detailing Bacău — demo LimeSpark. Editează doar acest fișier, tokens.json și imaginile din assets/.",
+
+  "business": {
+    "name": "H2Ø",
+    "nameSuffix": "Detailing",
+    "tagline": "Curățare auto ecologică în Bacău",
+    "logoText": "H2Ø Detailing",
+    "logo": "assets/logo.png",
+    "logoBg": "#0A0A0B",
+    "phone": "+40 744 951 910",
+    "whatsapp": "40744951910",
+    "email": "",
+    "address": "Str. Constantin Mușat nr. 3, Bacău, 600092",
+    "mapsUrl": "https://maps.google.com/?q=Strada+Constantin+Musat+3+Bacau",
+    "hours": "Program flexibil · pe bază de programare",
+    "social": [
+      { "label": "Facebook", "url": "https://www.facebook.com/h2odetailingbacau?locale=ro_RO" }
+    ]
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Servicii", "href": "#servicii" },
+      { "label": "Rezultate", "href": "#rezultate" },
+      { "label": "Proces", "href": "#proces" },
+      { "label": "Galerie", "href": "#galerie" },
+      { "label": "Recenzii", "href": "#recenzii" }
+    ],
+    "cta": { "label": "Programează-te", "action": "whatsapp" }
+  },
+
+  "hero": {
+    "eyebrow": "Curățare auto ecologică · Bacău",
+    "title": "Mașina ta, curată. Natura, protejată.",
+    "titleAccent": "Metodă ecologică de detailing.",
+    "subtitle": "Suntem mândri să prezentăm o nouă metodă ecologică de curățare a mașinilor, la exterior și interior. Detailing profesional, prietenos cu mediul — pe Str. Constantin Mușat nr. 3, Bacău.",
+    "primaryCta": { "label": "Programează-te", "action": "whatsapp" },
+    "secondaryCta": { "label": "Vezi serviciile", "href": "#servicii" },
+    "image": "assets/hero.jpg",
+    "stats": [
+      { "value": "Ecologic", "label": "prietenos cu mediul" },
+      { "value": "Ceramică", "label": "protecție de durată" },
+      { "value": "Bacău", "label": "Str. C. Mușat 3" }
+    ]
+  },
+
+  "marquee": {
+    "enabled": true,
+    "label": "Detailing prietenos cu mediul",
+    "items": ["Metodă ecologică", "Consum redus de apă", "Produse bio", "Interior & exterior", "Fără chimicale dure", "Bacău"]
+  },
+
+  "services": {
+    "eyebrow": "Servicii",
+    "title": "Detailing ecologic, la exterior și interior.",
+    "subtitle": "Aceeași calitate premium, cu grijă pentru mediu.",
+    "items": [
+      {
+        "icon": "shine",
+        "title": "Spălare ecologică exterioară",
+        "description": "Metodă ecologică de spălare, cu consum redus de apă și produse prietenoase cu mediul, pentru o caroserie curată și strălucitoare.",
+        "price": "la cerere",
+        "features": ["Consum redus de apă", "Produse ecologice", "Luciu & curățenie"]
+      },
+      {
+        "icon": "sparkle",
+        "title": "Detailing interior ecologic",
+        "description": "Curățare în profunzime a habitaclului cu soluții bio, tratament piele și igienizare — fără chimicale dure.",
+        "price": "la cerere",
+        "features": ["Soluții bio", "Tapițerie & piele", "Igienizare habitaclu"]
+      },
+      {
+        "icon": "layers",
+        "title": "Corecție de vopsea & polish",
+        "description": "Îndepărtăm swirl-urile și zgârieturile fine pentru o suprafață oglindă, corectată în 1–3 pași.",
+        "price": "la cerere",
+        "features": ["Polish în 1–3 pași", "Eliminare swirl-uri", "Finisaj oglindă"]
+      },
+      {
+        "icon": "shield",
+        "title": "Protecție ceramică",
+        "description": "Strat ceramic de durată care respinge apa și murdăria și păstrează luciul ani la rând.",
+        "price": "la cerere",
+        "features": ["Protecție de durată", "Efect hidrofob", "Rezistență UV & chimică"]
+      },
+      {
+        "icon": "leaf",
+        "title": "Igienizare & tratamente",
+        "description": "Igienizare completă a habitaclului și tratamente prietenoase cu mediul, pentru un interior curat și sănătos.",
+        "price": "la cerere",
+        "features": ["Igienizare completă", "Tratamente bio", "Aer curat"]
+      },
+      {
+        "icon": "wheel",
+        "title": "Recondiționare faruri & jante",
+        "description": "Redăm claritatea farurilor și aspectul jantelor, cu sigilare pentru rezultate de durată.",
+        "price": "la cerere",
+        "features": ["Polish faruri", "Curățare jante", "Sigilare protectoare"]
+      }
+    ]
+  },
+
+  "beforeAfter": {
+    "eyebrow": "Rezultate",
+    "title": "Diferența se vede. Trage cursorul.",
+    "subtitle": "Aceleași mașini, înainte și după o zi la H2Ø Detailing.",
+    "items": [
+      {
+        "label": "Spălare ecologică · exterior",
+        "before": "assets/ba-1-before.jpg",
+        "after": "assets/ba-1-after.jpg"
+      },
+      {
+        "label": "Detailing interior · habitaclu",
+        "before": "assets/ba-2-before.jpg",
+        "after": "assets/ba-2-after.jpg"
+      }
+    ]
+  },
+
+  "process": {
+    "eyebrow": "Cum lucrăm",
+    "title": "Un proces simplu, fără surprize.",
+    "subtitle": "De la prima ta întrebare până la predarea cheilor.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Cere o ofertă",
+        "description": "Scrie-ne pe WhatsApp cu modelul mașinii și ce îți dorești. Îți răspundem cu un preț clar."
+      },
+      {
+        "number": "02",
+        "title": "Programare",
+        "description": "Alegem împreună data potrivită și îți rezervăm un loc. Ne găsești pe Str. Constantin Mușat nr. 3."
+      },
+      {
+        "number": "03",
+        "title": "Lucrul propriu-zis",
+        "description": "Curățăm și tratăm fiecare detaliu cu metoda noastră ecologică. Primești poze pe parcurs."
+      },
+      {
+        "number": "04",
+        "title": "Predare",
+        "description": "Îți predăm mașina impecabilă și curată, cu grijă pentru mașina ta și pentru mediu."
+      }
+    ]
+  },
+
+  "benefits": {
+    "eyebrow": "De ce H2Ø",
+    "title": "Curățenie premium, cu grijă pentru mediu.",
+    "subtitle": "Metodă ecologică, produse prietenoase cu mediul și atenție la fiecare detaliu.",
+    "items": [
+      {
+        "icon": "leaf",
+        "title": "Metodă ecologică",
+        "description": "O nouă metodă de curățare prietenoasă cu mediul — la fel de eficientă, dar mai responsabilă."
+      },
+      {
+        "icon": "shield",
+        "title": "Produse bio",
+        "description": "Folosim produse ecologice, fără chimicale dure, sigure pentru mașină și pentru natură."
+      },
+      {
+        "icon": "medal",
+        "title": "Consum redus de apă",
+        "description": "Metoda noastră folosește semnificativ mai puțină apă decât o spălare clasică."
+      },
+      {
+        "icon": "clock",
+        "title": "Rezultat premium",
+        "description": "Grija pentru mediu nu înseamnă compromis la calitate. Rezultatul e la fel de impecabil."
+      },
+      {
+        "icon": "camera",
+        "title": "Transparență totală",
+        "description": "Primești poze înainte, în timpul și după lucrare. Vezi exact ce plătești."
+      },
+      {
+        "icon": "heart",
+        "title": "Grijă pentru detalii",
+        "description": "Tratăm fiecare mașină ca și cum ar fi a noastră. Se vede în rezultat."
+      }
+    ]
+  },
+
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Lucrări din atelier",
+    "subtitle": "O selecție din mașinile care au trecut prin mâinile noastre.",
+    "items": [
+      { "image": "assets/gallery-1.jpg", "caption": "Protecție ceramică" },
+      { "image": "assets/gallery-2.jpg", "caption": "Spălare ecologică exterioară" },
+      { "image": "assets/gallery-3.jpg", "caption": "Detailing interior · soluții bio" },
+      { "image": "assets/gallery-4.jpg", "caption": "Corecție vopsea · polish în pași" },
+      { "image": "assets/gallery-5.jpg", "caption": "Recondiționare faruri & optică" },
+      { "image": "assets/gallery-6.jpg", "caption": "Igienizare & tratamente" }
+    ]
+  },
+
+  "reviews": {
+    "eyebrow": "Recenzii",
+    "title": "Ce spun clienții noștri.",
+    "subtitle": "Clienți care aleg detailing-ul prietenos cu mediul.",
+    "rating": "5.0",
+    "ratingLabel": "clienți mulțumiți",
+    "items": [
+      {
+        "name": "Andrei M.",
+        "role": "Client · BMW",
+        "rating": 5,
+        "text": "Mașina arată impecabil și îmi place că metoda e ecologică. Aceeași calitate, dar cu grijă pentru mediu. Recomand.",
+        "avatar": "assets/avatar-1.svg"
+      },
+      {
+        "name": "Ioana P.",
+        "role": "Client · Audi",
+        "rating": 5,
+        "text": "Interiorul arată ca nou după detailing, cu soluții bio. Comunicare impecabilă și poze pe parcurs. Foarte mulțumită.",
+        "avatar": "assets/avatar-2.svg"
+      },
+      {
+        "name": "Radu I.",
+        "role": "Client · Tesla",
+        "rating": 5,
+        "text": "Protecție ceramică impecabilă și o abordare ecologică. Apreciez consumul redus de apă. Profesioniști adevărați.",
+        "avatar": "assets/avatar-3.svg"
+      },
+      {
+        "name": "Cristina D.",
+        "role": "Client · Range Rover",
+        "rating": 5,
+        "text": "Curățare la superlativ, fără chimicale dure. Mașina arată ca din showroom, iar eu mă simt bine că e eco. Recomand.",
+        "avatar": "assets/avatar-4.svg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Întrebări frecvente",
+    "title": "Răspunsuri, înainte să întrebi.",
+    "subtitle": "Nu găsești ce cauți? Scrie-ne pe WhatsApp.",
+    "items": [
+      {
+        "question": "Ce înseamnă metodă ecologică de curățare?",
+        "answer": "Folosim produse prietenoase cu mediul, fără chimicale dure, și o metodă cu consum redus de apă. Rezultatul e la fel de impecabil, dar mai responsabil față de natură."
+      },
+      {
+        "question": "E la fel de eficientă ca o spălare clasică?",
+        "answer": "Da. Metoda ecologică oferă aceeași calitate și curățenie ca o spălare clasică, dar cu produse bio și mai puțină apă."
+      },
+      {
+        "question": "Cât durează un detailing complet?",
+        "answer": "Un detailing complet interior + exterior durează în general 4–8 ore, în funcție de starea și dimensiunea mașinii. Pentru corecție de vopsea sau protecție ceramică, alocăm 1–2 zile."
+      },
+      {
+        "question": "Trebuie să programez sau pot veni direct?",
+        "answer": "Recomandăm programarea, ca să îți rezervăm un loc și să eviți așteptarea. Scrie-ne pe WhatsApp și găsim rapid o dată potrivită."
+      },
+      {
+        "question": "Pot vedea prețul înainte?",
+        "answer": "Sigur. Trimite-ne modelul mașinii și ce îți dorești pe WhatsApp, iar noi îți răspundem cu o ofertă clară, fără costuri ascunse."
+      }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Gata de programare?",
+    "title": "Curățenie premium, cu grijă pentru mediu.",
+    "subtitle": "Scrie-ne pe WhatsApp și primești o ofertă pentru detailing ecologic.",
+    "primaryCta": { "label": "Scrie-ne pe WhatsApp", "action": "whatsapp" },
+    "secondaryCta": { "label": "Sună acum", "action": "phone" }
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Te așteptăm în atelier.",
+    "subtitle": "Str. Constantin Mușat nr. 3, Bacău. Programează-te sau treci pe la noi.",
+    "whatsappMessage": "Salut! Aș vrea o ofertă pentru detailing ecologic:"
+  },
+
+  "footer": {
+    "description": "H2Ø Detailing — metodă ecologică de curățare auto, la exterior și interior, în Bacău, pe Str. Constantin Mușat nr. 3. Detailing premium, prietenos cu mediul.",
+    "columns": [
+      {
+        "title": "Servicii",
+        "links": [
+          { "label": "Spălare ecologică", "href": "#servicii" },
+          { "label": "Detailing interior ecologic", "href": "#servicii" },
+          { "label": "Corecție de vopsea", "href": "#servicii" },
+          { "label": "Protecție ceramică", "href": "#servicii" }
+        ]
+      },
+      {
+        "title": "H2Ø Detailing",
+        "links": [
+          { "label": "Rezultate", "href": "#rezultate" },
+          { "label": "Galerie", "href": "#galerie" },
+          { "label": "Recenzii", "href": "#recenzii" },
+          { "label": "Întrebări frecvente", "href": "#faq" }
+        ]
+      }
+    ],
+    "legal": "© 2026 H2Ø Detailing Bacău. Toate drepturile rezervate.",
+    "credit": "Design de LimeSpark Development"
+  },
+
+  "whatsappDefaultMessage": "Salut! Am văzut site-ul și aș vrea mai multe detalii."
+}
