@@ -1,0 +1,310 @@
+{
+  "$schema": "Autiq — Detailing Auto Mobil Premium Bacău — demo LimeSpark. Editează doar acest fișier, tokens.json și imaginile din assets/.",
+
+  "business": {
+    "name": "Autiq",
+    "nameSuffix": "Detailing Auto Mobil",
+    "tagline": "Detailing auto mobil premium în Bacău",
+    "logoText": "Autiq",
+    "logo": "assets/logo.png",
+    "logoBg": "#6B3FBF",
+    "phone": "+40 725 176 707",
+    "whatsapp": "40725176707",
+    "email": "",
+    "address": "Detailing mobil · Bacău — venim la locația ta",
+    "mapsUrl": "https://maps.google.com/?q=Bacau",
+    "hours": "Program flexibil · venim la tine",
+    "social": [
+      { "label": "Facebook", "url": "https://www.facebook.com/profile.php?id=61577144517621" }
+    ]
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Pachete", "href": "#servicii" },
+      { "label": "Rezultate", "href": "#rezultate" },
+      { "label": "Proces", "href": "#proces" },
+      { "label": "Galerie", "href": "#galerie" },
+      { "label": "Recenzii", "href": "#recenzii" }
+    ],
+    "cta": { "label": "Programează-te", "action": "whatsapp" }
+  },
+
+  "hero": {
+    "eyebrow": "Detailing auto mobil premium · Bacău",
+    "title": "Detailing premium, direct la tine.",
+    "titleAccent": "Curățare profesională, la locația ta.",
+    "subtitle": "Detailing profesional interior și exterior în Bacău — venim direct la locația ta, cu pachete clare de la 199 lei. Tu nu te miști, noi ne ocupăm de mașină.",
+    "primaryCta": { "label": "Programează-te", "action": "whatsapp" },
+    "secondaryCta": { "label": "Vezi pachetele", "href": "#servicii" },
+    "image": "assets/hero.jpg",
+    "stats": [
+      { "value": "La tine", "label": "detailing mobil în Bacău" },
+      { "value": "3 pachete", "label": "Basic · Premium · Exclusiv" },
+      { "value": "199 lei", "label": "pachetul de bază" }
+    ]
+  },
+
+  "marquee": {
+    "enabled": true,
+    "label": "Venim direct la locația ta",
+    "items": ["Acasă", "La birou", "Detailing mobil", "Interior & exterior", "Bacău", "Fără drumuri"]
+  },
+
+  "services": {
+    "eyebrow": "Pachete",
+    "title": "Alege pachetul potrivit pentru mașina ta.",
+    "subtitle": "Trei pachete clare, cu preț fix — venim direct la tine, în Bacău.",
+    "items": [
+      {
+        "icon": "shine",
+        "title": "Pachet Basic",
+        "description": "Spălare exterior (presiune + spumă activă), curățare jante și dressing anvelope, aspirare interioară (covorașe, scaune, portbagaj), curățare geamuri, ștergere praf și plastice și odorizant auto.",
+        "price": "199 lei",
+        "features": ["Spălare + spumă activă", "Aspirare interior complet", "Durată 1–1.5 ore"]
+      },
+      {
+        "icon": "sparkle",
+        "title": "Pachet Premium",
+        "description": "Tot ce include Basic, plus curățare profundă tapițerie, tratament protecție bord și plastice, curățare plafon ușoară, curățare aerisiri cu pensule detailing, ceară manuală de protecție și curățare praguri și chedere.",
+        "price": "349 lei",
+        "features": ["Tot din Basic +", "Tapițerie & bord în profunzime", "Durată 2.5–3.5 ore"]
+      },
+      {
+        "icon": "medal",
+        "title": "Pachet Exclusiv",
+        "description": "Tot ce include Premium, plus polish 1-step (corecție ușoară), ceară ceramică (3–6 luni), hidratare piele, ozonificare pentru mirosuri, curățare compartiment motor, tratare hidrofobă geamuri și dressing exterior premium.",
+        "price": "599 lei",
+        "features": ["Tot din Premium +", "Polish + ceară ceramică", "Ozon & motor"]
+      },
+      {
+        "icon": "clock",
+        "title": "Detailing la locația ta",
+        "description": "Venim direct la tine acasă sau la birou, în Bacău, cu tot echipamentul necesar. Tu îți vezi de treabă.",
+        "price": "mobil",
+        "features": ["Acasă sau la birou", "Echipament propriu", "Fără drumuri pentru tine"]
+      },
+      {
+        "icon": "leaf",
+        "title": "Ozonificare & igienizare",
+        "description": "Tratament cu ozon care elimină mirosurile neplăcute și igienizează complet habitaclul — aer curat, mașină protejată.",
+        "price": "la cerere",
+        "features": ["Eliminare mirosuri", "Igienizare completă", "Aer curat"]
+      },
+      {
+        "icon": "shield",
+        "title": "Ceară ceramică & protecție",
+        "description": "Ceară ceramică cu protecție de 3–6 luni, tratare hidrofobă geamuri și dressing exterior premium pentru un luciu de durată.",
+        "price": "la cerere",
+        "features": ["Ceară ceramică 3–6 luni", "Geamuri hidrofobe", "Dressing premium"]
+      }
+    ]
+  },
+
+  "beforeAfter": {
+    "eyebrow": "Rezultate",
+    "title": "Diferența se vede. Trage cursorul.",
+    "subtitle": "Aceleași mașini, înainte și după — direct la tine acasă.",
+    "items": [
+      {
+        "label": "Spălare & luciu · exterior",
+        "before": "assets/ba-1-before.jpg",
+        "after": "assets/ba-1-after.jpg"
+      },
+      {
+        "label": "Detailing interior · habitaclu",
+        "before": "assets/ba-2-before.jpg",
+        "after": "assets/ba-2-after.jpg"
+      }
+    ]
+  },
+
+  "process": {
+    "eyebrow": "Cum lucrăm",
+    "title": "Un proces simplu, fără surprize.",
+    "subtitle": "De la prima ta întrebare până la mașina impecabilă în fața casei.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Alege pachetul",
+        "description": "Scrie-ne pe WhatsApp ce pachet îți dorești — Basic, Premium sau Exclusiv — și adresa la care venim."
+      },
+      {
+        "number": "02",
+        "title": "Venim la tine",
+        "description": "Stabilim ziua și ora, apoi venim la adresa ta cu tot echipamentul. Tu nu te miști de acasă."
+      },
+      {
+        "number": "03",
+        "title": "Lucrul propriu-zis",
+        "description": "Ne ocupăm de fiecare detaliu, cât timp tu îți vezi de treaba ta. Primești poze pe parcurs."
+      },
+      {
+        "number": "04",
+        "title": "Predare",
+        "description": "Îți predăm mașina impecabilă, direct la tine. Simplu și comod."
+      }
+    ]
+  },
+
+  "benefits": {
+    "eyebrow": "De ce Autiq",
+    "title": "Detailing premium, fără să te miști de acasă.",
+    "subtitle": "Aducem detailing-ul profesional direct la ușa ta, cu pachete clare și preț fix.",
+    "items": [
+      {
+        "icon": "clock",
+        "title": "Venim la tine",
+        "description": "Acasă sau la birou, în Bacău. Tu îți vezi de treabă, noi de mașină. Fără drumuri, fără cozi."
+      },
+      {
+        "icon": "medal",
+        "title": "Pachete cu preț fix",
+        "description": "Basic 199 lei, Premium 349 lei, Exclusiv 599 lei. Știi exact ce primești și cât plătești."
+      },
+      {
+        "icon": "shield",
+        "title": "Produse premium",
+        "description": "Lucrăm exclusiv cu produse profesionale, pentru rezultate de durată."
+      },
+      {
+        "icon": "leaf",
+        "title": "Ozonificare inclusă",
+        "description": "Pachetul Exclusiv include ozonificare — elimină mirosurile și igienizează complet habitaclul."
+      },
+      {
+        "icon": "camera",
+        "title": "Transparență totală",
+        "description": "Primești poze înainte, în timpul și după lucrare. Vezi exact ce plătești."
+      },
+      {
+        "icon": "heart",
+        "title": "Grijă pentru detalii",
+        "description": "Tratăm fiecare mașină ca și cum ar fi a noastră. Se vede în rezultat."
+      }
+    ]
+  },
+
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Lucrări la domiciliu",
+    "subtitle": "O selecție din mașinile pe care le-am readus la viață, chiar la clienți acasă.",
+    "items": [
+      { "image": "assets/gallery-1.jpg", "caption": "Ceară ceramică & luciu" },
+      { "image": "assets/gallery-2.jpg", "caption": "Polish 1-step · corecție ușoară" },
+      { "image": "assets/gallery-3.jpg", "caption": "Curățare tapițerie în profunzime" },
+      { "image": "assets/gallery-4.jpg", "caption": "Spălare exterior · spumă activă" },
+      { "image": "assets/gallery-5.jpg", "caption": "Curățare compartiment motor" },
+      { "image": "assets/gallery-6.jpg", "caption": "Interior igienizat & proaspăt" }
+    ]
+  },
+
+  "reviews": {
+    "eyebrow": "Recenzii",
+    "title": "Ce spun clienții noștri.",
+    "subtitle": "Clienți care ne cheamă din nou, direct la ei acasă.",
+    "rating": "5.0",
+    "ratingLabel": "clienți mulțumiți",
+    "items": [
+      {
+        "name": "Andrei M.",
+        "role": "Client · pachet Exclusiv",
+        "rating": 5,
+        "text": "Au venit la mine acasă cu tot echipamentul. Polish, ceară ceramică și ozon — mașina arată și miroase ca nouă. Super comod.",
+        "avatar": "assets/avatar-1.svg"
+      },
+      {
+        "name": "Ioana P.",
+        "role": "Client · pachet Premium",
+        "rating": 5,
+        "text": "Pachetul Premium a fost exact ce trebuia. Tapițeria și bordul arată impecabil. Preț clar, fără surprize. Recomand.",
+        "avatar": "assets/avatar-2.svg"
+      },
+      {
+        "name": "Radu I.",
+        "role": "Client · pachet Basic",
+        "rating": 5,
+        "text": "Am luat Basic pentru o spălare rapidă la domiciliu. Rapid, curat și comod. Vin din nou sigur.",
+        "avatar": "assets/avatar-3.svg"
+      },
+      {
+        "name": "Cristina D.",
+        "role": "Client · pachet Exclusiv",
+        "rating": 5,
+        "text": "Ozonificarea a scos toate mirosurile, iar ceara ceramică ține luciul de luni bune. Profesioniști, direct la tine acasă.",
+        "avatar": "assets/avatar-4.svg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Întrebări frecvente",
+    "title": "Răspunsuri, înainte să întrebi.",
+    "subtitle": "Nu găsești ce cauți? Scrie-ne pe WhatsApp.",
+    "items": [
+      {
+        "question": "Chiar veniți la locația mea?",
+        "answer": "Da. Autiq e detailing auto mobil — venim direct la tine acasă sau la birou, în Bacău, cu tot echipamentul necesar. Tu nu trebuie să te miști."
+      },
+      {
+        "question": "Care e diferența dintre pachete?",
+        "answer": "Basic (199 lei) e o curățare completă interior-exterior. Premium (349 lei) adaugă curățare în profunzime, tratamente și ceară manuală. Exclusiv (599 lei) adaugă polish, ceară ceramică, ozonificare și curățare motor."
+      },
+      {
+        "question": "Cât durează un pachet?",
+        "answer": "Basic durează 1–1.5 ore, Premium 2.5–3.5 ore, iar Exclusiv mai mult, în funcție de starea mașinii. Îți spunem exact la programare."
+      },
+      {
+        "question": "De ce aveți nevoie ca să lucrați la mine?",
+        "answer": "Venim cu echipamentul propriu. E de ajutor un loc unde putem parca mașina și, ideal, acces la o sursă de apă și curent — dar spune-ne situația ta și ne adaptăm."
+      },
+      {
+        "question": "Cum mă programez?",
+        "answer": "Scrie-ne pe WhatsApp sau sună la 0725 176 707 cu pachetul dorit și adresa. Stabilim rapid ziua și ora la care venim la tine."
+      }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Gata de programare?",
+    "title": "Detailing premium, direct la tine acasă.",
+    "subtitle": "Alege un pachet și scrie-ne pe WhatsApp — venim la tine, în Bacău.",
+    "primaryCta": { "label": "Scrie-ne pe WhatsApp", "action": "whatsapp" },
+    "secondaryCta": { "label": "Sună acum", "action": "phone" }
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Venim la tine, în Bacău.",
+    "subtitle": "Detailing auto mobil premium. Scrie-ne pe WhatsApp sau sună la 0725 176 707.",
+    "whatsappMessage": "Salut! Aș vrea un pachet de detailing la domiciliu:"
+  },
+
+  "footer": {
+    "description": "Autiq — detailing auto mobil premium în Bacău. Venim direct la locația ta, cu pachete clare: Basic 199 lei, Premium 349 lei, Exclusiv 599 lei.",
+    "columns": [
+      {
+        "title": "Pachete",
+        "links": [
+          { "label": "Pachet Basic — 199 lei", "href": "#servicii" },
+          { "label": "Pachet Premium — 349 lei", "href": "#servicii" },
+          { "label": "Pachet Exclusiv — 599 lei", "href": "#servicii" },
+          { "label": "Detailing la domiciliu", "href": "#servicii" }
+        ]
+      },
+      {
+        "title": "Autiq",
+        "links": [
+          { "label": "Rezultate", "href": "#rezultate" },
+          { "label": "Galerie", "href": "#galerie" },
+          { "label": "Recenzii", "href": "#recenzii" },
+          { "label": "Întrebări frecvente", "href": "#faq" }
+        ]
+      }
+    ],
+    "legal": "© 2026 Autiq · Detailing Auto Mobil Premium. Toate drepturile rezervate.",
+    "credit": "Design de LimeSpark Development"
+  },
+
+  "whatsappDefaultMessage": "Salut! Am văzut site-ul și aș vrea mai multe detalii."
+}
