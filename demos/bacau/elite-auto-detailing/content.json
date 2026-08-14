@@ -1,0 +1,310 @@
+{
+  "$schema": "Elite Auto Detailing Bacău — demo LimeSpark. Editează doar acest fișier, tokens.json și imaginile din assets/.",
+
+  "business": {
+    "name": "Elite",
+    "nameSuffix": "Auto Detailing",
+    "tagline": "Detailing & curățare profesională în Bacău",
+    "logoText": "Elite Auto Detailing",
+    "logo": "assets/logo.png",
+    "logoBg": "#0A0A0B",
+    "phone": "+40 771 016 925",
+    "whatsapp": "40771016925",
+    "email": "",
+    "address": "Aleea Moldoviței nr. 241, Bacău",
+    "mapsUrl": "https://maps.google.com/?q=Aleea+Moldovitei+241+Bacau",
+    "hours": "Program flexibil · pe bază de programare",
+    "social": [
+      { "label": "Facebook", "url": "https://www.facebook.com/EliteAutoDetailingBacau" }
+    ]
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Servicii", "href": "#servicii" },
+      { "label": "Rezultate", "href": "#rezultate" },
+      { "label": "Proces", "href": "#proces" },
+      { "label": "Galerie", "href": "#galerie" },
+      { "label": "Recenzii", "href": "#recenzii" }
+    ],
+    "cta": { "label": "Programează-te", "action": "whatsapp" }
+  },
+
+  "hero": {
+    "eyebrow": "Detailing & curățare profesională · Bacău",
+    "title": "Curățenie de nivel elite.",
+    "titleAccent": "Pentru mașina ta și spațiul tău.",
+    "subtitle": "Servicii profesionale de curățare și dezinfectare a habitaclului — pentru mașini, dar și pentru locuințe și spații comerciale sau private. Punem accent pe calitatea serviciilor, în Bacău.",
+    "primaryCta": { "label": "Programează-te", "action": "whatsapp" },
+    "secondaryCta": { "label": "Vezi serviciile", "href": "#servicii" },
+    "image": "assets/hero.jpg",
+    "stats": [
+      { "value": "Auto & spații", "label": "curățare & dezinfectare" },
+      { "value": "Calitate", "label": "accent pe servicii" },
+      { "value": "Bacău", "label": "Aleea Moldoviței 241" }
+    ]
+  },
+
+  "marquee": {
+    "enabled": true,
+    "label": "Curățăm & dezinfectăm",
+    "items": ["Mașini", "Locuințe", "Spații comerciale", "Spații private", "Canapele & tapițerie", "Habitaclu"]
+  },
+
+  "services": {
+    "eyebrow": "Servicii",
+    "title": "Detailing auto și curățare profesională.",
+    "subtitle": "De la habitaclul mașinii tale la locuință și spații comerciale.",
+    "items": [
+      {
+        "icon": "sparkle",
+        "title": "Detailing interior & dezinfectare habitaclu",
+        "description": "Curățare în profunzime, extracție tapițerie, tratament piele și dezinfectarea completă a habitaclului.",
+        "price": "la cerere",
+        "features": ["Aspirare profesională", "Extracție tapițerie", "Dezinfectare habitaclu"]
+      },
+      {
+        "icon": "shine",
+        "title": "Detailing exterior & polish",
+        "description": "Spălare pe două găleți, decontaminare, polish și ceară premium pentru un luciu profund.",
+        "price": "la cerere",
+        "features": ["Spălare pe 2 găleți", "Polish & luciu", "Ceară protectoare"]
+      },
+      {
+        "icon": "shield",
+        "title": "Protecție ceramică",
+        "description": "Strat ceramic de durată care respinge apa și murdăria și păstrează luciul ani la rând.",
+        "price": "la cerere",
+        "features": ["Protecție de durată", "Efect hidrofob", "Rezistență UV & chimică"]
+      },
+      {
+        "icon": "layers",
+        "title": "Curățare & dezinfectare spații",
+        "description": "Curățare și dezinfectare pentru locuințe, spații comerciale și private — canapele, tapițerii și suprafețe.",
+        "price": "la cerere",
+        "features": ["Locuințe & birouri", "Canapele & tapițerii", "Dezinfectare completă"]
+      },
+      {
+        "icon": "clock",
+        "title": "Mentenanță & întreținere",
+        "description": "Programe de mentenanță și întreținere periodică, ca mașina și spațiile tale să rămână mereu curate.",
+        "price": "la cerere",
+        "features": ["Întreținere periodică", "Programe personalizate", "Rezultate constante"]
+      },
+      {
+        "icon": "medal",
+        "title": "Reparații rapide",
+        "description": "Intervenții și reparații rapide, cu accent pe calitatea serviciilor și pe timpul tău.",
+        "price": "la cerere",
+        "features": ["Intervenții rapide", "Calitate garantată", "Fără bătăi de cap"]
+      }
+    ]
+  },
+
+  "beforeAfter": {
+    "eyebrow": "Rezultate",
+    "title": "Diferența se vede. Trage cursorul.",
+    "subtitle": "Aceleași suprafețe, înainte și după curățarea Elite.",
+    "items": [
+      {
+        "label": "Detailing interior · habitaclu",
+        "before": "assets/ba-1-before.jpg",
+        "after": "assets/ba-1-after.jpg"
+      },
+      {
+        "label": "Canapea · curățare & dezinfectare",
+        "before": "assets/ba-2-before.jpg",
+        "after": "assets/ba-2-after.jpg"
+      }
+    ]
+  },
+
+  "process": {
+    "eyebrow": "Cum lucrăm",
+    "title": "Un proces simplu, fără surprize.",
+    "subtitle": "De la prima ta întrebare până la suprafețe impecabile.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Cere o ofertă",
+        "description": "Scrie-ne pe WhatsApp ce vrei curățat — mașină, locuință sau spațiu comercial. Îți răspundem cu un preț clar."
+      },
+      {
+        "number": "02",
+        "title": "Programare",
+        "description": "Alegem împreună data potrivită. Ne găsești pe Aleea Moldoviței nr. 241, sau venim la spațiul tău."
+      },
+      {
+        "number": "03",
+        "title": "Curățare & dezinfectare",
+        "description": "Curățăm și dezinfectăm în profunzime, cu produse profesionale și accent pe calitate."
+      },
+      {
+        "number": "04",
+        "title": "Predare",
+        "description": "Îți predăm totul curat, igienizat și proaspăt, gata de folosit."
+      }
+    ]
+  },
+
+  "benefits": {
+    "eyebrow": "De ce Elite",
+    "title": "Punem accent pe calitatea serviciilor.",
+    "subtitle": "Curățare și dezinfectare de nivel elite, pentru mașina ta și spațiul tău.",
+    "items": [
+      {
+        "icon": "medal",
+        "title": "Auto & spații",
+        "description": "Curățăm și dezinfectăm nu doar mașini, ci și locuințe, spații comerciale și private."
+      },
+      {
+        "icon": "shield",
+        "title": "Dezinfectare completă",
+        "description": "Nu doar curățăm — dezinfectăm în profunzime habitaclul și suprafețele, pentru un mediu sănătos."
+      },
+      {
+        "icon": "leaf",
+        "title": "Produse premium",
+        "description": "Lucrăm exclusiv cu produse profesionale, sigure pentru materiale și suprafețe."
+      },
+      {
+        "icon": "clock",
+        "title": "Mentenanță & reparații rapide",
+        "description": "Pe lângă curățare, oferim mentenanță, întreținere și reparații rapide."
+      },
+      {
+        "icon": "camera",
+        "title": "Transparență totală",
+        "description": "Primești poze înainte și după. Vezi exact rezultatul pentru care plătești."
+      },
+      {
+        "icon": "heart",
+        "title": "Accent pe calitate",
+        "description": "Punem accent pe calitatea serviciilor. Tratăm fiecare lucrare cu maximă atenție."
+      }
+    ]
+  },
+
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Lucrări Elite",
+    "subtitle": "O selecție din mașinile și spațiile pe care le-am readus la viață.",
+    "items": [
+      { "image": "assets/gallery-1.jpg", "caption": "Protecție ceramică" },
+      { "image": "assets/gallery-2.jpg", "caption": "Detailing exterior & polish" },
+      { "image": "assets/gallery-3.jpg", "caption": "Dezinfectare habitaclu" },
+      { "image": "assets/gallery-4.jpg", "caption": "Curățare canapele & tapițerii" },
+      { "image": "assets/gallery-5.jpg", "caption": "Curățare spații comerciale" },
+      { "image": "assets/gallery-6.jpg", "caption": "Interior igienizat & proaspăt" }
+    ]
+  },
+
+  "reviews": {
+    "eyebrow": "Recenzii",
+    "title": "Ce spun clienții noștri.",
+    "subtitle": "Clienți din auto, dar și din locuințe și spații comerciale.",
+    "rating": "5.0",
+    "ratingLabel": "clienți mulțumiți",
+    "items": [
+      {
+        "name": "Andrei M.",
+        "role": "Client · detailing auto",
+        "rating": 5,
+        "text": "Interiorul mașinii arată și miroase ca nou după dezinfectare. Se vede accentul pe calitate. Recomand cu încredere.",
+        "avatar": "assets/avatar-1.svg"
+      },
+      {
+        "name": "Ioana P.",
+        "role": "Client · canapele",
+        "rating": 5,
+        "text": "Mi-au curățat și dezinfectat canapelele din casă. Petele au dispărut, totul e proaspăt. Oameni serioși.",
+        "avatar": "assets/avatar-2.svg"
+      },
+      {
+        "name": "Firma XYZ",
+        "role": "Client · spațiu comercial",
+        "rating": 5,
+        "text": "Curățare și dezinfectare pentru biroul nostru. Rapid, profesional și de calitate. Colaborare de încredere.",
+        "avatar": "assets/avatar-3.svg"
+      },
+      {
+        "name": "Cristina D.",
+        "role": "Client · detailing complet",
+        "rating": 5,
+        "text": "Detailing complet și protecție ceramică. Mașina arată ca din showroom. Seriozitate și atenție la detalii.",
+        "avatar": "assets/avatar-4.svg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Întrebări frecvente",
+    "title": "Răspunsuri, înainte să întrebi.",
+    "subtitle": "Nu găsești ce cauți? Scrie-ne pe WhatsApp.",
+    "items": [
+      {
+        "question": "Curățați doar mașini?",
+        "answer": "Nu. Oferim servicii profesionale de curățare și dezinfectare atât pentru mașini, cât și pentru locuințe și spații comerciale sau private — canapele, tapițerii și suprafețe."
+      },
+      {
+        "question": "Ce înseamnă dezinfectarea habitaclului?",
+        "answer": "Pe lângă curățare, dezinfectăm în profunzime habitaclul, eliminând bacteriile și mirosurile, pentru un mediu curat și sănătos în mașină."
+      },
+      {
+        "question": "Faceți și mentenanță sau reparații?",
+        "answer": "Da. Oferim mentenanță, întreținere și reparații rapide, cu accent pe calitatea serviciilor."
+      },
+      {
+        "question": "Trebuie să programez sau pot veni direct?",
+        "answer": "Recomandăm programarea, ca să îți rezervăm un loc și să evaluăm corect lucrarea. Scrie-ne pe WhatsApp și găsim rapid o dată potrivită."
+      },
+      {
+        "question": "Pot vedea prețul înainte?",
+        "answer": "Sigur. Trimite-ne detalii despre ce vrei curățat, iar noi îți răspundem cu o ofertă clară, fără costuri ascunse."
+      }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Gata de programare?",
+    "title": "Curățenie de nivel elite, pentru tine.",
+    "subtitle": "Scrie-ne pe WhatsApp și primești o ofertă pentru mașina sau spațiul tău.",
+    "primaryCta": { "label": "Scrie-ne pe WhatsApp", "action": "whatsapp" },
+    "secondaryCta": { "label": "Sună acum", "action": "phone" }
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Te așteptăm în Bacău.",
+    "subtitle": "Aleea Moldoviței nr. 241, Bacău. Programează-te sau treci pe la noi.",
+    "whatsappMessage": "Salut! Aș vrea o ofertă pentru curățare / detailing:"
+  },
+
+  "footer": {
+    "description": "Elite Auto Detailing Bacău — servicii profesionale de curățare și dezinfectare pentru mașini, locuințe și spații comerciale, plus mentenanță și reparații rapide. Accent pe calitate.",
+    "columns": [
+      {
+        "title": "Servicii",
+        "links": [
+          { "label": "Detailing & dezinfectare habitaclu", "href": "#servicii" },
+          { "label": "Detailing exterior & ceramică", "href": "#servicii" },
+          { "label": "Curățare & dezinfectare spații", "href": "#servicii" },
+          { "label": "Mentenanță & reparații", "href": "#servicii" }
+        ]
+      },
+      {
+        "title": "Elite",
+        "links": [
+          { "label": "Rezultate", "href": "#rezultate" },
+          { "label": "Galerie", "href": "#galerie" },
+          { "label": "Recenzii", "href": "#recenzii" },
+          { "label": "Întrebări frecvente", "href": "#faq" }
+        ]
+      }
+    ],
+    "legal": "© 2026 Elite Auto Detailing Bacău. Toate drepturile rezervate.",
+    "credit": "Design de LimeSpark Development"
+  },
+
+  "whatsappDefaultMessage": "Salut! Am văzut site-ul și aș vrea mai multe detalii."
+}
