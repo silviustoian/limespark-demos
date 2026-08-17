@@ -1,0 +1,310 @@
+{
+  "$schema": "Mrevic Detailing Auto Brăila — demo LimeSpark. Editează doar acest fișier, tokens.json și imaginile din assets/.",
+
+  "business": {
+    "name": "Mrevic",
+    "nameSuffix": "Detailing Auto",
+    "tagline": "Where Your Ride Gets VIP",
+    "logoText": "Mrevic Detailing",
+    "logo": "assets/logo.png",
+    "logoBg": "#0A0A0B",
+    "phone": "+40 747 908 242",
+    "whatsapp": "40747908242",
+    "email": "",
+    "address": "Str. Chișinău nr. 5, Brăila, 810334",
+    "mapsUrl": "https://maps.google.com/?q=Strada+Chisinau+5+Braila",
+    "hours": "Program flexibil · pe bază de programare",
+    "social": [
+      { "label": "Facebook", "url": "https://www.facebook.com/profile.php?id=61570079857354&locale=ro_RO" }
+    ]
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Pachete", "href": "#servicii" },
+      { "label": "Rezultate", "href": "#rezultate" },
+      { "label": "Proces", "href": "#proces" },
+      { "label": "Galerie", "href": "#galerie" },
+      { "label": "Recenzii", "href": "#recenzii" }
+    ],
+    "cta": { "label": "Programează-te", "action": "whatsapp" }
+  },
+
+  "hero": {
+    "eyebrow": "Detailing & spălătorie profesională · Brăila",
+    "title": "Where your ride gets VIP.",
+    "titleAccent": "Pachete valet, de la 65 lei.",
+    "subtitle": "Detailing auto și spălătorie profesională în Brăila. Pachete clare — Basic, Pro și Expert Valet — cu spălare, protecții, ozonificare și tratamente. Dă-ți șansa să vezi diferența.",
+    "primaryCta": { "label": "Programează-te", "action": "whatsapp" },
+    "secondaryCta": { "label": "Vezi pachetele", "href": "#servicii" },
+    "image": "assets/hero.jpg",
+    "stats": [
+      { "value": "VIP", "label": "where your ride gets VIP" },
+      { "value": "3 pachete", "label": "Basic · Pro · Expert Valet" },
+      { "value": "65 lei", "label": "pachetul Basic Valet" }
+    ]
+  },
+
+  "marquee": {
+    "enabled": true,
+    "label": "Lucrăm pe orice marcă",
+    "items": ["BMW", "Mercedes-Benz", "Rolls-Royce", "Audi", "Porsche", "Tesla"]
+  },
+
+  "services": {
+    "eyebrow": "Pachete",
+    "title": "Alege pachetul valet potrivit.",
+    "subtitle": "Trei pachete clare, cu preț fix. Serviciile și prețurile pot varia în funcție de nevoile tale.",
+    "items": [
+      {
+        "icon": "shine",
+        "title": "Basic Valet",
+        "description": "Spălare și decontaminare exterioară, degresare jante și sticlă, aspirare detaliată și igienizare, plus aplicare dressing plastice.",
+        "price": "65 lei",
+        "features": ["Spălare + decontaminare", "Aspirare & igienizare", "Dressing plastice"]
+      },
+      {
+        "icon": "sparkle",
+        "title": "Pro Valet",
+        "description": "Tot ce include Basic Valet, plus aplicare ceară solidă, tratament chedere și aplicare hidrofob pe geamuri.",
+        "price": "150 lei",
+        "features": ["Tot din Basic +", "Ceară solidă & chedere", "Hidrofob geamuri"]
+      },
+      {
+        "icon": "medal",
+        "title": "Expert Valet",
+        "description": "Tot ce include Basic + Pro Valet, plus sealant auto, hidratare piele, protecție hidrofob textil, igienizare plafon și ozonificare.",
+        "price": "300 lei",
+        "features": ["Tot din Pro +", "Sealant & hidratare piele", "Hidrofob textil & ozon"]
+      },
+      {
+        "icon": "leaf",
+        "title": "Ozonificare & igienizare",
+        "description": "Tratament cu ozon care elimină mirosurile neplăcute și igienizează complet habitaclul — aer curat, mașină protejată.",
+        "price": "serviciu adițional",
+        "features": ["Eliminare mirosuri", "Igienizare completă", "Aer curat"]
+      },
+      {
+        "icon": "shield",
+        "title": "Protecții & tratamente",
+        "description": "Ceară solidă, sealant auto, tratamente hidrofobe pentru geamuri și textil și hidratare piele — pentru un plus de protecție.",
+        "price": "serviciu adițional",
+        "features": ["Sealant & ceară", "Hidrofob geamuri & textil", "Hidratare piele"]
+      },
+      {
+        "icon": "layers",
+        "title": "Corecție de vopsea",
+        "description": "Îndepărtăm swirl-urile și zgârieturile fine pentru o suprafață oglindă, corectată în pași.",
+        "price": "la cerere",
+        "features": ["Polish în pași", "Eliminare swirl-uri", "Finisaj oglindă"]
+      }
+    ]
+  },
+
+  "beforeAfter": {
+    "eyebrow": "Rezultate",
+    "title": "Dă-ți șansa să vezi diferența.",
+    "subtitle": "Aceleași mașini, înainte și după o zi la Mrevic Detailing.",
+    "items": [
+      {
+        "label": "Spălare & luciu · exterior",
+        "before": "assets/ba-1-before.jpg",
+        "after": "assets/ba-1-after.jpg"
+      },
+      {
+        "label": "Detailing interior · habitaclu",
+        "before": "assets/ba-2-before.jpg",
+        "after": "assets/ba-2-after.jpg"
+      }
+    ]
+  },
+
+  "process": {
+    "eyebrow": "Cum lucrăm",
+    "title": "Un proces simplu, fără surprize.",
+    "subtitle": "De la prima ta întrebare până la predarea cheilor.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Alege pachetul",
+        "description": "Scrie-ne pe WhatsApp ce pachet îți dorești — Basic, Pro sau Expert Valet. Îți răspundem cu un preț clar."
+      },
+      {
+        "number": "02",
+        "title": "Programare",
+        "description": "Alegem împreună data potrivită și îți rezervăm un loc. Ne găsești pe Str. Chișinău nr. 5."
+      },
+      {
+        "number": "03",
+        "title": "Tratament VIP",
+        "description": "Îți tratăm mașina ca pe una VIP, cu grijă pentru fiecare detaliu. Primești poze pe parcurs."
+      },
+      {
+        "number": "04",
+        "title": "Predare",
+        "description": "Îți predăm mașina impecabilă. Dă-ți șansa să vezi diferența."
+      }
+    ]
+  },
+
+  "benefits": {
+    "eyebrow": "De ce Mrevic",
+    "title": "Where your ride gets VIP.",
+    "subtitle": "Pachete clare, produse premium și un tratament de VIP pentru mașina ta.",
+    "items": [
+      {
+        "icon": "medal",
+        "title": "Pachete cu preț fix",
+        "description": "Basic 65 lei, Pro 150 lei, Expert 300 lei. Știi exact ce primești și cât plătești."
+      },
+      {
+        "icon": "leaf",
+        "title": "Ozonificare inclusă",
+        "description": "Pachetul Expert include ozonificare — elimină mirosurile și igienizează complet habitaclul."
+      },
+      {
+        "icon": "shield",
+        "title": "Produse premium",
+        "description": "Lucrăm exclusiv cu produse profesionale, pentru rezultate de durată."
+      },
+      {
+        "icon": "clock",
+        "title": "Spălătorie & detailing",
+        "description": "De la o spălare profesională la detailing complet — tot ce are nevoie mașina ta, într-un singur loc."
+      },
+      {
+        "icon": "camera",
+        "title": "Transparență totală",
+        "description": "Primești poze înainte, în timpul și după lucrare. Vezi exact ce plătești."
+      },
+      {
+        "icon": "heart",
+        "title": "Tratament VIP",
+        "description": "Tratăm fiecare mașină ca și cum ar fi a noastră — cu grija pe care o merită. Se vede în rezultat."
+      }
+    ]
+  },
+
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Lucrări din atelier",
+    "subtitle": "O selecție din mașinile care au trecut prin mâinile noastre.",
+    "items": [
+      { "image": "assets/gallery-1.jpg", "caption": "Ceară & luciu" },
+      { "image": "assets/gallery-2.jpg", "caption": "Spălare & decontaminare" },
+      { "image": "assets/gallery-3.jpg", "caption": "Aspirare detaliată & igienizare" },
+      { "image": "assets/gallery-4.jpg", "caption": "Hidratare piele" },
+      { "image": "assets/gallery-5.jpg", "caption": "Igienizare cu ozon" },
+      { "image": "assets/gallery-6.jpg", "caption": "Exterior curat & lucios" }
+    ]
+  },
+
+  "reviews": {
+    "eyebrow": "Recenzii",
+    "title": "Ce spun clienții noștri.",
+    "subtitle": "Clienți care și-au dat șansa să vadă diferența.",
+    "rating": "5.0",
+    "ratingLabel": "clienți mulțumiți",
+    "items": [
+      {
+        "name": "Andrei M.",
+        "role": "Client · Expert Valet",
+        "rating": 5,
+        "text": "Am luat pachetul Expert. Sealant, hidratare piele și ozon — mașina arată și miroase VIP. Chiar vezi diferența.",
+        "avatar": "assets/avatar-1.svg"
+      },
+      {
+        "name": "Ioana P.",
+        "role": "Client · Pro Valet",
+        "rating": 5,
+        "text": "Pro Valet a fost exact ce trebuia. Ceară, chedere și hidrofob pe geamuri. Preț clar, fără surprize. Recomand.",
+        "avatar": "assets/avatar-2.svg"
+      },
+      {
+        "name": "Radu I.",
+        "role": "Client · Basic Valet",
+        "rating": 5,
+        "text": "Basic Valet la 65 lei — spălare, aspirare și igienizare impecabile. Raport calitate-preț excelent. Mă întorc.",
+        "avatar": "assets/avatar-3.svg"
+      },
+      {
+        "name": "Cristina D.",
+        "role": "Client · detailing",
+        "rating": 5,
+        "text": "Tratament VIP, exact ca-n slogan. Atenție la fiecare detaliu, oameni serioși. Mașina arată ca din showroom.",
+        "avatar": "assets/avatar-4.svg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Întrebări frecvente",
+    "title": "Răspunsuri, înainte să întrebi.",
+    "subtitle": "Nu găsești ce cauți? Scrie-ne pe WhatsApp.",
+    "items": [
+      {
+        "question": "Care e diferența dintre pachete?",
+        "answer": "Basic Valet (65 lei) e o spălare completă cu aspirare și igienizare. Pro Valet (150 lei) adaugă ceară solidă, tratament chedere și hidrofob geamuri. Expert Valet (300 lei) adaugă sealant, hidratare piele, hidrofob textil, igienizare plafon și ozonificare."
+      },
+      {
+        "question": "Prețurile sunt fixe?",
+        "answer": "Pachetele au prețuri de pornire clare, dar serviciile și prețurile pot varia în funcție de starea și nevoile mașinii tale. Îți dăm un preț exact la programare."
+      },
+      {
+        "question": "Ce include ozonificarea?",
+        "answer": "Tratamentul cu ozon elimină mirosurile neplăcute și dezinfectează complet habitaclul. Este inclus în pachetul Expert Valet, dar îl poți lua și separat."
+      },
+      {
+        "question": "Trebuie să programez sau pot veni direct?",
+        "answer": "Recomandăm programarea, ca să îți rezervăm un loc și să eviți așteptarea. Scrie-ne pe WhatsApp și găsim rapid o dată potrivită."
+      },
+      {
+        "question": "Pot vedea prețul înainte?",
+        "answer": "Sigur. Trimite-ne modelul mașinii și pachetul dorit pe WhatsApp, iar noi îți răspundem cu o ofertă clară, fără costuri ascunse."
+      }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Gata de programare?",
+    "title": "Dă-ți șansa să vezi diferența.",
+    "subtitle": "Alege un pachet valet și scrie-ne pe WhatsApp — where your ride gets VIP.",
+    "primaryCta": { "label": "Scrie-ne pe WhatsApp", "action": "whatsapp" },
+    "secondaryCta": { "label": "Sună acum", "action": "phone" }
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Te așteptăm în atelier.",
+    "subtitle": "Str. Chișinău nr. 5, Brăila. Programează-te sau treci pe la noi.",
+    "whatsappMessage": "Salut! Aș vrea un pachet valet pentru mașina mea:"
+  },
+
+  "footer": {
+    "description": "Mrevic Detailing Auto — detailing și spălătorie profesională în Brăila, pe Str. Chișinău nr. 5. Pachete valet: Basic 65 lei, Pro 150 lei, Expert 300 lei. Where your ride gets VIP.",
+    "columns": [
+      {
+        "title": "Pachete",
+        "links": [
+          { "label": "Basic Valet — 65 lei", "href": "#servicii" },
+          { "label": "Pro Valet — 150 lei", "href": "#servicii" },
+          { "label": "Expert Valet — 300 lei", "href": "#servicii" },
+          { "label": "Ozonificare", "href": "#servicii" }
+        ]
+      },
+      {
+        "title": "Mrevic Detailing",
+        "links": [
+          { "label": "Rezultate", "href": "#rezultate" },
+          { "label": "Galerie", "href": "#galerie" },
+          { "label": "Recenzii", "href": "#recenzii" },
+          { "label": "Întrebări frecvente", "href": "#faq" }
+        ]
+      }
+    ],
+    "legal": "© 2026 Mrevic Detailing Auto. Toate drepturile rezervate.",
+    "credit": "Design de LimeSpark Development"
+  },
+
+  "whatsappDefaultMessage": "Salut! Am văzut site-ul și aș vrea mai multe detalii."
+}
