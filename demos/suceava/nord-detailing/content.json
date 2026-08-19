@@ -1,0 +1,310 @@
+{
+  "$schema": "Nord Detailing (Gura Humorului, Suceava) — demo LimeSpark. Editează doar acest fișier, tokens.json și imaginile din assets/.",
+
+  "business": {
+    "name": "Nord",
+    "nameSuffix": "Detailing",
+    "tagline": "Focus on the details",
+    "logoText": "Nord Detailing",
+    "logo": "assets/logo.png",
+    "logoBg": "#0A0A0B",
+    "phone": "+40 741 048 804",
+    "whatsapp": "40741048804",
+    "email": "",
+    "address": "Gura Humorului, Suceava",
+    "mapsUrl": "https://maps.google.com/?q=Gura+Humorului+Suceava",
+    "hours": "Program flexibil · pe bază de programare",
+    "social": [
+      { "label": "Facebook", "url": "https://www.facebook.com/profile.php?id=100039732619394" }
+    ]
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Servicii", "href": "#servicii" },
+      { "label": "Rezultate", "href": "#rezultate" },
+      { "label": "Proces", "href": "#proces" },
+      { "label": "Galerie", "href": "#galerie" },
+      { "label": "Recenzii", "href": "#recenzii" }
+    ],
+    "cta": { "label": "Programează-te", "action": "whatsapp" }
+  },
+
+  "hero": {
+    "eyebrow": "Detailing, PPF & wrap · Gura Humorului",
+    "title": "Focus on the details.",
+    "titleAccent": "Detailing, folie PPF & colantare.",
+    "subtitle": "Detailing auto, folie de protecție PPF, colantare, polish faruri și chrome delete — cu atenție la fiecare detaliu, în Gura Humorului, Suceava.",
+    "primaryCta": { "label": "Programează-te", "action": "whatsapp" },
+    "secondaryCta": { "label": "Vezi serviciile", "href": "#servicii" },
+    "image": "assets/hero.jpg",
+    "stats": [
+      { "value": "PPF & colant", "label": "folie & wrap" },
+      { "value": "Chrome delete", "label": "look premium" },
+      { "value": "Suceava", "label": "Gura Humorului" }
+    ]
+  },
+
+  "marquee": {
+    "enabled": true,
+    "label": "Lucrăm pe orice marcă",
+    "items": ["BMW", "Mercedes-Benz", "Audi", "Volkswagen", "Tesla", "Porsche"]
+  },
+
+  "services": {
+    "eyebrow": "Servicii",
+    "title": "Detailing, protecție și transformări.",
+    "subtitle": "De la detailing complet la folie PPF, colantare și chrome delete.",
+    "items": [
+      {
+        "icon": "sparkle",
+        "title": "Detailing auto",
+        "description": "Detailing interior și exterior în profunzime, pentru o mașină impecabilă pe dinăuntru și pe dinafară.",
+        "price": "la cerere",
+        "features": ["Interior & exterior", "Curățare în profunzime", "Finisaj impecabil"]
+      },
+      {
+        "icon": "film",
+        "title": "Folie de protecție PPF",
+        "description": "Peliculă transparentă care protejează vopseaua de pietriș, insecte și micro-zgârieturi.",
+        "price": "la cerere",
+        "features": ["Self-healing", "Invizibilă", "Protecție de durată"]
+      },
+      {
+        "icon": "shine",
+        "title": "Colantare / wrap",
+        "description": "Schimbăm complet look-ul mașinii cu folii premium — culoare integrală, elemente sau accente.",
+        "price": "la cerere",
+        "features": ["Schimbare culoare", "Folii mat / lucios / satin", "Elemente & accente"]
+      },
+      {
+        "icon": "wheel",
+        "title": "Polish faruri",
+        "description": "Redăm claritatea farurilor îngălbenite sau mate, cu polish profesional și sigilare pentru durabilitate.",
+        "price": "la cerere",
+        "features": ["Polish faruri", "Vizibilitate îmbunătățită", "Sigilare protectoare"]
+      },
+      {
+        "icon": "layers",
+        "title": "Chrome delete",
+        "description": "Transformăm elementele cromate în negru mat sau lucios, pentru un aspect modern și unitar.",
+        "price": "la cerere",
+        "features": ["Negru mat / lucios", "Aspect modern", "Aplicare precisă"]
+      },
+      {
+        "icon": "shield",
+        "title": "Corecție & protecție ceramică",
+        "description": "Corecție de vopsea și protecție ceramică de durată, pentru un luciu oglindă care rezistă.",
+        "price": "la cerere",
+        "features": ["Corecție vopsea", "Protecție ceramică", "Efect hidrofob"]
+      }
+    ]
+  },
+
+  "beforeAfter": {
+    "eyebrow": "Rezultate",
+    "title": "Diferența se vede. Trage cursorul.",
+    "subtitle": "Aceleași mașini, înainte și după o zi la Nord Detailing.",
+    "items": [
+      {
+        "label": "Colantare · schimbare culoare",
+        "before": "assets/ba-1-before.jpg",
+        "after": "assets/ba-1-after.jpg"
+      },
+      {
+        "label": "Detailing interior · habitaclu",
+        "before": "assets/ba-2-before.jpg",
+        "after": "assets/ba-2-after.jpg"
+      }
+    ]
+  },
+
+  "process": {
+    "eyebrow": "Cum lucrăm",
+    "title": "Un proces simplu, fără surprize.",
+    "subtitle": "De la prima ta întrebare până la predarea cheilor.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Cere o ofertă",
+        "description": "Scrie-ne pe WhatsApp cu modelul mașinii și ce îți dorești. Îți răspundem cu un preț clar."
+      },
+      {
+        "number": "02",
+        "title": "Programare",
+        "description": "Alegem împreună data potrivită și îți rezervăm un loc. Ne găsești în Gura Humorului."
+      },
+      {
+        "number": "03",
+        "title": "Lucrul propriu-zis",
+        "description": "Fie că e detailing, PPF sau colantare, tratăm fiecare detaliu cu grijă. Primești poze pe parcurs."
+      },
+      {
+        "number": "04",
+        "title": "Predare",
+        "description": "Îți predăm mașina impecabilă, cu recomandări de întreținere ca să păstrezi rezultatul cât mai mult."
+      }
+    ]
+  },
+
+  "benefits": {
+    "eyebrow": "De ce Nord",
+    "title": "Focus on the details.",
+    "subtitle": "Nu grăbim niciodată o lucrare. Fiecare mașină primește timpul de care are nevoie.",
+    "items": [
+      {
+        "icon": "medal",
+        "title": "PPF, colantare & chrome delete",
+        "description": "Transformăm și protejăm mașina ta — de la folie PPF la schimbarea completă a look-ului."
+      },
+      {
+        "icon": "shield",
+        "title": "Folii & produse premium",
+        "description": "Lucrăm exclusiv cu folii și produse profesionale, testate pe mii de mașini."
+      },
+      {
+        "icon": "leaf",
+        "title": "Sigur pentru mașină",
+        "description": "Folia se aplică peste vopseaua originală și o protejează. La îndepărtare, vopseaua rămâne intactă."
+      },
+      {
+        "icon": "clock",
+        "title": "Atenție la detaliu",
+        "description": "Numele o spune: focus on the details. Nimic nu e lăsat la voia întâmplării."
+      },
+      {
+        "icon": "camera",
+        "title": "Transparență totală",
+        "description": "Primești poze înainte, în timpul și după lucrare. Vezi exact ce plătești."
+      },
+      {
+        "icon": "heart",
+        "title": "Pasiune pentru mașini",
+        "description": "Tratăm fiecare mașină ca și cum ar fi a noastră. Se vede în rezultat."
+      }
+    ]
+  },
+
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Lucrări din atelier",
+    "subtitle": "O selecție din mașinile care au trecut prin mâinile noastre.",
+    "items": [
+      { "image": "assets/gallery-1.jpg", "caption": "Folie PPF" },
+      { "image": "assets/gallery-2.jpg", "caption": "Colantare · schimbare culoare" },
+      { "image": "assets/gallery-3.jpg", "caption": "Detailing interior · tratament piele" },
+      { "image": "assets/gallery-4.jpg", "caption": "Chrome delete" },
+      { "image": "assets/gallery-5.jpg", "caption": "Polish faruri" },
+      { "image": "assets/gallery-6.jpg", "caption": "Protecție ceramică & luciu" }
+    ]
+  },
+
+  "reviews": {
+    "eyebrow": "Recenzii",
+    "title": "Ce spun clienții noștri.",
+    "subtitle": "Clienți care s-au întors cu mașina la noi.",
+    "rating": "5.0",
+    "ratingLabel": "clienți mulțumiți",
+    "items": [
+      {
+        "name": "Andrei M.",
+        "role": "Client · BMW",
+        "rating": 5,
+        "text": "Am făcut colantare mat integral. Aliniere perfectă, finisaje curate, arată impecabil. Focus on the details, chiar așa.",
+        "avatar": "assets/avatar-1.svg"
+      },
+      {
+        "name": "Ioana P.",
+        "role": "Client · Audi",
+        "rating": 5,
+        "text": "Interiorul arată ca nou după detailing. Comunicare impecabilă pe WhatsApp și m-au ținut la curent cu poze.",
+        "avatar": "assets/avatar-2.svg"
+      },
+      {
+        "name": "Radu I.",
+        "role": "Client · Tesla",
+        "rating": 5,
+        "text": "Am pus folie PPF pe față și am făcut chrome delete. Aliniere perfectă, aspect modern. Super calitate. Recomand.",
+        "avatar": "assets/avatar-3.svg"
+      },
+      {
+        "name": "Cristina D.",
+        "role": "Client · Mercedes-Benz",
+        "rating": 5,
+        "text": "Polish faruri și protecție ceramică impecabile. Atenție la detalii și seriozitate. Mă întorc sigur.",
+        "avatar": "assets/avatar-4.svg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Întrebări frecvente",
+    "title": "Răspunsuri, înainte să întrebi.",
+    "subtitle": "Nu găsești ce cauți? Scrie-ne pe WhatsApp.",
+    "items": [
+      {
+        "question": "Care e diferența dintre PPF și colantare?",
+        "answer": "Folia PPF este transparentă și protejează vopseaua de pietriș și zgârieturi. Colantarea (wrap) schimbă aspectul mașinii — culoare și finisaj mat/lucios/satin. Le putem combina, în funcție de ce îți dorești."
+      },
+      {
+        "question": "Ce înseamnă chrome delete?",
+        "answer": "Chrome delete înseamnă transformarea elementelor cromate ale mașinii (grilaj, rame geamuri, ornamente) în negru mat sau lucios, prin foliere sau vopsire, pentru un aspect modern și unitar."
+      },
+      {
+        "question": "Cât durează un detailing complet?",
+        "answer": "Un detailing complet interior + exterior durează în general 4–8 ore, în funcție de starea și dimensiunea mașinii. Pentru PPF, colantare sau protecție ceramică, alocăm 1–3 zile."
+      },
+      {
+        "question": "Trebuie să programez sau pot veni direct?",
+        "answer": "Recomandăm programarea, ca să îți rezervăm un loc și să evaluăm corect lucrarea. Scrie-ne pe WhatsApp și găsim rapid o dată potrivită."
+      },
+      {
+        "question": "Pot vedea prețul înainte?",
+        "answer": "Sigur. Trimite-ne modelul mașinii și ce îți dorești pe WhatsApp, iar noi îți răspundem cu o ofertă clară, fără costuri ascunse."
+      }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Gata de programare?",
+    "title": "Hai să dăm mașinii tale un nou look.",
+    "subtitle": "Scrie-ne pe WhatsApp și primești o ofertă pentru detailing, PPF sau colantare.",
+    "primaryCta": { "label": "Scrie-ne pe WhatsApp", "action": "whatsapp" },
+    "secondaryCta": { "label": "Sună acum", "action": "phone" }
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Te așteptăm în atelier.",
+    "subtitle": "Gura Humorului, Suceava. Programează-te sau treci pe la noi.",
+    "whatsappMessage": "Salut! Aș vrea o ofertă pentru mașina mea:"
+  },
+
+  "footer": {
+    "description": "Nord Detailing — detailing auto, folie PPF, colantare, polish faruri și chrome delete în Gura Humorului, Suceava. Focus on the details.",
+    "columns": [
+      {
+        "title": "Servicii",
+        "links": [
+          { "label": "Detailing auto", "href": "#servicii" },
+          { "label": "Folie PPF", "href": "#servicii" },
+          { "label": "Colantare / wrap", "href": "#servicii" },
+          { "label": "Chrome delete", "href": "#servicii" }
+        ]
+      },
+      {
+        "title": "Nord Detailing",
+        "links": [
+          { "label": "Rezultate", "href": "#rezultate" },
+          { "label": "Galerie", "href": "#galerie" },
+          { "label": "Recenzii", "href": "#recenzii" },
+          { "label": "Întrebări frecvente", "href": "#faq" }
+        ]
+      }
+    ],
+    "legal": "© 2026 Nord Detailing · Gura Humorului. Toate drepturile rezervate.",
+    "credit": "Design de LimeSpark Development"
+  },
+
+  "whatsappDefaultMessage": "Salut! Am văzut site-ul și aș vrea mai multe detalii."
+}
