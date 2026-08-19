@@ -1,0 +1,310 @@
+{
+  "$schema": "CAR LUX Detailing Suceava — demo LimeSpark. Editează doar acest fișier, tokens.json și imaginile din assets/.",
+
+  "business": {
+    "name": "Car Lux",
+    "nameSuffix": "Detailing",
+    "tagline": "Premium care. Luxurious results.",
+    "logoText": "Car Lux Detailing",
+    "logo": "assets/logo.png",
+    "logoBg": "#0A0A0B",
+    "phone": "+40 751 804 120",
+    "whatsapp": "40751804120",
+    "email": "",
+    "address": "Str. Tudor Arghezi, Suceava, 720101",
+    "mapsUrl": "https://maps.google.com/?q=Strada+Tudor+Arghezi+Suceava",
+    "hours": "Program flexibil · mobil & în atelier",
+    "social": [
+      { "label": "Facebook", "url": "https://www.facebook.com/DetailingCarLux/" }
+    ]
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Servicii", "href": "#servicii" },
+      { "label": "Rezultate", "href": "#rezultate" },
+      { "label": "Proces", "href": "#proces" },
+      { "label": "Galerie", "href": "#galerie" },
+      { "label": "Recenzii", "href": "#recenzii" }
+    ],
+    "cta": { "label": "Programează-te", "action": "whatsapp" }
+  },
+
+  "hero": {
+    "eyebrow": "Detailing auto premium · Suceava",
+    "title": "Premium care. Luxurious results.",
+    "titleAccent": "Clean. Polish. Protect. Inside & out.",
+    "subtitle": "Detailing auto profesional, interior și exterior — curățare piele și textile, polish exterior și protecție de durată. Servicii mobile și în atelier, în Suceava.",
+    "primaryCta": { "label": "Programează-te", "action": "whatsapp" },
+    "secondaryCta": { "label": "Vezi serviciile", "href": "#servicii" },
+    "image": "assets/hero.jpg",
+    "stats": [
+      { "value": "Inside & out", "label": "clean · polish · protect" },
+      { "value": "Mobil & atelier", "label": "la tine sau la noi" },
+      { "value": "Suceava", "label": "Tudor Arghezi" }
+    ]
+  },
+
+  "marquee": {
+    "enabled": true,
+    "label": "Lucrăm pe orice marcă",
+    "items": ["BMW", "Mercedes-Benz", "Audi", "Volkswagen", "Tesla", "Porsche"]
+  },
+
+  "services": {
+    "eyebrow": "Servicii",
+    "title": "Clean. Polish. Protect. Inside & out.",
+    "subtitle": "Detailing profesional interior și exterior, mobil sau în atelier.",
+    "items": [
+      {
+        "icon": "shine",
+        "title": "Exterior detailing",
+        "description": "Spălare pe două găleți, decontaminare, argilă și ceară premium pentru un exterior impecabil și lucios.",
+        "price": "la cerere",
+        "features": ["Spălare pe 2 găleți", "Decontaminare", "Luciu premium"]
+      },
+      {
+        "icon": "sparkle",
+        "title": "Interior cleaning · piele & textile",
+        "description": "Curățare interioare de piele și textile, cu extracție, tratament piele și igienizare completă a habitaclului.",
+        "price": "la cerere",
+        "features": ["Piele & textile", "Extracție profesională", "Igienizare habitaclu"]
+      },
+      {
+        "icon": "layers",
+        "title": "Polish & enhance",
+        "description": "Polish exterior care îndepărtează swirl-urile și scoate în evidență un luciu profund, ca de oglindă.",
+        "price": "la cerere",
+        "features": ["Polish exterior", "Eliminare swirl-uri", "Finisaj oglindă"]
+      },
+      {
+        "icon": "shield",
+        "title": "Protection that lasts",
+        "description": "Protecție ceramică și tratamente de durată care respinge apa și murdăria și păstrează luciul ani la rând.",
+        "price": "la cerere",
+        "features": ["Protecție ceramică", "Efect hidrofob", "Protecție de durată"]
+      },
+      {
+        "icon": "clock",
+        "title": "Servicii mobile",
+        "description": "Venim la tine acasă sau la birou, cu tot echipamentul. Detailing premium, oriunde ești în Suceava.",
+        "price": "mobil",
+        "features": ["La tine acasă / birou", "Echipament propriu", "Fără drumuri pentru tine"]
+      },
+      {
+        "icon": "wheel",
+        "title": "Recondiționare faruri & jante",
+        "description": "Redăm claritatea farurilor și aspectul jantelor, cu sigilare pentru rezultate de durată.",
+        "price": "la cerere",
+        "features": ["Polish faruri", "Curățare jante", "Sigilare protectoare"]
+      }
+    ]
+  },
+
+  "beforeAfter": {
+    "eyebrow": "Rezultate",
+    "title": "Luxurious results. Trage cursorul.",
+    "subtitle": "Aceleași mașini, înainte și după o zi la Car Lux Detailing.",
+    "items": [
+      {
+        "label": "Polish exterior · caroserie",
+        "before": "assets/ba-1-before.jpg",
+        "after": "assets/ba-1-after.jpg"
+      },
+      {
+        "label": "Interior · piele & textile",
+        "before": "assets/ba-2-before.jpg",
+        "after": "assets/ba-2-after.jpg"
+      }
+    ]
+  },
+
+  "process": {
+    "eyebrow": "Cum lucrăm",
+    "title": "Un proces simplu, fără surprize.",
+    "subtitle": "De la prima ta întrebare până la predarea cheilor.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Cere o ofertă",
+        "description": "Scrie-ne pe WhatsApp cu modelul mașinii și ce îți dorești. Alegi mobil sau în atelier. Îți răspundem cu un preț clar."
+      },
+      {
+        "number": "02",
+        "title": "Programare",
+        "description": "Alegem împreună data potrivită. Venim la tine sau te așteptăm la noi, pe Str. Tudor Arghezi."
+      },
+      {
+        "number": "03",
+        "title": "Clean. Polish. Protect.",
+        "description": "Curățăm, polișăm și protejăm mașina ta, interior și exterior. Primești poze pe parcurs."
+      },
+      {
+        "number": "04",
+        "title": "Predare",
+        "description": "Îți predăm mașina impecabilă — premium care, luxurious results."
+      }
+    ]
+  },
+
+  "benefits": {
+    "eyebrow": "De ce Car Lux",
+    "title": "Premium care, luxurious results.",
+    "subtitle": "Produse premium, servicii mobile și în atelier, atenție la fiecare detaliu.",
+    "items": [
+      {
+        "icon": "clock",
+        "title": "Mobil & în atelier",
+        "description": "Alegi cum îți convine: venim la tine sau te așteptăm în atelier, în Suceava."
+      },
+      {
+        "icon": "shield",
+        "title": "Produse premium",
+        "description": "Lucrăm exclusiv cu produse premium, pentru rezultate de durată."
+      },
+      {
+        "icon": "leaf",
+        "title": "Sigur pentru mașină",
+        "description": "Tehnici blânde, fără produse abrazive care afectează vopseaua sau materialele."
+      },
+      {
+        "icon": "medal",
+        "title": "Inside & out",
+        "description": "Curățare, polish și protecție — pe interior și pe exterior, cap-coadă."
+      },
+      {
+        "icon": "camera",
+        "title": "Transparență totală",
+        "description": "Primești poze înainte, în timpul și după lucrare. Vezi exact ce plătești."
+      },
+      {
+        "icon": "heart",
+        "title": "Atenție la fiecare detaliu",
+        "description": "Tratăm fiecare mașină ca și cum ar fi a noastră. Se vede în rezultat."
+      }
+    ]
+  },
+
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Lucrări din atelier",
+    "subtitle": "O selecție din mașinile care au trecut prin mâinile noastre.",
+    "items": [
+      { "image": "assets/gallery-1.jpg", "caption": "Protection that lasts · ceramică" },
+      { "image": "assets/gallery-2.jpg", "caption": "Polish & enhance · exterior" },
+      { "image": "assets/gallery-3.jpg", "caption": "Interior cleaning · piele" },
+      { "image": "assets/gallery-4.jpg", "caption": "Interior · textile" },
+      { "image": "assets/gallery-5.jpg", "caption": "Recondiționare faruri & optică" },
+      { "image": "assets/gallery-6.jpg", "caption": "Exterior detailing & luciu" }
+    ]
+  },
+
+  "reviews": {
+    "eyebrow": "Recenzii",
+    "title": "Ce spun clienții noștri.",
+    "subtitle": "Clienți care s-au întors cu mașina la noi.",
+    "rating": "5.0",
+    "ratingLabel": "clienți mulțumiți",
+    "items": [
+      {
+        "name": "Andrei M.",
+        "role": "Client · BMW",
+        "rating": 5,
+        "text": "Premium care, exact ca-n slogan. Polish exterior impecabil, mașina strălucește ca nouă. Recomand cu încredere.",
+        "avatar": "assets/avatar-1.svg"
+      },
+      {
+        "name": "Ioana P.",
+        "role": "Client · Audi",
+        "rating": 5,
+        "text": "Au venit la mine acasă și au făcut interior complet, piele și textile. Comod și de calitate. Foarte mulțumită.",
+        "avatar": "assets/avatar-2.svg"
+      },
+      {
+        "name": "Radu I.",
+        "role": "Client · Tesla",
+        "rating": 5,
+        "text": "Protecție ceramică care chiar ține. Apa alunecă instant, luciul e incredibil. Luxurious results, clar.",
+        "avatar": "assets/avatar-3.svg"
+      },
+      {
+        "name": "Cristina D.",
+        "role": "Client · Mercedes-Benz",
+        "rating": 5,
+        "text": "Curățare interior piele impecabilă. Atenție la fiecare detaliu, oameni serioși. Mașina arată ca din showroom.",
+        "avatar": "assets/avatar-4.svg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Întrebări frecvente",
+    "title": "Răspunsuri, înainte să întrebi.",
+    "subtitle": "Nu găsești ce cauți? Scrie-ne pe WhatsApp.",
+    "items": [
+      {
+        "question": "Faceți servicii mobile?",
+        "answer": "Da. Oferim servicii atât mobile — venim la tine acasă sau la birou —, cât și în atelier, pe Str. Tudor Arghezi, Suceava. Alegi ce îți convine."
+      },
+      {
+        "question": "Curățați și piele, și textile?",
+        "answer": "Da. Curățăm interioare de piele și textile, cu extracție și tratamente dedicate, pentru un habitaclu curat și proaspăt."
+      },
+      {
+        "question": "Cât durează un detailing complet?",
+        "answer": "Un detailing complet interior + exterior durează în general 4–8 ore, în funcție de starea și dimensiunea mașinii. Pentru polish sau protecție ceramică, alocăm 1–2 zile."
+      },
+      {
+        "question": "Trebuie să programez sau pot veni direct?",
+        "answer": "Recomandăm programarea, ca să îți rezervăm un loc și să eviți așteptarea. Scrie-ne pe WhatsApp și găsim rapid o dată potrivită."
+      },
+      {
+        "question": "Pot vedea prețul înainte?",
+        "answer": "Sigur. Trimite-ne modelul mașinii și ce îți dorești pe WhatsApp, iar noi îți răspundem cu o ofertă clară, fără costuri ascunse."
+      }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Gata de programare?",
+    "title": "Premium care. Luxurious results.",
+    "subtitle": "Scrie-ne pe WhatsApp — mobil sau în atelier, în Suceava.",
+    "primaryCta": { "label": "Scrie-ne pe WhatsApp", "action": "whatsapp" },
+    "secondaryCta": { "label": "Sună acum", "action": "phone" }
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Te așteptăm în atelier — sau venim la tine.",
+    "subtitle": "Str. Tudor Arghezi, Suceava. Servicii mobile și în atelier.",
+    "whatsappMessage": "Salut! Aș vrea o ofertă pentru mașina mea (mobil / atelier):"
+  },
+
+  "footer": {
+    "description": "Car Lux Detailing — detailing auto profesional interior și exterior în Suceava, mobil și în atelier. Curățare piele și textile, polish exterior și protecție de durată. Premium care, luxurious results.",
+    "columns": [
+      {
+        "title": "Servicii",
+        "links": [
+          { "label": "Exterior detailing", "href": "#servicii" },
+          { "label": "Interior cleaning · piele & textile", "href": "#servicii" },
+          { "label": "Polish & enhance", "href": "#servicii" },
+          { "label": "Protection that lasts", "href": "#servicii" }
+        ]
+      },
+      {
+        "title": "Car Lux",
+        "links": [
+          { "label": "Rezultate", "href": "#rezultate" },
+          { "label": "Galerie", "href": "#galerie" },
+          { "label": "Recenzii", "href": "#recenzii" },
+          { "label": "Întrebări frecvente", "href": "#faq" }
+        ]
+      }
+    ],
+    "legal": "© 2026 Car Lux Detailing Suceava. Toate drepturile rezervate.",
+    "credit": "Design de LimeSpark Development"
+  },
+
+  "whatsappDefaultMessage": "Salut! Am văzut site-ul și aș vrea mai multe detalii."
+}
