@@ -1,0 +1,310 @@
+{
+  "$schema": "Blue Wash Suceava (Scheia) — demo LimeSpark. Editează doar acest fișier, tokens.json și imaginile din assets/.",
+
+  "business": {
+    "name": "Blue Wash",
+    "nameSuffix": "Suceava",
+    "tagline": "Spălătorie, cosmetică & detailing auto în Suceava",
+    "logoText": "Blue Wash",
+    "logo": "assets/logo.png",
+    "logoBg": "#0A0A0B",
+    "phone": "+40 747 688 277",
+    "whatsapp": "40747688277",
+    "email": "",
+    "address": "Str. Poligonului nr. 14, Scheia, Suceava, 727525",
+    "mapsUrl": "https://maps.google.com/?q=Strada+Poligonului+14+Scheia+Suceava",
+    "hours": "Program flexibil · pe bază de programare",
+    "social": [
+      { "label": "Facebook", "url": "https://www.facebook.com/p/Laur-Blue-Wash-100083275392394/" }
+    ]
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Servicii", "href": "#servicii" },
+      { "label": "Rezultate", "href": "#rezultate" },
+      { "label": "Proces", "href": "#proces" },
+      { "label": "Galerie", "href": "#galerie" },
+      { "label": "Recenzii", "href": "#recenzii" }
+    ],
+    "cta": { "label": "Programează-te", "action": "whatsapp" }
+  },
+
+  "hero": {
+    "eyebrow": "Spălătorie, cosmetică & detailing · Suceava",
+    "title": "Mașina ta, curată lună.",
+    "titleAccent": "Spălare, cosmetică & detailing auto.",
+    "subtitle": "Curățat interior și exterior auto, servicii de cosmetică auto, detailing interior/exterior și polimerizare — pe Str. Poligonului nr. 14, Scheia, Suceava.",
+    "primaryCta": { "label": "Programează-te", "action": "whatsapp" },
+    "secondaryCta": { "label": "Vezi serviciile", "href": "#servicii" },
+    "image": "assets/hero.jpg",
+    "stats": [
+      { "value": "Interior & exterior", "label": "curățare & cosmetică" },
+      { "value": "Polimerizare", "label": "protecție & luciu" },
+      { "value": "Suceava", "label": "Scheia" }
+    ]
+  },
+
+  "marquee": {
+    "enabled": true,
+    "label": "Lucrăm pe orice marcă",
+    "items": ["BMW", "Mercedes-Benz", "Audi", "Volkswagen", "Dacia", "Ford"]
+  },
+
+  "services": {
+    "eyebrow": "Servicii",
+    "title": "De la spălare la detailing complet.",
+    "subtitle": "Curățare, cosmetică și detailing auto, sub un singur acoperiș.",
+    "items": [
+      {
+        "icon": "shine",
+        "title": "Curățat exterior auto",
+        "description": "Spălare atentă, decontaminare și uscare pentru o caroserie curată și strălucitoare.",
+        "price": "la cerere",
+        "features": ["Spălare atentă", "Decontaminare", "Uscare & luciu"]
+      },
+      {
+        "icon": "sparkle",
+        "title": "Curățat interior auto",
+        "description": "Aspirare completă, curățare tapițerie, plastice și geamuri, pentru un habitaclu curat și proaspăt.",
+        "price": "la cerere",
+        "features": ["Aspirare completă", "Tapițerie & plastice", "Geamuri fără urme"]
+      },
+      {
+        "icon": "layers",
+        "title": "Cosmetică auto",
+        "description": "Servicii de cosmetică auto pentru un aspect îngrijit, interior și exterior.",
+        "price": "la cerere",
+        "features": ["Interior & exterior", "Aspect îngrijit", "Produse profesionale"]
+      },
+      {
+        "icon": "medal",
+        "title": "Detailing interior & exterior",
+        "description": "Detailing în profunzime, cu tratament piele, igienizare și pregătirea vopselei pentru un rezultat premium.",
+        "price": "la cerere",
+        "features": ["Detailing în profunzime", "Tratament piele", "Igienizare habitaclu"]
+      },
+      {
+        "icon": "wheel",
+        "title": "Polimerizare faruri",
+        "description": "Polimerizare pentru faruri — claritate maximă, vizibilitate sporită și un aspect ca nou, de durată.",
+        "price": "la cerere",
+        "features": ["Claritate maximă", "Vizibilitate sporită", "Rezultat de durată"]
+      },
+      {
+        "icon": "shield",
+        "title": "Protecție & luciu",
+        "description": "Ceară și tratamente de protecție care păstrează luciul și țin mașina curată mai mult timp.",
+        "price": "la cerere",
+        "features": ["Ceară protectoare", "Efect hidrofob", "Luciu de durată"]
+      }
+    ]
+  },
+
+  "beforeAfter": {
+    "eyebrow": "Rezultate",
+    "title": "Diferența se vede. Trage cursorul.",
+    "subtitle": "Aceleași mașini, înainte și după o zi la Blue Wash.",
+    "items": [
+      {
+        "label": "Spălare & luciu · exterior",
+        "before": "assets/ba-1-before.jpg",
+        "after": "assets/ba-1-after.jpg"
+      },
+      {
+        "label": "Detailing interior · habitaclu",
+        "before": "assets/ba-2-before.jpg",
+        "after": "assets/ba-2-after.jpg"
+      }
+    ]
+  },
+
+  "process": {
+    "eyebrow": "Cum lucrăm",
+    "title": "Un proces simplu, fără surprize.",
+    "subtitle": "De la prima ta întrebare până la predarea cheilor.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Cere o ofertă",
+        "description": "Scrie-ne pe WhatsApp cu modelul mașinii și ce îți dorești. Îți răspundem cu un preț clar."
+      },
+      {
+        "number": "02",
+        "title": "Programare",
+        "description": "Alegem împreună data potrivită și îți rezervăm un loc. Ne găsești pe Str. Poligonului nr. 14, Scheia."
+      },
+      {
+        "number": "03",
+        "title": "Lucrul propriu-zis",
+        "description": "Spălăm și tratăm fiecare detaliu cu grijă. Primești poze pe parcurs, ca să vezi progresul."
+      },
+      {
+        "number": "04",
+        "title": "Predare",
+        "description": "Îți predăm mașina curată lună și gata de drum, cu recomandări de întreținere."
+      }
+    ]
+  },
+
+  "benefits": {
+    "eyebrow": "De ce Blue Wash",
+    "title": "Curat, îngrijit și la un preț corect.",
+    "subtitle": "Spălătorie, cosmetică și detailing, cu grijă pentru fiecare detaliu.",
+    "items": [
+      {
+        "icon": "medal",
+        "title": "Curățare & detailing",
+        "description": "De la o spălare rapidă la detailing complet — tot ce are nevoie mașina ta, într-un singur loc."
+      },
+      {
+        "icon": "shield",
+        "title": "Produse premium",
+        "description": "Lucrăm cu produse profesionale, sigure pentru vopsea și materiale."
+      },
+      {
+        "icon": "leaf",
+        "title": "Sigur pentru mașină",
+        "description": "Tehnici blânde, fără produse abrazive care afectează vopseaua sau materialele."
+      },
+      {
+        "icon": "clock",
+        "title": "Rezultat de durată",
+        "description": "Prin cosmetică, polimerizare și protecție, mașina ta rămâne curată și îngrijită mai mult timp."
+      },
+      {
+        "icon": "camera",
+        "title": "Transparență totală",
+        "description": "Îți explicăm exact ce e de făcut și primești o ofertă clară, fără costuri ascunse."
+      },
+      {
+        "icon": "heart",
+        "title": "Grijă pentru detalii",
+        "description": "Tratăm fiecare mașină ca și cum ar fi a noastră. Se vede în rezultat."
+      }
+    ]
+  },
+
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Lucrări din spălătorie",
+    "subtitle": "O selecție din mașinile care au trecut pe la Blue Wash.",
+    "items": [
+      { "image": "assets/gallery-1.jpg", "caption": "Exterior curat & lucios" },
+      { "image": "assets/gallery-2.jpg", "caption": "Cosmetică auto" },
+      { "image": "assets/gallery-3.jpg", "caption": "Detailing interior · tratament piele" },
+      { "image": "assets/gallery-4.jpg", "caption": "Polimerizare faruri" },
+      { "image": "assets/gallery-5.jpg", "caption": "Ceară & luciu" },
+      { "image": "assets/gallery-6.jpg", "caption": "Interior curat & proaspăt" }
+    ]
+  },
+
+  "reviews": {
+    "eyebrow": "Recenzii",
+    "title": "Ce spun clienții noștri.",
+    "subtitle": "Clienți care revin pentru fiecare spălare.",
+    "rating": "5.0",
+    "ratingLabel": "clienți mulțumiți",
+    "items": [
+      {
+        "name": "Andrei M.",
+        "role": "Client · spălare completă",
+        "rating": 5,
+        "text": "Spălare rapidă și impecabilă. Mașina arată ca nouă de fiecare dată. Preț corect. Recomand cu încredere.",
+        "avatar": "assets/avatar-1.svg"
+      },
+      {
+        "name": "Ioana P.",
+        "role": "Client · detailing interior",
+        "rating": 5,
+        "text": "Interiorul arată și miroase ca nou după detailing. Oameni de treabă, atenți la detalii. Foarte mulțumită.",
+        "avatar": "assets/avatar-2.svg"
+      },
+      {
+        "name": "Radu I.",
+        "role": "Client · polimerizare faruri",
+        "rating": 5,
+        "text": "Farurile îngălbenite arată acum ca noi după polimerizare. Văd mult mai bine noaptea. Muncă de calitate.",
+        "avatar": "assets/avatar-3.svg"
+      },
+      {
+        "name": "Cristina D.",
+        "role": "Client · cosmetică auto",
+        "rating": 5,
+        "text": "Cosmetică auto completă, interior și exterior. Mașina arată impecabil. Serioși și rapizi. Mă întorc sigur.",
+        "avatar": "assets/avatar-4.svg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Întrebări frecvente",
+    "title": "Răspunsuri, înainte să întrebi.",
+    "subtitle": "Nu găsești ce cauți? Scrie-ne pe WhatsApp.",
+    "items": [
+      {
+        "question": "Ce înseamnă polimerizare faruri?",
+        "answer": "Polimerizarea redă claritatea farurilor îngălbenite sau mate, printr-un tratament care le protejează și le menține transparente mai mult timp. Rezultă o vizibilitate mai bună și un aspect ca nou."
+      },
+      {
+        "question": "Faceți și spălare, și detailing?",
+        "answer": "Da. Suntem spălătorie și centru de cosmetică și detailing — de la o spălare interior/exterior până la detailing complet și polimerizare."
+      },
+      {
+        "question": "Cât durează un detailing complet?",
+        "answer": "Un detailing complet interior + exterior durează în general 4–8 ore, în funcție de starea și dimensiunea mașinii. Îți spunem exact la programare."
+      },
+      {
+        "question": "Trebuie să programez sau pot veni direct?",
+        "answer": "Poți trece direct pentru o spălare, dar pentru detailing sau polimerizare îți recomandăm o programare pe WhatsApp, ca să eviți așteptarea."
+      },
+      {
+        "question": "Pot vedea prețul înainte?",
+        "answer": "Sigur. Trimite-ne modelul mașinii și ce îți dorești pe WhatsApp, iar noi îți răspundem cu o ofertă clară, fără costuri ascunse."
+      }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Gata de programare?",
+    "title": "Hai să facem mașina ta să strălucească.",
+    "subtitle": "Scrie-ne pe WhatsApp sau treci pe la noi în Scheia. Curat lună, garantat.",
+    "primaryCta": { "label": "Scrie-ne pe WhatsApp", "action": "whatsapp" },
+    "secondaryCta": { "label": "Sună acum", "action": "phone" }
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Te așteptăm în Scheia.",
+    "subtitle": "Str. Poligonului nr. 14, Scheia, Suceava. Programează-te sau treci pe la noi.",
+    "whatsappMessage": "Salut! Aș vrea o ofertă pentru mașina mea:"
+  },
+
+  "footer": {
+    "description": "Blue Wash — spălătorie, cosmetică și detailing auto în Scheia, Suceava. Curățat interior/exterior, cosmetică, detailing și polimerizare faruri.",
+    "columns": [
+      {
+        "title": "Servicii",
+        "links": [
+          { "label": "Curățat interior/exterior", "href": "#servicii" },
+          { "label": "Cosmetică auto", "href": "#servicii" },
+          { "label": "Detailing interior/exterior", "href": "#servicii" },
+          { "label": "Polimerizare faruri", "href": "#servicii" }
+        ]
+      },
+      {
+        "title": "Blue Wash",
+        "links": [
+          { "label": "Rezultate", "href": "#rezultate" },
+          { "label": "Galerie", "href": "#galerie" },
+          { "label": "Recenzii", "href": "#recenzii" },
+          { "label": "Întrebări frecvente", "href": "#faq" }
+        ]
+      }
+    ],
+    "legal": "© 2026 Blue Wash Suceava. Toate drepturile rezervate.",
+    "credit": "Design de LimeSpark Development"
+  },
+
+  "whatsappDefaultMessage": "Salut! Am văzut site-ul și aș vrea mai multe detalii."
+}
