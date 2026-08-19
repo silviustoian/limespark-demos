@@ -1,0 +1,310 @@
+{
+  "$schema": "GH Detailing Center Suceava — demo LimeSpark. Editează doar acest fișier, tokens.json și imaginile din assets/.",
+
+  "business": {
+    "name": "GH",
+    "nameSuffix": "Detailing Center",
+    "tagline": "Cosmetică și întreținere auto în Suceava",
+    "logoText": "GH Detailing Center",
+    "logo": "assets/logo.png",
+    "logoBg": "#0A0A0B",
+    "phone": "+40 749 623 413",
+    "whatsapp": "40749623413",
+    "email": "",
+    "address": "Str. Unirii nr. 326A, Moara, Suceava",
+    "mapsUrl": "https://maps.google.com/?q=Strada+Unirii+326A+Moara+Suceava",
+    "hours": "Program flexibil · pe bază de programare",
+    "social": [
+      { "label": "Facebook", "url": "https://www.facebook.com/GHDetailingCenterr/" }
+    ]
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Servicii", "href": "#servicii" },
+      { "label": "Rezultate", "href": "#rezultate" },
+      { "label": "Proces", "href": "#proces" },
+      { "label": "Galerie", "href": "#galerie" },
+      { "label": "Recenzii", "href": "#recenzii" }
+    ],
+    "cta": { "label": "Programează-te", "action": "whatsapp" }
+  },
+
+  "hero": {
+    "eyebrow": "Centru de detailing · Accredited System X · Suceava",
+    "title": "Curățare și restaurare pentru mașina ta.",
+    "titleAccent": "Detailing complet & protecție ceramică System X.",
+    "subtitle": "Centru de detailing profesional cu servicii complete de curățare și restaurare — cosmetică și întreținere auto, plus protecție ceramică System X (accredited installer). În Moara, Suceava.",
+    "primaryCta": { "label": "Programează-te", "action": "whatsapp" },
+    "secondaryCta": { "label": "Vezi serviciile", "href": "#servicii" },
+    "image": "assets/hero.jpg",
+    "stats": [
+      { "value": "System X", "label": "accredited installer" },
+      { "value": "Restaurare", "label": "& detailing complet" },
+      { "value": "Suceava", "label": "Moara" }
+    ]
+  },
+
+  "marquee": {
+    "enabled": true,
+    "label": "Lucrăm pe orice marcă",
+    "items": ["BMW", "Mercedes-Benz", "Audi", "Volkswagen", "Tesla", "Porsche"]
+  },
+
+  "services": {
+    "eyebrow": "Servicii",
+    "title": "Servicii complete de curățare și restaurare.",
+    "subtitle": "Cosmetică, întreținere și protecție ceramică System X, sub un singur acoperiș.",
+    "items": [
+      {
+        "icon": "sparkle",
+        "title": "Detailing interior",
+        "description": "Curățare în profunzime, extracție tapițerie, tratament piele și igienizare completă a habitaclului.",
+        "price": "la cerere",
+        "features": ["Aspirare profesională", "Tratament piele & plastic", "Igienizare habitaclu"]
+      },
+      {
+        "icon": "shine",
+        "title": "Detailing exterior",
+        "description": "Spălare pe două găleți, decontaminare, argilă și ceară premium pentru un luciu profund.",
+        "price": "la cerere",
+        "features": ["Spălare pe 2 găleți", "Decontaminare cu argilă", "Ceară protectoare"]
+      },
+      {
+        "icon": "shield",
+        "title": "Protecție ceramică System X",
+        "description": "Protecție ceramică premium System X, aplicată ca accredited installer — luciu, hidrofobie și rezistență de durată.",
+        "price": "la cerere",
+        "features": ["System X · accredited", "Efect hidrofob", "Protecție de durată"]
+      },
+      {
+        "icon": "layers",
+        "title": "Corecție & restaurare vopsea",
+        "description": "Îndepărtăm swirl-urile și zgârieturile fine pentru o suprafață oglindă, corectată în 1–3 pași.",
+        "price": "la cerere",
+        "features": ["Polish în 1–3 pași", "Eliminare swirl-uri", "Finisaj oglindă"]
+      },
+      {
+        "icon": "wheel",
+        "title": "Polish faruri & recondiționare",
+        "description": "Redăm claritatea farurilor și aspectul jantelor, cu sigilare pentru rezultate de durată.",
+        "price": "la cerere",
+        "features": ["Polish faruri", "Curățare jante", "Sigilare protectoare"]
+      },
+      {
+        "icon": "clock",
+        "title": "Cosmetică & întreținere auto",
+        "description": "Programe de întreținere periodică și cosmetică auto, ca mașina ta să rămână mereu impecabilă.",
+        "price": "la cerere",
+        "features": ["Întreținere periodică", "Cosmetică auto", "Rezultate constante"]
+      }
+    ]
+  },
+
+  "beforeAfter": {
+    "eyebrow": "Rezultate",
+    "title": "Curățare & restaurare. Trage cursorul.",
+    "subtitle": "Aceleași mașini, înainte și după o zi la GH Detailing Center.",
+    "items": [
+      {
+        "label": "Corecție & restaurare · caroserie",
+        "before": "assets/ba-1-before.jpg",
+        "after": "assets/ba-1-after.jpg"
+      },
+      {
+        "label": "Detailing interior · habitaclu",
+        "before": "assets/ba-2-before.jpg",
+        "after": "assets/ba-2-after.jpg"
+      }
+    ]
+  },
+
+  "process": {
+    "eyebrow": "Cum lucrăm",
+    "title": "Un proces simplu, fără surprize.",
+    "subtitle": "De la prima ta întrebare până la predarea cheilor.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Cere o ofertă",
+        "description": "Scrie-ne pe WhatsApp cu modelul mașinii și ce îți dorești. Îți răspundem cu un preț clar."
+      },
+      {
+        "number": "02",
+        "title": "Programare",
+        "description": "Alegem împreună data potrivită și îți rezervăm un loc. Ne găsești pe Str. Unirii nr. 326A, Moara."
+      },
+      {
+        "number": "03",
+        "title": "Lucrul propriu-zis",
+        "description": "Curățăm și restaurăm fiecare detaliu cu produse premium. Primești poze pe parcurs."
+      },
+      {
+        "number": "04",
+        "title": "Predare",
+        "description": "Îți predăm mașina impecabilă, cu recomandări de întreținere ca să păstrezi rezultatul cât mai mult."
+      }
+    ]
+  },
+
+  "benefits": {
+    "eyebrow": "De ce GH",
+    "title": "Centru de detailing profesional.",
+    "subtitle": "Servicii complete de curățare și restaurare, cu produse premium și atenție la detaliu.",
+    "items": [
+      {
+        "icon": "shield",
+        "title": "Accredited System X",
+        "description": "Suntem instalator acreditat System X — protecție ceramică premium, la standardele mărcii."
+      },
+      {
+        "icon": "medal",
+        "title": "Curățare & restaurare",
+        "description": "Servicii complete, de la cosmetică și întreținere la corecție de vopsea și restaurare."
+      },
+      {
+        "icon": "leaf",
+        "title": "Sigur pentru mașină",
+        "description": "Tehnici blânde, fără produse abrazive care afectează vopseaua sau materialele."
+      },
+      {
+        "icon": "clock",
+        "title": "Întreținere periodică",
+        "description": "Programe de întreținere, ca mașina ta să rămână impecabilă tot timpul."
+      },
+      {
+        "icon": "camera",
+        "title": "Transparență totală",
+        "description": "Primești poze înainte, în timpul și după lucrare. Vezi exact ce plătești."
+      },
+      {
+        "icon": "heart",
+        "title": "Grijă pentru detalii",
+        "description": "Tratăm fiecare mașină ca și cum ar fi a noastră. Se vede în rezultat."
+      }
+    ]
+  },
+
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Lucrări din centru",
+    "subtitle": "O selecție din mașinile care au trecut prin mâinile noastre.",
+    "items": [
+      { "image": "assets/gallery-1.jpg", "caption": "Protecție ceramică System X" },
+      { "image": "assets/gallery-2.jpg", "caption": "Corecție & restaurare vopsea" },
+      { "image": "assets/gallery-3.jpg", "caption": "Detailing interior · tratament piele" },
+      { "image": "assets/gallery-4.jpg", "caption": "Polish faruri & recondiționare" },
+      { "image": "assets/gallery-5.jpg", "caption": "Cosmetică & întreținere auto" },
+      { "image": "assets/gallery-6.jpg", "caption": "Detailing exterior & luciu" }
+    ]
+  },
+
+  "reviews": {
+    "eyebrow": "Recenzii",
+    "title": "Ce spun clienții noștri.",
+    "subtitle": "Clienți care s-au întors cu mașina la noi.",
+    "rating": "5.0",
+    "ratingLabel": "clienți mulțumiți",
+    "items": [
+      {
+        "name": "Andrei M.",
+        "role": "Client · BMW",
+        "rating": 5,
+        "text": "Protecție ceramică System X aplicată impecabil, de instalator acreditat. Luciu intens, apa alunecă instant. Recomand.",
+        "avatar": "assets/avatar-1.svg"
+      },
+      {
+        "name": "Ioana P.",
+        "role": "Client · Audi",
+        "rating": 5,
+        "text": "Interiorul arată ca nou după detailing. Comunicare impecabilă pe WhatsApp și m-au ținut la curent cu poze.",
+        "avatar": "assets/avatar-2.svg"
+      },
+      {
+        "name": "Radu I.",
+        "role": "Client · Tesla",
+        "rating": 5,
+        "text": "Corecție și restaurare de vopsea impecabile. Mașina arată ca nouă. Centru serios, cu oameni profesioniști.",
+        "avatar": "assets/avatar-3.svg"
+      },
+      {
+        "name": "Cristina D.",
+        "role": "Client · Mercedes-Benz",
+        "rating": 5,
+        "text": "Servicii complete, de la cosmetică la ceramică. Atenție la fiecare detaliu. Mașina arată ca din showroom.",
+        "avatar": "assets/avatar-4.svg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Întrebări frecvente",
+    "title": "Răspunsuri, înainte să întrebi.",
+    "subtitle": "Nu găsești ce cauți? Scrie-ne pe WhatsApp.",
+    "items": [
+      {
+        "question": "Ce înseamnă accredited System X installer?",
+        "answer": "Înseamnă că suntem instalator acreditat oficial pentru protecțiile ceramice System X — aplicăm la standardele și cu garanțiile impuse de brand, pentru un rezultat de durată."
+      },
+      {
+        "question": "Ce include restaurarea vopselei?",
+        "answer": "Prin corecție și polish în mai mulți pași îndepărtăm swirl-urile și zgârieturile fine, redând o suprafață oglindă. Este pasul recomandat înainte de o protecție ceramică."
+      },
+      {
+        "question": "Cât durează un detailing complet?",
+        "answer": "Un detailing complet interior + exterior durează în general 4–8 ore, în funcție de starea și dimensiunea mașinii. Pentru corecție sau protecție ceramică, alocăm 1–2 zile."
+      },
+      {
+        "question": "Trebuie să programez sau pot veni direct?",
+        "answer": "Recomandăm programarea, ca să îți rezervăm un loc și să eviți așteptarea. Scrie-ne pe WhatsApp și găsim rapid o dată potrivită."
+      },
+      {
+        "question": "Pot vedea prețul înainte?",
+        "answer": "Sigur. Trimite-ne modelul mașinii și ce îți dorești pe WhatsApp, iar noi îți răspundem cu o ofertă clară, fără costuri ascunse."
+      }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Gata de programare?",
+    "title": "Hai să curățăm și să restaurăm mașina ta.",
+    "subtitle": "Scrie-ne pe WhatsApp și primești o ofertă pentru detailing, ceramică sau întreținere.",
+    "primaryCta": { "label": "Scrie-ne pe WhatsApp", "action": "whatsapp" },
+    "secondaryCta": { "label": "Sună acum", "action": "phone" }
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Te așteptăm la centrul nostru.",
+    "subtitle": "Str. Unirii nr. 326A, Moara, Suceava. Programează-te sau treci pe la noi.",
+    "whatsappMessage": "Salut! Aș vrea o ofertă pentru mașina mea:"
+  },
+
+  "footer": {
+    "description": "GH Detailing Center — centru de detailing profesional în Moara, Suceava. Servicii complete de curățare și restaurare, cosmetică și întreținere auto, plus protecție ceramică System X (accredited installer).",
+    "columns": [
+      {
+        "title": "Servicii",
+        "links": [
+          { "label": "Detailing interior & exterior", "href": "#servicii" },
+          { "label": "Protecție ceramică System X", "href": "#servicii" },
+          { "label": "Corecție & restaurare", "href": "#servicii" },
+          { "label": "Cosmetică & întreținere", "href": "#servicii" }
+        ]
+      },
+      {
+        "title": "GH Detailing",
+        "links": [
+          { "label": "Rezultate", "href": "#rezultate" },
+          { "label": "Galerie", "href": "#galerie" },
+          { "label": "Recenzii", "href": "#recenzii" },
+          { "label": "Întrebări frecvente", "href": "#faq" }
+        ]
+      }
+    ],
+    "legal": "© 2026 GH Detailing Center. Toate drepturile rezervate.",
+    "credit": "Design de LimeSpark Development"
+  },
+
+  "whatsappDefaultMessage": "Salut! Am văzut site-ul și aș vrea mai multe detalii."
+}
