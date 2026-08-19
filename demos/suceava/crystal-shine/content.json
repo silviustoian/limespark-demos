@@ -1,0 +1,310 @@
+{
+  "$schema": "CrystalShine Suceava — demo LimeSpark. Editează doar acest fișier, tokens.json și imaginile din assets/.",
+
+  "business": {
+    "name": "CrystalShine",
+    "nameSuffix": "Suceava",
+    "tagline": "Detailing interior & curățare tapițerii în Suceava",
+    "logoText": "CrystalShine",
+    "logo": "assets/logo.png",
+    "logoBg": "#0A0A0B",
+    "phone": "+40 720 064 938",
+    "whatsapp": "40720064938",
+    "email": "",
+    "address": "Str. Crinilor, Ipotești, Suceava",
+    "mapsUrl": "https://maps.google.com/?q=Ipotesti+Suceava",
+    "hours": "Program flexibil · pe bază de programare",
+    "social": [
+      { "label": "Facebook", "url": "https://www.facebook.com/profile.php?id=61577596529375" }
+    ]
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Servicii", "href": "#servicii" },
+      { "label": "Rezultate", "href": "#rezultate" },
+      { "label": "Proces", "href": "#proces" },
+      { "label": "Galerie", "href": "#galerie" },
+      { "label": "Recenzii", "href": "#recenzii" }
+    ],
+    "cta": { "label": "Programează-te", "action": "whatsapp" }
+  },
+
+  "hero": {
+    "eyebrow": "Detailing interior & curățare tapițerii · Suceava",
+    "title": "Îți redăm prospețimea.",
+    "titleAccent": "În mașină și în casă.",
+    "subtitle": "Detailing interior auto complet și curățare profesională a tapițeriilor — canapele, saltele și tapițerii. Echipamente profesionale, soluții ecologice și rezultate impecabile, în Suceava.",
+    "primaryCta": { "label": "Programează-te", "action": "whatsapp" },
+    "secondaryCta": { "label": "Vezi serviciile", "href": "#servicii" },
+    "image": "assets/hero.jpg",
+    "stats": [
+      { "value": "Auto & casă", "label": "curățare & prospețime" },
+      { "value": "Ecologic", "label": "soluții prietenoase cu mediul" },
+      { "value": "Suceava", "label": "Ipotești" }
+    ]
+  },
+
+  "marquee": {
+    "enabled": true,
+    "label": "Curățăm & împrospătăm",
+    "items": ["Interior auto", "Canapele", "Colțare", "Saltele", "Tapițerii", "Covoare"]
+  },
+
+  "services": {
+    "eyebrow": "Servicii",
+    "title": "Curățenie în detaliu, pentru mașină și casă.",
+    "subtitle": "Echipamente profesionale, soluții ecologice, rezultate impecabile.",
+    "items": [
+      {
+        "icon": "sparkle",
+        "title": "Detailing interior auto complet",
+        "description": "Curățare în profunzime a habitaclului — tapițerie, mochetă, plafon și plastice, cu igienizare completă.",
+        "price": "la cerere",
+        "features": ["Aspirare profesională", "Tapițerie & mochetă", "Igienizare habitaclu"]
+      },
+      {
+        "icon": "shield",
+        "title": "Curățare canapele & colțare",
+        "description": "Curățare și împrospătare cu extracție pentru canapele și colțare, direct la tine acasă.",
+        "price": "la cerere",
+        "features": ["Extracție textilă", "Pete & mirosuri", "La tine acasă"]
+      },
+      {
+        "icon": "film",
+        "title": "Curățare saltele",
+        "description": "Curățăm și igienizăm saltelele în profunzime, îndepărtând acarienii, petele și mirosurile.",
+        "price": "la cerere",
+        "features": ["Curățare în profunzime", "Anti-acarieni", "Uscare rapidă"]
+      },
+      {
+        "icon": "layers",
+        "title": "Curățare tapițerii & covoare",
+        "description": "Redăm prospețimea tapițeriilor și covoarelor prin curățare cu extracție și soluții ecologice.",
+        "price": "la cerere",
+        "features": ["Extracție profesională", "Soluții ecologice", "Fibre ca noi"]
+      },
+      {
+        "icon": "shine",
+        "title": "Curățare & hidratare piele",
+        "description": "Curățăm delicat pielea și o hidratăm, ca să rămână moale, curată și fără crăpături.",
+        "price": "la cerere",
+        "features": ["Curățare delicată", "Hidratare piele", "Protecție & finisaj"]
+      },
+      {
+        "icon": "leaf",
+        "title": "Igienizare & împrospătare",
+        "description": "Igienizare completă a habitaclului și a suprafețelor textile din casă, pentru un mediu curat și proaspăt.",
+        "price": "la cerere",
+        "features": ["Igienizare completă", "Aer curat", "Prospețime de durată"]
+      }
+    ]
+  },
+
+  "beforeAfter": {
+    "eyebrow": "Rezultate",
+    "title": "Diferența se vede. Trage cursorul.",
+    "subtitle": "Aceleași suprafețe, înainte și după curățarea CrystalShine.",
+    "items": [
+      {
+        "label": "Interior auto · tapițerie",
+        "before": "assets/ba-1-before.jpg",
+        "after": "assets/ba-1-after.jpg"
+      },
+      {
+        "label": "Canapea · extracție & igienizare",
+        "before": "assets/ba-2-before.jpg",
+        "after": "assets/ba-2-after.jpg"
+      }
+    ]
+  },
+
+  "process": {
+    "eyebrow": "Cum lucrăm",
+    "title": "Un proces simplu, fără surprize.",
+    "subtitle": "De la prima ta întrebare până la suprafețe impecabile.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Cere o ofertă",
+        "description": "Scrie-ne pe WhatsApp ce vrei curățat — mașină, canapea, saltea sau covor. Îți răspundem cu un preț clar."
+      },
+      {
+        "number": "02",
+        "title": "Programare",
+        "description": "Alegem împreună data potrivită. Venim la tine sau ne găsești în Ipotești, Suceava."
+      },
+      {
+        "number": "03",
+        "title": "Curățare & igienizare",
+        "description": "Curățăm în profunzime, cu extracție și soluții ecologice. Vezi rezultatul pe loc."
+      },
+      {
+        "number": "04",
+        "title": "Gata de folosit",
+        "description": "Îți predăm totul curat, igienizat și proaspăt, cu timp scurt de uscare."
+      }
+    ]
+  },
+
+  "benefits": {
+    "eyebrow": "De ce CrystalShine",
+    "title": "Prospețime pentru mașina și casa ta.",
+    "subtitle": "Echipamente profesionale, soluții ecologice și grijă pentru fiecare detaliu.",
+    "items": [
+      {
+        "icon": "medal",
+        "title": "Auto & casă",
+        "description": "Curățăm și împrospătăm nu doar interiorul mașinii, ci și canapelele, saltelele și tapițeriile din casă."
+      },
+      {
+        "icon": "leaf",
+        "title": "Soluții ecologice",
+        "description": "Folosim soluții prietenoase cu mediul, sigure pentru textile, piele și pentru familia ta."
+      },
+      {
+        "icon": "shield",
+        "title": "Echipamente profesionale",
+        "description": "Aparate de extracție profesionale, pentru o curățare în profunzime și un timp scurt de uscare."
+      },
+      {
+        "icon": "clock",
+        "title": "Rezultate impecabile",
+        "description": "Nu ne grăbim. Fiecare suprafață primește atenția de care are nevoie, pentru un rezultat impecabil."
+      },
+      {
+        "icon": "camera",
+        "title": "Transparență totală",
+        "description": "Primești poze înainte și după. Vezi exact rezultatul pentru care plătești."
+      },
+      {
+        "icon": "heart",
+        "title": "Grijă pentru detalii",
+        "description": "Tratăm fiecare suprafață cu atenție, ca și cum ar fi a noastră. Se vede în rezultat."
+      }
+    ]
+  },
+
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Lucrări CrystalShine",
+    "subtitle": "O selecție din mașinile și suprafețele pe care le-am readus la viață.",
+    "items": [
+      { "image": "assets/gallery-1.jpg", "caption": "Interior auto · extracție" },
+      { "image": "assets/gallery-2.jpg", "caption": "Canapea · igienizare" },
+      { "image": "assets/gallery-3.jpg", "caption": "Saltea · deep clean" },
+      { "image": "assets/gallery-4.jpg", "caption": "Tapițerii & covoare" },
+      { "image": "assets/gallery-5.jpg", "caption": "Curățare & hidratare piele" },
+      { "image": "assets/gallery-6.jpg", "caption": "Habitaclu proaspăt & curat" }
+    ]
+  },
+
+  "reviews": {
+    "eyebrow": "Recenzii",
+    "title": "Ce spun clienții noștri.",
+    "subtitle": "Clienți care ne cheamă din nou, pentru mașină și pentru casă.",
+    "rating": "5.0",
+    "ratingLabel": "clienți mulțumiți",
+    "items": [
+      {
+        "name": "Andrei M.",
+        "role": "Client · interior auto",
+        "rating": 5,
+        "text": "Interiorul mașinii arată și miroase ca nou după curățare. Soluții ecologice, rezultat impecabil. Recomand cu încredere.",
+        "avatar": "assets/avatar-1.svg"
+      },
+      {
+        "name": "Ioana P.",
+        "role": "Client · canapea",
+        "rating": 5,
+        "text": "Mi-au curățat canapeaua și colțarul. Petele au dispărut complet, totul e proaspăt. Oameni serioși și atenți.",
+        "avatar": "assets/avatar-2.svg"
+      },
+      {
+        "name": "Radu I.",
+        "role": "Client · saltele",
+        "rating": 5,
+        "text": "Curățare saltele profesională. Se usucă repede și dormi altfel. Echipamente bune și soluții ecologice. Super.",
+        "avatar": "assets/avatar-3.svg"
+      },
+      {
+        "name": "Cristina D.",
+        "role": "Client · tapițerii",
+        "rating": 5,
+        "text": "Mi-au împrospătat tapițeriile și covoarele din casă. Arată ca noi. Prospețime exact ca-n slogan. Recomand.",
+        "avatar": "assets/avatar-4.svg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Întrebări frecvente",
+    "title": "Răspunsuri, înainte să întrebi.",
+    "subtitle": "Nu găsești ce cauți? Scrie-ne pe WhatsApp.",
+    "items": [
+      {
+        "question": "Curățați doar interior auto?",
+        "answer": "Nu. Facem detailing interior auto complet, dar și curățare profesională pentru canapele, colțare, saltele, tapițerii și covoare din casă. Îți redăm prospețimea în mașină și în casă."
+      },
+      {
+        "question": "Ce înseamnă curățare cu extracție?",
+        "answer": "Extracția injectează soluție de curățare în profunzimea fibrelor și o aspiră imediat împreună cu murdăria dizolvată. Rezultă o curățare mult mai profundă decât o simplă ștergere, cu timp scurt de uscare."
+      },
+      {
+        "question": "Soluțiile sunt sigure pentru familia mea?",
+        "answer": "Da. Folosim soluții ecologice, prietenoase cu mediul, sigure pentru textile, piele și pentru copii sau animale de companie."
+      },
+      {
+        "question": "Veniți la domiciliu?",
+        "answer": "Da, pentru canapele, saltele și tapițerii venim la tine acasă. Pentru detailing auto ne poți găsi și în Ipotești, Suceava. Scrie-ne și stabilim."
+      },
+      {
+        "question": "Cât durează până se usucă?",
+        "answer": "Datorită extracției profesionale, timpul de uscare este scurt — de regulă câteva ore, în funcție de material și de gradul de murdărie."
+      }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Gata de programare?",
+    "title": "Îți redăm prospețimea în mașină și în casă.",
+    "subtitle": "Scrie-ne pe WhatsApp și primești o ofertă pentru mașină sau pentru suprafețele din casă.",
+    "primaryCta": { "label": "Scrie-ne pe WhatsApp", "action": "whatsapp" },
+    "secondaryCta": { "label": "Sună acum", "action": "phone" }
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Te așteptăm în Suceava.",
+    "subtitle": "Str. Crinilor, Ipotești, Suceava. Programează-te sau venim la tine.",
+    "whatsappMessage": "Salut! Aș vrea o ofertă pentru curățare (auto / tapițerii):"
+  },
+
+  "footer": {
+    "description": "CrystalShine Suceava — detailing interior auto și curățare profesională a tapițeriilor (canapele, saltele, covoare). Echipamente profesionale, soluții ecologice, rezultate impecabile. Îți redăm prospețimea în mașină și în casă.",
+    "columns": [
+      {
+        "title": "Servicii",
+        "links": [
+          { "label": "Detailing interior auto", "href": "#servicii" },
+          { "label": "Curățare canapele & colțare", "href": "#servicii" },
+          { "label": "Curățare saltele", "href": "#servicii" },
+          { "label": "Tapițerii & covoare", "href": "#servicii" }
+        ]
+      },
+      {
+        "title": "CrystalShine",
+        "links": [
+          { "label": "Rezultate", "href": "#rezultate" },
+          { "label": "Galerie", "href": "#galerie" },
+          { "label": "Recenzii", "href": "#recenzii" },
+          { "label": "Întrebări frecvente", "href": "#faq" }
+        ]
+      }
+    ],
+    "legal": "© 2026 CrystalShine Suceava. Toate drepturile rezervate.",
+    "credit": "Design de LimeSpark Development"
+  },
+
+  "whatsappDefaultMessage": "Salut! Am văzut site-ul și aș vrea mai multe detalii."
+}
