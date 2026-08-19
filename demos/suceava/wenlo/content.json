@@ -1,0 +1,310 @@
+{
+  "$schema": "Wenlo Vopsitorie Auto & Detailing Suceava — demo LimeSpark. Editează doar acest fișier, tokens.json și imaginile din assets/.",
+
+  "business": {
+    "name": "Wenlo",
+    "nameSuffix": "Vopsitorie & Detailing",
+    "tagline": "Vopsitorie auto & detailing în Suceava",
+    "logoText": "Wenlo",
+    "logo": "assets/logo.png",
+    "logoBg": "#FFFFFF",
+    "phone": "+40 757 214 208",
+    "whatsapp": "40757214208",
+    "email": "",
+    "address": "Calea Unirii nr. 35, Suceava, 720165",
+    "mapsUrl": "https://maps.google.com/?q=Calea+Unirii+35+Suceava",
+    "hours": "Program flexibil · pe bază de programare",
+    "social": [
+      { "label": "Facebook", "url": "https://www.facebook.com/p/Wenlo-Suceava-100063611604630/" }
+    ]
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Servicii", "href": "#servicii" },
+      { "label": "Rezultate", "href": "#rezultate" },
+      { "label": "Proces", "href": "#proces" },
+      { "label": "Galerie", "href": "#galerie" },
+      { "label": "Recenzii", "href": "#recenzii" }
+    ],
+    "cta": { "label": "Programează-te", "action": "whatsapp" }
+  },
+
+  "hero": {
+    "eyebrow": "Vopsitorie auto & detailing · Suceava",
+    "title": "Redă luciul și prospețimea mașinii tale.",
+    "titleAccent": "Vopsitorie auto & detailing profesional.",
+    "subtitle": "Vopsitorie auto, polish caroserie și faruri, detailing interior cu injecție-extracție a tapițeriei — pe Calea Unirii nr. 35, Suceava. Noi te putem ajuta.",
+    "primaryCta": { "label": "Programează-te", "action": "whatsapp" },
+    "secondaryCta": { "label": "Vezi serviciile", "href": "#servicii" },
+    "image": "assets/hero.jpg",
+    "stats": [
+      { "value": "Vopsitorie", "label": "& detailing auto" },
+      { "value": "Polish", "label": "caroserie & faruri" },
+      { "value": "Suceava", "label": "Calea Unirii 35" }
+    ]
+  },
+
+  "marquee": {
+    "enabled": true,
+    "label": "Lucrăm pe orice marcă",
+    "items": ["BMW", "Mercedes-Benz", "Audi", "Volkswagen", "Dacia", "Ford"]
+  },
+
+  "services": {
+    "eyebrow": "Servicii",
+    "title": "Vopsitorie auto și detailing, sub un singur acoperiș.",
+    "subtitle": "De la vopsitorie profesională la polish și detailing interior.",
+    "items": [
+      {
+        "icon": "shine",
+        "title": "Vopsitorie auto",
+        "description": "Vopsitorie auto profesională — vopsire elemente sau integrală, reparații de caroserie și finisaje ca din fabrică.",
+        "price": "la cerere",
+        "features": ["Vopsire elemente / integrală", "Reparații caroserie", "Finisaj ca din fabrică"]
+      },
+      {
+        "icon": "layers",
+        "title": "Polish caroserie",
+        "description": "Îndepărtăm swirl-urile și zgârieturile fine pentru o suprafață oglindă, cu luciu profund și de durată.",
+        "price": "la cerere",
+        "features": ["Polish în pași", "Eliminare swirl-uri", "Finisaj oglindă"]
+      },
+      {
+        "icon": "wheel",
+        "title": "Polish faruri",
+        "description": "Redăm claritatea farurilor îngălbenite sau mate, cu polish profesional și sigilare pentru durabilitate.",
+        "price": "la cerere",
+        "features": ["Polish faruri", "Vizibilitate îmbunătățită", "Sigilare protectoare"]
+      },
+      {
+        "icon": "sparkle",
+        "title": "Detailing interior · injecție-extracție",
+        "description": "Curățare în profunzime și aspirare cu injecție-extracție a tapițeriei, plus tratament piele și igienizare.",
+        "price": "la cerere",
+        "features": ["Injecție-extracție tapițerie", "Tratament piele & plastic", "Igienizare habitaclu"]
+      },
+      {
+        "icon": "film",
+        "title": "Detailing exterior",
+        "description": "Spălare atentă, decontaminare și ceară premium pentru un exterior curat și lucios.",
+        "price": "la cerere",
+        "features": ["Spălare & decontaminare", "Ceară protectoare", "Luciu premium"]
+      },
+      {
+        "icon": "shield",
+        "title": "Protecție & întreținere",
+        "description": "Tratamente de protecție și întreținere care păstrează luciul și prospețimea mașinii tale mai mult timp.",
+        "price": "la cerere",
+        "features": ["Protecție de durată", "Efect hidrofob", "Luciu menținut"]
+      }
+    ]
+  },
+
+  "beforeAfter": {
+    "eyebrow": "Rezultate",
+    "title": "Diferența se vede. Trage cursorul.",
+    "subtitle": "Aceleași mașini, înainte și după o zi la Wenlo.",
+    "items": [
+      {
+        "label": "Polish & luciu · caroserie",
+        "before": "assets/ba-1-before.jpg",
+        "after": "assets/ba-1-after.jpg"
+      },
+      {
+        "label": "Detailing interior · injecție-extracție",
+        "before": "assets/ba-2-before.jpg",
+        "after": "assets/ba-2-after.jpg"
+      }
+    ]
+  },
+
+  "process": {
+    "eyebrow": "Cum lucrăm",
+    "title": "Un proces simplu, fără surprize.",
+    "subtitle": "De la prima ta întrebare până la predarea cheilor.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Cere o ofertă",
+        "description": "Scrie-ne pe WhatsApp cu modelul mașinii și ce îți dorești — vopsitorie, polish sau detailing. Îți răspundem cu un preț clar."
+      },
+      {
+        "number": "02",
+        "title": "Programare",
+        "description": "Alegem împreună data potrivită și îți rezervăm un loc. Ne găsești pe Calea Unirii nr. 35."
+      },
+      {
+        "number": "03",
+        "title": "Lucrul propriu-zis",
+        "description": "Fie că e vopsitorie sau detailing, tratăm fiecare detaliu cu grijă. Primești poze pe parcurs."
+      },
+      {
+        "number": "04",
+        "title": "Predare",
+        "description": "Îți predăm mașina impecabilă, cu luciul și prospețimea redate, plus recomandări de întreținere."
+      }
+    ]
+  },
+
+  "benefits": {
+    "eyebrow": "De ce Wenlo",
+    "title": "Vopsitorie și detailing, cu grijă pentru detaliu.",
+    "subtitle": "Nu grăbim niciodată o lucrare. Fiecare mașină primește timpul de care are nevoie.",
+    "items": [
+      {
+        "icon": "medal",
+        "title": "Vopsitorie & detailing",
+        "description": "De la vopsitorie profesională la polish și detailing — tot ce are nevoie mașina ta, într-un singur loc."
+      },
+      {
+        "icon": "shield",
+        "title": "Produse premium",
+        "description": "Lucrăm exclusiv cu produse profesionale, pentru finisaje și rezultate de durată."
+      },
+      {
+        "icon": "leaf",
+        "title": "Sigur pentru mașină",
+        "description": "Tehnici blânde, fără produse abrazive care afectează vopseaua sau materialele."
+      },
+      {
+        "icon": "clock",
+        "title": "Finisaj ca din fabrică",
+        "description": "Vopsitorie și finisaje care redau mașinii aspectul de nou, cu atenție la detaliu."
+      },
+      {
+        "icon": "camera",
+        "title": "Transparență totală",
+        "description": "Primești poze înainte, în timpul și după lucrare. Vezi exact ce plătești."
+      },
+      {
+        "icon": "heart",
+        "title": "Grijă pentru detalii",
+        "description": "Tratăm fiecare mașină ca și cum ar fi a noastră. Se vede în rezultat."
+      }
+    ]
+  },
+
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Lucrări din atelier",
+    "subtitle": "O selecție din mașinile care au trecut prin mâinile noastre.",
+    "items": [
+      { "image": "assets/gallery-1.jpg", "caption": "Vopsitorie auto" },
+      { "image": "assets/gallery-2.jpg", "caption": "Polish caroserie · luciu" },
+      { "image": "assets/gallery-3.jpg", "caption": "Detailing interior · injecție-extracție" },
+      { "image": "assets/gallery-4.jpg", "caption": "Polish faruri" },
+      { "image": "assets/gallery-5.jpg", "caption": "Reparații & finisaj caroserie" },
+      { "image": "assets/gallery-6.jpg", "caption": "Detailing exterior & luciu" }
+    ]
+  },
+
+  "reviews": {
+    "eyebrow": "Recenzii",
+    "title": "Ce spun clienții noștri.",
+    "subtitle": "Clienți care s-au întors cu mașina la noi.",
+    "rating": "5.0",
+    "ratingLabel": "clienți mulțumiți",
+    "items": [
+      {
+        "name": "Andrei M.",
+        "role": "Client · vopsitorie",
+        "rating": 5,
+        "text": "Am vopsit câteva elemente după o lovitură. Finisaj impecabil, nuanță perfectă. Nu se vede nimic. Recomand.",
+        "avatar": "assets/avatar-1.svg"
+      },
+      {
+        "name": "Ioana P.",
+        "role": "Client · detailing interior",
+        "rating": 5,
+        "text": "Aspirare cu injecție-extracție și tratament piele. Interiorul arată și miroase ca nou. Foarte mulțumită.",
+        "avatar": "assets/avatar-2.svg"
+      },
+      {
+        "name": "Radu I.",
+        "role": "Client · polish",
+        "rating": 5,
+        "text": "Polish caroserie și faruri. Mașina strălucește ca nouă, farurile sunt clare. Muncă de calitate, preț corect.",
+        "avatar": "assets/avatar-3.svg"
+      },
+      {
+        "name": "Cristina D.",
+        "role": "Client · vopsitorie & detailing",
+        "rating": 5,
+        "text": "Am făcut și vopsitorie, și detailing. Totul într-un singur loc, rezultat impecabil. Oameni serioși. Mă întorc.",
+        "avatar": "assets/avatar-4.svg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Întrebări frecvente",
+    "title": "Răspunsuri, înainte să întrebi.",
+    "subtitle": "Nu găsești ce cauți? Scrie-ne pe WhatsApp.",
+    "items": [
+      {
+        "question": "Faceți și vopsitorie, și detailing?",
+        "answer": "Da. Suntem în primul rând vopsitorie auto, dar oferim și servicii complete de detailing — polish caroserie și faruri, plus detailing interior cu injecție-extracție."
+      },
+      {
+        "question": "Puteți vopsi doar un element?",
+        "answer": "Da. Vopsim atât elemente individuale (portieră, bară, aripă), cât și integral, cu potrivirea exactă a nuanței și finisaj ca din fabrică."
+      },
+      {
+        "question": "Ce înseamnă injecție-extracție la tapițerie?",
+        "answer": "Este o metodă de curățare profesională care injectează soluție în profunzimea tapițeriei și o aspiră imediat împreună cu murdăria. Rezultă un interior curat, proaspăt, cu timp scurt de uscare."
+      },
+      {
+        "question": "Trebuie să programez sau pot veni direct?",
+        "answer": "Recomandăm programarea, ca să îți rezervăm un loc și să evaluăm corect lucrarea. Scrie-ne pe WhatsApp și găsim rapid o dată potrivită."
+      },
+      {
+        "question": "Pot vedea prețul înainte?",
+        "answer": "Sigur. Trimite-ne modelul mașinii și ce îți dorești pe WhatsApp, iar noi îți răspundem cu o ofertă clară, fără costuri ascunse."
+      }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Gata de programare?",
+    "title": "Redă-i mașinii tale luciul și prospețimea.",
+    "subtitle": "Scrie-ne pe WhatsApp și primești o ofertă pentru vopsitorie, polish sau detailing.",
+    "primaryCta": { "label": "Scrie-ne pe WhatsApp", "action": "whatsapp" },
+    "secondaryCta": { "label": "Sună acum", "action": "phone" }
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Te așteptăm în atelier.",
+    "subtitle": "Calea Unirii nr. 35, Suceava. Programează-te sau treci pe la noi.",
+    "whatsappMessage": "Salut! Aș vrea o ofertă pentru mașina mea (vopsitorie / detailing):"
+  },
+
+  "footer": {
+    "description": "Wenlo — vopsitorie auto și detailing în Suceava, pe Calea Unirii nr. 35. Vopsitorie, polish caroserie și faruri, detailing interior cu injecție-extracție.",
+    "columns": [
+      {
+        "title": "Servicii",
+        "links": [
+          { "label": "Vopsitorie auto", "href": "#servicii" },
+          { "label": "Polish caroserie", "href": "#servicii" },
+          { "label": "Polish faruri", "href": "#servicii" },
+          { "label": "Detailing interior", "href": "#servicii" }
+        ]
+      },
+      {
+        "title": "Wenlo",
+        "links": [
+          { "label": "Rezultate", "href": "#rezultate" },
+          { "label": "Galerie", "href": "#galerie" },
+          { "label": "Recenzii", "href": "#recenzii" },
+          { "label": "Întrebări frecvente", "href": "#faq" }
+        ]
+      }
+    ],
+    "legal": "© 2026 Wenlo Suceava. Toate drepturile rezervate.",
+    "credit": "Design de LimeSpark Development"
+  },
+
+  "whatsappDefaultMessage": "Salut! Am văzut site-ul și aș vrea mai multe detalii."
+}
